@@ -1,0 +1,43 @@
+name: Shopify Mediven Sync
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Se ejecuta cada hora (minuto 0)
+  workflow_dispatch:   # Permite ejecutarlo manualmente desde la web de GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout del código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pandas openpyxl python-dotenv
+
+      - name: Ejecutar Sincronización
+        env:
+          # Aquí conectamos los "Secrets" de GitHub con el script
+          SHOP_DOMAIN: ${{ secrets.SHOP_DOMAIN }}
+          SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
+          MEDIVEN_USER: ${{ secrets.MEDIVEN_USER }}
+          MEDIVEN_PASS: ${{ secrets.MEDIVEN_PASS }}
+          SHOPIFY_LOCATION_ID: ${{ secrets.SHOPIFY_LOCATION_ID }}
+          # Agrega aquí cualquier otra variable de tu .env
+        run: python sync_diagnostico.py --modo produccion
+
+      - name: Guardar Reporte Excel
+        if: always() # Se ejecuta aunque el script falle
+        uses: actions/upload-artifact@v4
+        with:
+          name: reporte-sincronizacion
+          path: reportes/*.xlsx # Sube los archivos generados en esa carpeta
+          retention-days: 7     # Los guarda por 7 días
