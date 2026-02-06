@@ -612,7 +612,7 @@ def delete_products_graphql(archivar):
 
     print()
     print(f"✅ Eliminación definitiva completada. OK={ok_total}, errores={err_total}")
-    return ok_total, err_total
+    return {"ok": ok_total, "errores": err_total}
 
 
 # ============================
@@ -1228,3 +1228,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
