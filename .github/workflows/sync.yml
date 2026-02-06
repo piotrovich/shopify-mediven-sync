@@ -32,6 +32,8 @@ jobs:
           MEDIVEN_PASS: ${{ secrets.MEDIVEN_PASS }}
           SHOPIFY_LOCATION_ID: ${{ secrets.SHOPIFY_LOCATION_ID }}
           # Agrega aquí cualquier otra variable de tu .env
+          SIMULATE: "false"
+          DELETE_MISSING: "true"
         run: python sync_diagnostico.py --modo produccion
 
       - name: Guardar Reporte Excel
