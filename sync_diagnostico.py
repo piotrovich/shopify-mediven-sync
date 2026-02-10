@@ -1,4 +1,5 @@
 import requests
+import re
 import json
 import os
 import time
@@ -62,9 +63,87 @@ ONLINE_STORE_PUBLICATION_ID = os.getenv(
     "gid://shopify/Publication/184418173133",  # Online Store
 )
 
+# ============================
+# DICCIONARIO DE DATOS MEJORADO
+# ============================
+DICCIONARIO_NOMBRES = {
+    # Formas Farmacéuticas
+    " SOL ": " Solución ", " OFT ": " Oftálmica ", " SUSP ": " Suspensión ",
+    " INY ": " Inyectable ", " COMP ": " Comprimidos ", " COM ": " Comprimidos ",
+    " CAPS ": " Cápsulas ", " CAP ": " Cápsulas ", " JAR ": " Jarabe ",
+    " JBE ": " Jarabe ", " FCO ": " Frasco ", " UNG ": " Ungüento ",
+    " AER ": " Aerosol ", " AEROS ": " Aerosol ", " GRAT ": " Grageas ", 
+    " SOB ": " Sobres ", " SBR ": " Sobres ", " SUP ": " Supositorios ", 
+    " CREM ": " Crema ", " CRE ": " Crema ", " TAB ": " Tabletas ", 
+    " GTS ": " Gotas ", " DISP ": " Dispersables ",
+    
+    # Unidades y Medidas
+    " UND ": " Unidades ", " UNI ": " Unidades ", " UN ": " Unidades ",
+    " UDS ": " Unidades ", " MTS ": " Metros ", " MT ": " Metros ",
+    " REF ": " Referencia ", " M ": " Metros ", " U ": " Unidades ",
+    
+    # Términos de Salud y Belleza
+    " DES ": " Desodorante ", " ADH ": " Adhesivo ", " PROT ": " Protector ",
+    " DENT ": " Dental ", " DEN ": " Dental ", " PVO ": " Polvo ",
+    " S/SAB ": " Sin Sabor ", " P NORMAL ": " Piel Normal ", " P SECA ": " Piel Seca ",
+    " P MIXTA ": " Piel Mixta ", " EX SECA ": " Extra Seca ", " OTI ": " Otótica ",
+    " REPAR & BLANQ ": " Reparación & Blanqueamiento ", " FTE ": " Fuerte ",
+}
 
 # ============================
-# HELPER SHOPIFY GRAPHQL
+# FUNCIÓN DE LIMPIEZA MAESTRA V2
+# ============================
+def formatear_nombre_producto(item):
+    # 1. Limpieza preliminar de caracteres invisibles y espacios raros
+    nombre_raw = str(item.get("Descripcion", "")).upper().replace('\xa0', ' ').strip()
+    principio_activo = str(item.get("Equivalente", "")).strip().upper()
+    
+    # 2. Reemplazo diccionario
+    nombre_corregido = f" {nombre_raw} "
+    for abrev, reemplazo in DICCIONARIO_NOMBRES.items():
+        nombre_corregido = nombre_corregido.replace(abrev, reemplazo)
+    
+    nombre_final = nombre_corregido.strip().title()
+    
+    # 3. LIMPIEZA DE CATEGORÍAS (REGEX AGRESIVO)
+    palabras_clave = [
+        'Maquillaje', 'Cuidado', 'Proteccion', 'Cepillos', 'Crema Dental',
+        'Desodorantes', 'Shampoo', 'Enjuagues', 'Pañal', 'Vitamina', 'Jabon',
+        'Coloracion', 'Colonia', 'Preservativo', 'Aposito', 'Adhesivo', 'Gel',
+        'Talco', 'Acondicionador', 'Depilacion', 'Probiotico', 'Solar',
+        'Desmaquillante', 'Balsamo', 'Accesorios', 'Bebes', 'Dental',
+        'Espumas', 'Suplementos', 'Toallas', 'Protectores', 'Incontinencia',
+        'Colonias', 'Lociones', 'Maquinas', 'Afeitado'
+    ]
+    
+    # Usamos \s* para tragar cualquier tipo de espacio
+    for palabra in palabras_clave:
+        # (?i) activa case-insensitive dentro del patrón
+        # [^)]* traga todo lo que no sea cierre de paréntesis
+        patron = r'\s*\([^)]*' + re.escape(palabra) + r'[^)]*\)'
+        nombre_final = re.sub(patron, '', nombre_final, flags=re.IGNORECASE)
+    
+    # Limpieza códigos sueltos
+    for p in [r'\(Dm\)', r'\(Be\)', r'\bDm\b', r'\bBe\b']:
+        nombre_final = re.sub(p, '', nombre_final, flags=re.IGNORECASE)
+
+    # 4. Ajustes finales
+    nombre_final = (nombre_final.replace("Ml", "ml").replace("Mg", "mg")
+                                .replace("Grs", "grs").replace("Mcg", "mcg")
+                                .replace(" X ", " x ").replace("Ref ", "Referencia "))
+    
+    # 5. Principio activo
+    if principio_activo and principio_activo != "NO APLICA":
+        pa_clean = re.sub(r'[^A-Z]', '', principio_activo)
+        nom_clean = re.sub(r'[^A-Z]', '', nombre_raw)
+        if pa_clean not in nom_clean:
+            nombre_final = f"{nombre_final} ({principio_activo.title()})"
+            
+    return re.sub(r'\s+', ' ', nombre_final).strip()
+
+
+# ============================
+# HELPER SHOPIFY GRAPHQL (MANTENIDO ORIGINAL)
 # ============================
 def shopify_graphql(query, variables=None, contexto="graphql", max_retries=6):
     headers = {
@@ -74,10 +153,8 @@ def shopify_graphql(query, variables=None, contexto="graphql", max_retries=6):
 
     payload = {"query": query}
 
-    # Solo agregar variables si es dict
     if isinstance(variables, dict) and variables:
         payload["variables"] = variables
-    # Si variables no es dict pero viene algo → NO enviarlo jamás
     elif variables not in (None, {}):
         print(f"⚠️ ADVERTENCIA: 'variables' ignoradas porque no son un dict válido en {contexto}")
 
@@ -92,19 +169,12 @@ def shopify_graphql(query, variables=None, contexto="graphql", max_retries=6):
 
             if resp.status_code == 429:
                 espera = float(resp.headers.get("Retry-After", "2") or "2")
-                print(
-                    f"\n⚠️ GraphQL rate-limit ({contexto}) → esperando {espera}s...",
-                    flush=True,
-                )
+                print(f"\n⚠️ GraphQL rate-limit ({contexto}) → esperando {espera}s...", flush=True)
                 time.sleep(espera)
                 continue
 
             if resp.status_code != 200:
-                print(
-                    f"\n⚠️ HTTP {resp.status_code} en {contexto}: "
-                    f"{resp.text[:300]}",
-                    flush=True,
-                )
+                print(f"\n⚠️ HTTP {resp.status_code} en {contexto}: {resp.text[:300]}", flush=True)
                 return None
 
             data = resp.json()
@@ -118,19 +188,14 @@ def shopify_graphql(query, variables=None, contexto="graphql", max_retries=6):
 
         except requests.exceptions.RequestException as e:
             backoff = 1 + intento * 2
-            print(
-                f"\n⚠️ Error de conexión GraphQL en {contexto} ({e}) "
-                f"→ reintento en {backoff}s...",
-                flush=True,
-            )
+            print(f"\n⚠️ Error de conexión GraphQL en {contexto} ({e}) → reintento en {backoff}s...", flush=True)
             time.sleep(backoff)
 
     print(f"\n❌ Falló GraphQL definitivamente en {contexto}", flush=True)
     return None
 
-
 # ============================
-# LOGIN MEDIVEN
+# LOGIN MEDIVEN (MANTENIDO ORIGINAL)
 # ============================
 def login_mediven():
     payload = {"aUser": MEDIVEN_USER, "aPassword": MEDIVEN_PASS, "aTipo": 0}
@@ -155,9 +220,8 @@ def login_mediven():
     print(f"✅ Token obtenido. IdSuc: {idsuc}")
     return token, idsuc
 
-
 # ============================
-# INVENTARIO MEDIVEN (MODIFICADO PARA FILTRAR ANTES DE GUARDAR)
+# INVENTARIO MEDIVEN (MANTENIDO ORIGINAL)
 # ============================
 def get_mediven_inventory():
     token, idsuc = login_mediven()
@@ -179,10 +243,6 @@ def get_mediven_inventory():
     items_raw = data.get("value", [])
     print(f"✅ Mediven (Bruto): {len(items_raw)} productos.")
 
-    # ========================================================
-    # 🛡️ FILTRO DE EXCLUSIÓN (VETERINARIA + OTROS)
-    # ========================================================
-    # Aquí definimos qué NO debe entrar al JSON
     palabras_excluidas = [
         "perro", "perros","cachorro",
         "gato", "gatos",
@@ -205,7 +265,6 @@ def get_mediven_inventory():
     excluidos = 0
 
     for item in items_raw:
-        # Construimos el texto completo para buscar palabras prohibidas
         texto_busqueda = " ".join([
             str(item.get("Descripcion", "")),
             str(item.get("Laboratorio", "")),
@@ -227,9 +286,6 @@ def get_mediven_inventory():
     print(f"🧹 Filtrados {excluidos} productos excluidos/veterinarios.")
     print(f"📋 Total final válido: {len(items_limpios)} productos.")
 
-    # =====================================
-    # 🔥 GUARDAR JSON LIMPIO
-    # =====================================
     try:
         with open("mediven_full.json", "w", encoding="utf-8") as f:
             json.dump(items_limpios, f, ensure_ascii=False, indent=2)
@@ -237,11 +293,10 @@ def get_mediven_inventory():
     except Exception as e:
         print(f"⚠️ Error guardando mediven_full.json: {e}")
 
-    # Retornamos la lista LIMPIA para que sync.py trabaje con ella
     return items_limpios
 
 # ============================
-# EXPORTAR SKUS MEDIVEN A JSON
+# EXPORTAR SKUS MEDIVEN (MANTENIDO ORIGINAL)
 # ============================
 def exportar_skus_mediven():
     print("📥 Descargando inventario Mediven para exportar SKUs...")
@@ -257,16 +312,10 @@ def exportar_skus_mediven():
         json.dump(skus, f, ensure_ascii=False, indent=2)
     print(f"✅ Exportados {len(skus)} SKUs a skus_mediven.json")
 
-
 # ============================
-# SHOPIFY - LECTURA POR GRAPHQL
+# SHOPIFY - LECTURA POR GRAPHQL (MANTENIDO ORIGINAL)
 # ============================
 def get_shopify_products():
-    """
-    Lee todos los productos y variantes de Shopify usando GraphQL,
-    devolviendo una lista en el mismo formato que esperaba
-    normalize_shopify_products (productos estilo REST).
-    """
     print("Descargando productos de Shopify (GraphQL, solo lectura)...")
     products = []
 
@@ -367,12 +416,10 @@ def get_shopify_products():
             break
         cursor = page_info.get("endCursor")
 
-    print()  # limpiar línea final
+    print()
     print(f"✅ Shopify (GraphQL): {len(products)} productos cargados.")
     return products
-# ============================
-# NORMALIZAR SHOPIFY
-# ============================
+
 def normalize_shopify_products(products):
     rows = []
     for p in products:
@@ -392,16 +439,7 @@ def normalize_shopify_products(products):
             )
     return rows
 
-
-# ============================
-# CALCULAR PRECIO NUEVO
-# ============================
 def calcular_precio(precio_base):
-    """
-    Replica EXACTAMENTE la fórmula Excel:
-    =REDONDEAR.MAS(precio_base * 1,71 ; -2)
-    """
-
     try:
         p = float(precio_base)
     except:
@@ -410,18 +448,12 @@ def calcular_precio(precio_base):
     if p <= 0:
         return 0
 
-    # aplicar factor 1.71
     p = p * 1.71
-
-    # redondear HACIA ARRIBA al centenar superior
     p = int(math.ceil(p / 100.0) * 100)
-
     return p
 
-
-
 # ============================
-# GENERAR EXCEL
+# GENERAR EXCEL (MANTENIDO ORIGINAL)
 # ============================
 def generar_excel(crear, actualizar, archivar, mediven_data):
     fecha = datetime.now().strftime("%Y-%m-%d_%H-%M")
@@ -453,9 +485,8 @@ def generar_excel(crear, actualizar, archivar, mediven_data):
 
     print(f"📊 Excel generado: {ruta}")
 
-
 # ============================
-# GRAPHQL: SETEAR STOCK=100
+# GRAPHQL: SETEAR STOCK=100 (MANTENIDO ORIGINAL)
 # ============================
 def set_stock_100_for_inventory_items(inventory_item_ids, contexto="set_stock"):
     if not inventory_item_ids:
@@ -497,35 +528,21 @@ def set_stock_100_for_inventory_items(inventory_item_ids, contexto="set_stock"):
 
     data = shopify_graphql(query, variables, contexto=contexto)
 
-    # 🔧 PARCHE — evitar llenar la terminal con errores repetidos
     if not data or "data" not in data:
-        print(
-            f"\r⚠️ No se pudo ejecutar inventorySetQuantities ({contexto}).",
-            end="",
-            flush=True,
-        )
+        print(f"\r⚠️ No se pudo ejecutar inventorySetQuantities ({contexto}).", end="", flush=True)
         return
 
     payload = data.get("data", {}).get("inventorySetQuantities")
     if not payload:
-        print(
-            f"\r⚠️ Respuesta vacía en inventorySetQuantities ({contexto}).",
-            end="",
-            flush=True,
-        )
+        print(f"\r⚠️ Respuesta vacía en inventorySetQuantities ({contexto}).", end="", flush=True)
         return
 
     user_errors = payload.get("userErrors", [])
     if user_errors:
-        print(
-            f"\r⚠️ Errores inventorySetQuantities {contexto}: {len(user_errors)}       ",
-            end="",
-            flush=True,
-        )
-
+        print(f"\r⚠️ Errores inventorySetQuantities {contexto}: {len(user_errors)}       ", end="", flush=True)
 
 # ============================
-# ELIMINAR PRODUCTOS (GraphQL productDelete con aliases)
+# ELIMINAR PRODUCTOS (MANTENIDO ORIGINAL)
 # ============================
 def delete_products_graphql(archivar):
     if not archivar:
@@ -580,10 +597,7 @@ def delete_products_graphql(archivar):
             batch_count = len(batch_gids)
             err_total += batch_count
             procesadas += batch_count
-            log_msg = (
-                f"   → 🗑️ Batch {batch_num}/{total_batches}: "
-                f"{procesadas}/{total} productos (OK={ok_total}, errores={err_total})"
-            )
+            log_msg = (f"   → 🗑️ Batch {batch_num}/{total_batches}: {procesadas}/{total} productos (OK={ok_total}, errores={err_total})")
             print(f"\r{log_msg}", end="", flush=True)
             continue
 
@@ -604,37 +618,50 @@ def delete_products_graphql(archivar):
                 ok_total += 1
 
         procesadas += len(batch_gids)
-        log_msg = (
-            f"   → 🗑️ Batch {batch_num}/{total_batches}: "
-            f"{procesadas}/{total} productos (OK={ok_total}, errores={err_total})"
-        )
+        log_msg = (f"   → 🗑️ Batch {batch_num}/{total_batches}: {procesadas}/{total} productos (OK={ok_total}, errores={err_total})")
         print(f"\r{log_msg}", end="", flush=True)
 
     print()
     print(f"✅ Eliminación definitiva completada. OK={ok_total}, errores={err_total}")
-    return {"ok": ok_total, "errores": err_total}
-
+    return ok_total, err_total
 
 # ============================
-# GRAPHQL BULK (productVariantsBulkUpdate por aliases)
+# ACTUALIZACIÓN MASIVA DE TÍTULOS (NUEVO)
+# ============================
+def bulk_update_product_titles(productos_a_actualizar):
+    if not productos_a_actualizar:
+        return
+    print(f"📝 Actualizando nombres de {len(productos_a_actualizar)} productos...")
+    BATCH = 50
+    for i in range(0, len(productos_a_actualizar), BATCH):
+        batch = productos_a_actualizar[i:i+BATCH]
+        alias_bodies = []
+        for idx, p in enumerate(batch):
+            gid = f"gid://shopify/Product/{p['product_id']}"
+            # Escapar comillas dobles para evitar errores en la query GraphQL
+            titulo = p["Descripcion"].replace('"', '\\"')
+            alias_bodies.append(
+                f'p{idx}: productUpdate(input: {{ id: "{gid}", title: "{titulo}" }}) {{ '
+                f'product {{ id }} userErrors {{ message }} }}'
+            )
+        
+        mutation = "mutation { " + "\n".join(alias_bodies) + " }"
+        shopify_graphql(mutation, contexto="bulk_update_titles")
+        print(f"   → {min(i+BATCH, len(productos_a_actualizar))} nombres procesados...", end="\r")
+    print("\n✅ Títulos actualizados.")
+
+# ============================
+# GRAPHQL BULK (MANTENIDO ORIGINAL)
 # ============================
 def graphql_bulk_update_variants(variantes):
-    """
-    Actualiza variantes usando productVariantsBulkUpdate,
-    compatible con Shopify API 2024-10.
-    Agrupa variantes por product_id (Shopify lo exige).
-    """
-
     print("=== INICIO (ACTUALIZAR PRECIOS) ===")
 
-    # Filtrar variantes inválidas
     variantes = [v for v in variantes if "Nuevo_Precio" in v]
 
     if not variantes:
         print("⚠️ No hay variantes para actualizar.")
         return {"ok": 0, "errores": 0}
 
-    # Agrupar por product_id
     productos = {}
     for v in variantes:
         pid = v["product_id"]
@@ -693,7 +720,6 @@ def graphql_bulk_update_variants(variantes):
             else:
                 ok_global += len(group)
 
-        # Log compacto
         porcentaje = round((idx / total_batches) * 100, 1)
         print(f"\r📦 Producto {idx}/{total_batches} — {porcentaje}%", end="", flush=True)
 
@@ -703,15 +729,10 @@ def graphql_bulk_update_variants(variantes):
 
     return {"ok": ok_global, "errores": err_global}
 
-
-
 # ============================
-# PUBLICAR PRODUCTO EN ONLINE STORE
+# PUBLICAR PRODUCTO (MANTENIDO ORIGINAL)
 # ============================
 def publish_product_online_store(product_gid):
-    """
-    Publica un producto en el canal 'Online Store' usando publishablePublish.
-    """
     if not ONLINE_STORE_PUBLICATION_ID:
         return
 
@@ -745,22 +766,14 @@ def publish_product_online_store(product_gid):
         contexto="publishablePublish_online_store",
     )
 
-
 # ============================
-# WORKER: CREAR 1 PRODUCTO (TURBO)
+# WORKER: CREAR 1 PRODUCTO (MANTENIDO ORIGINAL)
 # ============================
 def crear_producto_worker(p):
-    """
-    Crea 1 producto + variante por defecto, setea precio, SKU, stock=100,
-    asigna imagen genérica y publica en Online Store.
-    Retorna (ok, err) = (1,0) o (0,1).
-    """
-
     sku = p["SKU"]
     titulo = p["Descripcion"]
     precio = p["Precio"]
 
-    # 1) productCreate
     mutation_product_create = """
     mutation productCreate($product: ProductCreateInput!) {
       productCreate(product: $product) {
@@ -817,13 +830,10 @@ def crear_producto_worker(p):
         return 0, 1
 
     product_gid = product["id"]
-
     variants = product["variants"]["nodes"]
     default_variant = variants[0]
     variant_gid = default_variant["id"]
-    inventory_item_id = default_variant["inventoryItem"]["id"]
 
-    # 2) productVariantsBulkUpdate — CORREGIDO
     mutation_pv_bulk = """
     mutation productVariantsBulkUpdate(
       $productId: ID!,
@@ -851,7 +861,7 @@ def crear_producto_worker(p):
     variants_input = [
         {
             "id": variant_gid,
-            "price": float(precio),  # <-- FIX CRÍTICO
+            "price": str(precio),
             "inventoryItem": {
                 "sku": sku,
                 "tracked": True,
@@ -882,14 +892,12 @@ def crear_producto_worker(p):
         print(f"❌ userErrors en pvBulk → SKU={sku} → {user_errors_pv}")
         return 0, 1
 
-    # 3) Stock = 100
     new_inventory_item = pv_result["productVariants"][0]["inventoryItem"]["id"]
     set_stock_100_for_inventory_items(
         [new_inventory_item],
         contexto="set_stock_create_turbo",
     )
 
-    # 4) Imagen genérica
     if DEFAULT_IMAGE_URL:
         mutation_product_create_media = """
         mutation productCreateMedia($productId: ID!, $media: [CreateMediaInput!]!) {
@@ -921,23 +929,13 @@ def crear_producto_worker(p):
             contexto="productCreateMedia_turbo",
         )
 
-    # 5) Publicar
     publish_product_online_store(product_gid)
-
     return 1, 0
 
-
 # ============================
-# CREAR PRODUCTOS NUEVOS (TURBO + PUBLICACIÓN)
+# CREAR PRODUCTOS TURBO (MANTENIDO ORIGINAL)
 # ============================
-import math
-
 def crear_productos_graphql_turbo(productos, batch_size=20):
-    """
-    Crea productos usando 3–6 workers paralelos dinámicos.
-    Mucho más rápido y con autoretries.
-    """
-
     import concurrent.futures
     import random
 
@@ -948,7 +946,6 @@ def crear_productos_graphql_turbo(productos, batch_size=20):
 
     print(f"🆕 Creando productos nuevos (TURBO optimizado): {total} productos...")
 
-    # Workers iniciales
     workers = 4  
     min_workers = 2  
     max_workers = 6  
@@ -957,21 +954,16 @@ def crear_productos_graphql_turbo(productos, batch_size=20):
     total_err = 0
     procesados = 0
 
-    # Backoff base para rate limits
     base_sleep = 0.6
-
-    # Dividir en batches
     num_batches = math.ceil(total / batch_size)
 
     for b in range(num_batches):
-
         inicio = b * batch_size
         fin = min((b + 1) * batch_size, total)
         batch = productos[inicio:fin]
 
         print(f"\n🚧 Batch {b+1}/{num_batches} — procesando {len(batch)} productos...")
 
-        # Ejecutar batch con workers paralelos
         with ThreadPoolExecutor(max_workers=workers) as executor:
             future_map = {
                 executor.submit(crear_producto_worker, p): p
@@ -980,10 +972,8 @@ def crear_productos_graphql_turbo(productos, batch_size=20):
 
             for future in concurrent.futures.as_completed(future_map):
                 p = future_map[future]
-
                 try:
                     ok, err = future.result()
-
                 except Exception as e:
                     print(f"❌ Excepción inesperada en SKU {p['SKU']}: {e}")
                     ok, err = 0, 1
@@ -992,7 +982,6 @@ def crear_productos_graphql_turbo(productos, batch_size=20):
                 total_err += err
                 procesados += 1
 
-                # Mostrar progreso
                 print(
                     f"\r→ Progreso global: {procesados}/{total} "
                     f"(OK={total_ok}, ERR={total_err}) "
@@ -1001,14 +990,12 @@ def crear_productos_graphql_turbo(productos, batch_size=20):
                     flush=True
                 )
 
-                # 🔧 Ajuste dinámico de workers según desempeño
                 if err > 0:
-                    workers = max(min_workers, workers - 1)  # bajar carga
+                    workers = max(min_workers, workers - 1)
                 else:
                     if random.random() < 0.2:
-                        workers = min(max_workers, workers + 1)  # subir carga
+                        workers = min(max_workers, workers + 1)
 
-        # 🔧 Backoff pequeño entre batches (evita throttling Shopify)
         time.sleep(base_sleep)
 
     print("\n📦 Creación finalizada!")
@@ -1017,9 +1004,8 @@ def crear_productos_graphql_turbo(productos, batch_size=20):
 
     return {"ok": total_ok, "errores": total_err}
 
-
 # ============================
-# SINCRONIZACIÓN PRODUCCIÓN
+# SINCRONIZACIÓN PRODUCCIÓN (MANTENIDO ORIGINAL)
 # ============================
 def sincronizar_con_shopify(crear, actualizar, archivar, solo_archivar=False):
     print("⚙️ Iniciando sincronización con Shopify (solo GraphQL)...")
@@ -1027,15 +1013,12 @@ def sincronizar_con_shopify(crear, actualizar, archivar, solo_archivar=False):
     ok_total = 0
     err_total = 0
 
-    # =====================================================
-    # 🗑 ARCHIVAR / ELIMINAR
-    # =====================================================
     if archivar:
         if DELETE_MISSING:
             print(f"🗑 Archivando/eliminando {len(archivar)} productos...")
-            r = delete_products_graphql(archivar)
-            ok_total += r.get("ok", 0)
-            err_total += r.get("errores", 0)
+            ok_del, err_del = delete_products_graphql(archivar)
+            ok_total += ok_del
+            err_total += err_del
         else:
             print("\nℹ️ DELETE_MISSING=false → productos faltantes NO se eliminarán definitivamente.")
 
@@ -1043,27 +1026,25 @@ def sincronizar_con_shopify(crear, actualizar, archivar, solo_archivar=False):
         print("🔁 Solo archivado — fin del proceso.")
         return {"ok": ok_total, "errores": err_total}
 
-    # =====================================================
-    # 🔁 ACTUALIZAR
-    # =====================================================
+    # ACTUALIZAR NOMBRES (NUEVO)
+    prods_nombre_nuevo = [p for p in actualizar if p.get("actualizar_nombre")]
+    if prods_nombre_nuevo:
+        bulk_update_product_titles(prods_nombre_nuevo)
+
+    # ACTUALIZAR PRECIOS (ORIGINAL)
     if actualizar:
         print(f"🔁 Actualizando precios de {len(actualizar)} productos…")
         r = graphql_bulk_update_variants(actualizar)
         ok_total += r.get("ok", 0)
         err_total += r.get("errores", 0)
 
-    # =====================================================
-    # 🆕 CREAR (TURBO BATCHES)
-    # =====================================================
+    # CREAR (ORIGINAL)
     if crear:
         print(f"🆕 Creando {len(crear)} productos (TURBO)…")
         r = crear_productos_graphql_turbo(crear, batch_size=30)
         ok_total += r.get("ok", 0)
         err_total += r.get("errores", 0)
 
-    # =====================================================
-    # 📦 FIN
-    # =====================================================
     print("\n=== RESULTADO SINCRONIZACIÓN ===")
     print(f"✔ OK totales: {ok_total}")
     print(f"❌ Errores totales: {err_total}")
@@ -1071,10 +1052,8 @@ def sincronizar_con_shopify(crear, actualizar, archivar, solo_archivar=False):
 
     return {"ok": ok_total, "errores": err_total}
 
-
-
 # ============================
-# MAIN
+# MAIN (MANTENIDO ORIGINAL)
 # ============================
 def main():
     import sys
@@ -1107,7 +1086,6 @@ def main():
         print("🧪 SIMULATE=true → NO se aplican cambios en Shopify.")
     print("=== INICIO ===")
 
-    # Datos origen
     mediven_data = get_mediven_inventory()
     shopify_products = get_shopify_products()
 
@@ -1123,85 +1101,59 @@ def main():
 
     skus_med = set(df_med["Codigo"])
 
-    # Mapa SKU → fila Shopify
     shop_by_sku = {}
     for _, row in df_shop.iterrows():
         sku = row["sku"]
         if sku and sku not in shop_by_sku:
             shop_by_sku[sku] = row
 
-    # Detectar veterinarios
-    palabras_vet = [
-        "perro",
-        "perros",
-        "gato",
-        "gatos",
-        "mascota",
-        "veterinaria",
-        "mundo animal"
-    ]
-
-    def es_vet(row):
-        texto = " ".join(
-            [
-                str(row.get(c, "")).lower()
-                for c in ["Descripcion", "Laboratorio", "AccionTerapeutica"]
-            ]
-        )
-        return any(p in texto for p in palabras_vet)
-
-    df_med["EsVet"] = df_med.apply(es_vet, axis=1)
-    vet_skus = set(df_med[df_med["EsVet"] == True]["Codigo"])
-
-    print(
-        f"🐾 Productos veterinarios detectados: "
-        f"{len(vet_skus)} (excluidos de la sync)."
-    )
-
     crear = []
     actualizar = []
     archivar = []
 
-    # CREAR / ACTUALIZAR
     for _, row in df_med.iterrows():
         sku = row["Codigo"]
-
-        if sku in vet_skus:
-            continue
-
+        
+        # GENERAMOS LOS DATOS NUEVOS USANDO LAS NUEVAS LÓGICAS
+        nom_gen = formatear_nombre_producto(row)
         nuevo_precio = calcular_precio(row.get("Precio", 0))
 
         if sku in shop_by_sku:
-            shop_row = shop_by_sku[sku]
-            precio_actual = float(shop_row["price"] or 0)
+            s_row = shop_by_sku[sku]
+            precio_actual = float(s_row["price"] or 0)
+            nombre_actual_shopify = str(s_row.get("product_title", ""))
 
-            if abs(precio_actual - nuevo_precio) >= 1:
+            # COMPARAR PRECIO Y NOMBRE
+            c_pre = abs(precio_actual - nuevo_precio) >= 1
+            c_nom = nom_gen != nombre_actual_shopify
+
+            if c_pre or c_nom:
                 actualizar.append(
                     {
                         "SKU": sku,
-                        "Descripcion": row.get("Descripcion", ""),
+                        "Descripcion": nom_gen,
                         "Precio_Shopify": precio_actual,
                         "Nuevo_Precio": nuevo_precio,
-                        "variant_id": shop_row["variant_id"],
-                        "product_id": shop_row["product_id"],
+                        "variant_id": s_row["variant_id"],
+                        "product_id": s_row["product_id"],
+                        "actualizar_nombre": c_nom
                     }
                 )
         else:
             crear.append(
                 {
                     "SKU": sku,
-                    "Descripcion": row.get("Descripcion", ""),
+                    "Descripcion": nom_gen,
                     "Precio": nuevo_precio,
                     "Stock": 100,
                 }
             )
 
-    # ARCHIVAR
     for _, row in df_shop.iterrows():
         sku = row["sku"]
         if not sku:
             continue
-        if sku not in skus_med and sku not in vet_skus:
+        if sku not in skus_med:
             archivar.append(
                 {
                     "SKU": sku,
@@ -1225,7 +1177,5 @@ def main():
 
     print("=== FIN ===")
 
-
 if __name__ == "__main__":
     main()
-
