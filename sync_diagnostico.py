@@ -64,10 +64,9 @@ ONLINE_STORE_PUBLICATION_ID = os.getenv(
 )
 
 # ============================
-# DICCIONARIO DE DATOS MEJORADO
+# DICCIONARIO
 # ============================
 DICCIONARIO_NOMBRES = {
-    # Formas Farmacéuticas
     " SOL ": " Solución ", " OFT ": " Oftálmica ", " SUSP ": " Suspensión ",
     " INY ": " Inyectable ", " COMP ": " Comprimidos ", " COM ": " Comprimidos ",
     " CAPS ": " Cápsulas ", " CAP ": " Cápsulas ", " JAR ": " Jarabe ",
@@ -76,13 +75,9 @@ DICCIONARIO_NOMBRES = {
     " SOB ": " Sobres ", " SBR ": " Sobres ", " SUP ": " Supositorios ", 
     " CREM ": " Crema ", " CRE ": " Crema ", " TAB ": " Tabletas ", 
     " GTS ": " Gotas ", " DISP ": " Dispersables ",
-    
-    # Unidades y Medidas
     " UND ": " Unidades ", " UNI ": " Unidades ", " UN ": " Unidades ",
     " UDS ": " Unidades ", " MTS ": " Metros ", " MT ": " Metros ",
     " REF ": " Referencia ", " M ": " Metros ", " U ": " Unidades ",
-    
-    # Términos de Salud y Belleza
     " DES ": " Desodorante ", " ADH ": " Adhesivo ", " PROT ": " Protector ",
     " DENT ": " Dental ", " DEN ": " Dental ", " PVO ": " Polvo ",
     " S/SAB ": " Sin Sabor ", " P NORMAL ": " Piel Normal ", " P SECA ": " Piel Seca ",
@@ -91,48 +86,75 @@ DICCIONARIO_NOMBRES = {
 }
 
 # ============================
-# FUNCIÓN DE LIMPIEZA MAESTRA V2
+# FUNCIÓN DE LIMPIEZA FUERZA BRUTA
 # ============================
-def formatear_nombre_producto(item):
-    # 1. Limpieza preliminar de caracteres invisibles y espacios raros
-    nombre_raw = str(item.get("Descripcion", "")).upper().replace('\xa0', ' ').strip()
+def formatear_nombre_producto(item, debug=False):
+    nombre_raw = str(item.get("Descripcion", "")).upper()
     principio_activo = str(item.get("Equivalente", "")).strip().upper()
     
-    # 2. Reemplazo diccionario
+    # 1. Diccionario
     nombre_corregido = f" {nombre_raw} "
     for abrev, reemplazo in DICCIONARIO_NOMBRES.items():
         nombre_corregido = nombre_corregido.replace(abrev, reemplazo)
     
     nombre_final = nombre_corregido.strip().title()
-    
-    # 3. LIMPIEZA DE CATEGORÍAS (REGEX AGRESIVO)
-    palabras_clave = [
-        'Maquillaje', 'Cuidado', 'Proteccion', 'Cepillos', 'Crema Dental',
-        'Desodorantes', 'Shampoo', 'Enjuagues', 'Pañal', 'Vitamina', 'Jabon',
-        'Coloracion', 'Colonia', 'Preservativo', 'Aposito', 'Adhesivo', 'Gel',
-        'Talco', 'Acondicionador', 'Depilacion', 'Probiotico', 'Solar',
-        'Desmaquillante', 'Balsamo', 'Accesorios', 'Bebes', 'Dental',
-        'Espumas', 'Suplementos', 'Toallas', 'Protectores', 'Incontinencia',
-        'Colonias', 'Lociones', 'Maquinas', 'Afeitado'
+    if debug: print(f"   [DEBUG] Post-Diccionario: {nombre_final}")
+
+    # 2. LIMPIEZA FUERZA BRUTA (Split por paréntesis)
+    palabras_prohibidas = [
+        'MAQUILLAJE', 'CUIDADO', 'PROTECCION', 'CEPILLOS', 'CREMA DENTAL',
+        'DESODORANTES', 'DESODORANTE', 'SHAMPOO', 'ENJUAGUES', 'PAÑAL', 'VITAMINA', 'JABON',
+        'COLORACION', 'COLONIA', 'PRESERVATIVO', 'APOSITO', 'ADHESIVO', 'GEL',
+        'TALCO', 'ACONDICIONADOR', 'DEPILACION', 'PROBIOTICO', 'SOLAR',
+        'DESMAQUILLANTE', 'BALSAMO', 'ACCESORIOS', 'BEBES', 'DENTAL',
+        'ESPUMAS', 'SUPLEMENTOS', 'TOALLAS', 'PROTECTORES', 'INCONTINENCIA',
+        'COLONIAS', 'LOCIONES', 'MAQUINAS', 'AFEITADO', 'DM', 'BE'
     ]
     
-    # Usamos \s* para tragar cualquier tipo de espacio
-    for palabra in palabras_clave:
-        # (?i) activa case-insensitive dentro del patrón
-        # [^)]* traga todo lo que no sea cierre de paréntesis
-        patron = r'\s*\([^)]*' + re.escape(palabra) + r'[^)]*\)'
-        nombre_final = re.sub(patron, '', nombre_final, flags=re.IGNORECASE)
+    # Dividimos el texto buscando paréntesis: "Nombre (Tag)" -> ["Nombre ", "(Tag)", ""]
+    partes = re.split(r'(\([^)]+\))', nombre_final)
+    partes_limpias = []
     
-    # Limpieza códigos sueltos
-    for p in [r'\(Dm\)', r'\(Be\)', r'\bDm\b', r'\bBe\b']:
-        nombre_final = re.sub(p, '', nombre_final, flags=re.IGNORECASE)
+    for parte in partes:
+        # Si es un paréntesis "(...)"
+        if parte.startswith('(') and parte.endswith(')'):
+            contenido = parte[1:-1].upper() # Lo de adentro en mayúsculas
+            
+            # Verificamos si contiene alguna palabra prohibida
+            es_basura = False
+            
+            # Chequeo exacto para códigos cortos
+            if contenido.strip() in ['DM', 'BE']:
+                es_basura = True
+            
+            # Chequeo de palabras clave
+            if not es_basura:
+                for palabra in palabras_prohibidas:
+                    # Usamos limites de palabra para evitar borrar cosas legitimas si fuera necesario
+                    # pero aqui queremos ser agresivos.
+                    if palabra in contenido:
+                        es_basura = True
+                        if debug: print(f"   [DEBUG] Eliminando '{parte}' por palabra '{palabra}'")
+                        break
+            
+            if not es_basura:
+                partes_limpias.append(parte)
+        else:
+            # Texto normal, se queda
+            partes_limpias.append(parte)
+            
+    nombre_final = "".join(partes_limpias)
+    
+    # Limpieza extra para Dm/Be sueltos sin paréntesis
+    nombre_final = re.sub(r'\bDm\b', '', nombre_final, flags=re.IGNORECASE)
+    nombre_final = re.sub(r'\bBe\b', '', nombre_final, flags=re.IGNORECASE)
 
-    # 4. Ajustes finales
+    # 3. Ajustes unidades
     nombre_final = (nombre_final.replace("Ml", "ml").replace("Mg", "mg")
                                 .replace("Grs", "grs").replace("Mcg", "mcg")
                                 .replace(" X ", " x ").replace("Ref ", "Referencia "))
     
-    # 5. Principio activo
+    # 4. Principio activo
     if principio_activo and principio_activo != "NO APLICA":
         pa_clean = re.sub(r'[^A-Z]', '', principio_activo)
         nom_clean = re.sub(r'[^A-Z]', '', nombre_raw)
@@ -1179,3 +1201,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
