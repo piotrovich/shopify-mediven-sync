@@ -31,6 +31,7 @@ jobs:
           MEDIVEN_USER: ${{ secrets.MEDIVEN_USER }}
           MEDIVEN_PASS: ${{ secrets.MEDIVEN_PASS }}
           SHOPIFY_LOCATION_ID: ${{ secrets.SHOPIFY_LOCATION_ID }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           # Agrega aquí cualquier otra variable de tu .env
           SIMULATE: "false"
           DELETE_MISSING: "true"
