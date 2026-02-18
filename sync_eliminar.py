@@ -14,7 +14,7 @@ Se ejecuta con:
 import os
 import json
 
-from sync_diagnostico import delete_products_graphql
+from sync_diagnostico import archive_products_graphql
 
 STATE_PATH = os.path.join("data", "sync_state.json")
 
@@ -41,7 +41,7 @@ def main():
         print("=== FIN (ELIMINAR) ===")
         return
 
-    ok, err = delete_products_graphql(archivar)
+    ok, err = archive_products_graphql(archivar)
 
     print(f"✅ Eliminación definitiva completada. OK={ok}, errores={err}")
     print("=== FIN (ELIMINAR) ===")
