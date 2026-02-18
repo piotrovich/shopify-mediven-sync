@@ -2,8 +2,12 @@ name: Shopify Mediven Sync
 
 on:
   schedule:
-    - cron: '0 * * * *' # Se ejecuta cada hora (minuto 0)
-  workflow_dispatch:   # Permite ejecutarlo manualmente desde la web de GitHub
+    - cron: '0 * * * *' # Se ejecuta cada hora
+  workflow_dispatch:   # Permite ejecutarlo manualmente
+
+# IMPORTANTE: Damos permiso al robot para guardar cambios en el repositorio
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -21,26 +25,34 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          pip install requests pandas openpyxl python-dotenv
+          # AGREGAMOS: google-genai (para la IA), rich (para logs) y ShopifyAPI
+          pip install requests pandas openpyxl python-dotenv google-genai rich ShopifyAPI
 
-      - name: Ejecutar Sincronización
+      - name: Ejecutar Sincronización Completa (Sync + IA)
         env:
-          # Aquí conectamos los "Secrets" de GitHub con el script
           SHOP_DOMAIN: ${{ secrets.SHOP_DOMAIN }}
           SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
           MEDIVEN_USER: ${{ secrets.MEDIVEN_USER }}
           MEDIVEN_PASS: ${{ secrets.MEDIVEN_PASS }}
           SHOPIFY_LOCATION_ID: ${{ secrets.SHOPIFY_LOCATION_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # Agrega aquí cualquier otra variable de tu .env
           SIMULATE: "false"
           DELETE_MISSING: "true"
-        run: python sync_diagnostico.py --modo produccion
+        # CAMBIO CLAVE: Ejecutamos sync.py (el orquestador), NO sync_diagnostico
+        run: python sync.py
+
+      # NUEVO PASO CRÍTICO: Guardar lo que generó la IA
+      # Esto hace un "git commit & push" automático del JSON actualizado
+      - name: Guardar memoria de IA en el repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 IA: Nuevos productos generados automáticamente"
+          file_pattern: 'data/diccionario_ia.json'
 
       - name: Guardar Reporte Excel
-        if: always() # Se ejecuta aunque el script falle
+        if: always() 
         uses: actions/upload-artifact@v4
         with:
           name: reporte-sincronizacion
-          path: reportes/*.xlsx # Sube los archivos generados en esa carpeta
-          retention-days: 7     # Los guarda por 7 días
+          path: reportes/*.xlsx 
+          retention-days: 7
