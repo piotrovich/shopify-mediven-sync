@@ -6,6 +6,7 @@ import json
 import time
 import pandas as pd
 import subprocess
+import crear_diccionario_ia
 
 # 🔥 Para logs PRO (sin tocar la lógica)
 from rich.console import Console
@@ -26,7 +27,7 @@ from sync_diagnostico import (
 
 from sync_crear import crear_productos_graphql_turbo
 from sync_actualizar import graphql_bulk_update_variants
-from sync_diagnostico import delete_products_graphql
+from sync_diagnostico import archive_products_graphql, bulk_update_product_basics
 
 
 LOCKFILE = "sync.lock"
@@ -163,15 +164,27 @@ def main():
             if sku in shop_by_sku:
                 shop_row = shop_by_sku[sku]
                 precio_actual = float(shop_row["price"] or 0)
+                nombre_actual_shopify = str(shop_row.get("product_title", ""))
+                estado_actual_shopify = str(shop_row.get("status", "")).lower()
 
-                if abs(precio_actual - nuevo_precio) >= 1:
+                # Generamos el nombre limpio para comparar
+                from sync_diagnostico import formatear_nombre_producto
+                nom_gen = formatear_nombre_producto(row)
+
+                # COMPARAR PRECIO, NOMBRE Y ESTADO
+                c_pre = abs(precio_actual - nuevo_precio) >= 1
+                c_nom = nom_gen != nombre_actual_shopify
+                c_status = estado_actual_shopify != "active"
+
+                if c_pre or c_nom or c_status:
                     actualizar.append({
                         "SKU": sku,
-                        "Descripcion": row.get("Descripcion", ""),
+                        "Descripcion": nom_gen,
                         "Precio_Shopify": precio_actual,
                         "Nuevo_Precio": nuevo_precio,
                         "variant_id": shop_row["variant_id"],
                         "product_id": shop_row["product_id"],
+                        "actualizar_basicos": c_nom or c_status # Flag para actualizar nombre/estado
                     })
             else:
                 crear.append({
@@ -236,13 +249,19 @@ def main():
             # Asumiremos que si está en 'archivar', queremos borrarlo.
             if DELETE_MISSING:
                 with console.status("[red]Eliminando productos excluidos/obsoletos…[/red]"):
-                    delete_products_graphql(archivar)
+                    archive_products_graphql(archivar)
             else:
                 console.print("[yellow]ℹ DELETE_MISSING=false — no se eliminarán productos (aunque sean excluidos).[/yellow]")
 
-        # ACTUALIZAR
+        # ACTUALIZAR BÁSICOS (TÍTULO Y REACTIVAR ESTADO)
+        prods_basicos_nuevo = [p for p in actualizar if p.get("actualizar_basicos")]
+        if prods_basicos_nuevo:
+            with console.status("[yellow]Actualizando nombres y reactivando estado…[/yellow]"):
+                 bulk_update_product_basics(prods_basicos_nuevo)
+
+        # ACTUALIZAR PRECIOS
         if actualizar:
-            with console.status("[yellow]Actualizando variantes…[/yellow]"):
+            with console.status("[yellow]Actualizando variantes (precios)…[/yellow]"):
                 graphql_bulk_update_variants(actualizar)
 
         # CREAR
@@ -262,7 +281,19 @@ def main():
         console.print("[bold green]✔ Impuestos procesados[/bold green]")
 
         # ======================================================
-        # 8) FIN + TIMER
+        # 8) MOTOR DE IA (NUEVO)
+        # ======================================================
+        console.print(Rule("[bold magenta]🧠 VERIFICANDO CONTENIDO FALTANTE (IA)[/bold magenta]"))
+        
+        # Esto ejecutará la lógica de detección de nuevos productos
+        # y generará las descripciones solo para lo que falte.
+        try:
+            crear_diccionario_ia.main()
+        except Exception as e:
+            console.print(f"[bold red]❌ Error en el módulo de IA: {e}[/bold red]")
+
+        # ======================================================
+        # 9) FIN + TIMER
         # ======================================================
         total_time = time.time() - start_time
 
