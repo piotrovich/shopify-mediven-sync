@@ -564,9 +564,9 @@ def set_stock_100_for_inventory_items(inventory_item_ids, contexto="set_stock"):
         print(f"\r⚠️ Errores inventorySetQuantities {contexto}: {len(user_errors)}       ", end="", flush=True)
 
 # ============================
-# ELIMINAR PRODUCTOS (MANTENIDO ORIGINAL)
+# ARCHIVAR PRODUCTOS (ESCUDO SEO)
 # ============================
-def delete_products_graphql(archivar):
+def archive_products_graphql(archivar):
     if not archivar:
         return 0, 0
 
@@ -580,25 +580,26 @@ def delete_products_graphql(archivar):
     if total == 0:
         return 0, 0
 
-    print(f"🗑️ Eliminando definitivamente {total} productos con GraphQL...")
+    print(f"📦 Archivando {total} productos (Protección SEO) con GraphQL...")
 
-    BATCH_DELETE = 50
+    BATCH_UPDATE = 50
     ok_total = 0
     err_total = 0
     procesadas = 0
-    total_batches = (total + BATCH_DELETE - 1) // BATCH_DELETE
+    total_batches = (total + BATCH_UPDATE - 1) // BATCH_UPDATE
 
-    for batch_index in range(0, total, BATCH_DELETE):
-        batch_num = batch_index // BATCH_DELETE + 1
-        batch_gids = product_gids[batch_index : batch_index + BATCH_DELETE]
+    for batch_index in range(0, total, BATCH_UPDATE):
+        batch_num = batch_index // BATCH_UPDATE + 1
+        batch_gids = product_gids[batch_index : batch_index + BATCH_UPDATE]
 
         alias_bodies = []
         for idx, gid in enumerate(batch_gids):
-            alias_name = f"d{idx}"
+            alias_name = f"a{idx}"
+            # AQUÍ ESTÁ LA MAGIA: Usamos productUpdate cambiando el status a ARCHIVED
             alias_bodies.append(
                 f'''
-      {alias_name}: productDelete(input: {{ id: "{gid}" }}) {{
-        deletedProductId
+      {alias_name}: productUpdate(input: {{ id: "{gid}", status: ARCHIVED }}) {{
+        product {{ id status }}
         userErrors {{
           field
           message
@@ -607,26 +608,25 @@ def delete_products_graphql(archivar):
             )
 
         mutation_body = "\n".join(alias_bodies)
-        mutation = f"mutation productDeleteBulk {{\n{mutation_body}\n}}"
+        mutation = f"mutation productArchiveBulk {{\n{mutation_body}\n}}"
 
         data = shopify_graphql(
             mutation,
             None,
-            contexto="productDelete_bulk_aliases",
+            contexto="productArchive_bulk_aliases",
         )
 
         if not data or "data" not in data:
             batch_count = len(batch_gids)
             err_total += batch_count
             procesadas += batch_count
-            log_msg = (f"   → 🗑️ Batch {batch_num}/{total_batches}: {procesadas}/{total} productos (OK={ok_total}, errores={err_total})")
-            print(f"\r{log_msg}", end="", flush=True)
+            print(f"\r   → 📦 Batch {batch_num}/{total_batches}: {procesadas}/{total} productos (OK={ok_total}, errores={err_total})", end="", flush=True)
             continue
 
         data_block = data["data"]
 
         for idx, gid in enumerate(batch_gids):
-            alias_name = f"d{idx}"
+            alias_name = f"a{idx}"
             result = data_block.get(alias_name)
 
             if not result:
@@ -640,37 +640,36 @@ def delete_products_graphql(archivar):
                 ok_total += 1
 
         procesadas += len(batch_gids)
-        log_msg = (f"   → 🗑️ Batch {batch_num}/{total_batches}: {procesadas}/{total} productos (OK={ok_total}, errores={err_total})")
-        print(f"\r{log_msg}", end="", flush=True)
+        print(f"\r   → 📦 Batch {batch_num}/{total_batches}: {procesadas}/{total} productos (OK={ok_total}, errores={err_total})", end="", flush=True)
 
     print()
-    print(f"✅ Eliminación definitiva completada. OK={ok_total}, errores={err_total}")
+    print(f"✅ Archivado completado. OK={ok_total}, errores={err_total}")
     return ok_total, err_total
 
 # ============================
-# ACTUALIZACIÓN MASIVA DE TÍTULOS (NUEVO)
+# ACTUALIZACIÓN MASIVA DE BÁSICOS (TÍTULO Y REACTIVACIÓN)
 # ============================
-def bulk_update_product_titles(productos_a_actualizar):
+def bulk_update_product_basics(productos_a_actualizar):
     if not productos_a_actualizar:
         return
-    print(f"📝 Actualizando nombres de {len(productos_a_actualizar)} productos...")
+    print(f"📝 Actualizando nombres/estado de {len(productos_a_actualizar)} productos...")
     BATCH = 50
     for i in range(0, len(productos_a_actualizar), BATCH):
         batch = productos_a_actualizar[i:i+BATCH]
         alias_bodies = []
         for idx, p in enumerate(batch):
             gid = f"gid://shopify/Product/{p['product_id']}"
-            # Escapar comillas dobles para evitar errores en la query GraphQL
             titulo = p["Descripcion"].replace('"', '\\"')
+            # MAGIA 2: Forzamos status: ACTIVE para resucitarlo si estaba archivado
             alias_bodies.append(
-                f'p{idx}: productUpdate(input: {{ id: "{gid}", title: "{titulo}" }}) {{ '
+                f'p{idx}: productUpdate(input: {{ id: "{gid}", title: "{titulo}", status: ACTIVE }}) {{ '
                 f'product {{ id }} userErrors {{ message }} }}'
             )
         
         mutation = "mutation { " + "\n".join(alias_bodies) + " }"
-        shopify_graphql(mutation, contexto="bulk_update_titles")
-        print(f"   → {min(i+BATCH, len(productos_a_actualizar))} nombres procesados...", end="\r")
-    print("\n✅ Títulos actualizados.")
+        shopify_graphql(mutation, contexto="bulk_update_basics")
+        print(f"   → {min(i+BATCH, len(productos_a_actualizar))} procesados...", end="\r")
+    print("\n✅ Títulos y estados actualizados.")
 
 # ============================
 # GRAPHQL BULK (MANTENIDO ORIGINAL)
@@ -1038,7 +1037,7 @@ def sincronizar_con_shopify(crear, actualizar, archivar, solo_archivar=False):
     if archivar:
         if DELETE_MISSING:
             print(f"🗑 Archivando/eliminando {len(archivar)} productos...")
-            ok_del, err_del = delete_products_graphql(archivar)
+            ok_del, err_del = archive_products_graphql(archivar)
             ok_total += ok_del
             err_total += err_del
         else:
@@ -1049,9 +1048,9 @@ def sincronizar_con_shopify(crear, actualizar, archivar, solo_archivar=False):
         return {"ok": ok_total, "errores": err_total}
 
     # ACTUALIZAR NOMBRES (NUEVO)
-    prods_nombre_nuevo = [p for p in actualizar if p.get("actualizar_nombre")]
-    if prods_nombre_nuevo:
-        bulk_update_product_titles(prods_nombre_nuevo)
+    productos_a_actualizar = [p for p in actualizar if p.get("actualizar_nombre")]
+    if productos_a_actualizar:
+        bulk_update_product_basics(productos_a_actualizar)
 
     # ACTUALIZAR PRECIOS (ORIGINAL)
     if actualizar:
@@ -1201,4 +1200,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
