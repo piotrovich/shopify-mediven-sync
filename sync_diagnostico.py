@@ -272,6 +272,7 @@ def get_mediven_inventory():
         "mundo animal", "uso veterinario",
         "metilfenidato",
         "clonazepam",
+        "clotiazepam",
         "fentermina",
         "alprazolam",
         "lorazepam",
@@ -1200,3 +1201,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
