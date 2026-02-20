@@ -7,6 +7,7 @@ import time
 import pandas as pd
 import subprocess
 import crear_diccionario_ia
+import subir_a_shopify
 
 # 🔥 Para logs PRO (sin tocar la lógica)
 from rich.console import Console
@@ -291,6 +292,15 @@ def main():
             crear_diccionario_ia.main()
         except Exception as e:
             console.print(f"[bold red]❌ Error en el módulo de IA: {e}[/bold red]")
+
+        # ======================================================
+        # 8.5) ACTUALIZAR SHOPIFY (El paso final)
+        # ======================================================
+        console.print(Rule("[bold cyan]🎨 ACTUALIZANDO PESTAÑAS EN SHOPIFY[/bold cyan]"))
+        try:
+            subir_a_shopify.main()
+        except Exception as e:
+            console.print(f"[bold red]❌ Error actualizando Shopify: {e}[/bold red]")
 
         # ======================================================
         # 9) FIN + TIMER
