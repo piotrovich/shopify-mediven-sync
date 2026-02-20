@@ -33,7 +33,7 @@ LIMITE_PRUEBA = None
 # ==========================================
 def generar_explicacion_ia(datos_producto, reintentos_max=3):
     prompt = f"""
-    Eres un experto redactor médico y de e-commerce para la "Farmacias LF" en Chile.
+    Eres un experto Químico Farmacéutico y redactor de e-commerce para "Farmacias LF" en Chile.
     A continuación tienes los datos de un producto:
     
     - Nombre Original: {datos_producto.get('Descripcion')}
@@ -41,15 +41,23 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
     - Acción Terapéutica: {datos_producto.get('AccionTerapeutica')}
     - Equivalente (Categoría/Principio): {datos_producto.get('Equivalente')}
 
-    Tu tarea es generar la información para la página del producto.
+    Tu tarea es generar un JSON con la información estructurada para la web.
     
-    1. "titulo_normalizado": Limpia el nombre original. Expande abreviaturas (ej. COM=Comprimidos, UND=Unidades, JBE=Jarabe, DM=Dispositivo Médico). Mantenlo profesional.
-    2. "descripcion_amable": Tono cercano, persuasivo, ágil (2 párrafos). Explica sus beneficios y para qué sirve. USO OBLIGATORIO de emojis acordes al producto. No uses tecnicismos duros aquí.
-    3. "ficha_tecnica": Tono médico formal, 100% clínico y serio. SIN emojis. Usa formato HTML (listas <ul> y <li>) para detallar composición, uso, presentación y laboratorio.
+    1. "titulo_normalizado": Limpia el nombre original. Expande abreviaturas (ej. COM=Comprimidos, UND=Unidades, JBE=Jarabe, DM=Dispositivo Médico). Mantenlo profesional e impecable.
+    
+    2. "descripcion_amable": Tono cercano, persuasivo, empático y ágil (máximo 3 a 4 líneas). Explica sus beneficios y para qué sirve de forma fácil de entender para el paciente. USO OBLIGATORIO de 1 o 2 emojis acordes al producto. No uses tecnicismos duros aquí.
+    
+    3. "ficha_tecnica": Tono médico formal, 100% clínico y serio (como un prospecto médico). SIN emojis.
+       Debe estar estructurado ESTRICTAMENTE en estas 4 partes, separadas por saltos de línea (\\n):
+       - [Párrafo de introducción]: Qué es el producto, su principio activo y mecanismo de acción básico.
+       - Para qué sirve: (Usa viñetas con el símbolo •) Explica las indicaciones principales.
+       - Consideraciones importantes: (Usa viñetas con el símbolo •) Advertencias, dosis, contraindicaciones o interacciones médicas.
+       - En resumen: Una oración final de conclusión médica.
+       IMPORTANTE PARA FICHA TÉCNICA: NO uses HTML (ni <ul> ni <li>) y NO uses formatos Markdown como asteriscos (**) o hashtags (#). Usa estrictamente texto plano y el símbolo de viñeta (•).
     
     Reglas Críticas:
     - Si "Acción Terapéutica" o "Equivalente" están vacíos, deduce el uso basándote en el Nombre y Laboratorio.
-    - COHERENCIA DE PÚBLICO: Analiza bien el producto y laboratorio. Si es de uso VETERINARIO, la descripción amable DEBE estar dirigida a dueños de mascotas (perros/gatos). JAMÁS lo recomiendes a humanos.
+    - COHERENCIA DE PÚBLICO: Analiza bien el producto y laboratorio. Si es de uso VETERINARIO, la descripción amable DEBE estar dirigida a dueños de mascotas. JAMÁS lo recomiendes a humanos.
     - JAMÁS inventes indicaciones médicas que no correspondan a la naturaleza real del producto.
     """
 
