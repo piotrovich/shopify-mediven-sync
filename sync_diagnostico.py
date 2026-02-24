@@ -360,6 +360,7 @@ def get_shopify_products():
                   id
                   sku
                   price
+                  taxable
                 }
               }
             }
@@ -410,11 +411,13 @@ def get_shopify_products():
                 variant_id = vgid.split("/")[-1] if vgid else None
                 sku = vnode.get("sku")
                 price = vnode.get("price") or "0"
+                taxable = vnode.get("taxable", False)
                 rest_variants.append(
                     {
                         "id": variant_id,
                         "sku": sku,
                         "price": price,
+                        "taxable": taxable,
                     }
                 )
 
@@ -458,6 +461,7 @@ def normalize_shopify_products(products):
                     "sku": v.get("sku"),
                     "price": float(v.get("price", 0) or 0),
                     "status": status,
+                    "taxable": v.get("taxable", False),
                 }
             )
     return rows
@@ -1082,6 +1086,37 @@ def sincronizar_con_shopify(crear, actualizar, archivar, solo_archivar=False):
     print("==============================\n")
 
     return {"ok": ok_total, "errores": err_total}
+
+
+# ============================
+# QUITAR IMPUESTOS MASIVAMENTE
+# ============================
+def quitar_impuestos_graphql(variantes_malas):
+    if not variantes_malas: return 0, 0
+    productos = {}
+    for v in variantes_malas:
+        pid = v["product_id"]
+        if pid not in productos: productos[pid] = []
+        productos[pid].append(v)
+
+    ok_g, err_g = 0, 0
+    for pid, group in productos.items():
+        product_gid = f"gid://shopify/Product/{pid}"
+        variants_payload = [{"id": f"gid://shopify/ProductVariant/{v['variant_id']}", "taxable": False} for v in group]
+        
+        mutation = """
+        mutation updateProductVariants($productId: ID!, $variants: [ProductVariantsBulkInput!]!) {
+          productVariantsBulkUpdate(productId: $productId, variants: $variants, allowPartialUpdates: true) {
+            productVariants { id } userErrors { message }
+          }
+        }
+        """
+        r = shopify_graphql(mutation, {"productId": product_gid, "variants": variants_payload}, contexto="remove_tax")
+        if not r or "data" not in r or r["data"]["productVariantsBulkUpdate"]["userErrors"]:
+            err_g += len(group)
+        else:
+            ok_g += len(group)
+    return ok_g, err_g
 
 # ============================
 # MAIN (MANTENIDO ORIGINAL)
