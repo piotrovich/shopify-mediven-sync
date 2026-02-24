@@ -571,13 +571,22 @@ def archive_products_graphql(archivar):
     if not archivar:
         return 0, 0
 
+    # NUEVO: Filtramos para ignorar los que ya están en estado 'archived'
+    nuevos_por_archivar = [p for p in archivar if p.get("status_actual") != "archived"]
+    
+    if not nuevos_por_archivar:
+        print("✅ No hay productos nuevos para archivar. Todo está al día.")
+        return 0, 0
+
+    # Cambiamos 'archivar' por 'nuevos_por_archivar' en la lista de GIDs
     product_gids = [
         f"gid://shopify/Product/{p['product_id']}"
-        for p in archivar
+        for p in nuevos_por_archivar
         if p.get("product_id")
     ]
-
+    
     total = len(product_gids)
+    # ... resto del código igual ...
     if total == 0:
         return 0, 0
 
@@ -1181,13 +1190,20 @@ def main():
                     "SKU": sku,
                     "product_id": row["product_id"],
                     "Descripcion": row.get("product_title", ""),
+                    "status_actual": row.get("status", "active"),
                 }
             )
 
-    print(
-        f"📊 Resumen cambios: "
-        f"CREAR={len(crear)} | ACTUALIZAR={len(actualizar)} | ARCHIVAR={len(archivar)}"
-    )
+    # NUEVA LÓGICA DE CONTEO PARA EL LOG
+    ya_archivados = len([p for p in archivar if p.get("status_actual") == "archived"])
+    nuevos_por_archivar = len([p for p in archivar if p.get("status_actual") != "archived"])
+
+    print("\n╭─ 📊 DIAGNÓSTICO DETALLADO ─╮")
+    print(f"│ CREAR: {len(crear):<18} │")
+    print(f"│ ACTUALIZAR: {len(actualizar):<13} │")
+    print(f"│ ARCHIVAR (Nuevos): {nuevos_por_archivar:<7} │")
+    print(f"│ YA ARCHIVADOS: {ya_archivados:<11} │")
+    print("╰────────────────────────────╯\n")
 
     if modo == "diagnostico" or SIMULATE:
         print("🧪 Modo diagnóstico — sin cambios en Shopify.")
@@ -1201,4 +1217,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
