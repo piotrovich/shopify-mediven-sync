@@ -20,18 +20,22 @@ if not GEMINI_API_KEY:
     print("❌ Falta GEMINI_API_KEY en el archivo .env")
     exit(1)
 
-client = genai.Client(api_key=GEMINI_API_KEY)
+# 🔥 SOLUCIÓN: Añadimos un timeout explícito de 60 segundos (60000 ms)
+# Si Google no responde en 60 segundos, la conexión se corta para no colgar el servidor.
+client = genai.Client(
+    api_key=GEMINI_API_KEY,
+    http_options=types.HttpOptions(timeout=60000)
+)
 
 ARCHIVO_ENTRADA = "mediven_full.json"
 ARCHIVO_DICCIONARIO = "data/diccionario_ia.json"
-
-# MODO PRUEBA: Cambia este número a None o 0 cuando quieras procesar TODO el archivo.
 LIMITE_PRUEBA = None 
 
 # ==========================================
 # FUNCIÓN DE LLAMADA A LA IA CON ESQUEMA ESTRICTO
 # ==========================================
 def generar_explicacion_ia(datos_producto, reintentos_max=3):
+    # Aquí va tu Súper Prompt exacto
     prompt = f"""
     Eres un experto Químico Farmacéutico y redactor de e-commerce para "Farmacias LF" en Chile.
     A continuación tienes los datos de un producto:
@@ -81,7 +85,6 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
                 )
             )
             
-            # Limpieza por si Gemini intenta poner markdown (```json ... ```)
             texto = response.text.strip()
             if texto.startswith("```json"):
                 texto = texto.replace("```json", "").replace("```", "").strip()
@@ -99,17 +102,18 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
                     return "LIMITE_DIARIO"
                 else:
                     tiempo_espera = 35 
-                    print(f"\n   ⏳ Límite de velocidad. Descansando {tiempo_espera}s (Intento {intento+1}/{reintentos_max})...", end="", flush=True)
+                    print(f"   ⏳ Límite de velocidad. Descansando {tiempo_espera}s (Intento {intento+1}/{reintentos_max})...", flush=True)
                     time.sleep(tiempo_espera)
             else:
-                print(f"\n❌ Error API de Gemini: {e}")
-                return None
+                print(f"   ⚠️ Error API de Gemini (Intento {intento+1}): {e}")
+                time.sleep(5)
         except json.JSONDecodeError as e:
-            print(f"\n❌ Error formateando JSON: {e}")
+            print(f"   ❌ Error formateando JSON: {e}")
             return None
         except Exception as e:
-            print(f"\n❌ Error inesperado: {e}")
-            return None
+            # 🔥 SOLUCIÓN: Atrapamos el TimeoutError y la desconexión
+            print(f"   ⚠️ Error de red/timeout (Intento {intento+1}): Se cortó la conexión. Reintentando...")
+            time.sleep(10) # Espera 10 segs y vuelve a intentar
             
     return None
 
@@ -130,7 +134,6 @@ def main():
     with open(ARCHIVO_ENTRADA, "r", encoding="utf-8") as f:
         productos = json.load(f)
 
-    # Cargar el diccionario existente con Red de Seguridad anti-archivos vacíos
     diccionario = {}
     if os.path.exists(ARCHIVO_DICCIONARIO):
         try:
@@ -141,7 +144,6 @@ def main():
             print("⚠️ El archivo diccionario_ia.json estaba vacío o corrupto. Se iniciará desde cero.")
             diccionario = {}
 
-    # Filtramos los productos que aún no están en el diccionario (usando el 'Codigo' como llave)
     faltantes = []
     for p in productos:
         codigo = str(p.get("Codigo", "")).strip()
@@ -154,7 +156,6 @@ def main():
         print("🎉 ¡Tu diccionario está 100% actualizado! No hay nada nuevo que generar hoy.")
         return
 
-    # Aplicar Límite de Prueba
     if LIMITE_PRUEBA and LIMITE_PRUEBA > 0:
         faltantes = faltantes[:LIMITE_PRUEBA]
         print(f"⚠️ MODO PRUEBA ACTIVADO: Solo se procesarán los primeros {LIMITE_PRUEBA} productos.\n")
@@ -166,16 +167,16 @@ def main():
         nombre_original = producto.get("Descripcion", "")
         nombre_corto = nombre_original[:40] + "..." if len(nombre_original) > 40 else nombre_original
         
-        print(f"[{idx}/{len(faltantes)}] 🤖 Generando: {nombre_corto}", end=" ", flush=True)
+        # 🔥 SOLUCIÓN: Imprimimos con salto de línea para obligar a GitHub Actions a mostrarlo
+        print(f"[{idx}/{len(faltantes)}] 🤖 Generando: {nombre_corto} ...", flush=True)
 
         resultado = generar_explicacion_ia(producto)
 
         if resultado == "LIMITE_DIARIO":
-            print("\n🛑 Proceso detenido por límite.")
+            print("🛑 Proceso detenido por límite.")
             break
             
         if isinstance(resultado, dict):
-            # Convertimos todas las llaves a minúsculas por si acaso
             res_lower = {k.lower(): v for k, v in resultado.items()}
             
             if "titulo_normalizado" in res_lower and "descripcion_amable" in res_lower and "ficha_tecnica" in res_lower:
@@ -185,17 +186,15 @@ def main():
                     "ficha_tecnica": res_lower["ficha_tecnica"]
                 }
                 nuevos_generados += 1
-                print("✅ OK")
+                print(f"   ✅ OK - Guardado.")
 
-                # Guardado en cada iteración para no perder datos si se corta
                 with open(ARCHIVO_DICCIONARIO, "w", encoding="utf-8") as f:
                     json.dump(diccionario, f, ensure_ascii=False, indent=2)
             else:
-                print(f"❌ Formato inválido devuelto por la IA. Llaves: {list(res_lower.keys())}")
+                print(f"   ❌ Formato inválido devuelto por la IA. Llaves: {list(res_lower.keys())}")
         else:
-            print(f"❌ Respuesta no válida.")
+            print(f"   ❌ Respuesta no válida.")
 
-        # Pausa para no saturar el servidor de Gemini
         time.sleep(3) 
 
     print("\n==================================================")
