@@ -214,16 +214,22 @@ def main():
                     "SKU": sku,
                     "product_id": row["product_id"],
                     "Descripcion": row.get("product_title", ""),
-                    "Motivo": motivo
+                    "Motivo": motivo,
+                    "status_actual": str(row.get("status", "active")).lower() # <--- LÍNEA NUEVA
                 })
 
-        # Panel de diagnóstico
+        # Cálculos para el log transparente
+        ya_archivados = len([p for p in archivar if p.get("status_actual") == "archived"])
+        nuevos_por_archivar = len([p for p in archivar if p.get("status_actual") != "archived"])
+
+        # Panel de diagnóstico mejorado
         console.print(
             Panel.fit(
                 f"[bold green]CREAR:[/bold green] {len(crear)}\n"
                 f"[bold yellow]ACTUALIZAR:[/bold yellow] {len(actualizar)}\n"
-                f"[bold red]ARCHIVAR:[/bold red] {len(archivar)}",
-                title="📊 DIAGNÓSTICO FINAL",
+                f"[bold red]ARCHIVAR (Nuevos):[/bold red] {nuevos_por_archivar}\n"
+                f"[bold white]YA ARCHIVADOS:[/bold white] {ya_archivados}",
+                title="📊 DIAGNÓSTICO DETALLADO",
                 style="magenta"
             )
         )
@@ -249,7 +255,7 @@ def main():
             # pero típicamente DELETE_MISSING controla todo borrado.
             # Asumiremos que si está en 'archivar', queremos borrarlo.
             if DELETE_MISSING:
-                with console.status("[red]Eliminando productos excluidos/obsoletos…[/red]"):
+                with console.status("[red]Procesando productos para archivar…[/red]"):
                     archive_products_graphql(archivar)
             else:
                 console.print("[yellow]ℹ DELETE_MISSING=false — no se eliminarán productos (aunque sean excluidos).[/yellow]")
