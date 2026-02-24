@@ -28,7 +28,7 @@ from sync_diagnostico import (
 
 from sync_crear import crear_productos_graphql_turbo
 from sync_actualizar import graphql_bulk_update_variants
-from sync_diagnostico import archive_products_graphql, bulk_update_product_basics
+from sync_diagnostico import archive_products_graphql, bulk_update_product_basics, quitar_impuestos_graphql
 
 
 LOCKFILE = "sync.lock"
@@ -279,13 +279,19 @@ def main():
         console.print("[bold green]✔ Cambios aplicados correctamente[/bold green]")
 
         # ======================================================
-        # 7) REMOVE TAX (sin parpadeo)
+        # 7) REMOVE TAX (Ultra Optimizado)
         # ======================================================
         console.print(Rule("[bold magenta]🔥 ELIMINANDO IMPUESTOS (POST-SYNC)[/bold magenta]"))
-
-        console.print("[cyan]⏳ Ejecutando remove_tax_all_variants.py…[/cyan]")
-        subprocess.run(["python", "remove_tax_all_variants.py"])
-        console.print("[bold green]✔ Impuestos procesados[/bold green]")
+        
+        # Filtramos directamente del dataframe que ya tenemos en memoria
+        variantes_con_tax = df_shop[df_shop["taxable"] == True].to_dict('records')
+        
+        if variantes_con_tax:
+            with console.status(f"[red]Quitando impuestos a {len(variantes_con_tax)} variantes...[/red]"):
+                quitar_impuestos_graphql(variantes_con_tax)
+            console.print(f"[bold green]✔ Impuestos eliminados en {len(variantes_con_tax)} variantes[/bold green]")
+        else:
+            console.print("[green]✔ No hay variantes con impuesto. Nada que hacer.[/green]")
 
         # ======================================================
         # 8) MOTOR DE IA (NUEVO)
