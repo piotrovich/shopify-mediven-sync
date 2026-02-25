@@ -2,7 +2,7 @@ name: Shopify Mediven Sync
 
 on:
   schedule:
-    - cron: '0 * * * *' # Se ejecuta cada hora
+    - cron: '14 * * * *' # Se ejecuta en el minuto 14 de cada hora (evita el embotellamiento de GitHub)
   workflow_dispatch:   # Permite ejecutarlo manualmente
 
 # IMPORTANTE: Damos permiso al robot para guardar cambios en el repositorio
@@ -25,8 +25,8 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          # AGREGAMOS: google-genai (para la IA), rich (para logs) y ShopifyAPI
-          pip install requests pandas openpyxl python-dotenv google-genai rich ShopifyAPI
+          # AGREGAMOS: google-genai (IA), rich (logs), ShopifyAPI y Pillow (Imágenes)
+          pip install requests pandas openpyxl python-dotenv google-genai rich ShopifyAPI Pillow
 
       - name: Ejecutar Sincronización Completa (Sync + IA + Imágenes)
         env:
