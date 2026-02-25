@@ -106,7 +106,10 @@ def reemplazar_imagen_shopify(product_gid, url_nueva):
 # ==========================================
 # ORQUESTADOR DE REPESCA
 # ==========================================
-def ejecutar_repesca_imagenes(df_shop):
+def ejecutar_repesca_imagenes(df_shop, skus_forzados=None): # <-- NUEVO PARÁMETRO
+    if skus_forzados is None:
+        skus_forzados = []
+        
     if not SERPER_API_KEY:
         print("⚠️ SERPER_API_KEY no detectada. Saltando módulo de imágenes.")
         return
@@ -123,12 +126,19 @@ def ejecutar_repesca_imagenes(df_shop):
         sku = str(p.get("sku", "")).strip()
         if not sku or sku == "nan": continue
         
+        # 🔥 SI EL USUARIO BORRÓ LA FOTO A MANO, LO FORZAMOS COMO NUEVO
+        if sku in skus_forzados:
+            nuevos.append(p)
+            continue
+            
         estado = registro.get(sku)
         if not estado: nuevos.append(p)
         elif estado == DEFAULT_IMAGE_URL: repesca.append(p)
             
     random.shuffle(nuevos)
     random.shuffle(repesca)
+    
+    # Damos prioridad a los forzados (para que no queden fuera del lote de 15)
     lote = nuevos[:15] + repesca[:5]
     
     if not lote:
