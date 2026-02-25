@@ -31,9 +31,7 @@ from sync_crear import crear_productos_graphql_turbo
 from sync_actualizar import graphql_bulk_update_variants
 from sync_diagnostico import archive_products_graphql, bulk_update_product_basics, quitar_impuestos_graphql
 
-
 LOCKFILE = "sync.lock"
-
 
 # ==========================================================
 #   Formateo del tiempo total
@@ -45,7 +43,6 @@ def format_time(seconds):
     secs = seconds % 60
     return f"{mins} min {secs:.1f} s"
 
-
 # ==========================================================
 #  LOCKFILE
 # ==========================================================
@@ -56,11 +53,9 @@ def create_lock():
     with open(LOCKFILE, "w") as f:
         f.write(str(int(time.time())))
 
-
 def remove_lock():
     if os.path.exists(LOCKFILE):
         os.remove(LOCKFILE)
-
 
 # ==========================================================
 #  FLUJO PRINCIPAL — ULTRA PRO
@@ -100,8 +95,14 @@ def main():
 
         if not df_shop.empty:
             df_shop["sku"] = df_shop["sku"].astype(str).str.strip()
+            # Aseguramos que la columna bodyHtml no tenga nulos para evitar errores
+            if "bodyHtml" in df_shop.columns:
+                df_shop["bodyHtml"] = df_shop["bodyHtml"].fillna("")
+            else:
+                df_shop["bodyHtml"] = ""
         else:
             df_shop["sku"] = pd.Series(dtype=str)
+            df_shop["bodyHtml"] = pd.Series(dtype=str)
 
         df_med["Codigo"] = df_med["Codigo"].astype(str).str.strip()
 
@@ -216,7 +217,7 @@ def main():
                     "product_id": row["product_id"],
                     "Descripcion": row.get("product_title", ""),
                     "Motivo": motivo,
-                    "status_actual": str(row.get("status", "active")).lower() # <--- LÍNEA NUEVA
+                    "status_actual": str(row.get("status", "active")).lower() 
                 })
 
         # Cálculos para el log transparente
@@ -252,9 +253,6 @@ def main():
 
         # ARCHIVAR (ELIMINAR)
         if archivar:
-            # Forzamos eliminación de excluidos incluso si DELETE_MISSING es false, 
-            # pero típicamente DELETE_MISSING controla todo borrado.
-            # Asumiremos que si está en 'archivar', queremos borrarlo.
             if DELETE_MISSING:
                 with console.status("[red]Procesando productos para archivar…[/red]"):
                     archive_products_graphql(archivar)
@@ -299,8 +297,6 @@ def main():
         # ======================================================
         console.print(Rule("[bold magenta]🧠 VERIFICANDO CONTENIDO FALTANTE (IA)[/bold magenta]"))
         
-        # Esto ejecutará la lógica de detección de nuevos productos
-        # y generará las descripciones solo para lo que falte.
         try:
             crear_diccionario_ia.main()
         except Exception as e:
@@ -320,8 +316,16 @@ def main():
         # 8.5) ACTUALIZAR SHOPIFY (El paso final)
         # ======================================================
         console.print(Rule("[bold cyan]🎨 ACTUALIZANDO PESTAÑAS EN SHOPIFY[/bold cyan]"))
+        
+        # 🔥 MAGIA: Identificamos qué SKUs tienen la descripción en blanco en Shopify
+        skus_vacios = df_shop[df_shop['bodyHtml'] == '']['sku'].dropna().astype(str).tolist()
+        
+        if skus_vacios:
+            console.print(f"[bold yellow]⚠️ Alerta SEO: Se detectaron {len(skus_vacios)} productos sin descripción en Shopify. Forzando inyección...[/bold yellow]")
+            
         try:
-            subir_a_shopify.main()
+            # Le pasamos la lista de SKUs vacíos al script
+            subir_a_shopify.main(skus_forzados=skus_vacios)
         except Exception as e:
             console.print(f"[bold red]❌ Error actualizando Shopify: {e}[/bold red]")
 
@@ -341,7 +345,6 @@ def main():
 
     finally:
         remove_lock()
-
 
 if __name__ == "__main__":
     main()
