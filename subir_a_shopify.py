@@ -54,7 +54,10 @@ def actualizar_producto(sku, datos_ia):
         print(f"\n❌ Error con SKU {sku}: {e}")
         return "ERROR"
 
-def main():
+def main(skus_forzados=None):
+    if skus_forzados is None:
+        skus_forzados = []
+        
     print("==================================================")
     print("🚀 INICIANDO SINCRONIZACIÓN IA -> SHOPIFY (OPTIMIZADO)")
     print("==================================================")
@@ -68,15 +71,18 @@ def main():
     with open(ARCHIVO_DICCIONARIO, 'r', encoding='utf-8') as f:
         diccionario = json.load(f)
 
-    # 🔥 FILTRO MÁGICO: Solo toma los que NO han sido subidos
-    pendientes = {sku: datos for sku, datos in diccionario.items() if not datos.get("subido_shopify", False)}
+    # 🔥 FILTRO MÁGICO MEJORADO: Toma los no subidos + los que el orquestador forzó
+    pendientes = {}
+    for sku, datos in diccionario.items():
+        if not datos.get("subido_shopify", False) or sku in skus_forzados:
+            pendientes[sku] = datos
     
     total = len(pendientes)
     if total == 0:
         print("🎉 Todos los productos ya están actualizados en Shopify. Nada que subir.")
         return
 
-    print(f"📦 Se encontraron {total} productos NUEVOS listos para subir.\n")
+    print(f"📦 Se encontraron {total} productos para subir (Nuevos/Forzados).\n")
 
     exitos = 0
     errores = 0
@@ -93,10 +99,8 @@ def main():
             else:
                 print("⚠️ SKU no hallado en tienda")
             
-            # Marcamos como subido para que no lo intente procesar nunca más
+            # Marcamos como subido y guardamos la memoria
             diccionario[sku]["subido_shopify"] = True
-            
-            # Guardamos el archivo por cada éxito (así si se corta, no perdemos el progreso)
             with open(ARCHIVO_DICCIONARIO, 'w', encoding='utf-8') as f:
                 json.dump(diccionario, f, ensure_ascii=False, indent=2)
                 
