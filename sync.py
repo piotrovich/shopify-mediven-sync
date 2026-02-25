@@ -8,6 +8,7 @@ import pandas as pd
 import subprocess
 import crear_diccionario_ia
 import subir_a_shopify
+import sync_imagenes_auto
 
 # 🔥 Para logs PRO (sin tocar la lógica)
 from rich.console import Console
@@ -304,6 +305,16 @@ def main():
             crear_diccionario_ia.main()
         except Exception as e:
             console.print(f"[bold red]❌ Error en el módulo de IA: {e}[/bold red]")
+
+
+        # ======================================================
+        # 8.1) MOTOR DE IMÁGENES (SERPER)
+        # ======================================================
+        console.print(Rule("[bold magenta]📸 VERIFICANDO IMÁGENES Y REPESCA[/bold magenta]"))
+        try:
+            sync_imagenes_auto.ejecutar_repesca_imagenes(df_shop)
+        except Exception as e:
+            console.print(f"[bold red]❌ Error en el módulo de Imágenes: {e}[/bold red]")
 
         # ======================================================
         # 8.5) ACTUALIZAR SHOPIFY (El paso final)
