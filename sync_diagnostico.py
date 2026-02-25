@@ -353,6 +353,7 @@ def get_shopify_products():
           node {
             id
             title
+            bodyHtml
             status
             variants(first: 100) {
               edges {
@@ -393,6 +394,7 @@ def get_shopify_products():
             gid = node.get("id", "")
             product_id = gid.split("/")[-1] if gid else None
             title = node.get("title", "")
+            body_html = node.get("bodyHtml", "") or ""
             status = node.get("status", "ACTIVE").lower()
 
             if status == "active":
@@ -425,6 +427,7 @@ def get_shopify_products():
                 {
                     "id": product_id,
                     "title": title,
+                    "bodyHtml": body_html,
                     "status": status_norm,
                     "variants": rest_variants,
                 }
@@ -457,6 +460,7 @@ def normalize_shopify_products(products):
                 {
                     "product_id": product_id,
                     "product_title": product_title,
+                    "bodyHtml": p.get("bodyHtml", ""),
                     "variant_id": v.get("id"),
                     "sku": v.get("sku"),
                     "price": float(v.get("price", 0) or 0),
