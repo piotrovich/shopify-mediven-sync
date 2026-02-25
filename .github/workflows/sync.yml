@@ -28,7 +28,7 @@ jobs:
           # AGREGAMOS: google-genai (para la IA), rich (para logs) y ShopifyAPI
           pip install requests pandas openpyxl python-dotenv google-genai rich ShopifyAPI
 
-      - name: Ejecutar Sincronización Completa (Sync + IA)
+      - name: Ejecutar Sincronización Completa (Sync + IA + Imágenes)
         env:
           SHOP_DOMAIN: ${{ secrets.SHOP_DOMAIN }}
           SHOPIFY_ADMIN_TOKEN: ${{ secrets.SHOPIFY_ADMIN_TOKEN }}
@@ -36,18 +36,22 @@ jobs:
           MEDIVEN_PASS: ${{ secrets.MEDIVEN_PASS }}
           SHOPIFY_LOCATION_ID: ${{ secrets.SHOPIFY_LOCATION_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          # --- NUEVAS VARIABLES PARA EL MOTOR DE IMÁGENES ---
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          SHOPIFY_DEFAULT_IMAGE_URL: ${{ secrets.SHOPIFY_DEFAULT_IMAGE_URL }}
+          # --------------------------------------------------
           SIMULATE: "false"
           DELETE_MISSING: "true"
-        # CAMBIO CLAVE: Ejecutamos sync.py (el orquestador), NO sync_diagnostico
+        # Ejecutamos sync.py (el orquestador)
         run: python sync.py
 
-      # NUEVO PASO CRÍTICO: Guardar lo que generó la IA
-      # Esto hace un "git commit & push" automático del JSON actualizado
-      - name: Guardar memoria de IA en el repo
+      # NUEVO PASO CRÍTICO: Guardar lo que generó la IA y el Historial de Imágenes
+      # Esto hace un "git commit & push" automático de LOS DOS archivos JSON
+      - name: Guardar memoria de IA e Imágenes en el repo
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 IA: Nuevos productos generados automáticamente"
-          file_pattern: 'data/diccionario_ia.json'
+          commit_message: "🤖 IA/IMG: Memoria actualizada (Textos + Imágenes)"
+          file_pattern: 'data/diccionario_ia.json data/registro_imagenes.json'
 
       - name: Guardar Reporte Excel
         if: always() 
