@@ -307,8 +307,16 @@ def main():
         # 8.1) MOTOR DE IMÁGENES (SERPER)
         # ======================================================
         console.print(Rule("[bold magenta]📸 VERIFICANDO IMÁGENES Y REPESCA[/bold magenta]"))
+        
+        # 🔥 MAGIA: Identificamos qué SKUs NO tienen foto físicamente en Shopify
+        skus_sin_foto = df_shop[df_shop['has_image'] == False]['sku'].dropna().astype(str).tolist()
+        
+        if skus_sin_foto:
+            console.print(f"[bold yellow]⚠️ Alerta Visual: Se detectaron {len(skus_sin_foto)} productos sin foto en Shopify. Forzando búsqueda...[/bold yellow]")
+
         try:
-            sync_imagenes_auto.ejecutar_repesca_imagenes(df_shop)
+            # Pasamos la lista de SKUs sin foto como "forzados"
+            sync_imagenes_auto.ejecutar_repesca_imagenes(df_shop, skus_forzados=skus_sin_foto)
         except Exception as e:
             console.print(f"[bold red]❌ Error en el módulo de Imágenes: {e}[/bold red]")
 
