@@ -308,14 +308,13 @@ def main():
         # ======================================================
         console.print(Rule("[bold magenta]📸 VERIFICANDO IMÁGENES Y REPESCA[/bold magenta]"))
         
-        # 🔥 MAGIA: Identificamos qué SKUs NO tienen foto físicamente en Shopify
-        skus_sin_foto = df_shop[df_shop['has_image'] == False]['sku'].dropna().astype(str).tolist()
+        # 🔥 MAGIA MEJORADA: Solo buscamos fotos para productos ACTIVOS
+        skus_sin_foto = df_shop[(df_shop['has_image'] == False) & (df_shop['status'] == 'active')]['sku'].dropna().astype(str).tolist()
         
         if skus_sin_foto:
-            console.print(f"[bold yellow]⚠️ Alerta Visual: Se detectaron {len(skus_sin_foto)} productos sin foto en Shopify. Forzando búsqueda...[/bold yellow]")
+            console.print(f"[bold yellow]⚠️ Alerta Visual: Se detectaron {len(skus_sin_foto)} productos ACTIVOS sin foto. Forzando búsqueda...[/bold yellow]")
 
         try:
-            # Pasamos la lista de SKUs sin foto como "forzados"
             sync_imagenes_auto.ejecutar_repesca_imagenes(df_shop, skus_forzados=skus_sin_foto)
         except Exception as e:
             console.print(f"[bold red]❌ Error en el módulo de Imágenes: {e}[/bold red]")
@@ -325,14 +324,13 @@ def main():
         # ======================================================
         console.print(Rule("[bold cyan]🎨 ACTUALIZANDO PESTAÑAS EN SHOPIFY[/bold cyan]"))
         
-        # 🔥 MAGIA: Identificamos qué SKUs tienen la descripción en blanco en Shopify
-        skus_vacios = df_shop[df_shop['bodyHtml'] == '']['sku'].dropna().astype(str).tolist()
+        # 🔥 MAGIA MEJORADA: Solo inyectamos SEO a productos ACTIVOS
+        skus_vacios = df_shop[(df_shop['bodyHtml'] == '') & (df_shop['status'] == 'active')]['sku'].dropna().astype(str).tolist()
         
         if skus_vacios:
-            console.print(f"[bold yellow]⚠️ Alerta SEO: Se detectaron {len(skus_vacios)} productos sin descripción en Shopify. Forzando inyección...[/bold yellow]")
+            console.print(f"[bold yellow]⚠️ Alerta SEO: Se detectaron {len(skus_vacios)} productos ACTIVOS sin descripción. Forzando inyección...[/bold yellow]")
             
         try:
-            # Le pasamos la lista de SKUs vacíos al script
             subir_a_shopify.main(skus_forzados=skus_vacios)
         except Exception as e:
             console.print(f"[bold red]❌ Error actualizando Shopify: {e}[/bold red]")
