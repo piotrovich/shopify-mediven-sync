@@ -106,7 +106,7 @@ def reemplazar_imagen_shopify(product_gid, url_nueva):
 # ==========================================
 # ORQUESTADOR DE REPESCA
 # ==========================================
-def ejecutar_repesca_imagenes(df_shop, skus_forzados=None): # <-- NUEVO PARÁMETRO
+def ejecutar_repesca_imagenes(df_shop, skus_forzados=None): 
     if skus_forzados is None:
         skus_forzados = []
         
@@ -153,14 +153,19 @@ def ejecutar_repesca_imagenes(df_shop, skus_forzados=None): # <-- NUEVO PARÁMET
         
         print(f"      🔍 Buscando: {titulo[:35]}...", end=" ")
         url_encontrada = buscar_imagen_serper(titulo)
-        usando_generica = not url_encontrada
-        url_final = url_encontrada if url_encontrada else DEFAULT_IMAGE_URL
         
-        if reemplazar_imagen_shopify(product_gid, url_final):
-            registro[sku] = url_final
-            print("⚠️ Genérica" if usando_generica else "✅ Subida (800x800)")
+        # --- BLOQUE TOLERANCIA CERO (Auto-sanación forzada) ---
+        if url_encontrada and reemplazar_imagen_shopify(product_gid, url_encontrada):
+            registro[sku] = url_encontrada
+            print("✅ Subida (800x800)")
         else:
-            print("❌ Error")
+            # Si no encontró URL o la descarga falló, FORZAMOS la genérica
+            if reemplazar_imagen_shopify(product_gid, DEFAULT_IMAGE_URL):
+                registro[sku] = DEFAULT_IMAGE_URL
+                print("⚠️ Genérica (Fallo o no encontrada)")
+            else:
+                print("❌ Error Fatal Shopify")
+        # -------------------------------------------------------
             
     with open(ARCHIVO_REGISTRO, "w", encoding="utf-8") as f:
         json.dump(registro, f, indent=2)
