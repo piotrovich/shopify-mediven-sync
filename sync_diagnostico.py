@@ -384,6 +384,7 @@ def get_shopify_products():
         )
         if not data or "data" not in data or not data["data"].get("products"):
             print("\n⚠️ Respuesta inválida en get_shopify_products (GraphQL).")
+            raise Exception("🛑 CRÍTICO: Internet falló al leer Shopify. Abortando sincronización para evitar crear duplicados.")
             break
 
         prods_block = data["data"]["products"]
