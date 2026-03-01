@@ -9,6 +9,14 @@ on:
 permissions:
   contents: write
 
+# --- NUEVO SEMÁFORO ---
+# Si una ejecución se demora mucho y llega la hora de la siguiente, 
+# cancela la vieja (zombie) y arranca la nueva limpia.
+concurrency:
+  group: "robot-sync"
+  cancel-in-progress: true
+# ----------------------
+
 jobs:
   build:
     runs-on: ubuntu-latest
