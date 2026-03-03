@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import sys
 import json
 import time
 import pandas as pd
@@ -9,6 +10,7 @@ import subprocess
 import crear_diccionario_ia
 import subir_a_shopify
 import sync_imagenes_auto
+import repesca_precios
 
 # 🔥 Para logs PRO (sin tocar la lógica)
 from rich.console import Console
@@ -22,10 +24,12 @@ from sync_diagnostico import (
     get_mediven_inventory,
     get_shopify_products,
     normalize_shopify_products,
-    calcular_precio,
     generar_excel,
     DELETE_MISSING,
 )
+
+# 🔥 NUEVO CEREBRO FINANCIERO
+from precios import calcular_precio_final
 
 from sync_crear import crear_productos_graphql_turbo
 from sync_actualizar import graphql_bulk_update_variants
@@ -136,9 +140,29 @@ def main():
         console.print(f"[yellow]🐾 Productos detectados para exclusión:[/yellow] {len(skus_excluidos)}")
 
         # ======================================================
-        # 4) DIAGNÓSTICO
+        # 4) DIAGNÓSTICO Y PRECIOS DINÁMICOS
         # ======================================================
-        console.print(Rule("[bold magenta]📊 Generando diagnóstico[/bold magenta]"))
+        console.print(Rule("[bold magenta]📊 Generando diagnóstico y Precios[/bold magenta]"))
+
+        # 🔥 CORRER MINI-ESPÍA ANTES DE LEER LA MEMORIA
+        try:
+            repesca_precios.ejecutar_repesca_diaria()
+        except Exception as e:
+            console.print(f"[bold red]❌ Error en el Mini-Espía de precios: {e}[/bold red]")
+
+        # 🧠 CARGAMOS LA INTELIGENCIA DE MERCADO (AHORA SÍ, ACTUALIZADA)
+        archivo_mercado = os.path.join("data", "precios_mercado.json")
+        precios_mercado = {}
+        if os.path.exists(archivo_mercado):
+            with open(archivo_mercado, "r", encoding="utf-8") as f:
+                precios_mercado = json.load(f)
+
+        # 🛑 CARGAMOS LA MEMORIA DE PRECIOS (Anti-Sobrescritura manual)
+        archivo_memoria = os.path.join("data", "memoria_precios.json")
+        memoria_precios = {}
+        if os.path.exists(archivo_memoria):
+            with open(archivo_memoria, "r", encoding="utf-8") as f:
+                memoria_precios = json.load(f)
 
         crear = []
         actualizar = []
@@ -161,8 +185,14 @@ def main():
             if sku in skus_excluidos:
                 continue
 
-            precio_med = row.get("Precio", 0)
-            nuevo_precio = calcular_precio(precio_med)
+            precio_med = float(row.get("Precio", 0) or 0)
+            
+            # 🛡️ Aplicamos la Inteligencia Financiera
+            if precio_med <= 0:
+                nuevo_precio = 0
+            else:
+                datos_sku = precios_mercado.get(sku)
+                nuevo_precio, estrategia = calcular_precio_final(precio_med, datos_sku)
 
             if sku in shop_by_sku:
                 shop_row = shop_by_sku[sku]
@@ -170,6 +200,12 @@ def main():
                 nombre_actual_shopify = str(shop_row.get("product_title", ""))
                 estado_actual_shopify = str(shop_row.get("status", "")).lower()
 
+                # 🛡️ PROTECCIÓN ANTI-SOBRESCRITURA MANUAL
+                ultimo_precio_robot = memoria_precios.get(sku)
+                if ultimo_precio_robot is not None and abs(precio_actual - ultimo_precio_robot) > 1:
+                    # Si Shopify tiene un precio distinto al que dejó el robot, un humano lo cambió.
+                    nuevo_precio = precio_actual # Respetamos a Shopify (no sobreescribimos)
+                
                 # Generamos el nombre limpio para comparar
                 from sync_diagnostico import formatear_nombre_producto
                 nom_gen = formatear_nombre_producto(row)
@@ -189,6 +225,9 @@ def main():
                         "product_id": shop_row["product_id"],
                         "actualizar_basicos": c_nom or c_status # Flag para actualizar nombre/estado
                     })
+                
+                # Refrescamos la memoria con el precio que decidimos que debe tener
+                memoria_precios[sku] = nuevo_precio
             else:
                 crear.append({
                     "SKU": sku,
@@ -196,6 +235,8 @@ def main():
                     "Precio": nuevo_precio,
                     "Stock": 100,
                 })
+                # Guardamos la decisión del robot
+                memoria_precios[sku] = nuevo_precio
 
         # --- LÓGICA ARCHIVAR (ELIMINAR) ---
         for _, row in df_shop.iterrows():
@@ -247,6 +288,13 @@ def main():
         console.print("[green]✔ Excel generado.[/green]")
 
         # ======================================================
+        # 5.5) MODO DRY-RUN (REPORTE SEGURO)
+        # ======================================================
+        if "--dry-run" in sys.argv:
+            console.print(Panel.fit("[bold yellow]🛑 MODO REPORTE ACTIVO (--dry-run)\nRevisa la carpeta 'reportes' para ver el Excel con los cambios de precio.\nEl script se detendrá aquí sin tocar Shopify ni guardar memoria.[/bold yellow]"))
+            return
+
+        # ======================================================
         # 6) APLICAR CAMBIOS
         # ======================================================
         console.print(Rule("[bold cyan]⚙️ Aplicando cambios en Shopify[/bold cyan]"))
@@ -277,6 +325,11 @@ def main():
 
         console.print("[bold green]✔ Cambios aplicados correctamente[/bold green]")
 
+        # 💾 GUARDAMOS LA MEMORIA SOLO SI SUBIMOS A SHOPIFY
+        os.makedirs("data", exist_ok=True)
+        with open(archivo_memoria, "w", encoding="utf-8") as f:
+            json.dump(memoria_precios, f, indent=2)
+            
         # ======================================================
         # 7) REMOVE TAX (Ultra Optimizado)
         # ======================================================
@@ -301,7 +354,6 @@ def main():
             crear_diccionario_ia.main()
         except Exception as e:
             console.print(f"[bold red]❌ Error en el módulo de IA: {e}[/bold red]")
-
 
         # ======================================================
         # 8.1) MOTOR DE IMÁGENES (SERPER)
