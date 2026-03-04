@@ -1,7 +1,11 @@
 import math
 
-# Comisión de Pasarela (Ej: MercadoPago 3.49% + IVA = ~4.15%. Usamos 4.5% por seguridad)
-COMISION_MP = 0.045
+# ==========================================
+# 💸 COMISIONES OCULTAS (El costo de vender)
+# ==========================================
+COMISION_MP = 0.045      # ~4.5% MercadoPago (Comisión + IVA)
+COMISION_SHOPIFY = 0.02  # 2.0% Shopify (Comisión por usar pasarela externa en plan Basic)
+COMISION_TOTAL = COMISION_MP + COMISION_SHOPIFY # Total: 6.5% 
 
 def redondear_precio_bonito(precio):
     """
@@ -20,20 +24,22 @@ def calcular_precio_final(costo_neto_mediven, datos_mercado_sku):
     # 1. Calcular el Costo Real con IVA
     costo_con_iva = costo_neto_mediven * 1.19
     
-    # 2. LA MURALLA DE TITANIO (Rentabilidad Mínima Exigida)
+    # 2. LA MURALLA DE TITANIO (Márgenes ajustados para absorber envío)
+    # 🚚 SUBSIDIO: Subimos los factores para recuperar la pérdida de $2.380 del Courier
     if costo_con_iva <= 3000:
-        factor_piso = 1.55
+        factor_piso = 1.65  # Antes 1.55 (+10% para recuperar más plata en productos baratos)
     elif costo_con_iva <= 15000:
-        factor_piso = 1.45
+        factor_piso = 1.52  # Antes 1.45 (+7% absorbe el golpe sin espantar al cliente)
     else:
-        factor_piso = 1.35
+        factor_piso = 1.40  # Antes 1.35 (+5% en productos caros suma muchos pesos reales)
         
-    # El precio piso absorbe la comisión de MP para no restarla de tu ganancia
-    precio_piso = (costo_con_iva * factor_piso) / (1 - COMISION_MP)
+    # El precio piso ahora te protege descontando el 6.5% de TODAS las pasarelas juntas
+    precio_piso = (costo_con_iva * factor_piso) / (1 - COMISION_TOTAL)
 
     # 3. EVALUACIÓN DEL MERCADO
     if not datos_mercado_sku or not datos_mercado_sku.get("datos_mercado"):
-        precio_final = (costo_con_iva * 1.60) / (1 - COMISION_MP)
+        # Subimos el factor de monopolio de 1.60 a 1.65 para que coincida con la nueva estrategia
+        precio_final = (costo_con_iva * 1.65) / (1 - COMISION_TOTAL)
         return redondear_precio_bonito(precio_final), "Monopolio (Sin datos)"
         
     # 🛡️ ESCUDO DEFENSIVO: Evitamos el KeyError si el JSON viene corrupto o vacío
@@ -42,7 +48,7 @@ def calcular_precio_final(costo_neto_mediven, datos_mercado_sku):
 
     # Si el espía falló y no existe el dato de la mediana, activamos el plan de contingencia
     if not mercado_justo:
-        precio_final = (costo_con_iva * 1.60) / (1 - COMISION_MP)
+        precio_final = (costo_con_iva * 1.65) / (1 - COMISION_TOTAL)
         return redondear_precio_bonito(precio_final), "Monopolio (Datos corruptos)"
 
     # 4. LA DECISIÓN
