@@ -15,16 +15,23 @@ from modulos.finanzas import repesca_precios
 from modulos.finanzas.precios import calcular_precio_final
 
 from modulos.nucleo.sync_crear import crear_productos_graphql_turbo
-from modulos.nucleo.sync_actualizar import graphql_bulk_update_variants
+
+# 🔥 NUEVO: Traemos todo lo de actualizar desde su propio archivo
+from modulos.nucleo.sync_actualizar import (
+    graphql_bulk_update_variants,
+    bulk_update_product_basics,
+    quitar_impuestos_graphql
+)
+
+from modulos.nucleo.sync_eliminar import archive_products_graphql
+
+# 📉 Diagnóstico ahora está mucho más liviano
 from modulos.nucleo.sync_diagnostico import (
     get_mediven_inventory,
     get_shopify_products,
     normalize_shopify_products,
     generar_excel,
-    DELETE_MISSING,
-    archive_products_graphql,
-    bulk_update_product_basics,
-    quitar_impuestos_graphql
+    DELETE_MISSING
 )
 
 # 🔥 Para logs PRO (sin tocar la lógica)
