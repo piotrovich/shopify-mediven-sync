@@ -7,10 +7,25 @@ import json
 import time
 import pandas as pd
 import subprocess
-import crear_diccionario_ia
-import subir_a_shopify
-import sync_imagenes_auto
-import repesca_precios
+
+# 🔥 MÓDULOS DE LA NUEVA ARQUITECTURA
+from modulos.ia_seo import crear_diccionario_ia, subir_a_shopify
+from modulos.multimedia import sync_imagenes_auto
+from modulos.finanzas import repesca_precios
+from modulos.finanzas.precios import calcular_precio_final
+
+from modulos.nucleo.sync_crear import crear_productos_graphql_turbo
+from modulos.nucleo.sync_actualizar import graphql_bulk_update_variants
+from modulos.nucleo.sync_diagnostico import (
+    get_mediven_inventory,
+    get_shopify_products,
+    normalize_shopify_products,
+    generar_excel,
+    DELETE_MISSING,
+    archive_products_graphql,
+    bulk_update_product_basics,
+    quitar_impuestos_graphql
+)
 
 # 🔥 Para logs PRO (sin tocar la lógica)
 from rich.console import Console
@@ -19,21 +34,6 @@ from rich.rule import Rule
 from rich.progress import Progress, SpinnerColumn, BarColumn, TimeElapsedColumn, TextColumn
 
 console = Console()
-
-from sync_diagnostico import (
-    get_mediven_inventory,
-    get_shopify_products,
-    normalize_shopify_products,
-    generar_excel,
-    DELETE_MISSING,
-)
-
-# 🔥 NUEVO CEREBRO FINANCIERO
-from precios import calcular_precio_final
-
-from sync_crear import crear_productos_graphql_turbo
-from sync_actualizar import graphql_bulk_update_variants
-from sync_diagnostico import archive_products_graphql, bulk_update_product_basics, quitar_impuestos_graphql
 
 LOCKFILE = "sync.lock"
 
@@ -207,7 +207,7 @@ def main():
                     nuevo_precio = precio_actual # Respetamos a Shopify (no sobreescribimos)
                 
                 # Generamos el nombre limpio para comparar
-                from sync_diagnostico import formatear_nombre_producto
+                from modulos.nucleo.sync_diagnostico import formatear_nombre_producto
                 nom_gen = formatear_nombre_producto(row)
 
                 # COMPARAR PRECIO, NOMBRE Y ESTADO
