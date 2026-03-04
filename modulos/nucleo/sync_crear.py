@@ -5,6 +5,8 @@ import time
 import math
 import concurrent.futures
 import random
+from concurrent.futures import ThreadPoolExecutor
+
 
 # 🔌 Importamos las herramientas clave desde el diagnóstico
 from modulos.nucleo.sync_diagnostico import (
@@ -347,3 +349,4 @@ def crear_productos_graphql_turbo(productos, batch_size=20):
     print(f"❌ ERRORES: {total_err}")
 
     return {"ok": total_ok, "errores": total_err}
+
