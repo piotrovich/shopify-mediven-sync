@@ -43,8 +43,8 @@ def ejecutar_repesca_diaria():
 
     console.print(f"[yellow]⚠️ Se detectaron {len(skus_faltantes)} productos nuevos sin estudio de mercado.[/yellow]")
     
-    # 🔓 FRENO LIBERADO: Cambiamos 50 por 20000 para que audite TODO
-    faltantes_lista = list(skus_faltantes)[:20000]
+    # 🔒 BATCH SEGURO: Tandas de 2500 para evitar el Timeout de GitHub
+    faltantes_lista = list(skus_faltantes)[:2500]
     
     # Filtramos la data de Mediven para obtener los nombres de esos SKUs
     productos_a_espiar = [p for p in productos_mediven if str(p.get("Codigo", "")) in faltantes_lista]
@@ -52,7 +52,7 @@ def ejecutar_repesca_diaria():
     nuevos_precios = 0
     from datetime import datetime
     
-    # Cada 50 productos, vamos a ir guardando en el JSON para no perder progreso si GitHub se corta
+    # Cada 50 productos, vamos a ir guardando en el JSON (Copia de seguridad local)
     for p in productos_a_espiar:
         sku = str(p.get("Codigo", ""))
         nombre = p.get("Descripcion", "")
@@ -85,7 +85,7 @@ def ejecutar_repesca_diaria():
             
         time.sleep(1) # Pequeña pausa para no saturar Google Serper
 
-    # 3. Guardar el JSON final cuando termine todo el ciclo
+    # 3. Guardar el JSON final cuando termine el ciclo de 2500
     if nuevos_precios > 0:
         os.makedirs(os.path.dirname(ARCHIVO_MERCADO), exist_ok=True)
         with open(ARCHIVO_MERCADO, "w", encoding="utf-8") as f:
