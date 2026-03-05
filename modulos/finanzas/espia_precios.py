@@ -61,7 +61,6 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
     # 3. 🧠 TRADUCTOR CLÍNICO MÁXIMO -> COMERCIAL
     traducciones = {
         r'\bCOM\b': 'comprimidos',
-        r'\bCOMP\b': 'comprimidos',
         r'\bCAP\b': 'capsulas',
         r'\bJBE\b': 'jarabe',
         r'\bINY\b': 'inyectable',
@@ -80,11 +79,12 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
         r'\bSUP\b': 'supositorios',
         r'\bSOL\b': 'solucion',
         r'\bSUSP\b': 'suspension',
-        r'\bACO\b': 'acondicionador',  
-        r'\bSH\b': 'shampoo',          
-        r'\bSHA\b': 'shampoo',
-        r'\bMATIF\b': 'matificante',   
+        r'\bACO\b': 'acondicionador', 
+        r'\bSH\b': 'shampoo',         
+        r'\bMATIF\b': 'matificante',  
         r'\bSPY\b': 'spray',
+        r'\bCOMP\b': 'comprimidos',
+        r'\bSHA\b': 'shampoo',
         r'\bCEP\b': 'cepillo',
         r'\bDEN\b': 'dental',
         r'\bDENT\b': 'dental',
@@ -95,12 +95,12 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
         r'\bJAB\b': 'jabon',
         r'\bOFT\b': 'oftalmica',
         r'\bPED\b': 'pediatrico',
-        r'\bOSC\b': 'oscuro'
+        r'\bOSC\b': 'oscuro',           
     }
     for patron, palabra_real in traducciones.items():
         nombre_limpio = re.sub(patron, palabra_real, nombre_limpio, flags=re.IGNORECASE)
         
-    # 4. Borramos la "X" aislada y las palabras "PARA EL" o "DE" que alargan mucho
+    # 4. Borramos la "X" aislada y las palabras "PARA EL" o "DE" que alargan mucho (ej: "MG X 30" -> "MG 30")
     basura_conectora = r'\b(X|x|PARA|EL|LA|LOS|LAS|DE|CON)\b'
     nombre_limpio = re.sub(basura_conectora, '', nombre_limpio, flags=re.IGNORECASE)
     
@@ -113,9 +113,23 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
     if len(palabras) > 6:
         nombre_limpio = " ".join(palabras[:6])
     
-    # 7. 🎯 LÓGICA DE PRECISIÓN
-    if laboratorio and laboratorio.lower() not in nombre_limpio.lower():
-        query = f'{nombre_limpio} {laboratorio} precio'
+    # =========================================================
+    # 🎯 NUEVO: FILTRO ANTI-CORPORATIVO (Para buscar como humano)
+    # =========================================================
+    lab_limpio = laboratorio.upper()
+    holdings_basura = [
+        "BEIERSDORF", "GSK", "PERFUMERIA", "DURANDIN", "PROCTER & GAMBL", 
+        "PROCTER", "GAMBL", "LOREAL VICHY LA", "LOREAL", "VICHY", 
+        "CMPC", "TISSUE", "CONSUMO", "OTC", "LASTRADE", "JOHNSON", "DENTAID"
+    ]
+    
+    # Borramos los nombres corporativos del laboratorio
+    for holding in holdings_basura:
+        lab_limpio = lab_limpio.replace(holding, "").strip()
+    
+    # 7. 🎯 LÓGICA DE PRECISIÓN (Usando el laboratorio limpio)
+    if lab_limpio and lab_limpio.lower() not in nombre_limpio.lower():
+        query = f'{nombre_limpio} {lab_limpio} precio'
     else:
         query = f'{nombre_limpio} precio'
     
@@ -232,6 +246,7 @@ def main():
                 
             sku = str(p.get("Codigo", ""))
             nombre = p.get("Descripcion", "")
+            # 🎯 Extraemos el laboratorio del JSON de Mediven
             laboratorio = p.get("Laboratorio", "")
             
             print(f"\n🔍 [{procesados_hoy+1}] Espiando: {nombre[:50]} [{laboratorio[:15]}]...")
