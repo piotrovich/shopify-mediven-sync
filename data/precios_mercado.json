@@ -159688,5 +159688,3855 @@
       "mediana_competitiva": 6750
     },
     "fecha": "2026-03-05"
+  },
+  "PT62320": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 763,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cugat.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supercosto.cl",
+          "precio": 2090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1590,
+      "mediana_competitiva": 2090
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT62390": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 1799,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 2090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 2290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciascurie.cl",
+          "precio": 2290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2699,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1790,
+      "mediana_competitiva": 2090
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT62410": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 1799,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1799,
+      "mediana_competitiva": 2100
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT63660": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 1999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1790,
+      "mediana_competitiva": 2000
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT6356J": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Comercialeverest.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 2290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1590,
+      "mediana_competitiva": 2190
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT63360": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1590,
+      "mediana_competitiva": 2100
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT63380": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1520,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Comercialeverest.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 1999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1390,
+      "mediana_competitiva": 1890
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT63500": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 1750,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 1799,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 2290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 2290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciascurie.cl",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1750,
+      "mediana_competitiva": 2090
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT61740": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 520,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 2920,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1790,
+      "mediana_competitiva": 2090
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT61750": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 600,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1690,
+      "mediana_competitiva": 2120
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT61760": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 600,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 2920,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1790,
+      "mediana_competitiva": 1990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT61800": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 520,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1890,
+      "mediana_competitiva": 2220
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT1568W": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 2287,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2416,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 8745,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 8749,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 12095,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 15990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8745,
+      "mediana_competitiva": 12095
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT1555N": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 3187,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 3999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4295,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 5560,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 7190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3187,
+      "mediana_competitiva": 4295
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT1588G": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Maicao",
+          "precio": 1700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2626,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 3090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3795,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vitalsec.cl",
+          "precio": 77790,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1700,
+      "mediana_competitiva": 2858
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT644138": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 1107,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciascurie.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 2200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2727,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1107,
+      "mediana_competitiva": 1790
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT05240": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3526,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 6200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmati.cl",
+          "precio": 7190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 7400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 8490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3526,
+      "mediana_competitiva": 6695
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT29600": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 4445,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 7890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 12680,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 12999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4445,
+      "mediana_competitiva": 7940
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT29630": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 10590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sairam.cl",
+          "precio": 11129,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vicamat.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 14500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 15652,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10590,
+      "mediana_competitiva": 12990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT0741J": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 607,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 1858,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 2520,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fracci\u00f3n",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 3050,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3299,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maxlimpiochile.cl",
+          "precio": 3590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1858,
+      "mediana_competitiva": 3020
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT7231F": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 629,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Comercialeverest.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 2843,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 55000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1490,
+      "mediana_competitiva": 1790
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT0735I": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 629,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Comercialeverest.cl",
+          "precio": 2590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fracci\u00f3n",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 2935,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1490,
+      "mediana_competitiva": 2640
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT7311F": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 598,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 619,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 2050,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1290,
+      "mediana_competitiva": 2050
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT72250": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 586,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 1596,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 2540,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cleanfull.cl",
+          "precio": 2765,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 3290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 3550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 3590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 3690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 5690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2540,
+      "mediana_competitiva": 3570
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT72110": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 598,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 602,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 634,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1740,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fracci\u00f3n",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 55000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1740,
+      "mediana_competitiva": 1990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT73130": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 607,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 3250,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 55000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1890,
+      "mediana_competitiva": 1990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT71320": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 1783,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fiambrerialafavorita.cl",
+          "precio": 1970,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1783,
+      "mediana_competitiva": 1970
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT76160": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 830,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 929,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1540,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 2099,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1540,
+      "mediana_competitiva": 2294
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT76120": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 750,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 830,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1550,
+      "mediana_competitiva": 2195
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT76170": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 556,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1540,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 1620,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2799,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1540,
+      "mediana_competitiva": 1890
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT76150": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1540,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 2099,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1540,
+      "mediana_competitiva": 1990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT76130": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 612,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1540,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 2999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1540,
+      "mediana_competitiva": 2190
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT76140": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cugat.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 3157,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1550,
+      "mediana_competitiva": 1990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT7510A": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1024,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 1281,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 2100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaschilespa.cl",
+          "precio": 2691,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 3290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 3599,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 55000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2100,
+      "mediana_competitiva": 2990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT71410": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 874,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Comercialeverest.cl",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2399,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 2592,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1790,
+      "mediana_competitiva": 2294
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT5631A": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 529,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 3890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 4850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 4970,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 4970,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 5499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 6100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3890,
+      "mediana_competitiva": 4970
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT5632A": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 825,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 4365,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jcpuntofertas.cl",
+          "precio": 4550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 5390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 6300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4365,
+      "mediana_competitiva": 5190
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT5633A": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmallano.cl",
+          "precio": 1800,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 3190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 4970,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 5390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 6300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 6690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3190,
+      "mediana_competitiva": 5390
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT54100": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 574,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 2377,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 2390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 3190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 3390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2390
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT29710": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buale.cl",
+          "precio": 4890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmati.cl",
+          "precio": 6190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 7100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 7590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4890,
+      "mediana_competitiva": 6645
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT12480": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 1090,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 2000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 2430,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fracci\u00f3n",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 3590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2000,
+      "mediana_competitiva": 3190
+    },
+    "fecha": "2026-03-05"
+  },
+  "1220009": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Comercializadoramya.cl",
+          "precio": 710,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 851,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 855,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 895,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 1000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 1100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.chbs.cl",
+          "precio": 11000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 710,
+      "mediana_competitiva": 875
+    },
+    "fecha": "2026-03-05"
+  },
+  "1220010": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 1090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 1090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 1400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 890,
+      "mediana_competitiva": 1090
+    },
+    "fecha": "2026-03-05"
+  },
+  "LAS00021": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mercadosilvestre.cl",
+          "precio": 896,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 1190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 1599,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dpronto.cl",
+          "precio": 2170,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 896,
+      "mediana_competitiva": 1390
+    },
+    "fecha": "2026-03-05"
+  },
+  "122200131": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 1000,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 4090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 6142,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mundocrecer.cl",
+          "precio": 6290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 7490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4090,
+      "mediana_competitiva": 6142
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT0199A": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 670,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 834,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 901,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 3620,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 4390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 4650,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 5499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3620,
+      "mediana_competitiva": 4520
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT13300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 687,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 773,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 4050,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 5999,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2190,
+      "mediana_competitiva": 2590
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT32770": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 623,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 3490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4299,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2490,
+      "mediana_competitiva": 3490
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT13190": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 2000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2650,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2000,
+      "mediana_competitiva": 2670
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT11380": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buale.cl",
+          "precio": 2290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 2590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2750,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 2787,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 2920,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 4290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2290,
+      "mediana_competitiva": 2750
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT11390": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Comercialfyg.cl",
+          "precio": 1330,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 2769,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 3690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1330,
+      "mediana_competitiva": 2520
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT30030": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 700,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3252,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 3660,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 4690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 5699,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3252,
+      "mediana_competitiva": 4690
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT2120K": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3380,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pamelita.cl",
+          "precio": 3790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4240,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 5090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 5800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3380,
+      "mediana_competitiva": 4790
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT1230C": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 687,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 703,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 4050,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 4450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 5909,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4050,
+      "mediana_competitiva": 4450
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT16150": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 1096,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 2590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 2850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 3390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 3599,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 4100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2590,
+      "mediana_competitiva": 3120
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT15250": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 941,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 2850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Motherna.cl",
+          "precio": 2930,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 3290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 3690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3899,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 40000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2850,
+      "mediana_competitiva": 3490
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT11830": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 555,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 938,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Motherna.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mundocrecer.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 3350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2690,
+      "mediana_competitiva": 2990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT12990": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 1941,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2940,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 3490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1941,
+      "mediana_competitiva": 2940
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT23670": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1695,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 4550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 4890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 4720
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT23510": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3740,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 4787,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 5290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 6199,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3740,
+      "mediana_competitiva": 4790
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT26020": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 2841,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 6690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 9404,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 9499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6690,
+      "mediana_competitiva": 9404
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT12470": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 813,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 6805,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2090,
+      "mediana_competitiva": 2890
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT1242D": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 813,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3250,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 15900,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2890,
+      "mediana_competitiva": 3250
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT11160": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dipy.cl",
+          "precio": 2787,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 2850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2787,
+      "mediana_competitiva": 2850
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT11360": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 2769,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 3190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 3499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2190,
+      "mediana_competitiva": 2979
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT10730": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fiambrerialafavorita.cl",
+          "precio": 2130,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1490,
+      "mediana_competitiva": 1990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT20380": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1832,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tiendaquerubin.cl",
+          "precio": 8490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8490,
+      "mediana_competitiva": 8740
+    },
+    "fecha": "2026-03-05"
+  },
+  "0040093": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 637,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 15990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 16374,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 25190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 26399,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Clubsoftys.cl",
+          "precio": 41990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 15990,
+      "mediana_competitiva": 19990
+    },
+    "fecha": "2026-03-05"
+  },
+  "0040090": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 10711,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Laoferta.cl",
+          "precio": 12733,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 18473,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 21000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 21190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 21990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10711,
+      "mediana_competitiva": 19990
+    },
+    "fecha": "2026-03-05"
+  },
+  "0040087": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Laoferta.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 13490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 14159,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 17790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 18137,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 21190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 21790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 13490,
+      "mediana_competitiva": 18137
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT24030": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquihome.cl",
+          "precio": 4490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 5590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 6250,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 4990
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT10930": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Supercosto.cl",
+          "precio": 1690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1690,
+      "mediana_competitiva": 2540
+    },
+    "fecha": "2026-03-05"
+  },
+  "PT11340": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 2190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 2390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 2850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1490,
+      "mediana_competitiva": 2290
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350250": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knop",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 7990
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350054": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 688,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 698,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 729,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 823,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 2652,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 5035,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 9700,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 688,
+      "mediana_competitiva": 713
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350610": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmam.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmati.cl",
+          "precio": 5775,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5832,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 7500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 7880,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 5832
+    },
+    "fecha": "2026-03-05"
+  },
+  "S13": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3800,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 26600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 32438,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 26600,
+      "mediana_competitiva": 29519
+    },
+    "fecha": "2026-03-05"
+  },
+  "S15": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 32438,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2890,
+      "mediana_competitiva": 3440
+    },
+    "fecha": "2026-03-05"
+  },
+  "S16": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 5690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3800,
+      "mediana_competitiva": 4745
+    },
+    "fecha": "2026-03-05"
+  },
+  "S17": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 2253,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 3590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 4980,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2253,
+      "mediana_competitiva": 3600
+    },
+    "fecha": "2026-03-05"
+  },
+  "AAJECR61": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 4080,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 10490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 10676,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10490,
+      "mediana_competitiva": 10583
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350585": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 11823,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmati.cl",
+          "precio": 15567,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11823,
+      "mediana_competitiva": 13990
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350328": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Qfarma.cl",
+          "precio": 4050,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 7190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 14390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 22080,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7190,
+      "mediana_competitiva": 13245
+    },
+    "fecha": "2026-03-05"
+  },
+  "377310": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 5830,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 17953,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 39990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 105159,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 16990,
+      "mediana_competitiva": 17471
+    },
+    "fecha": "2026-03-05"
+  },
+  "AAJECR60": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 1290,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 9190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 9710,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 10676,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 13200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9190,
+      "mediana_competitiva": 10193
+    },
+    "fecha": "2026-03-05"
+  },
+  "AABAJAES": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 1190,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacia.farmagente.cl",
+          "precio": 3900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lacasadelpanal.cl",
+          "precio": 4300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3900,
+      "mediana_competitiva": 4100
+    },
+    "fecha": "2026-03-05"
+  },
+  "AABAJALE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Techdent.cl",
+          "precio": 1400,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacia.farmagente.cl",
+          "precio": 3900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tubotiquin.cl",
+          "precio": 69990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3900,
+      "mediana_competitiva": 3900
+    },
+    "fecha": "2026-03-05"
+  },
+  "AAEQSUER": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 10590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 12390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Amamedical.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Atrios.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10590,
+      "mediana_competitiva": 12690
+    },
+    "fecha": "2026-03-05"
+  },
+  "AAEQSUEP": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 1290,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Larense.cl",
+          "precio": 7110,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tiendaelectromedicina.cl",
+          "precio": 8330,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Amamedical.cl",
+          "precio": 11990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Diprolab.cl",
+          "precio": 12125,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 12290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7110,
+      "mediana_competitiva": 11990
+    },
+    "fecha": "2026-03-05"
+  },
+  "AAPARCHR": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Rgc.cl",
+          "precio": 990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Larense.cl",
+          "precio": 1100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1463,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 1851,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 990,
+      "mediana_competitiva": 1463
+    },
+    "fecha": "2026-03-05"
+  },
+  "373087": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 7999,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 9383,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 33240,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 80990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 33240,
+      "mediana_competitiva": 33240
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350073": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nibitha.cl",
+          "precio": 5999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 6300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 7690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaabba.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 24450,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 24950,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 24950,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 6300
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350068": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 4493,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmallano.cl",
+          "precio": 5500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 8300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 8907,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 25633,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4493,
+      "mediana_competitiva": 8300
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350147": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciabosques.com",
+          "precio": 8320,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmallano.cl",
+          "precio": 8900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nibitha.cl",
+          "precio": 9999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 10075,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 10123,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 11190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8320,
+      "mediana_competitiva": 10037
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350120": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasmeddica.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3372,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 3480,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmatica.cl",
+          "precio": 4500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3426
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350119": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmati.cl",
+          "precio": 3390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 3950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3670
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350423": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasmeddica.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3650,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 7590,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3045
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350115": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 5418,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 5810,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 6447,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 8200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 39950,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 5418,
+      "mediana_competitiva": 6128
+    },
+    "fecha": "2026-03-05"
+  },
+  "2350056": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciasmeddica.cl",
+          "precio": 2490,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 6290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 6763,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 6876,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 6945,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 15300,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 23150,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 6290,
+      "mediana_competitiva": 6819
+    },
+    "fecha": "2026-03-05"
+  },
+  "0340264": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 14800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 14946,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 15000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 15927,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 18099,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 22580,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 29980,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 14800,
+      "mediana_competitiva": 15927
+    },
+    "fecha": "2026-03-05"
   }
 }
