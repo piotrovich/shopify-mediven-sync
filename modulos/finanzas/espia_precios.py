@@ -61,6 +61,7 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
     # 3. 🧠 TRADUCTOR CLÍNICO MÁXIMO -> COMERCIAL
     traducciones = {
         r'\bCOM\b': 'comprimidos',
+        r'\bCOMP\b': 'comprimidos',
         r'\bCAP\b': 'capsulas',
         r'\bJBE\b': 'jarabe',
         r'\bINY\b': 'inyectable',
@@ -79,12 +80,11 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
         r'\bSUP\b': 'supositorios',
         r'\bSOL\b': 'solucion',
         r'\bSUSP\b': 'suspension',
-        r'\bACO\b': 'acondicionador', 
-        r'\bSH\b': 'shampoo',         
-        r'\bMATIF\b': 'matificante',  
-        r'\bSPY\b': 'spray',
-        r'\bCOMP\b': 'comprimidos',
+        r'\bACO\b': 'acondicionador',  
+        r'\bSH\b': 'shampoo',          
         r'\bSHA\b': 'shampoo',
+        r'\bMATIF\b': 'matificante',   
+        r'\bSPY\b': 'spray',
         r'\bCEP\b': 'cepillo',
         r'\bDEN\b': 'dental',
         r'\bDENT\b': 'dental',
@@ -95,12 +95,12 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
         r'\bJAB\b': 'jabon',
         r'\bOFT\b': 'oftalmica',
         r'\bPED\b': 'pediatrico',
-        r'\bOSC\b': 'oscuro',           
+        r'\bOSC\b': 'oscuro'
     }
     for patron, palabra_real in traducciones.items():
         nombre_limpio = re.sub(patron, palabra_real, nombre_limpio, flags=re.IGNORECASE)
         
-    # 4. Borramos la "X" aislada y las palabras "PARA EL" o "DE" que alargan mucho (ej: "MG X 30" -> "MG 30")
+    # 4. Borramos la "X" aislada y las palabras "PARA EL" o "DE" que alargan mucho
     basura_conectora = r'\b(X|x|PARA|EL|LA|LOS|LAS|DE|CON)\b'
     nombre_limpio = re.sub(basura_conectora, '', nombre_limpio, flags=re.IGNORECASE)
     
@@ -108,7 +108,7 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
     nombre_limpio = " ".join(nombre_limpio.split())
     
     # 6. 🔪 CORTA-NOMBRES INTELIGENTE: Si el nombre es absurdamente largo (> 6 palabras), 
-    # nos quedamos solo con las primeras 6 para no marear a Google (Ej: CeraVe).
+    # nos quedamos solo con las primeras 6 para no marear a Google.
     palabras = nombre_limpio.split()
     if len(palabras) > 6:
         nombre_limpio = " ".join(palabras[:6])
@@ -232,7 +232,6 @@ def main():
                 
             sku = str(p.get("Codigo", ""))
             nombre = p.get("Descripcion", "")
-            # 🎯 Extraemos el laboratorio del JSON de Mediven
             laboratorio = p.get("Laboratorio", "")
             
             print(f"\n🔍 [{procesados_hoy+1}] Espiando: {nombre[:50]} [{laboratorio[:15]}]...")
