@@ -49,16 +49,26 @@ FARMACIAS_CONOCIDAS = {
     "preunic.cl": "Preunic"
 }
 
-def buscar_precio_competencia(nombre_producto):
+def buscar_precio_competencia(nombre_producto, laboratorio=""):
     url = "https://google.serper.dev/search"
     
+    # 1. Quitamos lo que está entre paréntesis (suelen ser categorías genéricas)
     nombre_limpio = nombre_producto.split("(")[0].strip()
-    nombre_limpio = re.sub(r'\b(COM|UND|UNI|UDS|MTS|MT|PVO|GR|ML|CM|MM|X|DES|CRE|SAB|AER)\b', '', nombre_limpio, flags=re.IGNORECASE)
     
-    palabras = nombre_limpio.split()
-    nombre_limpio = " ".join(palabras[:4])
+    # 2. Borramos la "x" aislada que usa Mediven (Ej: "Aceite x 30 ml" -> "Aceite 30 ml")
+    nombre_limpio = re.sub(r'\b(X|x)\b', '', nombre_limpio)
     
-    query = f'{nombre_limpio} precio chile'
+    # 3. Limpiamos espacios dobles sobrantes
+    nombre_limpio = " ".join(nombre_limpio.split())
+    
+    # 4. 🎯 LÓGICA DE PRECISIÓN: Sumar Laboratorio si no está en el nombre
+    # Si el producto se llama "Loreal Delineador", y el lab es "L'Oreal", evitamos redundancia.
+    # Pero si se llama "Aceite De Oregano 30 ml", y el lab es "Green Medical", lo sumamos.
+    if laboratorio and laboratorio.lower() not in nombre_limpio.lower():
+        query = f'{nombre_limpio} {laboratorio} precio chile'
+    else:
+        query = f'{nombre_limpio} precio chile'
+    
     payload = json.dumps({"q": query, "gl": "cl", "hl": "es"})
     headers = {'X-API-KEY': SERPER_API_KEY, 'Content-Type': 'application/json'}
 
@@ -145,7 +155,7 @@ def main():
         print("❌ Error: No se encontró SERPER_API_KEY en el .env")
         return
 
-    print("🕵️‍♂️ Iniciando Espía de Precios (Modo: Estadística Inteligente 🧠)...")
+    print("🕵️‍♂️ Iniciando Espía de Precios (Modo: Full-Text + Laboratorio 🎯)...")
     
     if not os.path.exists(ARCHIVO_MEDIVEN):
         print("❌ Falta mediven_full.json.")
@@ -178,10 +188,12 @@ def main():
                 
             sku = str(p.get("Codigo", ""))
             nombre = p.get("Descripcion", "")
+            # 🎯 Extraemos el laboratorio del JSON de Mediven
+            laboratorio = p.get("Laboratorio", "")
             
-            print(f"\n🔍 [{procesados_hoy+1}] Espiando: {nombre[:50]}...")
+            print(f"\n🔍 [{procesados_hoy+1}] Espiando: {nombre[:50]} [{laboratorio[:15]}]...")
             
-            datos_mercado = buscar_precio_competencia(nombre)
+            datos_mercado = buscar_precio_competencia(nombre, laboratorio)
             
             if datos_mercado:
                 for d in datos_mercado["detalle"]:
