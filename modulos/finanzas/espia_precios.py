@@ -52,22 +52,43 @@ FARMACIAS_CONOCIDAS = {
 def buscar_precio_competencia(nombre_producto, laboratorio=""):
     url = "https://google.serper.dev/search"
     
-    # 1. Quitamos lo que está entre paréntesis (suelen ser categorías genéricas)
-    nombre_limpio = nombre_producto.split("(")[0].strip()
+    # 1. Separar los componentes pegados con "+" (Google prefiere espacios)
+    nombre_limpio = nombre_producto.replace('+', ' ')
     
-    # 2. Borramos la "x" aislada que usa Mediven (Ej: "Aceite x 30 ml" -> "Aceite 30 ml")
+    # 2. Quitamos lo que está entre paréntesis (suelen ser categorías genéricas)
+    nombre_limpio = nombre_limpio.split("(")[0].strip()
+    
+    # 3. 🧠 TRADUCTOR CLÍNICO -> COMERCIAL
+    # En vez de borrar las abreviaturas, las traducimos a lenguaje humano
+    traducciones = {
+        r'\bCOM\b': 'comprimidos',
+        r'\bCAP\b': 'capsulas',
+        r'\bJBE\b': 'jarabe',
+        r'\bINY\b': 'inyectable',
+        r'\bFCO\b': 'frasco',
+        r'\bAMP\b': 'ampollas',
+        r'\bCRE\b': 'crema',
+        r'\bAER\b': 'aerosol',
+        r'\bUDS\b': 'unidades',
+        r'\bUND\b': 'unidades',
+        r'\bSAB\b': 'sabor',
+        r'\bPVO\b': 'polvo'
+    }
+    for patron, palabra_real in traducciones.items():
+        nombre_limpio = re.sub(patron, palabra_real, nombre_limpio, flags=re.IGNORECASE)
+        
+    # Borramos solo la "X" aislada (ej: "MG X 30" -> "MG 30")
     nombre_limpio = re.sub(r'\b(X|x)\b', '', nombre_limpio)
     
-    # 3. Limpiamos espacios dobles sobrantes
+    # 4. Limpiamos espacios dobles sobrantes
     nombre_limpio = " ".join(nombre_limpio.split())
     
-    # 4. 🎯 LÓGICA DE PRECISIÓN: Sumar Laboratorio si no está en el nombre
-    # Si el producto se llama "Loreal Delineador", y el lab es "L'Oreal", evitamos redundancia.
-    # Pero si se llama "Aceite De Oregano 30 ml", y el lab es "Green Medical", lo sumamos.
+    # 5. 🎯 LÓGICA DE PRECISIÓN (Sin el "precio chile")
+    # Como la API ya tiene "gl": "cl", Google sabe que buscamos en Chile.
     if laboratorio and laboratorio.lower() not in nombre_limpio.lower():
-        query = f'{nombre_limpio} {laboratorio} precio chile'
+        query = f'{nombre_limpio} {laboratorio}'
     else:
-        query = f'{nombre_limpio} precio chile'
+        query = f'{nombre_limpio}'
     
     payload = json.dumps({"q": query, "gl": "cl", "hl": "es"})
     headers = {'X-API-KEY': SERPER_API_KEY, 'Content-Type': 'application/json'}
@@ -133,7 +154,7 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
                         motivo = "🔴 Descartado (Sachet/Gancho)" if p["precio"] < LIMITE_INFERIOR else "🔴 Descartado (Pack/Caro)"
                         detalle_completo.append({"farmacia": p["farmacia"], "precio": p["precio"], "estado": motivo})
                 
-                # Por si todos los precios se descartaron (muy raro, pero hay que prevenir)
+                # Por si todos los precios se descartaron
                 if not precios_validos:
                     precios_validos = todos_los_precios
                 
