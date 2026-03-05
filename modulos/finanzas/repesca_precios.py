@@ -43,8 +43,8 @@ def ejecutar_repesca_diaria():
 
     console.print(f"[yellow]⚠️ Se detectaron {len(skus_faltantes)} productos nuevos sin estudio de mercado.[/yellow]")
     
-    # 2. Espiar solo los faltantes (Límite de seguridad de 50 por ejecución para no quemar API por error)
-    faltantes_lista = list(skus_faltantes)[:50]
+    # 🔓 FRENO LIBERADO: Cambiamos 50 por 20000 para que audite TODO
+    faltantes_lista = list(skus_faltantes)[:20000]
     
     # Filtramos la data de Mediven para obtener los nombres de esos SKUs
     productos_a_espiar = [p for p in productos_mediven if str(p.get("Codigo", "")) in faltantes_lista]
@@ -52,12 +52,16 @@ def ejecutar_repesca_diaria():
     nuevos_precios = 0
     from datetime import datetime
     
+    # Cada 50 productos, vamos a ir guardando en el JSON para no perder progreso si GitHub se corta
     for p in productos_a_espiar:
         sku = str(p.get("Codigo", ""))
         nombre = p.get("Descripcion", "")
+        # 🎯 INYECTAMOS EL LABORATORIO PARA MÁXIMA PRECISIÓN
+        laboratorio = p.get("Laboratorio", "")
         
-        console.print(f"   🕵️‍♂️ Buscando en Google: {nombre[:40]}...")
-        datos_mercado = buscar_precio_competencia(nombre)
+        console.print(f"   🕵️‍♂️ Buscando en Google: {nombre[:40]} [{laboratorio[:15]}]...")
+        # Le pasamos el nombre Y el laboratorio al espía
+        datos_mercado = buscar_precio_competencia(nombre, laboratorio)
         
         if datos_mercado:
             min_fmt = f"${datos_mercado['minimo']:,}".replace(',', '.')
@@ -71,14 +75,22 @@ def ejecutar_repesca_diaria():
             "fecha": datetime.now().strftime("%Y-%m-%d")
         }
         nuevos_precios += 1
+        
+        # GUARDADO SEGURO: Guarda el JSON cada 50 iteraciones para blindar el progreso
+        if nuevos_precios % 50 == 0:
+            os.makedirs(os.path.dirname(ARCHIVO_MERCADO), exist_ok=True)
+            with open(ARCHIVO_MERCADO, "w", encoding="utf-8") as f:
+                json.dump(precios_mercado, f, indent=2)
+            console.print(f"[blue]💾 Progreso guardado ({nuevos_precios} productos)...[/blue]")
+            
         time.sleep(1) # Pequeña pausa para no saturar Google Serper
 
-    # 3. Guardar el JSON actualizado
+    # 3. Guardar el JSON final cuando termine todo el ciclo
     if nuevos_precios > 0:
         os.makedirs(os.path.dirname(ARCHIVO_MERCADO), exist_ok=True)
         with open(ARCHIVO_MERCADO, "w", encoding="utf-8") as f:
             json.dump(precios_mercado, f, indent=2)
-        console.print(f"[bold green]💾 Se agregaron {nuevos_precios} estudios de mercado al JSON.[/bold green]")
+        console.print(f"[bold green]💾 Se agregaron un total de {nuevos_precios} estudios de mercado al JSON.[/bold green]")
 
 if __name__ == "__main__":
     ejecutar_repesca_diaria()
