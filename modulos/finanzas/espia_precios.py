@@ -79,10 +79,23 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
         r'\bSUP\b': 'supositorios',
         r'\bSOL\b': 'solucion',
         r'\bSUSP\b': 'suspension',
-        r'\bACO\b': 'acondicionador',  # NUEVO
-        r'\bSH\b': 'shampoo',          # NUEVO
-        r'\bMATIF\b': 'matificante',   # NUEVO
-        r'\bSPY\b': 'spray'            # NUEVO
+        r'\bACO\b': 'acondicionador', 
+        r'\bSH\b': 'shampoo',         
+        r'\bMATIF\b': 'matificante',  
+        r'\bSPY\b': 'spray',
+        r'\bCOMP\b': 'comprimidos',
+        r'\bSHA\b': 'shampoo',
+        r'\bCEP\b': 'cepillo',
+        r'\bDEN\b': 'dental',
+        r'\bDENT\b': 'dental',
+        r'\bTOA\b': 'toalla',
+        r'\bUF\b': 'ultra fina',
+        r'\bC/A\b': 'con alas',
+        r'\bS/A\b': 'sin alas',
+        r'\bJAB\b': 'jabon',
+        r'\bOFT\b': 'oftalmica',
+        r'\bPED\b': 'pediatrico',
+        r'\bOSC\b': 'oscuro',           
     }
     for patron, palabra_real in traducciones.items():
         nombre_limpio = re.sub(patron, palabra_real, nombre_limpio, flags=re.IGNORECASE)
