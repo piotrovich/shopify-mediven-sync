@@ -52,14 +52,13 @@ FARMACIAS_CONOCIDAS = {
 def buscar_precio_competencia(nombre_producto, laboratorio=""):
     url = "https://google.serper.dev/search"
     
-    # 1. Separar los componentes pegados con "+" (Google prefiere espacios)
-    nombre_limpio = nombre_producto.replace('+', ' ')
+    # 1. Separar los componentes pegados con "+" o "/" (Google prefiere espacios)
+    nombre_limpio = nombre_producto.replace('+', ' ').replace('/', ' ')
     
     # 2. Quitamos lo que está entre paréntesis (suelen ser categorías genéricas)
     nombre_limpio = nombre_limpio.split("(")[0].strip()
     
-    # 3. 🧠 TRADUCTOR CLÍNICO -> COMERCIAL
-    # En vez de borrar las abreviaturas, las traducimos a lenguaje humano
+    # 3. 🧠 TRADUCTOR CLÍNICO MÁXIMO -> COMERCIAL
     traducciones = {
         r'\bCOM\b': 'comprimidos',
         r'\bCAP\b': 'capsulas',
@@ -72,23 +71,40 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
         r'\bUDS\b': 'unidades',
         r'\bUND\b': 'unidades',
         r'\bSAB\b': 'sabor',
-        r'\bPVO\b': 'polvo'
+        r'\bPVO\b': 'polvo',
+        r'\bSBR\b': 'sobres',
+        r'\bLOC\b': 'locion',
+        r'\bGTS\b': 'gotas',
+        r'\bUNG\b': 'unguento',
+        r'\bSUP\b': 'supositorios',
+        r'\bSOL\b': 'solucion',
+        r'\bSUSP\b': 'suspension',
+        r'\bACO\b': 'acondicionador',  # NUEVO
+        r'\bSH\b': 'shampoo',          # NUEVO
+        r'\bMATIF\b': 'matificante',   # NUEVO
+        r'\bSPY\b': 'spray'            # NUEVO
     }
     for patron, palabra_real in traducciones.items():
         nombre_limpio = re.sub(patron, palabra_real, nombre_limpio, flags=re.IGNORECASE)
         
-    # Borramos solo la "X" aislada (ej: "MG X 30" -> "MG 30")
-    nombre_limpio = re.sub(r'\b(X|x)\b', '', nombre_limpio)
+    # 4. Borramos la "X" aislada y las palabras "PARA EL" o "DE" que alargan mucho (ej: "MG X 30" -> "MG 30")
+    basura_conectora = r'\b(X|x|PARA|EL|LA|LOS|LAS|DE|CON)\b'
+    nombre_limpio = re.sub(basura_conectora, '', nombre_limpio, flags=re.IGNORECASE)
     
-    # 4. Limpiamos espacios dobles sobrantes
+    # 5. Limpiamos espacios dobles sobrantes
     nombre_limpio = " ".join(nombre_limpio.split())
     
-    # 5. 🎯 LÓGICA DE PRECISIÓN (Sin el "precio chile")
-    # Como la API ya tiene "gl": "cl", Google sabe que buscamos en Chile.
+    # 6. 🔪 CORTA-NOMBRES INTELIGENTE: Si el nombre es absurdamente largo (> 6 palabras), 
+    # nos quedamos solo con las primeras 6 para no marear a Google (Ej: CeraVe).
+    palabras = nombre_limpio.split()
+    if len(palabras) > 6:
+        nombre_limpio = " ".join(palabras[:6])
+    
+    # 7. 🎯 LÓGICA DE PRECISIÓN
     if laboratorio and laboratorio.lower() not in nombre_limpio.lower():
-        query = f'{nombre_limpio} {laboratorio}'
+        query = f'{nombre_limpio} {laboratorio} precio'
     else:
-        query = f'{nombre_limpio}'
+        query = f'{nombre_limpio} precio'
     
     payload = json.dumps({"q": query, "gl": "cl", "hl": "es"})
     headers = {'X-API-KEY': SERPER_API_KEY, 'Content-Type': 'application/json'}
@@ -106,7 +122,6 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
                 
                 dominio_crudo = urlparse(link).netloc.replace('www.', '').lower()
                 
-                # 🛡️ FILTRO 1: Ignorar la Lista Negra
                 if any(ignorado in dominio_crudo for ignorado in DOMINIOS_IGNORADOS):
                     continue
                 
@@ -132,14 +147,10 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
                     dominios_vistos.add(dominio_crudo)
 
             if precios_encontrados:
-                # Ordenamos de menor a mayor
                 precios_encontrados = sorted(precios_encontrados, key=lambda x: x["precio"])
                 todos_los_precios = [p["precio"] for p in precios_encontrados]
                 
-                # 🧠 INTELIGENCIA ESTADÍSTICA
                 mediana_cruda = statistics.median(todos_los_precios)
-                
-                # Definimos los límites (Ignoramos < 50% de la mediana o > 200% de la mediana)
                 LIMITE_INFERIOR = mediana_cruda * 0.5
                 LIMITE_SUPERIOR = mediana_cruda * 2.0
                 
@@ -154,7 +165,6 @@ def buscar_precio_competencia(nombre_producto, laboratorio=""):
                         motivo = "🔴 Descartado (Sachet/Gancho)" if p["precio"] < LIMITE_INFERIOR else "🔴 Descartado (Pack/Caro)"
                         detalle_completo.append({"farmacia": p["farmacia"], "precio": p["precio"], "estado": motivo})
                 
-                # Por si todos los precios se descartaron
                 if not precios_validos:
                     precios_validos = todos_los_precios
                 
