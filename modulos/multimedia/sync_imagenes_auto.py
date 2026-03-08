@@ -139,13 +139,13 @@ def ejecutar_repesca_imagenes(df_shop, skus_forzados=None):
     random.shuffle(repesca)
     
     # Damos prioridad a los forzados (para que no queden fuera del lote de 15)
-    lote = nuevos[:30] + repesca[:5]
+    lote = nuevos[:15] + repesca[:5]
     
     if not lote:
         print("   🖼️ Todas las imágenes están sincronizadas. No hay repesca pendiente.")
         return
         
-    print(f"   🖼️ Procesando {len(lote)} imágenes (Nuevos: {len(nuevos[:30])} | Repesca: {len(repesca[:5])})")
+    print(f"   🖼️ Procesando {len(lote)} imágenes (Nuevos: {len(nuevos[:15])} | Repesca: {len(repesca[:5])})")
     
     for p in lote:
         sku, titulo = p["sku"], p["product_title"]
@@ -169,6 +169,7 @@ def ejecutar_repesca_imagenes(df_shop, skus_forzados=None):
             
     with open(ARCHIVO_REGISTRO, "w", encoding="utf-8") as f:
         json.dump(registro, f, indent=2)
+
 
 
 
