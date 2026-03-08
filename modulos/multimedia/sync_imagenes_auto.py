@@ -171,8 +171,8 @@ def ejecutar_repesca_imagenes(df_shop, skus_forzados=None):
     random.shuffle(repesca)
     
     # 🛑 LIMITES DIARIOS SEGUROS PARA NO SATURAR (15 nuevos, 5 repesca)
-    LIMITE_NUEVOS = 15
-    LIMITE_REPESCA = 5
+    LIMITE_NUEVOS = 2000
+    LIMITE_REPESCA = 2000
 
     lote = nuevos[:LIMITE_NUEVOS] + repesca[:LIMITE_REPESCA]
     
@@ -202,3 +202,4 @@ def ejecutar_repesca_imagenes(df_shop, skus_forzados=None):
             
     with open(ARCHIVO_REGISTRO, "w", encoding="utf-8") as f:
         json.dump(registro, f, indent=2)
+
