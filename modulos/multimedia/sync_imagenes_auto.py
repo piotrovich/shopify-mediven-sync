@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import os
 import json
 import random
@@ -104,7 +107,7 @@ def reemplazar_imagen_shopify(product_gid, url_nueva):
     return r.status_code in (200, 201)
 
 # ==========================================
-# ORQUESTADOR DE REPESCA
+# ORQUESTADOR DE REPESCA (CON CUARENTENA IA)
 # ==========================================
 def ejecutar_repesca_imagenes(df_shop, skus_forzados=None): 
     if skus_forzados is None:
@@ -120,7 +123,12 @@ def ejecutar_repesca_imagenes(df_shop, skus_forzados=None):
             registro = json.load(f)
 
     productos = df_shop.drop_duplicates(subset=['product_id']).to_dict('records')
-    nuevos, repesca = [], []
+    
+    # Contadores para el tablero
+    nuevos = []
+    repesca = []
+    cuarentena_count = 0
+    ok_count = 0
     
     for p in productos:
         sku = str(p.get("sku", "")).strip()
@@ -132,20 +140,47 @@ def ejecutar_repesca_imagenes(df_shop, skus_forzados=None):
             continue
             
         estado = registro.get(sku)
-        if not estado: nuevos.append(p)
-        elif estado == DEFAULT_IMAGE_URL: repesca.append(p)
+        
+        if not estado: 
+            nuevos.append(p)
+        elif str(estado).startswith(str(DEFAULT_IMAGE_URL)): 
+            # 🛡️ LÓGICA DE CUARENTENA (30 DÍAS)
+            partes = str(estado).split("|")
+            if len(partes) > 1:
+                ultimo_intento = int(partes[1])
+                dias_transcurridos = (time.time() - ultimo_intento) / 86400 # 86400 segundos = 1 día
+                if dias_transcurridos >= 30:
+                    repesca.append(p) # Ya pasaron 30 días, lo sacamos de cuarentena
+                else:
+                    cuarentena_count += 1
+            else:
+                # Formato viejo (sin fecha), a repesca para asignarle su fecha hoy
+                repesca.append(p)
+        else:
+            ok_count += 1
             
+    # --- 📊 TABLERO DE CONTROL DE IMÁGENES ---
+    print("\n   📊 [RESUMEN DE IMÁGENES]")
+    print(f"      ✅ Fotos OK: {ok_count}")
+    print(f"      🛡️ En Cuarentena (30 días): {cuarentena_count}")
+    print(f"      🆕 Faltan por analizar: {len(nuevos)}")
+    print(f"      🔄 Listos para Repesca: {len(repesca)}")
+    print("   ------------------------------------------------")
+
     random.shuffle(nuevos)
     random.shuffle(repesca)
     
-    # Damos prioridad a los forzados (para que no queden fuera del lote de 15)
-    lote = nuevos[:15] + repesca[:5]
+    # 🛑 LIMITES DIARIOS SEGUROS PARA NO SATURAR (15 nuevos, 5 repesca)
+    LIMITE_NUEVOS = 15
+    LIMITE_REPESCA = 5
+
+    lote = nuevos[:LIMITE_NUEVOS] + repesca[:LIMITE_REPESCA]
     
     if not lote:
-        print("   🖼️ Todas las imágenes están sincronizadas. No hay repesca pendiente.")
+        print("   🖼️ Nada que buscar hoy. Ahorrando créditos de Serper API 💸.")
         return
         
-    print(f"   🖼️ Procesando {len(lote)} imágenes (Nuevos: {len(nuevos[:15])} | Repesca: {len(repesca[:5])})")
+    print(f"   🖼️ Procesando {len(lote)} imágenes en esta pasada...")
     
     for p in lote:
         sku, titulo = p["sku"], p["product_title"]
@@ -154,23 +189,16 @@ def ejecutar_repesca_imagenes(df_shop, skus_forzados=None):
         print(f"      🔍 Buscando: {titulo[:35]}...", end=" ")
         url_encontrada = buscar_imagen_serper(titulo)
         
-        # --- BLOQUE TOLERANCIA CERO (Auto-sanación forzada) ---
         if url_encontrada and reemplazar_imagen_shopify(product_gid, url_encontrada):
             registro[sku] = url_encontrada
             print("✅ Subida (800x800)")
         else:
-            # Si no encontró URL o la descarga falló, FORZAMOS la genérica
             if reemplazar_imagen_shopify(product_gid, DEFAULT_IMAGE_URL):
-                registro[sku] = DEFAULT_IMAGE_URL
-                print("⚠️ Genérica (Fallo o no encontrada)")
+                # 🛑 ENVIAR A CUARENTENA: Guardamos la URL genérica unida a la marca de tiempo (Timestamp)
+                registro[sku] = f"{DEFAULT_IMAGE_URL}|{int(time.time())}"
+                print("🛡️ A Cuarentena (30 días)")
             else:
                 print("❌ Error Fatal Shopify")
-        # -------------------------------------------------------
             
     with open(ARCHIVO_REGISTRO, "w", encoding="utf-8") as f:
         json.dump(registro, f, indent=2)
-
-
-
-
-
