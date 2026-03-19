@@ -280,6 +280,7 @@ def get_mediven_inventory():
         "detergente",
         "arena para gatos",
         "(ec)",
+        "lisdexanfetamina",
         "airwick"
     ]
 
@@ -314,6 +315,28 @@ def get_mediven_inventory():
         print("💾 Archivo guardado: mediven_full.json (LIMPIO)")
     except Exception as e:
         print(f"⚠️ Error guardando mediven_full.json: {e}")
+
+    # --- NUEVO: CREACIÓN DEL DICCIONARIO PARA EL BOT DE LOGÍSTICA ---
+    diccionario_bot = {}
+    for item in items_limpios:
+        codigo_sku = str(item.get("Codigo", "")).strip()
+        id_producto = str(item.get("IdProd", "")).strip()
+        
+        # Si el producto tiene ambos datos, lo agregamos al diccionario
+        if codigo_sku and id_producto:
+            diccionario_bot[codigo_sku] = id_producto
+
+    # 📌 Aseguramos que se guarde en la carpeta "data"
+    ruta_diccionario = os.path.join("data", "catalogo_mediven.json")
+    
+    try:
+        os.makedirs("data", exist_ok=True) # Crea la carpeta data si no existe
+        with open(ruta_diccionario, "w", encoding="utf-8") as f:
+            json.dump(diccionario_bot, f, ensure_ascii=False, indent=2)
+        print(f"🤖 Diccionario logístico actualizado: {ruta_diccionario}")
+    except Exception as e:
+        print(f"⚠️ Error guardando diccionario logístico: {e}")
+    # ----------------------------------------------------------------
 
     return items_limpios
 
