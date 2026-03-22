@@ -386583,5 +386583,565 @@
       "mediana_competitiva": 4720
     },
     "fecha": "2026-03-21"
+  },
+  "1173340443": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 6390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 6741,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 8999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6390,
+      "mediana_competitiva": 6741
+    },
+    "fecha": "2026-03-22"
+  },
+  "73340471": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 6390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 8999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6390,
+      "mediana_competitiva": 7694
+    },
+    "fecha": "2026-03-22"
+  },
+  "PTPE00001": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 15859,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Newsciencestore.com",
+          "precio": 16793,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mixgreen.cl",
+          "precio": 18990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 21710,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Esencianatural.cl",
+          "precio": 23990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 15859,
+      "mediana_competitiva": 18990
+    },
+    "fecha": "2026-03-22"
+  },
+  "109933": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tiendamascotamania.cl",
+          "precio": 4500,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 5000,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Puntomascotas.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 13490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 15490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vetfarma.cl",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmavetpatagonia.cl",
+          "precio": 17357,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Orangepet.cl",
+          "precio": 37791,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 13490,
+      "mediana_competitiva": 16240
+    },
+    "fecha": "2026-03-22"
+  },
+  "73361142": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Depodental.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 9190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 9090
+    },
+    "fecha": "2026-03-22"
+  },
+  "73310022": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Vicedent.cl",
+          "precio": 4500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dentosmed.cl",
+          "precio": 5500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4500,
+      "mediana_competitiva": 5000
+    },
+    "fecha": "2026-03-22"
+  },
+  "109930": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petvetfarma.cl",
+          "precio": 5382,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 5490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cooprinsem.cl",
+          "precio": 6102,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Razaspet.cl",
+          "precio": 6500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Osm.cl",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5382,
+      "mediana_competitiva": 6301
+    },
+    "fecha": "2026-03-22"
+  },
+  "109931": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 5490,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 17290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redpet.cl",
+          "precio": 25990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Orangepet.cl",
+          "precio": 37791,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 17290,
+      "mediana_competitiva": 25990
+    },
+    "fecha": "2026-03-22"
+  },
+  "USA701": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Felinus.cl",
+          "precio": 2061,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Novapet.cl",
+          "precio": 2390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Amigales.cl",
+          "precio": 2590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Arcapet.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Latiendaanimal.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2061,
+      "mediana_competitiva": 2540
+    },
+    "fecha": "2026-03-22"
+  },
+  "USD613": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Garritasypatitasarica.com",
+          "precio": 2700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petstop.cl",
+          "precio": 2750,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pettime.cl",
+          "precio": 2790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petcity.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Superzoo.cl",
+          "precio": 3590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2700,
+      "mediana_competitiva": 2790
+    },
+    "fecha": "2026-03-22"
+  },
+  "USD612": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petcity.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Clubdeperrosygatos.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Superzoo.cl",
+          "precio": 3590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tiendamascotamania.cl",
+          "precio": 16900,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Puntomascotas.cl",
+          "precio": 28990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 2990
+    },
+    "fecha": "2026-03-22"
+  },
+  "USD615": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 2250,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pettime.cl",
+          "precio": 2790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Clubdeperrosygatos.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petcity.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Puntomascotas.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tiendamascotamania.cl",
+          "precio": 21900,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2250,
+      "mediana_competitiva": 2990
+    },
+    "fecha": "2026-03-22"
+  },
+  "VICVEGSF004": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Goveganis.com.ar",
+          "precio": 10641,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Bafarma.com",
+          "precio": 11588,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Biotienda.club",
+          "precio": 12064,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciastkl.com",
+          "precio": 12876,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Naturalveganis.cl",
+          "precio": 17990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10641,
+      "mediana_competitiva": 12064
+    },
+    "fecha": "2026-03-22"
+  },
+  "VICVEGAC001": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Naturalveganis.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 7990
+    },
+    "fecha": "2026-03-22"
+  },
+  "VICVEGAC003": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Naturalveganis.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Semillalocal.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 8990
+    },
+    "fecha": "2026-03-22"
+  },
+  "VICVEGSH001": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Naturalveganis.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 7990
+    },
+    "fecha": "2026-03-22"
+  },
+  "VICVEGSH003": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Naturalveganis.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgrassi.com",
+          "precio": 11777,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Goveganis.com.ar",
+          "precio": 13572,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 11777
+    },
+    "fecha": "2026-03-22"
+  },
+  "VICVEGLC003": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Naturalveganis.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Goveganis.com.ar",
+          "precio": 10353,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciastkl.com",
+          "precio": 10353,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9990,
+      "mediana_competitiva": 10353
+    },
+    "fecha": "2026-03-22"
+  },
+  "VICVEGLE003": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tiendaseatwell.com",
+          "precio": 2109,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Naturalveganis.cl",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Goveganis.com.ar",
+          "precio": 12528,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 10759
+    },
+    "fecha": "2026-03-22"
+  },
+  "VICVEGLS001": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Goveganis.com.ar",
+          "precio": 7838,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Naturalveganis.cl",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasconstitucion.com",
+          "precio": 13766,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7838,
+      "mediana_competitiva": 8990
+    },
+    "fecha": "2026-03-22"
   }
 }
