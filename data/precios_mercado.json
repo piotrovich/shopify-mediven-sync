@@ -387172,5 +387172,170 @@
       "mediana_competitiva": 2790
     },
     "fecha": "2026-03-23"
+  },
+  "1600319": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 1169,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 39380,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 48686,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 144500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 149330,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 169699,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.farmagente.cl",
+          "precio": 170340,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 144500,
+      "mediana_competitiva": 159514
+    },
+    "fecha": "2026-03-23"
+  },
+  "2960035": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 5610,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 7989,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Summerkids.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Wua-wua.cl",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ciguenas.cl",
+          "precio": 34990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 5610,
+      "mediana_competitiva": 7989
+    },
+    "fecha": "2026-03-23"
+  },
+  "90475": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 1056,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 2292,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2699,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 3490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2292,
+      "mediana_competitiva": 3094
+    },
+    "fecha": "2026-03-23"
+  },
+  "905492": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 2112,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Entrecremasyshampoo.cl",
+          "precio": 2400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 5190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2112,
+      "mediana_competitiva": 2990
+    },
+    "fecha": "2026-03-23"
+  },
+  "2682": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Camlu.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 3990
+    },
+    "fecha": "2026-03-23"
   }
 }
