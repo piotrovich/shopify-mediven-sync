@@ -387855,5 +387855,29 @@
   "LAN0000024": {
     "datos_mercado": null,
     "fecha": "2026-03-24"
+  },
+  "7800045001894": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 1690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 4000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1690,
+      "mediana_competitiva": 2690
+    },
+    "fecha": "2026-03-24"
   }
 }
