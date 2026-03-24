@@ -387726,5 +387726,73 @@
       "mediana_competitiva": 1990
     },
     "fecha": "2026-03-24"
+  },
+  "913": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 1640,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ijd.cl",
+          "precio": 1661,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Outletdeaseo.cl",
+          "precio": 1690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 1900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dipy.cl",
+          "precio": 2061,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1640,
+      "mediana_competitiva": 1795
+    },
+    "fecha": "2026-03-24"
+  },
+  "CADE110116": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preciosdemedicamentos.com.ar",
+          "precio": 589,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmamix.com.ar",
+          "precio": 3999,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 13806,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 13806,
+      "mediana_competitiva": 15398
+    },
+    "fecha": "2026-03-24"
   }
 }
