@@ -387794,5 +387794,66 @@
       "mediana_competitiva": 15398
     },
     "fecha": "2026-03-24"
+  },
+  "2180012": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ensus.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 4990
+    },
+    "fecha": "2026-03-24"
+  },
+  "0040072": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 7990
+    },
+    "fecha": "2026-03-24"
+  },
+  "17C390": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 5790,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Valdiviafootmedical.cl",
+          "precio": 6500,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Podovip.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 34816,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 19990,
+      "mediana_competitiva": 19990
+    },
+    "fecha": "2026-03-24"
+  },
+  "LAN0000024": {
+    "datos_mercado": null,
+    "fecha": "2026-03-24"
   }
 }
