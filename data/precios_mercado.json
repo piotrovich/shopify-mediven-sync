@@ -387879,5 +387879,53 @@
       "mediana_competitiva": 2690
     },
     "fecha": "2026-03-24"
+  },
+  "PV18479": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 22890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 23379,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 22890,
+      "mediana_competitiva": 23134
+    },
+    "fecha": "2026-03-24"
+  },
+  "AASOFO12": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Insumostodosalud.cl",
+          "precio": 1900,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Dipromed.cl",
+          "precio": 7128,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tiendaelectromedicina.cl",
+          "precio": 9520,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7128,
+      "mediana_competitiva": 7990
+    },
+    "fecha": "2026-03-24"
   }
 }
