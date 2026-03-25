@@ -388377,5 +388377,180 @@
       "mediana_competitiva": 56990
     },
     "fecha": "2026-03-25"
+  },
+  "C54462": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 18990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmallano.cl",
+          "precio": 21890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 18990,
+      "mediana_competitiva": 20440
+    },
+    "fecha": "2026-03-25"
+  },
+  "C700296": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Benavides.com.mx",
+          "precio": 551,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 1802,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaexpress.com",
+          "precio": 29999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 34599,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Drogueriascafam.com.co",
+          "precio": 52020,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmatodo.com.co",
+          "precio": 53000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 29999,
+      "mediana_competitiva": 43309
+    },
+    "fecha": "2026-03-25"
+  },
+  "C278811": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 6228,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 6549,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 20745,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 30190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 35718,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 69490,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Farmaciabosques.com",
+          "precio": 76990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 101727,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 20745,
+      "mediana_competitiva": 30190
+    },
+    "fecha": "2026-03-25"
+  },
+  "C278814": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 6228,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 6549,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 20745,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 30190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 35718,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Profar",
+          "precio": 65690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 69490,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 101727,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 20745,
+      "mediana_competitiva": 32954
+    },
+    "fecha": "2026-03-25"
+  },
+  "C278815": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dev.redfarma.cl",
+          "precio": 999,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 106000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 106000,
+      "mediana_competitiva": 106000
+    },
+    "fecha": "2026-03-25"
   }
 }
