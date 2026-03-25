@@ -388363,5 +388363,19 @@
       "mediana_competitiva": 2196
     },
     "fecha": "2026-03-25"
+  },
+  "0620262": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 56990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 56990,
+      "mediana_competitiva": 56990
+    },
+    "fecha": "2026-03-25"
   }
 }
