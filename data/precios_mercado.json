@@ -388266,5 +388266,24 @@
       "mediana_competitiva": 18390
     },
     "fecha": "2026-03-25"
+  },
+  "78240": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciasole.cl",
+          "precio": 2590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3676,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2590,
+      "mediana_competitiva": 3133
+    },
+    "fecha": "2026-03-25"
   }
 }
