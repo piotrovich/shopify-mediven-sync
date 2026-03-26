@@ -389244,5 +389244,105 @@
       "mediana_competitiva": 16290
     },
     "fecha": "2026-03-26"
+  },
+  "H5480200": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 618,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 754,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 762,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 922,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Productosdelujo.cl",
+          "precio": 2500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 6350,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 6490,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 6690,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 922,
+      "mediana_competitiva": 1711
+    },
+    "fecha": "2026-03-26"
+  },
+  "H5639300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3280,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Akioferta.cl",
+          "precio": 3550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 3636,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3280,
+      "mediana_competitiva": 3550
+    },
+    "fecha": "2026-03-26"
+  },
+  "H5703600": {
+    "datos_mercado": null,
+    "fecha": "2026-03-26"
+  },
+  "WCL01687": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 3490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Adalmas.com",
+          "precio": 8200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3490,
+      "mediana_competitiva": 5845
+    },
+    "fecha": "2026-03-26"
+  },
+  "98373": {
+    "datos_mercado": null,
+    "fecha": "2026-03-26"
   }
 }
