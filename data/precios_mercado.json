@@ -388552,5 +388552,39 @@
       "mediana_competitiva": 106000
     },
     "fecha": "2026-03-25"
+  },
+  "428681": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cofar",
+          "precio": 503,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 527,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 14571,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 6545
+    },
+    "fecha": "2026-03-26"
   }
 }
