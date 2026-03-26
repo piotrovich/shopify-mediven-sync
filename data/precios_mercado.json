@@ -388586,5 +388586,287 @@
       "mediana_competitiva": 6545
     },
     "fecha": "2026-03-26"
+  },
+  "H5803700": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 796,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2399,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2799,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cosmetic.cl",
+          "precio": 2840,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2899,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2690
+    },
+    "fecha": "2026-03-26"
+  },
+  "H5803100": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1790,
+      "mediana_competitiva": 1790
+    },
+    "fecha": "2026-03-26"
+  },
+  "H5803600": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tudrogueriavirtual.com",
+          "precio": 764,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 2024,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2899,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 19993,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2024,
+      "mediana_competitiva": 2461
+    },
+    "fecha": "2026-03-26"
+  },
+  "H5803500": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmeticwholesale.cl",
+          "precio": 663,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cosmetic.cl",
+          "precio": 1495,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2029,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2399,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 19214,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1495,
+      "mediana_competitiva": 2399
+    },
+    "fecha": "2026-03-26"
+  },
+  "H5803300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1497,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2029,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 2699,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jeunespa.mercadoshops.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 19214,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1497,
+      "mediana_competitiva": 2029
+    },
+    "fecha": "2026-03-26"
+  },
+  "H5803200": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetic.cl",
+          "precio": 1495,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2319,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 2390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2399,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2899,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1495,
+      "mediana_competitiva": 2394
+    },
+    "fecha": "2026-03-26"
+  },
+  "H5803400": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 2399,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2799,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 19214,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2450
+    },
+    "fecha": "2026-03-26"
+  },
+  "AB124200": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 9445,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9445,
+      "mediana_competitiva": 9445
+    },
+    "fecha": "2026-03-26"
   }
 }
