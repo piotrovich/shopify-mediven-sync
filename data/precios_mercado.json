@@ -389514,5 +389514,33 @@
   "173010": {
     "datos_mercado": null,
     "fecha": "2026-03-27"
+  },
+  "266783": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 8960,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 13223,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8960,
+      "mediana_competitiva": 13223
+    },
+    "fecha": "2026-03-27"
+  },
+  "AB124300": {
+    "datos_mercado": null,
+    "fecha": "2026-03-27"
   }
 }
