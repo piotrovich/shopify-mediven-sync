@@ -389344,5 +389344,167 @@
   "98373": {
     "datos_mercado": null,
     "fecha": "2026-03-26"
+  },
+  "3666714752": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 25690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 29990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 25690,
+      "mediana_competitiva": 27840
+    },
+    "fecha": "2026-03-27"
+  },
+  "H5612200": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3119,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Supercosto.cl",
+          "precio": 3690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3119,
+      "mediana_competitiva": 3404
+    },
+    "fecha": "2026-03-27"
+  },
+  "H5699300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 8290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 10490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dermobelleza.cl",
+          "precio": 11990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8290,
+      "mediana_competitiva": 10490
+    },
+    "fecha": "2026-03-27"
+  },
+  "H5751900": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 690,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cosmetic.cl",
+          "precio": 1320,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 1559,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Roterose.cl",
+          "precio": 2350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2399,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 2900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1320,
+      "mediana_competitiva": 2350
+    },
+    "fecha": "2026-03-27"
+  },
+  "H5789300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 7390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7390,
+      "mediana_competitiva": 7390
+    },
+    "fecha": "2026-03-27"
+  },
+  "H5808700": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 5990
+    },
+    "fecha": "2026-03-27"
+  },
+  "H5809800": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 5990
+    },
+    "fecha": "2026-03-27"
+  },
+  "H5808800": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 11699,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11699,
+      "mediana_competitiva": 11699
+    },
+    "fecha": "2026-03-27"
   }
 }
