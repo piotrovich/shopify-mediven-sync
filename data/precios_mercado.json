@@ -389542,5 +389542,258 @@
   "AB124300": {
     "datos_mercado": null,
     "fecha": "2026-03-27"
+  },
+  "T040819": {
+    "datos_mercado": null,
+    "fecha": "2026-03-27"
+  },
+  "T011835": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 12598,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Zupharma.cl",
+          "precio": 34990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12598,
+      "mediana_competitiva": 23794
+    },
+    "fecha": "2026-03-27"
+  },
+  "0900200": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmatica.cl",
+          "precio": 800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 1000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasvaldivia.cl",
+          "precio": 1200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 1610,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 790,
+      "mediana_competitiva": 995
+    },
+    "fecha": "2026-03-27"
+  },
+  "T014753": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 6368,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 15432,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6368,
+      "mediana_competitiva": 10900
+    },
+    "fecha": "2026-03-27"
+  },
+  "61036304": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 5490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5490,
+      "mediana_competitiva": 5490
+    },
+    "fecha": "2026-03-27"
+  },
+  "K5564600": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 10600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10600,
+      "mediana_competitiva": 10600
+    },
+    "fecha": "2026-03-27"
+  },
+  "30173651": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmeticwholesale.cl",
+          "precio": 1930,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 8699,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 8999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 8999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 9600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8699,
+      "mediana_competitiva": 8999
+    },
+    "fecha": "2026-03-27"
+  },
+  "AA414300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Roterose.cl",
+          "precio": 5890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5890,
+      "mediana_competitiva": 5890
+    },
+    "fecha": "2026-03-27"
+  },
+  "AA663900": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Roterose.cl",
+          "precio": 6490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6490,
+      "mediana_competitiva": 6490
+    },
+    "fecha": "2026-03-27"
+  },
+  "K5983300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 7274,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 7349,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 8002,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Roterose.cl",
+          "precio": 9490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 9690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7274,
+      "mediana_competitiva": 8002
+    },
+    "fecha": "2026-03-27"
+  },
+  "61048070": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 4160,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4160,
+      "mediana_competitiva": 4160
+    },
+    "fecha": "2026-03-27"
+  },
+  "61051703": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 1000,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 5000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 9999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5000,
+      "mediana_competitiva": 9990
+    },
+    "fecha": "2026-03-27"
   }
 }
