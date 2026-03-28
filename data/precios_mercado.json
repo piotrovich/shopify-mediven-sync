@@ -389974,5 +389974,86 @@
   "425866": {
     "datos_mercado": null,
     "fecha": "2026-03-28"
+  },
+  "6750001": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 12890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciatrinity.cl",
+          "precio": 15990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 18600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vicamat.cl",
+          "precio": 18990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fritzsb.cl",
+          "precio": 19800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 20990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 23810,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12890,
+      "mediana_competitiva": 18990
+    },
+    "fecha": "2026-03-28"
+  },
+  "PTVI00002": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tremus.cl",
+          "precio": 18390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 18390,
+      "mediana_competitiva": 18390
+    },
+    "fecha": "2026-03-28"
+  },
+  "300417": {
+    "datos_mercado": null,
+    "fecha": "2026-03-28"
+  },
+  "2531682330239": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 9546,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Estilodebebe.cl",
+          "precio": 22990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9546,
+      "mediana_competitiva": 16268
+    },
+    "fecha": "2026-03-28"
   }
 }
