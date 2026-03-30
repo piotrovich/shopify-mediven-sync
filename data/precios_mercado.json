@@ -390462,5 +390462,105 @@
   "11165100836544": {
     "datos_mercado": null,
     "fecha": "2026-03-30"
+  },
+  "1451": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciavitalia.cl",
+          "precio": 14190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 17365,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12100,
+      "mediana_competitiva": 14190
+    },
+    "fecha": "2026-03-30"
+  },
+  "1500406": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 8380,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8380,
+      "mediana_competitiva": 8685
+    },
+    "fecha": "2026-03-30"
+  },
+  "00505539": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 800,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3050,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caranday.cl",
+          "precio": 3190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 16623,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 20900,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3050,
+      "mediana_competitiva": 3120
+    },
+    "fecha": "2026-03-30"
+  },
+  "09505282": {
+    "datos_mercado": null,
+    "fecha": "2026-03-30"
+  },
+  "09505285": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 23990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 129990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 129990,
+      "mediana_competitiva": 129990
+    },
+    "fecha": "2026-03-30"
   }
 }
