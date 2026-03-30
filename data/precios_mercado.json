@@ -390055,5 +390055,205 @@
       "mediana_competitiva": 16268
     },
     "fecha": "2026-03-28"
+  },
+  "251828": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 18950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 18950,
+      "mediana_competitiva": 18950
+    },
+    "fecha": "2026-03-30"
+  },
+  "263585": {
+    "datos_mercado": null,
+    "fecha": "2026-03-30"
+  },
+  "293009": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 17590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 17590,
+      "mediana_competitiva": 17590
+    },
+    "fecha": "2026-03-30"
+  },
+  "5220382": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 638,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 9449,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 11495,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 14241,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 33352,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 9449,
+      "mediana_competitiva": 11495
+    },
+    "fecha": "2026-03-30"
+  },
+  "CL000714": {
+    "datos_mercado": null,
+    "fecha": "2026-03-30"
+  },
+  "CL000715": {
+    "datos_mercado": null,
+    "fecha": "2026-03-30"
+  },
+  "295457": {
+    "datos_mercado": null,
+    "fecha": "2026-03-30"
+  },
+  "CL000448": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 25990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 28990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 25990,
+      "mediana_competitiva": 27490
+    },
+    "fecha": "2026-03-30"
+  },
+  "CL000884": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 22150,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 22150,
+      "mediana_competitiva": 22150
+    },
+    "fecha": "2026-03-30"
+  },
+  "CL000830": {
+    "datos_mercado": null,
+    "fecha": "2026-03-30"
+  },
+  "CL000745": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Caretobeauty.com",
+          "precio": 7538,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7538,
+      "mediana_competitiva": 7538
+    },
+    "fecha": "2026-03-30"
+  },
+  "CL000532": {
+    "datos_mercado": null,
+    "fecha": "2026-03-30"
+  },
+  "CL000373": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 14590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 15990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 17990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Strawberrynet.com",
+          "precio": 19957,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 20990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 14590,
+      "mediana_competitiva": 17990
+    },
+    "fecha": "2026-03-30"
+  },
+  "559275": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dermotienda.cl",
+          "precio": 16794,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 24792,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 29999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 30990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 16794,
+      "mediana_competitiva": 27395
+    },
+    "fecha": "2026-03-30"
+  },
+  "10102156": {
+    "datos_mercado": null,
+    "fecha": "2026-03-30"
   }
 }
