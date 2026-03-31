@@ -390829,5 +390829,52 @@
       "mediana_competitiva": 129990
     },
     "fecha": "2026-03-31"
+  },
+  "263743": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 23495,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 24524,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 32620,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 43490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 23495,
+      "mediana_competitiva": 28572
+    },
+    "fecha": "2026-03-31"
+  },
+  "MB511500": {
+    "datos_mercado": null,
+    "fecha": "2026-03-31"
+  },
+  "MB588300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 43990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 43990,
+      "mediana_competitiva": 43990
+    },
+    "fecha": "2026-03-31"
   }
 }
