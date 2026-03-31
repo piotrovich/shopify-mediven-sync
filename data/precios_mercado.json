@@ -390713,5 +390713,121 @@
       "mediana_competitiva": 9490
     },
     "fecha": "2026-03-31"
+  },
+  "0670266": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 9749,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 10490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 12999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9749,
+      "mediana_competitiva": 11740
+    },
+    "fecha": "2026-03-31"
+  },
+  "5230041": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 1250,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 1760,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Comercialhevea.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Improkine.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1250,
+      "mediana_competitiva": 1760
+    },
+    "fecha": "2026-03-31"
+  },
+  "03702983": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medicalcare.cl",
+          "precio": 1560,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Ortopediaviva.cl",
+          "precio": 1580,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Medcare.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Insumosnalimed.cl",
+          "precio": 6750,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vitalsec.cl",
+          "precio": 10890,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 21740,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 6750,
+      "mediana_competitiva": 6750
+    },
+    "fecha": "2026-03-31"
+  },
+  "09505283": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 129990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 129990,
+      "mediana_competitiva": 129990
+    },
+    "fecha": "2026-03-31"
   }
 }
