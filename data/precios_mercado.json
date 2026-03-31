@@ -390876,5 +390876,67 @@
       "mediana_competitiva": 43990
     },
     "fecha": "2026-03-31"
+  },
+  "170060": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 4490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dankmarket.cl",
+          "precio": 4490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Aseomira.cl",
+          "precio": 52060,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 4490
+    },
+    "fecha": "2026-03-31"
+  },
+  "56639300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3220
+    },
+    "fecha": "2026-03-31"
+  },
+  "56631342": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Coolebra.com",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 2990
+    },
+    "fecha": "2026-03-31"
   }
 }
