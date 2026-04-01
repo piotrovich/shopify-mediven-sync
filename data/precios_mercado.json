@@ -391543,5 +391543,52 @@
       "mediana_competitiva": 9830
     },
     "fecha": "2026-04-01"
+  },
+  "0245400000": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2854,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2854,
+      "mediana_competitiva": 2854
+    },
+    "fecha": "2026-04-01"
+  },
+  "7777900041": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Improkine.cl",
+          "precio": 23990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tubotiquin.cl",
+          "precio": 27990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Valdiviascrubs.cl",
+          "precio": 38990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medcare.cl",
+          "precio": 48990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 23990,
+      "mediana_competitiva": 33490
+    },
+    "fecha": "2026-04-01"
+  },
+  "7716000031": {
+    "datos_mercado": null,
+    "fecha": "2026-04-01"
   }
 }
