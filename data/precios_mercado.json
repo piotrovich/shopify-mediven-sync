@@ -391224,5 +391224,135 @@
       "mediana_competitiva": 1100
     },
     "fecha": "2026-04-01"
+  },
+  "NF073": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Nutralifesuplementos.cl",
+          "precio": 13890,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 38795,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 40899,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 16990,
+      "mediana_competitiva": 38795
+    },
+    "fecha": "2026-04-01"
+  },
+  "NF099": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Belgochilena.cl",
+          "precio": 3790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmatica.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 5290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 6350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 8500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 17890,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3790,
+      "mediana_competitiva": 5820
+    },
+    "fecha": "2026-04-01"
+  },
+  "NF249": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 2390,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 35899,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 40899,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 35899,
+      "mediana_competitiva": 38399
+    },
+    "fecha": "2026-04-01"
+  },
+  "NF251": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 1197,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Chilesuplementos.cl",
+          "precio": 12490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 15990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmasmart.cl",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12490,
+      "mediana_competitiva": 15990
+    },
+    "fecha": "2026-04-01"
+  },
+  "BOI000002": {
+    "datos_mercado": null,
+    "fecha": "2026-04-01"
   }
 }
