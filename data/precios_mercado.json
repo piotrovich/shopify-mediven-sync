@@ -394471,5 +394471,39 @@
       "mediana_competitiva": 21990
     },
     "fecha": "2026-04-02"
+  },
+  "112227404": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquihome.cl",
+          "precio": 12950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 14990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mundocrecer.cl",
+          "precio": 35970,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Be-happy.cl",
+          "precio": 59990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 12950,
+      "mediana_competitiva": 12990
+    },
+    "fecha": "2026-04-02"
   }
 }
