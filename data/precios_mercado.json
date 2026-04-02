@@ -391590,5 +391590,2416 @@
   "7716000031": {
     "datos_mercado": null,
     "fecha": "2026-04-01"
+  },
+  "T080322": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cofar",
+          "precio": 714,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1109,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 15197,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 15828,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 19975,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 21900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 22434,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 15197,
+      "mediana_competitiva": 19975
+    },
+    "fecha": "2026-04-02"
+  },
+  "197047": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 509,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 618,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 960,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 1063,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 18719,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 18970,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 25515,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 618,
+      "mediana_competitiva": 960
+    },
+    "fecha": "2026-04-02"
+  },
+  "58057": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 661,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmam.cl",
+          "precio": 857,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 900,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 960,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciaschilespa.cl",
+          "precio": 8091,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 13307,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 18829,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 18969,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 21790,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 8091,
+      "mediana_competitiva": 10699
+    },
+    "fecha": "2026-04-02"
+  },
+  "197022": {
+    "datos_mercado": null,
+    "fecha": "2026-04-02"
+  },
+  "197018": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cofar",
+          "precio": 666,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 888,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 1037,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmatica.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 10490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 12672,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 18041,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 19679,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 32800,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 10490,
+      "mediana_competitiva": 15356
+    },
+    "fecha": "2026-04-02"
+  },
+  "3720014": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 512,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 6995,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ivmedical.cl",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Profar",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 10726,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 12299,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6995,
+      "mediana_competitiva": 9858
+    },
+    "fecha": "2026-04-02"
+  },
+  "3720020": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1180,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 1180,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 1180,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 1229,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Profar",
+          "precio": 17990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Canad.cl",
+          "precio": 18000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1180,
+      "mediana_competitiva": 1180
+    },
+    "fecha": "2026-04-02"
+  },
+  "3720019": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 20099,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 28189,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 33490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 34559,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediaferreira.cl",
+          "precio": 37150,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vivirsalud.cl",
+          "precio": 45900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 20099,
+      "mediana_competitiva": 34024
+    },
+    "fecha": "2026-04-02"
+  },
+  "6346061": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 864,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 949,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 8645,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 14167,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmallano.cl",
+          "precio": 22000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 87290,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 8645,
+      "mediana_competitiva": 14167
+    },
+    "fecha": "2026-04-02"
+  },
+  "0460358": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cofar",
+          "precio": 11399,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 13300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 26591,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Static.salcobrandonline.cl",
+          "precio": 54958,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 113990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 13300,
+      "mediana_competitiva": 19945
+    },
+    "fecha": "2026-04-02"
+  },
+  "BEQ12": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 29990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Improkine.cl",
+          "precio": 29990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 30990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 35700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 29990,
+      "mediana_competitiva": 30490
+    },
+    "fecha": "2026-04-02"
+  },
+  "DR03XL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 7490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caranday.cl",
+          "precio": 8790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mundodelpaciente.cl",
+          "precio": 12900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 7490,
+      "mediana_competitiva": 8390
+    },
+    "fecha": "2026-04-02"
+  },
+  "MI121NMG": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Hites.com",
+          "precio": 11700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 13100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 10845
+    },
+    "fecha": "2026-04-02"
+  },
+  "MI121NLG": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 8200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 9900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Biomed.cl",
+          "precio": 11500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 13100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 9945
+    },
+    "fecha": "2026-04-02"
+  },
+  "MI128NLG": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 9490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmamedica.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 11400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 13100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9490,
+      "mediana_competitiva": 9990
+    },
+    "fecha": "2026-04-02"
+  },
+  "MI128NMG": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 9490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmamedica.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 11400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Hites.com",
+          "precio": 11700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9490,
+      "mediana_competitiva": 9990
+    },
+    "fecha": "2026-04-02"
+  },
+  "B1001P": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 11489,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Hites.com",
+          "precio": 11900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 13000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11489,
+      "mediana_competitiva": 11900
+    },
+    "fecha": "2026-04-02"
+  },
+  "MI61NXLG": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 27500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 27500,
+      "mediana_competitiva": 27500
+    },
+    "fecha": "2026-04-02"
+  },
+  "PK580": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 1260,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Improkine.cl",
+          "precio": 6890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 7140,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 7560,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Keepon.cl",
+          "precio": 8490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6890,
+      "mediana_competitiva": 7350
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK051CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 2897,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 3145,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2897,
+      "mediana_competitiva": 3067
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK052RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 3145,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 3290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruzdevida.cl",
+          "precio": 4900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3217
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK053VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 3145,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 3145,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 3690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3145
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK011CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tiendaelectromedicina.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 4300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 3990
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0200LXL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tiendaelectromedicina.cl",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Houseotazam.cl",
+          "precio": 20500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 21000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 23600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 26500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 16990,
+      "mediana_competitiva": 21000
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0200ML": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 11213,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 18990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 21000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ibiocare.cl",
+          "precio": 23000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 23600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11213,
+      "mediana_competitiva": 20495
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0200SM": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 11213,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 18990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 21000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 23600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 27500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11213,
+      "mediana_competitiva": 20495
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK021CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 3995,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Insumosvalma.cl",
+          "precio": 11990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 4147
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK022RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 705,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 3995,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 6900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 3995
+    },
+    "fecha": "2026-04-02"
+  },
+  "BSG103G": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 2720,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Hites.com",
+          "precio": 3900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2720,
+      "mediana_competitiva": 3290
+    },
+    "fecha": "2026-04-02"
+  },
+  "BSG103M": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 3200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ivvm.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Oyarcemedical.cl",
+          "precio": 6500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3200,
+      "mediana_competitiva": 4640
+    },
+    "fecha": "2026-04-02"
+  },
+  "BSG103P": {
+    "datos_mercado": null,
+    "fecha": "2026-04-02"
+  },
+  "B70013536": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 19490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Houseotazam.cl",
+          "precio": 19500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lacasadelenfermo.cl",
+          "precio": 21970,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediacalafate.cl",
+          "precio": 22990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 19490,
+      "mediana_competitiva": 19990
+    },
+    "fecha": "2026-04-02"
+  },
+  "B70013738": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lacasadelenfermo.cl",
+          "precio": 21970,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 21990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediacalafate.cl",
+          "precio": 22990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 24900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 21970,
+      "mediana_competitiva": 22490
+    },
+    "fecha": "2026-04-02"
+  },
+  "B70013940": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 2230,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tiendaelectromedicina.cl",
+          "precio": 17990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lacasadelenfermo.cl",
+          "precio": 21970,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 21990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediacalafate.cl",
+          "precio": 22990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 24900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 17990,
+      "mediana_competitiva": 21990
+    },
+    "fecha": "2026-04-02"
+  },
+  "B70014142": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 22300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 24900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 22300,
+      "mediana_competitiva": 23600
+    },
+    "fecha": "2026-04-02"
+  },
+  "B70014344": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 2230,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Insumoslaunion.cl",
+          "precio": 23990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 24900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 23990,
+      "mediana_competitiva": 24445
+    },
+    "fecha": "2026-04-02"
+  },
+  "B70013334": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 13410,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lacasadelenfermo.cl",
+          "precio": 21970,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediacalafate.cl",
+          "precio": 22990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Insumoslaunion.cl",
+          "precio": 23990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 13410,
+      "mediana_competitiva": 21970
+    },
+    "fecha": "2026-04-02"
+  },
+  "HM01270MD": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 12500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12500,
+      "mediana_competitiva": 12500
+    },
+    "fecha": "2026-04-02"
+  },
+  "HM01270LD": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Improkine.cl",
+          "precio": 8590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 8590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 11500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 12500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8590,
+      "mediana_competitiva": 10045
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK10I3VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 6490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 8500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 14280,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6490,
+      "mediana_competitiva": 8100
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0160L": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 4071,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 4300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 4400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Purasalud.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 6350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4071,
+      "mediana_competitiva": 4695
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0160M": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 4071,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 4300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 4400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lacasadelenfermo.cl",
+          "precio": 5790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 6350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4071,
+      "mediana_competitiva": 4695
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0160S": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 4071,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 4400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lacasadelenfermo.cl",
+          "precio": 5790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 6350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4071,
+      "mediana_competitiva": 5190
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0160XL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 26500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 26500,
+      "mediana_competitiva": 26500
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0190L0": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gympro.cl",
+          "precio": 4500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 5489,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 6800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 7500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mundodelpaciente.cl",
+          "precio": 7900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4500,
+      "mediana_competitiva": 5990
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0190M0": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 5489,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 6800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 7500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mundodelpaciente.cl",
+          "precio": 7900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5489,
+      "mediana_competitiva": 6800
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK023VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 4300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Houseotazam.cl",
+          "precio": 4400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasancristobal.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3690,
+      "mediana_competitiva": 4350
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0190S0": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 5489,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 6800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 7500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mundodelpaciente.cl",
+          "precio": 7900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 5990
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0190XL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 5489,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 6800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 7500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5390,
+      "mediana_competitiva": 6144
+    },
+    "fecha": "2026-04-02"
+  },
+  "PK530": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 11900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11900,
+      "mediana_competitiva": 11900
+    },
+    "fecha": "2026-04-02"
+  },
+  "PK520": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 5890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 6639,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5890,
+      "mediana_competitiva": 6264
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK10D3VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6990,
+      "mediana_competitiva": 8100
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK10I2RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 6490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 14280,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6490,
+      "mediana_competitiva": 8100
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK10D2RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 6490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 62000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 6490,
+      "mediana_competitiva": 8100
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK012RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 4300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Insu-med.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 6900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 4645
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK10I1CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 6290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6290,
+      "mediana_competitiva": 8045
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK10D1CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 6290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 8100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6290,
+      "mediana_competitiva": 8045
+    },
+    "fecha": "2026-04-02"
+  },
+  "E701S": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 6885,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6885,
+      "mediana_competitiva": 6885
+    },
+    "fecha": "2026-04-02"
+  },
+  "E701M": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 6885,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 11000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6885,
+      "mediana_competitiva": 8942
+    },
+    "fecha": "2026-04-02"
+  },
+  "E701L": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 6885,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 11000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6885,
+      "mediana_competitiva": 8942
+    },
+    "fecha": "2026-04-02"
+  },
+  "E7012XL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 6885,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 11000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6885,
+      "mediana_competitiva": 8942
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK133VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 2200,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 18400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 18400,
+      "mediana_competitiva": 18400
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK132RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tiendaelectromedicina.cl",
+          "precio": 14990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 18400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 18400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 30000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 14990,
+      "mediana_competitiva": 18400
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK131CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ortopedianeumann.cl",
+          "precio": 17800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 18400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 17800,
+      "mediana_competitiva": 18100
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK123VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 4690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 7600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4690,
+      "mediana_competitiva": 5390
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK113VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 5400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4790,
+      "mediana_competitiva": 5195
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK073VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 2990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 10400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasanantonio.cl",
+          "precio": 10500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 14800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10400,
+      "mediana_competitiva": 10500
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK072RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 8690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 10400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasanantonio.cl",
+          "precio": 10500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8690,
+      "mediana_competitiva": 10400
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK071CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 8690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8690,
+      "mediana_competitiva": 9340
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK122RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 3290,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 8415,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 29990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 8415,
+      "mediana_competitiva": 8415
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK013VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 4300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Houseotazam.cl",
+          "precio": 4400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Insu-med.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasancristobal.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4300,
+      "mediana_competitiva": 4695
+    },
+    "fecha": "2026-04-02"
+  },
+  "HM161CMV": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 4000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4000,
+      "mediana_competitiva": 4000
+    },
+    "fecha": "2026-04-02"
+  },
+  "HM1605": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 4000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4000,
+      "mediana_competitiva": 4000
+    },
+    "fecha": "2026-04-02"
+  },
+  "HM011500": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 4590,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 14500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 14500,
+      "mediana_competitiva": 14500
+    },
+    "fecha": "2026-04-02"
+  },
+  "E701XL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 6885,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 11000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6885,
+      "mediana_competitiva": 8942
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK121CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 5400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4790,
+      "mediana_competitiva": 5095
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK111CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 5400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 5400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sanasur.cl",
+          "precio": 6800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4790,
+      "mediana_competitiva": 5400
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK112RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 4690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mgsalud.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 5400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 5400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4690,
+      "mediana_competitiva": 4990
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0201LXL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 18105,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 21000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 23600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 18105,
+      "mediana_competitiva": 21000
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK061CA": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 8690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 9900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 10400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8690,
+      "mediana_competitiva": 9900
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK062RO": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 2200,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 9900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Inmedic.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 29990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 9900,
+      "mediana_competitiva": 9945
+    },
+    "fecha": "2026-04-02"
+  },
+  "BK063VE": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Houseotazam.cl",
+          "precio": 9500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 9900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jamamedica.cl",
+          "precio": 20200,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 6990,
+      "mediana_competitiva": 9500
+    },
+    "fecha": "2026-04-02"
+  },
+  "CC0201SM": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 11213,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 18105,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 18990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 21000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 23600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11213,
+      "mediana_competitiva": 18990
+    },
+    "fecha": "2026-04-02"
+  },
+  "HM1604": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 4000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3495
+    },
+    "fecha": "2026-04-02"
   }
 }
