@@ -394432,5 +394432,44 @@
       "mediana_competitiva": 8726
     },
     "fecha": "2026-04-02"
+  },
+  "Z015010022": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Veterinarianielol.cl",
+          "precio": 16200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 17990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mundogato.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 23990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmavetdelsol.cl",
+          "precio": 23990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Puntomascotas.cl",
+          "precio": 26990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 16200,
+      "mediana_competitiva": 21990
+    },
+    "fecha": "2026-04-02"
   }
 }
