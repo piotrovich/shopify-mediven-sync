@@ -394592,5 +394592,211 @@
       "mediana_competitiva": 1890
     },
     "fecha": "2026-04-03"
+  },
+  "7560600018": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 4570,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 9490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 12490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 14700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9490,
+      "mediana_competitiva": 12490
+    },
+    "fecha": "2026-04-03"
+  },
+  "7560600019": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 4570,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 9490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 12490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 14700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9490,
+      "mediana_competitiva": 12490
+    },
+    "fecha": "2026-04-03"
+  },
+  "7558500021": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 11990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 12700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 19090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11990,
+      "mediana_competitiva": 12700
+    },
+    "fecha": "2026-04-03"
+  },
+  "7558500022": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Improkine.cl",
+          "precio": 10490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tubotiquin.cl",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 11990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 12700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10490,
+      "mediana_competitiva": 11490
+    },
+    "fecha": "2026-04-03"
+  },
+  "7323200006": {
+    "datos_mercado": null,
+    "fecha": "2026-04-03"
+  },
+  "7700000016": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Drcare.cl",
+          "precio": 11990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruzdevida.cl",
+          "precio": 14900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tubotiquin.cl",
+          "precio": 14990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medicalab.cl",
+          "precio": 18990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11990,
+      "mediana_competitiva": 14945
+    },
+    "fecha": "2026-04-03"
+  },
+  "7700000019": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Drcare.cl",
+          "precio": 11990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruzdevida.cl",
+          "precio": 14900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tubotiquin.cl",
+          "precio": 14990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medicalab.cl",
+          "precio": 18990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11990,
+      "mediana_competitiva": 14945
+    },
+    "fecha": "2026-04-03"
+  },
+  "7328500000": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Sodimac.cl",
+          "precio": 5853,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tubotiquin.cl",
+          "precio": 9800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 16490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vidamedica.cl",
+          "precio": 34372,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 9800,
+      "mediana_competitiva": 13145
+    },
+    "fecha": "2026-04-03"
+  },
+  "7216500063": {
+    "datos_mercado": null,
+    "fecha": "2026-04-03"
   }
 }
