@@ -394798,5 +394798,179 @@
   "7216500063": {
     "datos_mercado": null,
     "fecha": "2026-04-03"
+  },
+  "778041": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 5000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5000,
+      "mediana_competitiva": 5000
+    },
+    "fecha": "2026-04-06"
+  },
+  "2401991": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 2690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 3890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Osm.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2690,
+      "mediana_competitiva": 3890
+    },
+    "fecha": "2026-04-06"
+  },
+  "0102700000": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Vidamedica.cl",
+          "precio": 4900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tubotiquin.cl",
+          "precio": 6890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 8500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Megamed.cl",
+          "precio": 10300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4900,
+      "mediana_competitiva": 7695
+    },
+    "fecha": "2026-04-06"
+  },
+  "00107000460": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3225,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 8335,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 13526,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 16690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 23390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 24021,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8335,
+      "mediana_competitiva": 15108
+    },
+    "fecha": "2026-04-06"
+  },
+  "7702100052": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Improkine.cl",
+          "precio": 10790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Drcare.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 13590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 13800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10790,
+      "mediana_competitiva": 12990
+    },
+    "fecha": "2026-04-06"
+  },
+  "720750002201": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lacasadelenfermo.cl",
+          "precio": 5390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dipromed.cl",
+          "precio": 5900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 8051,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 5645
+    },
+    "fecha": "2026-04-06"
   }
 }
