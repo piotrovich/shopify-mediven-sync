@@ -396258,5 +396258,388 @@
       "mediana_competitiva": 4990
     },
     "fecha": "2026-04-07"
+  },
+  "VAY8578": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unantojito.cl",
+          "precio": 9800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 13566,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Patioazul.cl",
+          "precio": 13690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nonnap.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9800,
+      "mediana_competitiva": 13566
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY3186": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Patioazul.cl",
+          "precio": 13950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 14999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmauno.cl",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 26730,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12990,
+      "mediana_competitiva": 14999
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY8509": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Vivantia.cl",
+          "precio": 8900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tiendamika.cl",
+          "precio": 15990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Aldeanativa.cl",
+          "precio": 39990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 8900,
+      "mediana_competitiva": 12445
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY0067": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Beimedic.cl",
+          "precio": 21000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vivantia.cl",
+          "precio": 21500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nutralifesuplementos.cl",
+          "precio": 21890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 21990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortomolecularchile.cl",
+          "precio": 23800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Luzgomed.cl",
+          "precio": 34190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 21000,
+      "mediana_competitiva": 21940
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY1728": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Vivantia.cl",
+          "precio": 15690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortomolecularchile.cl",
+          "precio": 18500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 18949,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mixgreen.cl",
+          "precio": 18950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Test.nibitha.cl",
+          "precio": 19999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 20400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 15690,
+      "mediana_competitiva": 18949
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY8554": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 9005,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nonnap.cl",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vivantia.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Espaciomag.cl",
+          "precio": 14690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Chilemilsabores.cl",
+          "precio": 15990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9005,
+      "mediana_competitiva": 13990
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY8516": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mixgreen.cl",
+          "precio": 11790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Patioazul.cl",
+          "precio": 15390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 15990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 17261,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nutricioncelular.cl",
+          "precio": 17990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tiendamika.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11790,
+      "mediana_competitiva": 16625
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY1643": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mixgreen.cl",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Shamix.cl",
+          "precio": 14500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Patioazul.cl",
+          "precio": 16380,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaabba.cl",
+          "precio": 22990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10990,
+      "mediana_competitiva": 15440
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY8592": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 9005,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 12950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 14499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9005,
+      "mediana_competitiva": 12950
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY8523": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 12041,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 13860,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Chilemilsabores.cl",
+          "precio": 19700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12041,
+      "mediana_competitiva": 13860
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY8530": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 11192,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 13850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Patioazul.cl",
+          "precio": 15390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaabba.cl",
+          "precio": 15790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 16390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nutralifesuplementos.cl",
+          "precio": 21890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11192,
+      "mediana_competitiva": 15590
+    },
+    "fecha": "2026-04-08"
+  },
+  "VAY8547": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 11192,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 13850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Patioazul.cl",
+          "precio": 15390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11192,
+      "mediana_competitiva": 13850
+    },
+    "fecha": "2026-04-08"
   }
 }
