@@ -396723,5 +396723,159 @@
       "mediana_competitiva": 7190
     },
     "fecha": "2026-04-08"
+  },
+  "95752": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3149,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 3500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 4490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 4490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3149,
+      "mediana_competitiva": 4190
+    },
+    "fecha": "2026-04-08"
+  },
+  "13201008": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Amigales.cl",
+          "precio": 23490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Veterinarialosalerces.cl",
+          "precio": 24000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Clubdeperrosygatos.cl",
+          "precio": 24990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Puntomascotas.cl",
+          "precio": 25990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 23490,
+      "mediana_competitiva": 24495
+    },
+    "fecha": "2026-04-08"
+  },
+  "100666": {
+    "datos_mercado": null,
+    "fecha": "2026-04-08"
+  },
+  "100664": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 19999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 19999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 199900,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 19990,
+      "mediana_competitiva": 19999
+    },
+    "fecha": "2026-04-08"
+  },
+  "100720": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 667,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2995,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 3500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 4790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2995,
+      "mediana_competitiva": 3990
+    },
+    "fecha": "2026-04-08"
+  },
+  "100657": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 4390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4390,
+      "mediana_competitiva": 5190
+    },
+    "fecha": "2026-04-08"
   }
 }
