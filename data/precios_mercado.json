@@ -397013,5 +397013,138 @@
       "mediana_competitiva": 1990
     },
     "fecha": "2026-04-09"
+  },
+  "C2230041": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Alvi.cl",
+          "precio": 790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 1000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 1000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 1333,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 2000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Emubaby.cl",
+          "precio": 41890,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 790,
+      "mediana_competitiva": 1166
+    },
+    "fecha": "2026-04-09"
+  },
+  "73340411": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5290,
+      "mediana_competitiva": 5290
+    },
+    "fecha": "2026-04-09"
+  },
+  "73340406": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetis.com",
+          "precio": 9480,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9480,
+      "mediana_competitiva": 9480
+    },
+    "fecha": "2026-04-09"
+  },
+  "73340408": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetis.com",
+          "precio": 9480,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9480,
+      "mediana_competitiva": 9480
+    },
+    "fecha": "2026-04-09"
+  },
+  "73340409": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetis.com",
+          "precio": 17538,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 17538,
+      "mediana_competitiva": 17538
+    },
+    "fecha": "2026-04-09"
+  },
+  "73361118": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 6036,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cosmetis.com",
+          "precio": 18815,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 18815,
+      "mediana_competitiva": 18815
+    },
+    "fecha": "2026-04-09"
+  },
+  "73361117": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 6036,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6036,
+      "mediana_competitiva": 6036
+    },
+    "fecha": "2026-04-09"
   }
 }
