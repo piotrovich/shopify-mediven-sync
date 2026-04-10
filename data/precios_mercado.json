@@ -397375,5 +397375,39 @@
       "mediana_competitiva": 5616
     },
     "fecha": "2026-04-10"
+  },
+  "269255": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 3790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 4400,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 9990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3790,
+      "mediana_competitiva": 3994
+    },
+    "fecha": "2026-04-10"
   }
 }
