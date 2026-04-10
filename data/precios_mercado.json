@@ -397331,5 +397331,49 @@
       "mediana_competitiva": 5490
     },
     "fecha": "2026-04-09"
+  },
+  "250039": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ryk.cl",
+          "precio": 1083,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 4490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Optisalud.cl",
+          "precio": 5500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5733,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Opticagc.cl",
+          "precio": 6000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 7199,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 5616
+    },
+    "fecha": "2026-04-10"
   }
 }
