@@ -397835,5 +397835,117 @@
       "mediana_competitiva": 4795
     },
     "fecha": "2026-04-10"
+  },
+  "0MDP0254": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 593,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 624,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 17990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmalisto.cl",
+          "precio": 20870,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.farmagente.cl",
+          "precio": 26990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 29990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 35590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9990,
+      "mediana_competitiva": 23930
+    },
+    "fecha": "2026-04-10"
+  },
+  "7804633500868": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 880,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 980,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciatudecision.cl",
+          "precio": 990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1894,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nibitha.cl",
+          "precio": 1999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 6600,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 9333,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 980,
+      "mediana_competitiva": 1894
+    },
+    "fecha": "2026-04-10"
+  },
+  "7804633500486": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Redfarma",
+          "precio": 1760,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1760,
+      "mediana_competitiva": 1760
+    },
+    "fecha": "2026-04-10"
   }
 }
