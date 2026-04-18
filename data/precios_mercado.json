@@ -403959,5 +403959,135 @@
       "mediana_competitiva": 10583
     },
     "fecha": "2026-04-17"
+  },
+  "CREN301": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfectbear.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10990,
+      "mediana_competitiva": 12490
+    },
+    "fecha": "2026-04-18"
+  },
+  "CREN101": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 12041,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfectbear.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tbhsuplementos.cl",
+          "precio": 14990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10990,
+      "mediana_competitiva": 13015
+    },
+    "fecha": "2026-04-18"
+  },
+  "CREJ301": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 12041,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfectbear.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9990,
+      "mediana_competitiva": 12041
+    },
+    "fecha": "2026-04-18"
+  },
+  "CREB301": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 12041,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfectbear.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vivantia.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 38711,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 12041,
+      "mediana_competitiva": 13990
+    },
+    "fecha": "2026-04-18"
+  },
+  "CREM301": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Healthchile.cl",
+          "precio": 12041,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfectbear.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tbhsuplementos.cl",
+          "precio": 14990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Eattouch.cl",
+          "precio": 21179,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12041,
+      "mediana_competitiva": 14490
+    },
+    "fecha": "2026-04-18"
   }
 }
