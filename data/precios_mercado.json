@@ -404133,5 +404133,44 @@
       "mediana_competitiva": 4090
     },
     "fecha": "2026-04-20"
+  },
+  "0000068": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 2781,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3870,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Alershop.cl",
+          "precio": 4600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nibitha.cl",
+          "precio": 4999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 17990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Probiotico.cl",
+          "precio": 29990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2781,
+      "mediana_competitiva": 4235
+    },
+    "fecha": "2026-04-20"
   }
 }
