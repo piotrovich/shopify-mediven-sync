@@ -404172,5 +404172,251 @@
       "mediana_competitiva": 4235
     },
     "fecha": "2026-04-20"
+  },
+  "5000633": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmasmart.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 5490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 6390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 5490
+    },
+    "fecha": "2026-04-20"
+  },
+  "LGL120": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 3711,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 3950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaszamarin.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lacasadeloscondones.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 7490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3711,
+      "mediana_competitiva": 4670
+    },
+    "fecha": "2026-04-20"
+  },
+  "LCS0101": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 1490,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 2000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fracci\u00f3n",
+          "precio": 3690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 3790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 6290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 8400,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Lacasadeloscondones.cl",
+          "precio": 20990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2000,
+      "mediana_competitiva": 3740
+    },
+    "fecha": "2026-04-20"
+  },
+  "LAP001": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Medicox.com.co",
+          "precio": 148173,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 148173,
+      "mediana_competitiva": 148173
+    },
+    "fecha": "2026-04-20"
+  },
+  "LCA004": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Diprogyn.com",
+          "precio": 590,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Mercadolibre.com.ar",
+          "precio": 53437,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 53437,
+      "mediana_competitiva": 53437
+    },
+    "fecha": "2026-04-20"
+  },
+  "LCA005": {
+    "datos_mercado": null,
+    "fecha": "2026-04-20"
+  },
+  "LCA006": {
+    "datos_mercado": null,
+    "fecha": "2026-04-20"
+  },
+  "LCA007": {
+    "datos_mercado": null,
+    "fecha": "2026-04-20"
+  },
+  "LCA008": {
+    "datos_mercado": null,
+    "fecha": "2026-04-20"
+  },
+  "LCA009": {
+    "datos_mercado": null,
+    "fecha": "2026-04-20"
+  },
+  "LCA010": {
+    "datos_mercado": null,
+    "fecha": "2026-04-20"
+  },
+  "LCA012": {
+    "datos_mercado": null,
+    "fecha": "2026-04-20"
+  },
+  "7804681740773": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Nibitha.cl",
+          "precio": 5599,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 5610,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 8370,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 13291,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 13990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 17608,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5599,
+      "mediana_competitiva": 10830
+    },
+    "fecha": "2026-04-20"
+  },
+  "7804681740780": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 639,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmalisto.cl",
+          "precio": 4370,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 4370,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nibitha.cl",
+          "precio": 9999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 15191,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 18778,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4370,
+      "mediana_competitiva": 4370
+    },
+    "fecha": "2026-04-20"
   }
 }
