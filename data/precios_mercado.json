@@ -404837,5 +404837,83 @@
       "mediana_competitiva": 2253
     },
     "fecha": "2026-04-21"
+  },
+  "10030998": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Comercialteba.cl",
+          "precio": 1390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 1850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 1930,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Latiendajj.cl",
+          "precio": 2890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1390,
+      "mediana_competitiva": 1850
+    },
+    "fecha": "2026-04-21"
+  },
+  "10030110": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 624,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Kromo.cl",
+          "precio": 1214,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Outletdeaseo.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 2350,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 9650,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 16600,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1214,
+      "mediana_competitiva": 1740
+    },
+    "fecha": "2026-04-21"
   }
 }
