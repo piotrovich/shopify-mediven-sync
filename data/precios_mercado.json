@@ -405027,5 +405027,73 @@
       "mediana_competitiva": 2800
     },
     "fecha": "2026-04-21"
+  },
+  "0671136": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 948,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ahorramax.cl",
+          "precio": 5150,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 5690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 6390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 5420
+    },
+    "fecha": "2026-04-22"
+  },
+  "H5640700": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 940,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 1031,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nmperfumerias.cl",
+          "precio": 1900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3572,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rappi.cl",
+          "precio": 4110,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1031,
+      "mediana_competitiva": 1900
+    },
+    "fecha": "2026-04-22"
   }
 }
