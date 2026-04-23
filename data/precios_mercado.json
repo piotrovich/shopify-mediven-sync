@@ -405750,5 +405750,72 @@
       "mediana_competitiva": 19490
     },
     "fecha": "2026-04-23"
+  },
+  "MB536800": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetis.com",
+          "precio": 19857,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 30072,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caretobeauty.com",
+          "precio": 33064,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 19857,
+      "mediana_competitiva": 30072
+    },
+    "fecha": "2026-04-23"
+  },
+  "MB715900": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 31990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 35169,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 39999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 31990,
+      "mediana_competitiva": 35169
+    },
+    "fecha": "2026-04-23"
+  },
+  "MB721300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 27990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 27990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 27990,
+      "mediana_competitiva": 27990
+    },
+    "fecha": "2026-04-23"
   }
 }
