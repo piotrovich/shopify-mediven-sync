@@ -405557,5 +405557,87 @@
       "mediana_competitiva": 5545
     },
     "fecha": "2026-04-23"
+  },
+  "0671604": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4799,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 14499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 14790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 14499,
+      "mediana_competitiva": 14644
+    },
+    "fecha": "2026-04-23"
+  },
+  "AA373000": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 6859,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 6999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 7099,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dbs.cl",
+          "precio": 10000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6859,
+      "mediana_competitiva": 7049
+    },
+    "fecha": "2026-04-23"
+  },
+  "G4861900": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Nmperfumerias.cl",
+          "precio": 8390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 10867,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 14499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 14499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8390,
+      "mediana_competitiva": 12683
+    },
+    "fecha": "2026-04-23"
   }
 }
