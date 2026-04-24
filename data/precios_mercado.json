@@ -405861,5 +405861,29 @@
       "mediana_competitiva": 1390
     },
     "fecha": "2026-04-24"
+  },
+  "7800044001321": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 735,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 750,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 690,
+      "mediana_competitiva": 735
+    },
+    "fecha": "2026-04-24"
   }
 }
