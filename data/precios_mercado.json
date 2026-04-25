@@ -406446,5 +406446,29 @@
       "mediana_competitiva": 14499
     },
     "fecha": "2026-04-24"
+  },
+  "9300001016": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasanjuan.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Sanomarket.cl",
+          "precio": 25641,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 9490
+    },
+    "fecha": "2026-04-25"
   }
 }
