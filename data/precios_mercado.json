@@ -406470,5 +406470,34 @@
       "mediana_competitiva": 9490
     },
     "fecha": "2026-04-25"
+  },
+  "DERVAN035": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 11764,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Biosphare.cl",
+          "precio": 19100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 21650,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Badana.cl",
+          "precio": 23700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11764,
+      "mediana_competitiva": 20375
+    },
+    "fecha": "2026-04-27"
   }
 }
