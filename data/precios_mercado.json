@@ -406836,5 +406836,34 @@
       "mediana_competitiva": 9990
     },
     "fecha": "2026-04-27"
+  },
+  "SUP0000163": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmamedica.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 6490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Agronewen.cl",
+          "precio": 12490,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 5990
+    },
+    "fecha": "2026-04-27"
   }
 }
