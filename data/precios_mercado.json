@@ -407117,5 +407117,127 @@
       "mediana_competitiva": 6290
     },
     "fecha": "2026-04-28"
+  },
+  "3014484753": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 1596,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 5105,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmalisto.cl",
+          "precio": 5210,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 5720,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 6916,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 6951,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 5465
+    },
+    "fecha": "2026-04-28"
+  },
+  "3008894753": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 6590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 6880,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 8090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Novasalud.cl",
+          "precio": 9815,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 13463,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 15299,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Beta.cruzverde.cl",
+          "precio": 32752,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 6590,
+      "mediana_competitiva": 8952
+    },
+    "fecha": "2026-04-28"
+  },
+  "3028034753": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 10935,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciabosques.com",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 16103,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 10935,
+      "mediana_competitiva": 10990
+    },
+    "fecha": "2026-04-28"
   }
 }
