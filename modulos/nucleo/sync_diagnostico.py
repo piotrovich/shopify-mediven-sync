@@ -107,7 +107,7 @@ def formatear_nombre_producto(item, debug=False):
         'TALCO', 'ACONDICIONADOR', 'DEPILACION', 'PROBIOTICO', 'SOLAR',
         'DESMAQUILLANTE', 'BALSAMO', 'ACCESORIOS', 'BEBES', 'DENTAL',
         'ESPUMAS', 'SUPLEMENTOS', 'TOALLAS', 'PROTECTORES', 'INCONTINENCIA',
-        'COLONIAS', 'LOCIONES', 'MAQUINAS', 'AFEITADO', 'DM', 'BE'
+        'COLONIAS', 'LOCIONES', 'MAQUINAS', 'AFEITADO', 'DM', 'BE', 'Osteocondral' 
     ]
     
     # Dividimos el texto buscando paréntesis: "Nombre (Tag)" -> ["Nombre ", "(Tag)", ""]
