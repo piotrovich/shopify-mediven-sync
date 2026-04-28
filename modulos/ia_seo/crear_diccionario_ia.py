@@ -5,7 +5,6 @@ import os
 import json
 import time
 from dotenv import load_dotenv
-
 from google import genai
 from google.genai import types
 from google.genai.errors import APIError
@@ -14,14 +13,13 @@ from google.genai.errors import APIError
 # CONFIGURACIÓN E INICIALIZACIÓN
 # ==========================================
 load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     print("❌ Falta GEMINI_API_KEY en el archivo .env")
     exit(1)
 
-# 🔥 SOLUCIÓN: Añadimos un timeout explícito de 60 segundos (60000 ms)
-# Si Google no responde en 60 segundos, la conexión se corta para no colgar el servidor.
+# Timeout explícito de 60s para no colgar el servidor si Google no responde.
 client = genai.Client(
     api_key=GEMINI_API_KEY,
     http_options=types.HttpOptions(timeout=60000)
@@ -29,7 +27,25 @@ client = genai.Client(
 
 ARCHIVO_ENTRADA = "mediven_full.json"
 ARCHIVO_DICCIONARIO = "data/diccionario_ia.json"
-LIMITE_PRUEBA = None 
+
+LIMITE_PRUEBA = None
+
+# 🔧 FIX 3: Lista centralizada de patrones que indican LÍMITE DIARIO en los
+# mensajes de error 429 de Gemini. Antes solo se buscaba "perday"/"quota",
+# pero Google ha cambiado los textos y ahora los errores diarios pueden
+# llegar como "exhausted", "RequestsPerDay", "GenerateRequestsPerDay", etc.
+INDICADORES_LIMITE_DIARIO = [
+    "perday",
+    "per day",
+    "perdayperproject",
+    "perdaypermodel",
+    "requestsperday",
+    "generaterequestsperday",
+    "quota",
+    "exhausted",
+    "exceeded",
+    "rpd",
+]
 
 # ==========================================
 # FUNCIÓN DE LLAMADA A LA IA CON ESQUEMA ESTRICTO
@@ -39,26 +55,26 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
     prompt = f"""
     Eres un experto Químico Farmacéutico y redactor de e-commerce para "Farmacias LF" en Chile.
     A continuación tienes los datos de un producto:
-    
     - Nombre Original: {datos_producto.get('Descripcion')}
     - Laboratorio: {datos_producto.get('Laboratorio')}
     - Acción Terapéutica: {datos_producto.get('AccionTerapeutica')}
     - Equivalente (Categoría/Principio): {datos_producto.get('Equivalente')}
 
     Tu tarea es generar un JSON con la información estructurada para la web.
-    
+
     1. "titulo_normalizado": Limpia el nombre original. Expande abreviaturas (ej. COM=Comprimidos, UND=Unidades, JBE=Jarabe, DM=Dispositivo Médico). Mantenlo profesional e impecable.
-    
+
     2. "descripcion_amable": Tono cercano, persuasivo, empático y ágil (máximo 3 a 4 líneas). Explica sus beneficios y para qué sirve de forma fácil de entender para el paciente. USO OBLIGATORIO de 1 o 2 emojis acordes al producto. No uses tecnicismos duros aquí.
-    
+
     3. "ficha_tecnica": Tono médico formal, 100% clínico y serio (como un prospecto médico). SIN emojis.
-       Debe estar estructurado ESTRICTAMENTE en estas 4 partes, separadas por saltos de línea (\\n):
-       - [Párrafo de introducción]: Qué es el producto, su principio activo y mecanismo de acción básico.
-       - Para qué sirve: (Usa viñetas con el símbolo •) Explica las indicaciones principales.
-       - Consideraciones importantes: (Usa viñetas con el símbolo •) Advertencias, dosis, contraindicaciones o interacciones médicas.
-       - En resumen: Una oración final de conclusión médica.
-       IMPORTANTE PARA FICHA TÉCNICA: NO uses HTML (ni <ul> ni <li>) y NO uses formatos Markdown como asteriscos (**) o hashtags (#). Usa estrictamente texto plano y el símbolo de viñeta (•).
-    
+    Debe estar estructurado ESTRICTAMENTE en estas 4 partes, separadas por saltos de línea (\\n):
+    - [Párrafo de introducción]: Qué es el producto, su principio activo y mecanismo de acción básico.
+    - Para qué sirve: (Usa viñetas con el símbolo •) Explica las indicaciones principales.
+    - Consideraciones importantes: (Usa viñetas con el símbolo •) Advertencias, dosis, contraindicaciones o interacciones médicas.
+    - En resumen: Una oración final de conclusión médica.
+
+    IMPORTANTE PARA FICHA TÉCNICA: NO uses HTML (ni <ul> ni <li>) y NO uses formatos Markdown como asteriscos (**) o hashtags (#). Usa estrictamente texto plano y el símbolo de viñeta (•).
+
     Reglas Críticas:
     - Si "Acción Terapéutica" o "Equivalente" están vacíos, deduce el uso basándote en el Nombre y Laboratorio.
     - COHERENCIA DE PÚBLICO: Analiza bien el producto y laboratorio. Si es de uso VETERINARIO, la descripción amable DEBE estar dirigida a dueños de mascotas. JAMÁS lo recomiendes a humanos.
@@ -84,7 +100,7 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
                     temperature=0.3,
                 )
             )
-            
+
             texto = response.text.strip()
             if texto.startswith("```json"):
                 texto = texto.replace("```json", "").replace("```", "").strip()
@@ -93,28 +109,38 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
 
             resultado = json.loads(texto)
             return resultado
-            
+
         except APIError as e:
             error_texto = str(e).lower()
             if e.code == 429:
-                if "perday" in error_texto or "quota" in error_texto:
+                # 🔧 FIX 3: Detección mejorada de límite diario.
+                # Si CUALQUIER patrón conocido de cuota diaria aparece en el
+                # error, cortamos sin gastar más reintentos.
+                if any(ind in error_texto for ind in INDICADORES_LIMITE_DIARIO):
                     print(f"\n❌ LÍMITE DIARIO AGOTADO EN ESTA API KEY.")
+                    print(f"   (Detectado en error: {error_texto[:200]})")
                     return "LIMITE_DIARIO"
                 else:
-                    tiempo_espera = 35 
+                    # 🔧 FIX 1: La ventana RPM de Gemini se renueva cada 60s.
+                    # Antes esperábamos 35s -> caíamos en la MISMA ventana
+                    # saturada y los 3 reintentos fallaban en cadena.
+                    # Con 65s garantizamos que la ventana se haya reseteado.
+                    tiempo_espera = 65
                     print(f"   ⏳ Límite de velocidad. Descansando {tiempo_espera}s (Intento {intento+1}/{reintentos_max})...", flush=True)
                     time.sleep(tiempo_espera)
             else:
                 print(f"   ⚠️ Error API de Gemini (Intento {intento+1}): {e}")
                 time.sleep(5)
+
         except json.JSONDecodeError as e:
             print(f"   ❌ Error formateando JSON: {e}")
             return None
+
         except Exception as e:
-            # 🔥 SOLUCIÓN: Atrapamos el TimeoutError y la desconexión
+            # Atrapamos TimeoutError y desconexiones de red.
             print(f"   ⚠️ Error de red/timeout (Intento {intento+1}): Se cortó la conexión. Reintentando...")
-            time.sleep(10) # Espera 10 segs y vuelve a intentar
-            
+            time.sleep(10)
+
     return None
 
 # ==========================================
@@ -166,8 +192,7 @@ def main():
         codigo = str(producto.get("Codigo", "")).strip()
         nombre_original = producto.get("Descripcion", "")
         nombre_corto = nombre_original[:40] + "..." if len(nombre_original) > 40 else nombre_original
-        
-        # 🔥 SOLUCIÓN: Imprimimos con salto de línea para obligar a GitHub Actions a mostrarlo
+
         print(f"[{idx}/{len(faltantes)}] 🤖 Generando: {nombre_corto} ...", flush=True)
 
         resultado = generar_explicacion_ia(producto)
@@ -175,10 +200,10 @@ def main():
         if resultado == "LIMITE_DIARIO":
             print("🛑 Proceso detenido por límite.")
             break
-            
+
         if isinstance(resultado, dict):
             res_lower = {k.lower(): v for k, v in resultado.items()}
-            
+
             if "titulo_normalizado" in res_lower and "descripcion_amable" in res_lower and "ficha_tecnica" in res_lower:
                 diccionario[codigo] = {
                     "titulo_normalizado": res_lower["titulo_normalizado"],
@@ -195,12 +220,17 @@ def main():
         else:
             print(f"   ❌ Respuesta no válida.")
 
-        time.sleep(3) 
+        # 🔧 FIX 2: Espacio mínimo entre llamadas exitosas.
+        # Free tier de gemini-2.0-flash = ~15 RPM (1 request cada ~4s).
+        # Antes esperaba 3s -> se saturaba el RPM al 5to-6to producto.
+        # Con 5s nos mantenemos cómodamente bajo el límite.
+        time.sleep(5)
 
     print("\n==================================================")
     print(f"✨ Proceso terminado. Se agregaron {nuevos_generados} nuevos productos.")
     print(f"📁 Archivo actualizado: {ARCHIVO_DICCIONARIO}")
     print("==================================================")
+
 
 if __name__ == "__main__":
     main()
