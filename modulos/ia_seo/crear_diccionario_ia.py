@@ -30,28 +30,30 @@ ARCHIVO_DICCIONARIO = "data/diccionario_ia.json"
 
 LIMITE_PRUEBA = None
 
-# 🔧 FIX 3: Lista centralizada de patrones que indican LÍMITE DIARIO en los
-# mensajes de error 429 de Gemini. Antes solo se buscaba "perday"/"quota",
-# pero Google ha cambiado los textos y ahora los errores diarios pueden
-# llegar como "exhausted", "RequestsPerDay", "GenerateRequestsPerDay", etc.
-INDICADORES_LIMITE_DIARIO = [
+# 🔧 FIX A: Modelo actualizado.
+# gemini-2.0-flash fue deprecado en feb/2026 y será apagado el 01/06/2026.
+# gemini-2.5-flash tiene mejor rendimiento y mejor cuota free tier (10 RPM, 500 RPD).
+MODELO_GEMINI = "gemini-2.5-flash"
+
+# 🔧 FIX B (parte 1): Patrones que indican CON CERTEZA un límite DIARIO (RPD).
+# Sacamos "exhausted" y "exceeded" porque son demasiado genéricos
+# y también aparecen en errores RPM (que se resuelven esperando 1 min).
+INDICADORES_RPD_EXPLICITOS = [
     "perday",
     "per day",
     "perdayperproject",
     "perdaypermodel",
     "requestsperday",
     "generaterequestsperday",
-    "quota",
-    "exhausted",
-    "exceeded",
     "rpd",
+    "daily quota",
+    "daily limit",
 ]
 
 # ==========================================
 # FUNCIÓN DE LLAMADA A LA IA CON ESQUEMA ESTRICTO
 # ==========================================
 def generar_explicacion_ia(datos_producto, reintentos_max=3):
-    # Aquí va tu Súper Prompt exacto
     prompt = f"""
     Eres un experto Químico Farmacéutico y redactor de e-commerce para "Farmacias LF" en Chile.
     A continuación tienes los datos de un producto:
@@ -81,10 +83,15 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
     - JAMÁS inventes indicaciones médicas que no correspondan a la naturaleza real del producto.
     """
 
+    # 🔧 FIX B (parte 2): Contador de errores 429 ambiguos.
+    # Si en 2 intentos seguidos el 429 no trae patrón explícito de RPD,
+    # asumimos que SÍ es diario y cortamos. Si solo hubo 1 → sigue probando.
+    errores_429_ambiguos = 0
+
     for intento in range(reintentos_max):
         try:
             response = client.models.generate_content(
-                model='gemini-2.0-flash',
+                model=MODELO_GEMINI,
                 contents=prompt,
                 config=types.GenerateContentConfig(
                     response_mime_type="application/json",
@@ -113,21 +120,26 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
         except APIError as e:
             error_texto = str(e).lower()
             if e.code == 429:
-                # 🔧 FIX 3: Detección mejorada de límite diario.
-                # Si CUALQUIER patrón conocido de cuota diaria aparece en el
-                # error, cortamos sin gastar más reintentos.
-                if any(ind in error_texto for ind in INDICADORES_LIMITE_DIARIO):
+                # ¿El error tiene patrón EXPLÍCITO de RPD? → cortar inmediatamente
+                if any(ind in error_texto for ind in INDICADORES_RPD_EXPLICITOS):
                     print(f"\n❌ LÍMITE DIARIO AGOTADO EN ESTA API KEY.")
                     print(f"   (Detectado en error: {error_texto[:200]})")
                     return "LIMITE_DIARIO"
-                else:
-                    # 🔧 FIX 1: La ventana RPM de Gemini se renueva cada 60s.
-                    # Antes esperábamos 35s -> caíamos en la MISMA ventana
-                    # saturada y los 3 reintentos fallaban en cadena.
-                    # Con 65s garantizamos que la ventana se haya reseteado.
-                    tiempo_espera = 65
-                    print(f"   ⏳ Límite de velocidad. Descansando {tiempo_espera}s (Intento {intento+1}/{reintentos_max})...", flush=True)
-                    time.sleep(tiempo_espera)
+
+                # Es 429 pero AMBIGUO (puede ser RPM o RPD genérico).
+                errores_429_ambiguos += 1
+
+                if errores_429_ambiguos >= 2:
+                    # 2 errores ambiguos seguidos = probablemente RPD agotado.
+                    # Aunque el mensaje no lo diga claro, esperar 65s no lo resolvió.
+                    print(f"\n❌ LÍMITE DIARIO PROBABLE (2 errores 429 seguidos tras espera).")
+                    print(f"   (Último error: {error_texto[:200]})")
+                    return "LIMITE_DIARIO"
+
+                # Primer 429 ambiguo: lo más probable es RPM. Esperar y reintentar.
+                tiempo_espera = 65
+                print(f"   ⏳ Límite de velocidad (429 ambiguo). Descansando {tiempo_espera}s (Intento {intento+1}/{reintentos_max})...", flush=True)
+                time.sleep(tiempo_espera)
             else:
                 print(f"   ⚠️ Error API de Gemini (Intento {intento+1}): {e}")
                 time.sleep(5)
@@ -137,7 +149,6 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
             return None
 
         except Exception as e:
-            # Atrapamos TimeoutError y desconexiones de red.
             print(f"   ⚠️ Error de red/timeout (Intento {intento+1}): Se cortó la conexión. Reintentando...")
             time.sleep(10)
 
@@ -149,6 +160,7 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
 def main():
     print("==================================================")
     print("🧠 INICIANDO MOTOR DE CONTENIDO IA (VERSIÓN PRODUCTOS) 🧠")
+    print(f"   Modelo: {MODELO_GEMINI}")
     print("==================================================\n")
 
     os.makedirs("data", exist_ok=True)
@@ -220,10 +232,7 @@ def main():
         else:
             print(f"   ❌ Respuesta no válida.")
 
-        # 🔧 FIX 2: Espacio mínimo entre llamadas exitosas.
-        # Free tier de gemini-2.0-flash = ~15 RPM (1 request cada ~4s).
-        # Antes esperaba 3s -> se saturaba el RPM al 5to-6to producto.
-        # Con 5s nos mantenemos cómodamente bajo el límite.
+        # Pausa entre llamadas para mantener cadencia bajo el RPM del free tier.
         time.sleep(5)
 
     print("\n==================================================")
