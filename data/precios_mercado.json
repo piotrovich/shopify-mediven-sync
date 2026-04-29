@@ -407297,5 +407297,39 @@
       "mediana_competitiva": 4800
     },
     "fecha": "2026-04-29"
+  },
+  "4010004": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaplus.com.ar",
+          "precio": 3133,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Bafarma.com",
+          "precio": 12761,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmamix.com.ar",
+          "precio": 14179,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmavitus.tiendasancorsalud.com.ar",
+          "precio": 15770,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mifarma.com.ar",
+          "precio": 29925,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 12761,
+      "mediana_competitiva": 14179
+    },
+    "fecha": "2026-04-29"
   }
 }
