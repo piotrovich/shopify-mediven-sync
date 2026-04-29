@@ -407278,5 +407278,24 @@
       "mediana_competitiva": 1440
     },
     "fecha": "2026-04-28"
+  },
+  "0677144908778": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Es.scribd.com",
+          "precio": 4700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tostadurialamarti.cl",
+          "precio": 4900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4700,
+      "mediana_competitiva": 4800
+    },
+    "fecha": "2026-04-29"
   }
 }
