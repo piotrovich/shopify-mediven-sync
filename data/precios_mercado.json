@@ -408360,5 +408360,54 @@
       "mediana_competitiva": 8039
     },
     "fecha": "2026-04-30"
+  },
+  "7220001": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 1295,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 1690,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 2245,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 7999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 13990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 15000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 5990
+    },
+    "fecha": "2026-04-30"
   }
 }
