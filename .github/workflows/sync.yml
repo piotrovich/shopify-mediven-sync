@@ -54,7 +54,7 @@ jobs:
 
       # Guardar TODO lo que el robot aprendió (IA, Imágenes y Precios)
       - name: Guardar memoria de IA, Imágenes y Precios en el repo
-        uses: stefanzweifel/git-auto-commit-action@v6   # ⬆️ v5 → v6 (Node 24)
+        uses: stefanzweifel/git-auto-commit-action@v7   # ⬆️ v6 → v7 (Node 24)
         with:
           commit_message: "🤖 BOT: Memoria actualizada (Textos + Imágenes + Precios)"
           file_pattern: 'data/*.json'
