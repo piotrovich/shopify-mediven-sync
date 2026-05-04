@@ -408790,5 +408790,63 @@
       "mediana_competitiva": 7990
     },
     "fecha": "2026-05-04"
+  },
+  "104603": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 513,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 3999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 8826,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 12299,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 14352,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3999,
+      "mediana_competitiva": 8826
+    },
+    "fecha": "2026-05-04"
+  },
+  "041063": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciadermica.com",
+          "precio": 620,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 20990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 20990,
+      "mediana_competitiva": 20990
+    },
+    "fecha": "2026-05-04"
   }
 }
