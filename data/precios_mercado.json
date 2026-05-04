@@ -408848,5 +408848,145 @@
       "mediana_competitiva": 20990
     },
     "fecha": "2026-05-04"
+  },
+  "SCF323/11": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mrclick.cl",
+          "precio": 50000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 119990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 50000,
+      "mediana_competitiva": 84995
+    },
+    "fecha": "2026-05-04"
+  },
+  "SCF291/00": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 88190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Wua-wua.cl",
+          "precio": 89990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tiendaquerubin.cl",
+          "precio": 89990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 97990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Estilodebebe.cl",
+          "precio": 97990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 88190,
+      "mediana_competitiva": 89990
+    },
+    "fecha": "2026-05-04"
+  },
+  "FODE160248": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 28990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 30990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.market-care.com",
+          "precio": 35791,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 105330,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 28990,
+      "mediana_competitiva": 30990
+    },
+    "fecha": "2026-05-04"
+  },
+  "CARE120059": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5730,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Novasalud.cl",
+          "precio": 14159,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 21009,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 5730,
+      "mediana_competitiva": 9944
+    },
+    "fecha": "2026-05-04"
+  },
+  "FEDE150021": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaes.cl",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.clinicamediderma.cl",
+          "precio": 11990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Boutiquedepiel.cl",
+          "precio": 17600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasmeddica.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 9990,
+      "mediana_competitiva": 14795
+    },
+    "fecha": "2026-05-04"
   }
 }
