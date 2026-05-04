@@ -9,8 +9,8 @@ on:
 permissions:
   contents: write
 
-# --- NUEVO SEMÁFORO ---
-# Si una ejecución se demora mucho y llega la hora de la siguiente, 
+# --- SEMÁFORO ---
+# Si una ejecución se demora mucho y llega la hora de la siguiente,
 # cancela la vieja (zombie) y arranca la nueva limpia.
 concurrency:
   group: "robot-sync"
@@ -20,20 +20,19 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout del código
-        uses: actions/checkout@v4 # <-- ACTUALIZADO de v3 a v4
+        uses: actions/checkout@v5            # ⬆️ v4 → v5 (Node 24)
 
       - name: Configurar Python
-        uses: actions/setup-python@v5 # <-- ACTUALIZADO de v4 a v5
+        uses: actions/setup-python@v6        # ⬆️ v5 → v6 (Node 24)
         with:
           python-version: '3.10'
 
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          # AGREGAMOS: google-genai (IA), rich (logs), ShopifyAPI y Pillow (Imágenes)
+          # google-genai (IA), rich (logs), ShopifyAPI y Pillow (Imágenes)
           pip install requests pandas openpyxl python-dotenv google-genai rich ShopifyAPI Pillow
 
       - name: Ejecutar Sincronización Completa (Sync + IA + Imágenes)
@@ -44,26 +43,26 @@ jobs:
           MEDIVEN_PASS: ${{ secrets.MEDIVEN_PASS }}
           SHOPIFY_LOCATION_ID: ${{ secrets.SHOPIFY_LOCATION_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # --- NUEVAS VARIABLES PARA EL MOTOR DE IMÁGENES Y PRECIOS ---
+          # --- VARIABLES PARA EL MOTOR DE IMÁGENES Y PRECIOS ---
           SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           SHOPIFY_DEFAULT_IMAGE_URL: ${{ secrets.SHOPIFY_DEFAULT_IMAGE_URL }}
-          # --------------------------------------------------
+          # ------------------------------------------------------
           SIMULATE: "false"
           DELETE_MISSING: "true"
         # Ejecutamos sync.py (el orquestador)
         run: python sync.py
 
-      # NUEVO PASO CRÍTICO: Guardar TODO lo que el robot aprendió (IA, Imágenes y Precios)
+      # Guardar TODO lo que el robot aprendió (IA, Imágenes y Precios)
       - name: Guardar memoria de IA, Imágenes y Precios en el repo
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6   # ⬆️ v5 → v6 (Node 24)
         with:
           commit_message: "🤖 BOT: Memoria actualizada (Textos + Imágenes + Precios)"
           file_pattern: 'data/*.json'
 
       - name: Guardar Reporte Excel
-        if: always() 
-        uses: actions/upload-artifact@v4
+        if: always()
+        uses: actions/upload-artifact@v6              # ⬆️ v4 → v6 (Node 24)
         with:
           name: reporte-sincronizacion
-          path: reportes/*.xlsx 
+          path: reportes/*.xlsx
           retention-days: 7
