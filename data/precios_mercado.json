@@ -408988,5 +408988,145 @@
       "mediana_competitiva": 14795
     },
     "fecha": "2026-05-04"
+  },
+  "805051": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Frest.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 7090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 7190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tokoriko.cl",
+          "precio": 7200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Yourgoal.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6990,
+      "mediana_competitiva": 7140
+    },
+    "fecha": "2026-05-05"
+  },
+  "FEXU407": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 613,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 49499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 50205,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 49499,
+      "mediana_competitiva": 49852
+    },
+    "fecha": "2026-05-05"
+  },
+  "LPL0024": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Laprepie.com",
+          "precio": 2392,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Inmediato.cl",
+          "precio": 2700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 5990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 2392,
+      "mediana_competitiva": 2546
+    },
+    "fecha": "2026-05-05"
+  },
+  "LPL0065": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 2490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Inmediato.cl",
+          "precio": 2700,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Laprepie.com",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3190,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2490,
+      "mediana_competitiva": 3090
+    },
+    "fecha": "2026-05-05"
+  },
+  "LPL0066": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Fastest.cl",
+          "precio": 60000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 60000,
+      "mediana_competitiva": 60000
+    },
+    "fecha": "2026-05-05"
   }
 }
