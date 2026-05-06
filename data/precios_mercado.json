@@ -409657,5 +409657,24 @@
       "mediana_competitiva": 2880
     },
     "fecha": "2026-05-06"
+  },
+  "LPL0063": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 5106,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Laprepie.com",
+          "precio": 6690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5106,
+      "mediana_competitiva": 5898
+    },
+    "fecha": "2026-05-06"
   }
 }
