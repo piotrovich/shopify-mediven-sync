@@ -409841,5 +409841,137 @@
       "mediana_competitiva": 6990
     },
     "fecha": "2026-05-07"
+  },
+  "111104": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 4391,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 8690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 9990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmam.cl",
+          "precio": 10290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 11390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 11502,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 11650,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8690,
+      "mediana_competitiva": 10840
+    },
+    "fecha": "2026-05-07"
+  },
+  "2610032": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 6490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 6590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.farmagente.cl",
+          "precio": 6820,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 24999,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3490,
+      "mediana_competitiva": 6590
+    },
+    "fecha": "2026-05-07"
+  },
+  "0290052": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 3889,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 8990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Test.nibitha.cl",
+          "precio": 9999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Novasalud.cl",
+          "precio": 10501,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 10990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 14783,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 15290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 10745
+    },
+    "fecha": "2026-05-07"
   }
 }
