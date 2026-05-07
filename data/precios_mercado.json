@@ -409744,5 +409744,102 @@
       "mediana_competitiva": 28677
     },
     "fecha": "2026-05-07"
+  },
+  "0900265": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Axam.cl",
+          "precio": 4000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 4980,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 6150,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 7390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4000,
+      "mediana_competitiva": 5565
+    },
+    "fecha": "2026-05-07"
+  },
+  "RMCAL251": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 666,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1730,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 8203,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 16990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 45199,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 8203,
+      "mediana_competitiva": 8203
+    },
+    "fecha": "2026-05-07"
+  },
+  "MI129NIUN": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 6840,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Keepon.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Medishop.cl",
+          "precio": 7600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 10000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 6990
+    },
+    "fecha": "2026-05-07"
   }
 }
