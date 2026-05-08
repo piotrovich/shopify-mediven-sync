@@ -410085,5 +410085,44 @@
       "mediana_competitiva": 16920
     },
     "fecha": "2026-05-08"
+  },
+  "1161118": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 24712,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 24990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 26990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 27801,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 28299,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cosmetis.com",
+          "precio": 47851,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 24712,
+      "mediana_competitiva": 27395
+    },
+    "fecha": "2026-05-08"
   }
 }
