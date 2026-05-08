@@ -409973,5 +409973,39 @@
       "mediana_competitiva": 10745
     },
     "fecha": "2026-05-07"
+  },
+  "AAGORROC": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Comercialhevea.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 4290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Trema.cl",
+          "precio": 4500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dentalalameda.cl",
+          "precio": 5600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Med-chile.com",
+          "precio": 5956,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4290,
+      "mediana_competitiva": 5050
+    },
+    "fecha": "2026-05-08"
   }
 }
