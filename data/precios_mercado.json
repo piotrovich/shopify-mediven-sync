@@ -410124,5 +410124,54 @@
       "mediana_competitiva": 27395
     },
     "fecha": "2026-05-08"
+  },
+  "550552": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 2990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacia.araucomed.com",
+          "precio": 3490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmalisto.cl",
+          "precio": 3800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3940,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 3960,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3950
+    },
+    "fecha": "2026-05-08"
   }
 }
