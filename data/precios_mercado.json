@@ -410659,5 +410659,47 @@
       "mediana_competitiva": 9690
     },
     "fecha": "2026-05-11"
+  },
+  "HB060": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Onenutrition.cl",
+          "precio": 4000,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 17550,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 19980,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 23600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 33990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 17550,
+      "mediana_competitiva": 21790
+    },
+    "fecha": "2026-05-11"
+  },
+  "971804": {
+    "datos_mercado": null,
+    "fecha": "2026-05-11"
+  },
+  "971805": {
+    "datos_mercado": null,
+    "fecha": "2026-05-11"
   }
 }
