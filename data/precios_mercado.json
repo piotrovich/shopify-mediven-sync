@@ -411462,5 +411462,39 @@
       "mediana_competitiva": 3994
     },
     "fecha": "2026-05-13"
+  },
+  "0900181": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 750,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmalisto.cl",
+          "precio": 990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Purasalud.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "El Qu\u00edmico",
+          "precio": 4900,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 1990
+    },
+    "fecha": "2026-05-13"
   }
 }
