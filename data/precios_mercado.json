@@ -411299,5 +411299,61 @@
       "mediana_competitiva": 1500
     },
     "fecha": "2026-05-12"
+  },
+  "7006": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Listado.mercadolibre.com.co",
+          "precio": 51000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 51000,
+      "mediana_competitiva": 51000
+    },
+    "fecha": "2026-05-13"
+  },
+  "7004": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mundodeofertas.cl",
+          "precio": 4950,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 8390,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4950,
+      "mediana_competitiva": 6670
+    },
+    "fecha": "2026-05-13"
+  },
+  "700742670": {
+    "datos_mercado": null,
+    "fecha": "2026-05-13"
+  },
+  "67000135": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3199,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadofarma.cl",
+          "precio": 3490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3199,
+      "mediana_competitiva": 3344
+    },
+    "fecha": "2026-05-13"
   }
 }
