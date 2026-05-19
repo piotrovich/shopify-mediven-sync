@@ -414520,5 +414520,101 @@
       "mediana_competitiva": 5327
     },
     "fecha": "2026-05-19"
+  },
+  "PT17910": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 3416,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 5790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 5850,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 40000,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3416,
+      "mediana_competitiva": 5790
+    },
+    "fecha": "2026-05-19"
+  },
+  "805056": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Rakkonatural.cl",
+          "precio": 6490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 7090,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Yourgoal.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Bodychange.cl",
+          "precio": 7990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6490,
+      "mediana_competitiva": 7540
+    },
+    "fecha": "2026-05-19"
+  },
+  "7804681740803": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 3825,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 11002,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 11972,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 11002,
+      "mediana_competitiva": 11487
+    },
+    "fecha": "2026-05-19"
+  },
+  "7804681740797": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mercadopublico.cl",
+          "precio": 8900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8900,
+      "mediana_competitiva": 8900
+    },
+    "fecha": "2026-05-19"
   }
 }
