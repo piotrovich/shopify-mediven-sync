@@ -414616,5 +414616,265 @@
       "mediana_competitiva": 8900
     },
     "fecha": "2026-05-19"
+  },
+  "160017": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 4690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vicamat.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 6640,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 6640,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 7799,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4690,
+      "mediana_competitiva": 6640
+    },
+    "fecha": "2026-05-19"
+  },
+  "160069": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 3990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 4980,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 5489,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 16784,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 5234
+    },
+    "fecha": "2026-05-19"
+  },
+  "160094": {
+    "datos_mercado": null,
+    "fecha": "2026-05-19"
+  },
+  "255073": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dipy.cl",
+          "precio": 1572,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 1890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 3200,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 1572,
+      "mediana_competitiva": 1890
+    },
+    "fecha": "2026-05-19"
+  },
+  "3240091": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 4690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciasahumada.cl",
+          "precio": 14159,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4690,
+      "mediana_competitiva": 5340
+    },
+    "fecha": "2026-05-19"
+  },
+  "536836": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Novasalud.cl",
+          "precio": 784,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 1117,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 5299,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 5300,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5299,
+      "mediana_competitiva": 5300
+    },
+    "fecha": "2026-05-19"
+  },
+  "527482": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruzverde.com.co",
+          "precio": 866,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 5490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 5900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 6290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 6290,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 62999,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 5490,
+      "mediana_competitiva": 6095
+    },
+    "fecha": "2026-05-19"
+  },
+  "527495": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 5489,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Cruzverde.com.co",
+          "precio": 10450,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5489,
+      "mediana_competitiva": 7969
+    },
+    "fecha": "2026-05-19"
+  },
+  "536843": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3999,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 6599,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Mercadolibre.com.co",
+          "precio": 10500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 30990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 6599,
+      "mediana_competitiva": 8549
+    },
+    "fecha": "2026-05-19"
+  },
+  "536838": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 5489,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 6599,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5489,
+      "mediana_competitiva": 6044
+    },
+    "fecha": "2026-05-19"
   }
 }
