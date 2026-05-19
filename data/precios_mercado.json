@@ -414876,5 +414876,145 @@
       "mediana_competitiva": 6044
     },
     "fecha": "2026-05-19"
+  },
+  "2180009": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Diprolab.cl",
+          "precio": 4928,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Vicamat.cl",
+          "precio": 5990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 4928,
+      "mediana_competitiva": 5459
+    },
+    "fecha": "2026-05-19"
+  },
+  "2180058": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 13110,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Fasmed.cl",
+          "precio": 14990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Diprolab.cl",
+          "precio": 22170,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 13110,
+      "mediana_competitiva": 14990
+    },
+    "fecha": "2026-05-19"
+  },
+  "03704188": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 700,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Insumosnalimed.cl",
+          "precio": 6750,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 22050,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Tienda.chbs.cl",
+          "precio": 28600,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 22050,
+      "mediana_competitiva": 25325
+    },
+    "fecha": "2026-05-19"
+  },
+  "03704189": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mercadopublico.cl",
+          "precio": 919,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Medcare.cl",
+          "precio": 1590,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 1900,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 1990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Insumosnalimed.cl",
+          "precio": 6750,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Vitalsec.cl",
+          "precio": 7890,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 22050,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 1590,
+      "mediana_competitiva": 1900
+    },
+    "fecha": "2026-05-19"
+  },
+  "15260810030": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Nutrapharm.com",
+          "precio": 5000,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Instagram.com",
+          "precio": 20990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knop",
+          "precio": 22990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 20990,
+      "mediana_competitiva": 21990
+    },
+    "fecha": "2026-05-19"
   }
 }
