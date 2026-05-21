@@ -415255,5 +415255,19 @@
       "mediana_competitiva": 16977
     },
     "fecha": "2026-05-20"
+  },
+  "2800341": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmam.cl",
+          "precio": 12650,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12650,
+      "mediana_competitiva": 12650
+    },
+    "fecha": "2026-05-21"
   }
 }
