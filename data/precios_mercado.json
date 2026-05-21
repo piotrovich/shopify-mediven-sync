@@ -415269,5 +415269,24 @@
       "mediana_competitiva": 12650
     },
     "fecha": "2026-05-21"
+  },
+  "PACR30": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 16990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 18790,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 16990,
+      "mediana_competitiva": 17890
+    },
+    "fecha": "2026-05-21"
   }
 }
