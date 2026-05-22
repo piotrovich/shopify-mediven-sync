@@ -415434,5 +415434,92 @@
       "mediana_competitiva": 15914
     },
     "fecha": "2026-05-22"
+  },
+  "19408111510411": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 16800,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 22499,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 16800,
+      "mediana_competitiva": 19649
+    },
+    "fecha": "2026-05-22"
+  },
+  "CPTAJOB201": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmalife.com.ar",
+          "precio": 730,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Farmaciasconstitucion.com",
+          "precio": 3597,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Zonafarma.com.ar",
+          "precio": 7804,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Listado.mercadolibre.com.ar",
+          "precio": 10999,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 3597,
+      "mediana_competitiva": 7804
+    },
+    "fecha": "2026-05-22"
+  },
+  "NF253": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 4990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 5750,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 6690,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmaciascurie.cl",
+          "precio": 10490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nutralifesuplementos.cl",
+          "precio": 13890,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Nutrapunto.cl",
+          "precio": 21990,
+          "estado": "\ud83d\udd34 Descartado (Pack/Caro)"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 6690
+    },
+    "fecha": "2026-05-22"
   }
 }
