@@ -415739,5 +415739,95 @@
       "mediana_competitiva": 29820
     },
     "fecha": "2026-05-25"
+  },
+  "TDMULTI7+OHCA02": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Hometest.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Rapidtest.cl",
+          "precio": 199500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 199500,
+      "mediana_competitiva": 199500
+    },
+    "fecha": "2026-05-25"
+  },
+  "TEHPYAUTOCN13": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Rapidtest.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udd34 Descartado (Sachet/Gancho)"
+        },
+        {
+          "farmacia": "Grupobios.cl",
+          "precio": 119000,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 119000,
+      "mediana_competitiva": 119000
+    },
+    "fecha": "2026-05-25"
+  },
+  "TECELIACOCA06": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 8149,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 8149,
+      "mediana_competitiva": 8149
+    },
+    "fecha": "2026-05-25"
+  },
+  "TDMULTI5OPICL01": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Hometest.cl",
+          "precio": 6990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rapidtest.cl",
+          "precio": 7500,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 6990,
+      "mediana_competitiva": 7245
+    },
+    "fecha": "2026-05-25"
+  },
+  "TEOVUCN01": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Autotest-chile.com",
+          "precio": 12990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Rapidtest.cl",
+          "precio": 19990,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 12990,
+      "mediana_competitiva": 16490
+    },
+    "fecha": "2026-05-25"
   }
 }
