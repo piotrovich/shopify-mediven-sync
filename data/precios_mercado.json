@@ -415829,5 +415829,63 @@
       "mediana_competitiva": 16490
     },
     "fecha": "2026-05-25"
+  },
+  "199004": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buhochile.com",
+          "precio": 839,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Dr. Simi",
+          "precio": 930,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 1080,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmalisto.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmati.cl",
+          "precio": 1490,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 839,
+      "mediana_competitiva": 1285
+    },
+    "fecha": "2026-05-26"
+  },
+  "MIN0062": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 5930,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 7152,
+          "estado": "\ud83d\udfe2 V\u00e1lido"
+        }
+      ],
+      "minimo": 5930,
+      "mediana_competitiva": 6541
+    },
+    "fecha": "2026-05-26"
   }
 }
