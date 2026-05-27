@@ -7,28 +7,22 @@ en la próxima corrida del sync.
 NO modifica nada. Solo lee mediven_full.json y aplica la lógica de detección
 que vive en modulos/finanzas/segmentacion.py (fuente única de verdad).
 
-Útil para:
-  - Verificar qué productos van a recibir precio héroe.
-  - Detectar matches malos (productos capturados por error).
-  - Inspirarte para agregar overrides manuales en data/heroes.json.
-
 Uso:
     python scripts/diagnostico/generar_heroes.py
 
-REQUIERE que exista mediven_full.json (se genera al correr sync.py o
-ejecutando get_mediven_inventory() directamente).
+REQUIERE que exista mediven_full.json.
 """
 
 import os
 import sys
 import json
-import re
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.insert(0, BASE_DIR)
 
 from modulos.finanzas.segmentacion import (
     CANDIDATOS_HEROES,
+    buscar_candidato,
     precargar_heroes_desde_catalogo,
 )
 
@@ -49,24 +43,17 @@ def main():
     print(f"📋 Analizando {len(productos)} productos Mediven con {len(CANDIDATOS_HEROES)} categorías de héroes...")
     print("=" * 70)
 
-    # Mostramos el detalle por categoría
     total_matches = 0
     sin_matches = []
 
     for cand in CANDIDATOS_HEROES:
-        matches = []
-        for prod in productos:
-            descripcion = str(prod.get("Descripcion", "")).lower()
-            if all(re.search(p, descripcion, re.IGNORECASE) for p in cand["patrones"]):
-                matches.append(prod)
-        matches.sort(key=lambda x: float(x.get("Precio", 0) or 0))
-        seleccionados = matches[:cand.get("max_resultados", 3)]
+        seleccionados = buscar_candidato(productos, cand)
 
         if not seleccionados:
             sin_matches.append(cand["nombre"])
             continue
 
-        print(f"\n✓ {cand['nombre']}: {len(seleccionados)} seleccionado(s) de {len(matches)} matches")
+        print(f"\n✓ {cand['nombre']}: {len(seleccionados)} seleccionado(s)")
         for m in seleccionados:
             sku = str(m.get("Codigo", ""))
             desc = m.get("Descripcion", "")
@@ -94,7 +81,6 @@ def main():
     print()
     print("💡 Para agregar manualmente algún SKU que no calce con los patrones,")
     print("   edita data/heroes.json con formato: [\"SKU_1\", \"SKU_2\", ...]")
-    print("   Esos SKUs SE SUMAN a los detectados automáticamente.")
 
 
 if __name__ == "__main__":

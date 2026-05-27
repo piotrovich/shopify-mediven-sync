@@ -12,12 +12,9 @@ Tres segmentos:
                 categoría terapéutica (oncológicos, biológicos, etc.).
   - regular: el resto del catálogo. Francotirador -3% bajo mediana.
 
-El flujo automatizado es:
-    1. sync.py descarga mediven_data
-    2. sync.py llama precargar_heroes_desde_catalogo(mediven_data)
-    3. clasificar_producto(...) ya tiene la cache cargada y devuelve el segmento
-
-Sin intervención manual.
+CANDIDATOS_HEROES soporta un campo opcional 'excluir_patrones' para
+descartar formas farmacéuticas no deseadas (supositorios, ampollas, etc.)
+incluso cuando matchean los patrones positivos.
 """
 
 import os
@@ -35,20 +32,22 @@ UMBRAL_ALTO_COSTO = int(os.getenv("UMBRAL_ALTO_COSTO", "40000"))
 # Cada candidato define:
 #   - nombre: descripción legible
 #   - patrones: lista de regex que deben matchear TODOS en la descripción Mediven
+#   - excluir_patrones (opcional): lista de regex; si CUALQUIERA matchea, descarta
 #   - max_resultados: cuántos SKUs aceptar por categoría (los de menor costo)
-# La detección elige los más baratos para maximizar margen del loss leader.
 CANDIDATOS_HEROES = [
     # === Analgésicos / Antiinflamatorios ===
     {"nombre": "Paracetamol 500mg comprimidos", "patrones": ["paracetamol", r"\b500\s*mg\b", r"\bcom\b|\bcomp"], "max_resultados": 3},
     {"nombre": "Ibuprofeno 400mg comprimidos", "patrones": ["ibuprofeno", r"\b400\s*mg\b"], "max_resultados": 3},
-    {"nombre": "Diclofenaco sodico 50mg", "patrones": ["diclofenac", r"\b50\s*mg\b"], "max_resultados": 3},
-    {"nombre": "Ketoprofeno 100mg", "patrones": ["ketoprofeno", r"\b100\s*mg\b"], "max_resultados": 2},
+    {"nombre": "Diclofenaco sodico 50mg comprimidos",
+     "patrones": ["diclofenac", r"\b50\s*mg\b"],
+     "excluir_patrones": [r"\bsup\b|supositor", r"\bamp\b|ampolla", r"\biny\b|inyectable", r"\bgel\b|crema|t[oó]pic"],
+     "max_resultados": 3},
     {"nombre": "Naproxeno 550mg", "patrones": ["naproxeno", r"\b550\s*mg\b"], "max_resultados": 2},
 
     # === Gastrointestinal ===
     {"nombre": "Omeprazol 20mg", "patrones": ["omeprazol", r"\b20\s*mg\b"], "max_resultados": 3},
     {"nombre": "Lansoprazol 30mg", "patrones": ["lansoprazol", r"\b30\s*mg\b"], "max_resultados": 2},
-    {"nombre": "Famotidina 20mg", "patrones": ["famotidina"], "max_resultados": 2},
+    {"nombre": "Famotidina 40mg", "patrones": ["famotidina", r"\b40\s*mg\b"], "max_resultados": 2},
     {"nombre": "Loperamida 2mg", "patrones": ["loperamida"], "max_resultados": 2},
 
     # === Antialérgicos ===
@@ -62,7 +61,7 @@ CANDIDATOS_HEROES = [
     {"nombre": "Amlodipino 5mg", "patrones": ["amlodipino", r"\b5\s*mg\b"], "max_resultados": 2},
     {"nombre": "Atorvastatina 20mg", "patrones": ["atorvastatina", r"\b20\s*mg\b"], "max_resultados": 3},
     {"nombre": "Atenolol 50mg", "patrones": ["atenolol"], "max_resultados": 2},
-    {"nombre": "Hidroclorotiazida 25mg", "patrones": ["hidroclorotiazida"], "max_resultados": 2},
+    {"nombre": "Hidroclorotiazida 50mg", "patrones": ["hidroclorotiazida", r"\b50\s*mg\b"], "max_resultados": 2},
     {"nombre": "Furosemida 40mg", "patrones": ["furosemida"], "max_resultados": 2},
 
     # === Endocrino ===
@@ -77,12 +76,12 @@ CANDIDATOS_HEROES = [
     {"nombre": "Fluoxetina 20mg", "patrones": ["fluoxetina", r"\b20\s*mg\b"], "max_resultados": 2},
 
     # === Respiratorio ===
-    {"nombre": "Salbutamol inhalador", "patrones": ["salbutamol", "inhal|aerosol"], "max_resultados": 2},
-    {"nombre": "Budesonida inhalador", "patrones": ["budesonida", "inhal|aerosol"], "max_resultados": 2},
+    {"nombre": "Salbutamol inhalador", "patrones": ["salbutamol", "inhal|aerosol|\\baer\\b|spray"], "max_resultados": 2},
+    {"nombre": "Budesonida inhalador", "patrones": ["budesonida", "inhal|aerosol|\\baer\\b|polvo|spray|nebul"], "max_resultados": 2},
 
-    # === Pediátrico ===
-    {"nombre": "Paracetamol pediatrico jarabe/gotas", "patrones": ["paracetamol", "jarabe|jbe|gotas|gts"], "max_resultados": 3},
-    {"nombre": "Ibuprofeno pediatrico jarabe/gotas", "patrones": ["ibuprofeno", "jarabe|jbe|gotas|gts"], "max_resultados": 3},
+    # === Pediátrico (regex ampliado: jarabe, gotas, suspensión, infantil, etc.) ===
+    {"nombre": "Paracetamol pediatrico", "patrones": ["paracetamol", "jarabe|jbe|gotas|gts|susp|suspensi[oó]n|\\bped\\b|infantil|baby|ni[ñn]os?"], "max_resultados": 3},
+    {"nombre": "Ibuprofeno pediatrico", "patrones": ["ibuprofeno", "jarabe|jbe|gotas|gts|susp|suspensi[oó]n|\\bped\\b|infantil|baby|ni[ñn]os?"], "max_resultados": 3},
 ]
 
 # ============================================================
@@ -133,31 +132,38 @@ def _cargar_overrides_manuales():
         return set()
 
 
+def buscar_candidato(productos_mediven, candidato):
+    """
+    Devuelve los productos seleccionados para un candidato a héroe.
+
+    Aplica todos los patrones positivos + ningún excluir_patrones,
+    ordena por precio asc, devuelve los max_resultados más baratos.
+    """
+    matches = []
+    for prod in productos_mediven:
+        descripcion = str(prod.get("Descripcion", "")).lower()
+        if not all(re.search(p, descripcion, re.IGNORECASE) for p in candidato["patrones"]):
+            continue
+        excluir = candidato.get("excluir_patrones", [])
+        if excluir and any(re.search(p, descripcion, re.IGNORECASE) for p in excluir):
+            continue
+        matches.append(prod)
+    matches.sort(key=lambda x: float(x.get("Precio", 0) or 0))
+    return matches[:candidato.get("max_resultados", 3)]
+
+
 def precargar_heroes_desde_catalogo(productos_mediven):
     """
     Detecta héroes automáticamente desde el catálogo Mediven.
 
-    Para cada categoría en CANDIDATOS_HEROES, toma los `max_resultados` más
-    baratos. Luego suma los overrides manuales de data/heroes.json (si existe).
-
-    Args:
-        productos_mediven: lista de dicts con al menos 'Codigo' y 'Descripcion'.
-
-    Returns:
-        Cantidad de SKUs cargados como héroes.
+    Para cada categoría en CANDIDATOS_HEROES, llama a buscar_candidato()
+    y agrega los SKUs encontrados. Luego suma overrides de data/heroes.json.
     """
     global _HEROES
     detectados = set()
 
     for cand in CANDIDATOS_HEROES:
-        matches = []
-        for prod in productos_mediven:
-            descripcion = str(prod.get("Descripcion", "")).lower()
-            if all(re.search(p, descripcion, re.IGNORECASE) for p in cand["patrones"]):
-                matches.append(prod)
-        # Los más baratos primero → loss leaders más rentables
-        matches.sort(key=lambda x: float(x.get("Precio", 0) or 0))
-        for prod in matches[:cand.get("max_resultados", 3)]:
+        for prod in buscar_candidato(productos_mediven, cand):
             sku = str(prod.get("Codigo", "")).strip()
             if sku:
                 detectados.add(sku)
