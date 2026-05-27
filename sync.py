@@ -13,6 +13,7 @@ from modulos.ia_seo import crear_diccionario_ia, subir_a_shopify
 from modulos.multimedia import sync_imagenes_auto
 from modulos.finanzas import repesca_precios
 from modulos.finanzas.precios import calcular_precio_final
+from modulos.finanzas.segmentacion import clasificar_producto
 
 from modulos.nucleo.sync_crear import crear_productos_graphql_turbo
 
@@ -193,13 +194,20 @@ def main():
                 continue
 
             precio_med = float(row.get("Precio", 0) or 0)
-            
-            # 🛡️ Aplicamos la Inteligencia Financiera
+
+            # 🛡️ Aplicamos la Inteligencia Financiera con segmentación
             if precio_med <= 0:
                 nuevo_precio = 0
             else:
+                segmento = clasificar_producto(
+                    sku=sku,
+                    descripcion=row.get("Descripcion", ""),
+                    costo_neto=precio_med,
+                    laboratorio=row.get("Laboratorio", ""),
+                    accion_terapeutica=row.get("AccionTerapeutica", ""),
+                )
                 datos_sku = precios_mercado.get(sku)
-                nuevo_precio, estrategia = calcular_precio_final(precio_med, datos_sku)
+                nuevo_precio, estrategia = calcular_precio_final(precio_med, datos_sku, segmento=segmento)
 
             if sku in shop_by_sku:
                 shop_row = shop_by_sku[sku]
