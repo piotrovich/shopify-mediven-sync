@@ -1,0 +1,35 @@
+# Variables de entorno (NUNCA commitear)
+.env
+.env.*
+*.env
+
+# Backups locales
+data/backups/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs y locks de runtime
+*.log
+sync.lock
+
+# Reportes generados
+reportes/*.xlsx
