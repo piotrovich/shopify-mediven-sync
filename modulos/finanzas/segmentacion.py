@@ -38,11 +38,22 @@ CANDIDATOS_HEROES = [
     # === Analgésicos / Antiinflamatorios ===
     {"nombre": "Paracetamol 500mg comprimidos", "patrones": ["paracetamol", r"\b500\s*mg\b", r"\bcom\b|\bcomp"], "max_resultados": 3},
     {"nombre": "Ibuprofeno 400mg comprimidos", "patrones": ["ibuprofeno", r"\b400\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Ibuprofeno 600mg comprimidos",
+     "patrones": ["ibuprofeno", r"\b600\s*mg\b"],
+     "excluir_patrones": [r"\bsus\b|susp|jarabe|jbe|gotas|gts"],
+     "max_resultados": 3},
+    {"nombre": "Ibuprofeno 200mg comprimidos",
+     "patrones": ["ibuprofeno", r"\b200\s*mg\b"],
+     "excluir_patrones": [r"\bsus\b|susp|jarabe|jbe|gotas|gts|/\s*5\s*ml"],
+     "max_resultados": 2},
     {"nombre": "Diclofenaco sodico 50mg comprimidos",
      "patrones": ["diclofenac", r"\b50\s*mg\b"],
      "excluir_patrones": [r"\bsup\b|supositor", r"\bamp\b|ampolla", r"\biny\b|inyectable", r"\bgel\b|crema|t[oó]pic"],
      "max_resultados": 3},
     {"nombre": "Naproxeno 550mg", "patrones": ["naproxeno", r"\b550\s*mg\b"], "max_resultados": 2},
+    {"nombre": "Tramadol+Paracetamol 37,5/325mg",
+     "patrones": ["tramadol", "paracetamol", r"37[,.]5"],
+     "max_resultados": 2},
 
     # === Gastrointestinal ===
     {"nombre": "Omeprazol 20mg", "patrones": ["omeprazol", r"\b20\s*mg\b"], "max_resultados": 3},
@@ -76,12 +87,16 @@ CANDIDATOS_HEROES = [
     {"nombre": "Fluoxetina 20mg", "patrones": ["fluoxetina", r"\b20\s*mg\b"], "max_resultados": 2},
 
     # === Respiratorio ===
-    {"nombre": "Salbutamol inhalador", "patrones": ["salbutamol", "inhal|aerosol|\\baer\\b|spray"], "max_resultados": 2},
-    {"nombre": "Budesonida inhalador", "patrones": ["budesonida", "inhal|aerosol|\\baer\\b|polvo|spray|nebul"], "max_resultados": 2},
+    {"nombre": "Salbutamol inhalador", "patrones": ["salbutamol", r"inhal|aerosol|\baer\b|\binh\b|spray"], "max_resultados": 2},
+    {"nombre": "Budesonida inhalador", "patrones": ["budesonida", r"inhal|aerosol|\baer\b|\binh\b|polvo|spray|nebul"], "max_resultados": 2},
 
-    # === Pediátrico (regex ampliado: jarabe, gotas, suspensión, infantil, etc.) ===
-    {"nombre": "Paracetamol pediatrico", "patrones": ["paracetamol", "jarabe|jbe|gotas|gts|susp|suspensi[oó]n|\\bped\\b|infantil|baby|ni[ñn]os?"], "max_resultados": 3},
-    {"nombre": "Ibuprofeno pediatrico", "patrones": ["ibuprofeno", "jarabe|jbe|gotas|gts|susp|suspensi[oó]n|\\bped\\b|infantil|baby|ni[ñn]os?"], "max_resultados": 3},
+    # === Pediátrico (regex ampliado: SUS, INF, MAST además de jarabe/gotas/suspensión) ===
+    {"nombre": "Paracetamol pediatrico",
+     "patrones": ["paracetamol", r"jarabe|jbe|gotas|gts|susp|suspensi[oó]n|\bsus\b|\bped\b|\binf\b|infantil|baby|ni[ñn]os?|mast"],
+     "max_resultados": 3},
+    {"nombre": "Ibuprofeno pediatrico",
+     "patrones": ["ibuprofeno", r"jarabe|jbe|gotas|gts|susp|suspensi[oó]n|\bsus\b|\bped\b|\binf\b|infantil|baby|ni[ñn]os?|mast"],
+     "max_resultados": 3},
 ]
 
 # ============================================================
@@ -206,9 +221,6 @@ def clasificar_producto(sku, descripcion="", costo_neto=0, laboratorio="", accio
         'heroe' | 'alto_costo' | 'regular'
 
     Héroes tienen prioridad sobre alto_costo.
-    NOTA: para que la detección de héroes funcione, sync.py debe llamar
-    primero a precargar_heroes_desde_catalogo(). Si no se llamó, ningún
-    producto será héroe automáticamente (solo los overrides de heroes.json).
     """
     if es_heroe(sku):
         return "heroe"
