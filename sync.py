@@ -13,7 +13,7 @@ from modulos.ia_seo import crear_diccionario_ia, subir_a_shopify
 from modulos.multimedia import sync_imagenes_auto
 from modulos.finanzas import repesca_precios
 from modulos.finanzas.precios import calcular_precio_final
-from modulos.finanzas.segmentacion import clasificar_producto
+from modulos.finanzas.segmentacion import clasificar_producto, precargar_heroes_desde_catalogo
 
 from modulos.nucleo.sync_crear import crear_productos_graphql_turbo
 
@@ -146,6 +146,12 @@ def main():
         skus_excluidos = set(df_med[df_med["EsExcluido"]]["Codigo"])
 
         console.print(f"[yellow]🐾 Productos detectados para exclusión:[/yellow] {len(skus_excluidos)}")
+
+        # ======================================================
+        # 3.5) AUTODETECCIÓN DE HÉROES (LOSS LEADERS)
+        # ======================================================
+        n_heroes = precargar_heroes_desde_catalogo(mediven_data)
+        console.print(f"[bold green]🎯 Héroes detectados automáticamente:[/bold green] {n_heroes}")
 
         # ======================================================
         # 4) DIAGNÓSTICO Y PRECIOS DINÁMICOS

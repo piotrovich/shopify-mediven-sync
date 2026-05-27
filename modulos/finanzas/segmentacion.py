@@ -3,27 +3,92 @@ Segmentación de productos para fijación de precios.
 
 Tres segmentos:
   - heroe: loss leaders, precio agresivo (-15% bajo el mínimo del mercado).
-           Lista explícita en data/heroes.json.
+           Detectados AUTOMÁTICAMENTE en cada corrida desde el catálogo
+           Mediven via precargar_heroes_desde_catalogo().
+           Adicionalmente, si existe data/heroes.json, sus SKUs se suman
+           como overrides manuales.
   - alto_costo: productos donde no podemos competir por precio.
                 Detectados por costo Mediven > UMBRAL_ALTO_COSTO o por
                 categoría terapéutica (oncológicos, biológicos, etc.).
-                Precio: mediana exacta del mercado.
   - regular: el resto del catálogo. Francotirador -3% bajo mediana.
 
-La lista de héroes se carga al importar este módulo. Si cambia mid-runtime,
-llamar a recargar_heroes().
+El flujo automatizado es:
+    1. sync.py descarga mediven_data
+    2. sync.py llama precargar_heroes_desde_catalogo(mediven_data)
+    3. clasificar_producto(...) ya tiene la cache cargada y devuelve el segmento
+
+Sin intervención manual.
 """
 
 import os
+import re
 import json
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
-ARCHIVO_HEROES = os.path.join(BASE_DIR, "data", "heroes.json")
+ARCHIVO_HEROES_OVERRIDE = os.path.join(BASE_DIR, "data", "heroes.json")
 
 UMBRAL_ALTO_COSTO = int(os.getenv("UMBRAL_ALTO_COSTO", "40000"))
 
-# Patrones de texto que marcan categoría de alto costo.
-# Se buscan en (descripción + laboratorio + acción terapéutica) en minúscula.
+# ============================================================
+#   CANDIDATOS A HÉROE
+# ============================================================
+# Cada candidato define:
+#   - nombre: descripción legible
+#   - patrones: lista de regex que deben matchear TODOS en la descripción Mediven
+#   - max_resultados: cuántos SKUs aceptar por categoría (los de menor costo)
+# La detección elige los más baratos para maximizar margen del loss leader.
+CANDIDATOS_HEROES = [
+    # === Analgésicos / Antiinflamatorios ===
+    {"nombre": "Paracetamol 500mg comprimidos", "patrones": ["paracetamol", r"\b500\s*mg\b", r"\bcom\b|\bcomp"], "max_resultados": 3},
+    {"nombre": "Ibuprofeno 400mg comprimidos", "patrones": ["ibuprofeno", r"\b400\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Diclofenaco sodico 50mg", "patrones": ["diclofenac", r"\b50\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Ketoprofeno 100mg", "patrones": ["ketoprofeno", r"\b100\s*mg\b"], "max_resultados": 2},
+    {"nombre": "Naproxeno 550mg", "patrones": ["naproxeno", r"\b550\s*mg\b"], "max_resultados": 2},
+
+    # === Gastrointestinal ===
+    {"nombre": "Omeprazol 20mg", "patrones": ["omeprazol", r"\b20\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Lansoprazol 30mg", "patrones": ["lansoprazol", r"\b30\s*mg\b"], "max_resultados": 2},
+    {"nombre": "Famotidina 20mg", "patrones": ["famotidina"], "max_resultados": 2},
+    {"nombre": "Loperamida 2mg", "patrones": ["loperamida"], "max_resultados": 2},
+
+    # === Antialérgicos ===
+    {"nombre": "Loratadina 10mg", "patrones": ["loratadina", r"\b10\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Cetirizina 10mg", "patrones": ["cetirizina", r"\b10\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Desloratadina 5mg", "patrones": ["desloratadina"], "max_resultados": 2},
+
+    # === Cardiovascular / Crónicos ===
+    {"nombre": "Losartan 50mg", "patrones": ["losart", r"\b50\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Enalapril 10mg", "patrones": ["enalapril", r"\b10\s*mg\b"], "max_resultados": 2},
+    {"nombre": "Amlodipino 5mg", "patrones": ["amlodipino", r"\b5\s*mg\b"], "max_resultados": 2},
+    {"nombre": "Atorvastatina 20mg", "patrones": ["atorvastatina", r"\b20\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Atenolol 50mg", "patrones": ["atenolol"], "max_resultados": 2},
+    {"nombre": "Hidroclorotiazida 25mg", "patrones": ["hidroclorotiazida"], "max_resultados": 2},
+    {"nombre": "Furosemida 40mg", "patrones": ["furosemida"], "max_resultados": 2},
+
+    # === Endocrino ===
+    {"nombre": "Metformina 850mg", "patrones": ["metformina", r"\b850\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Levotiroxina 50mcg", "patrones": ["levotiroxina", r"\b50\s*mcg\b|\b50\s*ug\b"], "max_resultados": 3},
+    {"nombre": "Levotiroxina 100mcg", "patrones": ["levotiroxina", r"\b100\s*mcg\b|\b100\s*ug\b"], "max_resultados": 3},
+
+    # === Salud mental ===
+    {"nombre": "Sertralina 50mg", "patrones": ["sertralina", r"\b50\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Sertralina 100mg", "patrones": ["sertralina", r"\b100\s*mg\b"], "max_resultados": 2},
+    {"nombre": "Escitalopram 10mg", "patrones": ["escitalopram", r"\b10\s*mg\b"], "max_resultados": 3},
+    {"nombre": "Fluoxetina 20mg", "patrones": ["fluoxetina", r"\b20\s*mg\b"], "max_resultados": 2},
+
+    # === Respiratorio ===
+    {"nombre": "Salbutamol inhalador", "patrones": ["salbutamol", "inhal|aerosol"], "max_resultados": 2},
+    {"nombre": "Budesonida inhalador", "patrones": ["budesonida", "inhal|aerosol"], "max_resultados": 2},
+
+    # === Pediátrico ===
+    {"nombre": "Paracetamol pediatrico jarabe/gotas", "patrones": ["paracetamol", "jarabe|jbe|gotas|gts"], "max_resultados": 3},
+    {"nombre": "Ibuprofeno pediatrico jarabe/gotas", "patrones": ["ibuprofeno", "jarabe|jbe|gotas|gts"], "max_resultados": 3},
+]
+
+# ============================================================
+#   PATRONES DE ALTO COSTO
+# ============================================================
+# Buscados en (descripción + laboratorio + acción terapéutica) en minúscula.
 PATRONES_ALTO_COSTO = [
     # Oncología
     "oncolog", "antineoplas", "antitumor", "citotox", "quimioter",
@@ -43,17 +108,19 @@ PATRONES_ALTO_COSTO = [
 ]
 
 
-def _cargar_heroes():
-    """Carga el set de SKUs marcados como héroes."""
-    if not os.path.exists(ARCHIVO_HEROES):
+# ============================================================
+#   CACHE DE HÉROES (se llena en cada corrida del sync)
+# ============================================================
+_HEROES = set()
+
+
+def _cargar_overrides_manuales():
+    """Lee data/heroes.json si existe. Acepta lista de strings, lista de dicts con 'sku', o dict."""
+    if not os.path.exists(ARCHIVO_HEROES_OVERRIDE):
         return set()
     try:
-        with open(ARCHIVO_HEROES, "r", encoding="utf-8") as f:
+        with open(ARCHIVO_HEROES_OVERRIDE, "r", encoding="utf-8") as f:
             data = json.load(f)
-        # Formato aceptado:
-        #   - lista de SKUs (strings)
-        #   - lista de objetos con campo 'sku'
-        #   - dict {sku: info}
         if isinstance(data, list):
             return {
                 str(x["sku"]) if isinstance(x, dict) and "sku" in x else str(x)
@@ -66,14 +133,47 @@ def _cargar_heroes():
         return set()
 
 
-# Cache cargada al importar
-_HEROES = _cargar_heroes()
+def precargar_heroes_desde_catalogo(productos_mediven):
+    """
+    Detecta héroes automáticamente desde el catálogo Mediven.
 
+    Para cada categoría en CANDIDATOS_HEROES, toma los `max_resultados` más
+    baratos. Luego suma los overrides manuales de data/heroes.json (si existe).
 
-def recargar_heroes():
-    """Recarga la lista de héroes desde disco. Útil tras editar heroes.json."""
+    Args:
+        productos_mediven: lista de dicts con al menos 'Codigo' y 'Descripcion'.
+
+    Returns:
+        Cantidad de SKUs cargados como héroes.
+    """
     global _HEROES
-    _HEROES = _cargar_heroes()
+    detectados = set()
+
+    for cand in CANDIDATOS_HEROES:
+        matches = []
+        for prod in productos_mediven:
+            descripcion = str(prod.get("Descripcion", "")).lower()
+            if all(re.search(p, descripcion, re.IGNORECASE) for p in cand["patrones"]):
+                matches.append(prod)
+        # Los más baratos primero → loss leaders más rentables
+        matches.sort(key=lambda x: float(x.get("Precio", 0) or 0))
+        for prod in matches[:cand.get("max_resultados", 3)]:
+            sku = str(prod.get("Codigo", "")).strip()
+            if sku:
+                detectados.add(sku)
+
+    overrides = _cargar_overrides_manuales()
+    _HEROES = detectados | overrides
+    return len(_HEROES)
+
+
+def cantidad_heroes_cargados():
+    return len(_HEROES)
+
+
+def listar_heroes_cargados():
+    """Devuelve copia del set actual de SKUs héroes (útil para debug/diagnóstico)."""
+    return set(_HEROES)
 
 
 def es_heroe(sku):
@@ -99,15 +199,13 @@ def clasificar_producto(sku, descripcion="", costo_neto=0, laboratorio="", accio
     Returns:
         'heroe' | 'alto_costo' | 'regular'
 
-    Héroes tienen prioridad sobre alto_costo en caso de superposición.
+    Héroes tienen prioridad sobre alto_costo.
+    NOTA: para que la detección de héroes funcione, sync.py debe llamar
+    primero a precargar_heroes_desde_catalogo(). Si no se llamó, ningún
+    producto será héroe automáticamente (solo los overrides de heroes.json).
     """
     if es_heroe(sku):
         return "heroe"
     if es_alto_costo(costo_neto, descripcion, laboratorio, accion_terapeutica):
         return "alto_costo"
     return "regular"
-
-
-def total_heroes_cargados():
-    """Útil para diagnóstico."""
-    return len(_HEROES)
