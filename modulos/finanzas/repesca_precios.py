@@ -39,6 +39,10 @@ ARCHIVO_MERCADO = os.path.join(BASE_DIR, "data", "precios_mercado.json")
 DIAS_REFRESH = int(os.getenv("DIAS_REFRESH", "30"))
 LIMITE_DIARIO = int(os.getenv("LIMITE_DIARIO", "800"))
 GIT_AUTOSAVE = os.getenv("GIT_AUTOSAVE", "false").lower() == "true"
+# Cooldown para reintentar productos en Monopolio (sin datos de mercado).
+# Evita que el Action horario re-espíe cada hora los productos que no
+# tienen presencia online (insumos de nicho). Default: cada 7 días.
+DIAS_REINTENTO_MONOPOLIO = int(os.getenv("DIAS_REINTENTO_MONOPOLIO", "7"))
 
 
 def _guardar(precios_mercado):
@@ -71,33 +75,59 @@ def _es_estudio_viejo(info, dias_max):
     return (datetime.now() - fecha) > timedelta(days=dias_max)
 
 
+def _dias_desde_fecha(info):
+    """Días transcurridos desde la fecha del último intento.
+    Sin fecha o fecha inválida → infinito (se considera que toca reintentar)."""
+    fecha_str = (info or {}).get("fecha")
+    if not fecha_str:
+        return float("inf")
+    try:
+        fecha = datetime.strptime(fecha_str, "%Y-%m-%d")
+    except ValueError:
+        return float("inf")
+    return (datetime.now() - fecha).days
+
+
 def _construir_cola(productos_mediven, precios_mercado):
     """
     Construye la lista de SKUs a investigar priorizada:
-      1. NUEVOS: no aparecen en precios_mercado.
-      2. NULOS: tienen entrada pero datos_mercado=None (Monopolio sin datos).
-      3. VIEJOS: estudio con más de DIAS_REFRESH días.
+      1. NUEVOS: no aparecen en precios_mercado (se espían siempre).
+      2. VÁLIDOS VIEJOS: tienen datos_mercado válidos pero el estudio venció
+         (más de DIAS_REFRESH días) → se refrescan.
+      3. MONOPOLIO A REINTENTAR: datos_mercado=None y pasó el cooldown
+         (más de DIAS_REINTENTO_MONOPOLIO días desde el último intento).
+
+    Los Monopolio en cooldown (sin datos pero intentados hace poco) NO entran
+    a la cola: así el Action horario no re-espía cada hora los productos que
+    no tienen presencia online. Esto protege los créditos de Serper.
     """
     info_por_sku = {str(p.get("Codigo", "")): p for p in productos_mediven if p.get("Codigo")}
     skus_mediven = set(info_por_sku.keys())
     skus_mercado = set(precios_mercado.keys())
+    en_ambos = skus_mediven & skus_mercado
 
+    # 1. NUEVOS: nunca se han espiado
     nuevos = sorted(skus_mediven - skus_mercado)
-    nulos = sorted([
-        s for s in skus_mediven & skus_mercado
-        if not (precios_mercado.get(s) or {}).get("datos_mercado")
-        and not _es_estudio_viejo(precios_mercado.get(s), DIAS_REFRESH)
+
+    # 2. VÁLIDOS VIEJOS: tienen datos pero el estudio venció
+    validos_viejos = sorted([
+        s for s in en_ambos
+        if (precios_mercado.get(s) or {}).get("datos_mercado")
+        and _dias_desde_fecha(precios_mercado.get(s)) >= DIAS_REFRESH
     ])
-    viejos = sorted([
-        s for s in skus_mediven & skus_mercado
-        if _es_estudio_viejo(precios_mercado.get(s), DIAS_REFRESH)
+
+    # 3. MONOPOLIO A REINTENTAR: sin datos y cooldown cumplido
+    monopolio_reintentar = sorted([
+        s for s in en_ambos
+        if not (precios_mercado.get(s) or {}).get("datos_mercado")
+        and _dias_desde_fecha(precios_mercado.get(s)) >= DIAS_REINTENTO_MONOPOLIO
     ])
 
     cola = []
-    for s in nuevos + nulos + viejos:
+    for s in nuevos + validos_viejos + monopolio_reintentar:
         cola.append((s, info_por_sku[s]))
 
-    return cola, len(nuevos), len(nulos), len(viejos)
+    return cola, len(nuevos), len(validos_viejos), len(monopolio_reintentar)
 
 
 def ejecutar_repesca_diaria():
@@ -115,12 +145,12 @@ def ejecutar_repesca_diaria():
         with open(ARCHIVO_MERCADO, "r", encoding="utf-8") as f:
             precios_mercado = json.load(f)
 
-    cola, n_nuevos, n_nulos, n_viejos = _construir_cola(productos_mediven, precios_mercado)
+    cola, n_nuevos, n_validos_viejos, n_monopolio = _construir_cola(productos_mediven, precios_mercado)
 
     console.print(
         f"[yellow]📋 Cola:[/yellow] [green]{n_nuevos} nuevos[/green] · "
-        f"[cyan]{n_nulos} nulos a reintentar[/cyan] · "
-        f"[magenta]{n_viejos} estudios > {DIAS_REFRESH} días[/magenta]"
+        f"[magenta]{n_validos_viejos} estudios > {DIAS_REFRESH} días[/magenta] · "
+        f"[cyan]{n_monopolio} monopolios a reintentar (cooldown {DIAS_REINTENTO_MONOPOLIO}d)[/cyan]"
     )
 
     if not cola:
