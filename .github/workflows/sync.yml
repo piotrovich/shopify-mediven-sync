@@ -49,6 +49,8 @@ jobs:
           # ------------------------------------------------------
           SIMULATE: "false"
           DELETE_MISSING: "true"
+          LIMITE_DIARIO: "300"
+          DIAS_REINTENTO_MONOPOLIO: "7"
         # Ejecutamos sync.py (el orquestador)
         run: python sync.py
 
