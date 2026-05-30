@@ -180,6 +180,11 @@ def main():
 
         crear = []
         actualizar = []
+        retenidos_revision = []
+        # 🔌 Circuit breaker: umbrales de cambio extremo de precio (datos ruidosos /
+        # desajustes de presentación Mediven vs Shopify). Configurables por entorno.
+        CB_MAX_BAJADA = float(os.getenv("CB_MAX_BAJADA", "0.85"))   # no aplicar bajadas > 85%
+        CB_MAX_SUBIDA = float(os.getenv("CB_MAX_SUBIDA", "2.00"))   # no aplicar subidas > 200%
         archivar = []
 
         skus_med = set(df_med["Codigo"])
@@ -239,6 +244,24 @@ def main():
                 from modulos.nucleo.sync_diagnostico import formatear_nombre_producto
                 nom_gen = formatear_nombre_producto(row)
 
+                # 🔌 CIRCUIT BREAKER: frenar cambios extremos (datos ruidosos o
+                # desajustes de presentación). No aplica a productos nuevos ni a
+                # precios ya respetados por edición humana (delta 0). Retiene el
+                # cambio para revisión y mantiene el precio actual en Shopify.
+                if precio_actual > 0 and nuevo_precio > 0:
+                    _delta = (nuevo_precio - precio_actual) / precio_actual
+                    if _delta <= -CB_MAX_BAJADA or _delta >= CB_MAX_SUBIDA:
+                        retenidos_revision.append({
+                            "SKU": sku,
+                            "Descripcion": nom_gen,
+                            "Precio_Shopify": precio_actual,
+                            "Precio_Calculado": nuevo_precio,
+                            "Delta_pct": round(_delta * 100, 1),
+                            "Motivo": "bajada extrema" if _delta < 0 else "subida extrema",
+                        })
+                        memoria_precios[sku] = precio_actual  # mantener actual; re-evaluar luego
+                        continue  # NO aplicar este cambio; pasar al siguiente producto
+
                 # COMPARAR PRECIO, NOMBRE Y ESTADO
                 c_pre = abs(precio_actual - nuevo_precio) >= 1
                 c_nom = nom_gen != nombre_actual_shopify
@@ -294,13 +317,23 @@ def main():
         ya_archivados = len([p for p in archivar if p.get("status_actual") == "archived"])
         nuevos_por_archivar = len([p for p in archivar if p.get("status_actual") != "archived"])
 
+        # 🔌 Reporte de retenidos por el circuit breaker (cambios extremos NO aplicados)
+        if retenidos_revision:
+            from datetime import datetime as _dt
+            os.makedirs("reportes", exist_ok=True)
+            _ruta_ret = os.path.join("reportes", f"retenidos_revision_{_dt.now():%Y%m%d_%H%M%S}.json")
+            with open(_ruta_ret, "w", encoding="utf-8") as _f:
+                json.dump(retenidos_revision, _f, indent=2, ensure_ascii=False)
+            console.print(f"[bold yellow]🔌 Circuit breaker: {len(retenidos_revision)} cambios extremos RETENIDOS (no aplicados). Revisa {_ruta_ret}[/bold yellow]")
+
         # Panel de diagnóstico mejorado
         console.print(
             Panel.fit(
                 f"[bold green]CREAR:[/bold green] {len(crear)}\n"
                 f"[bold yellow]ACTUALIZAR:[/bold yellow] {len(actualizar)}\n"
                 f"[bold red]ARCHIVAR (Nuevos):[/bold red] {nuevos_por_archivar}\n"
-                f"[bold white]YA ARCHIVADOS:[/bold white] {ya_archivados}",
+                f"[bold white]YA ARCHIVADOS:[/bold white] {ya_archivados}\n"
+                f"[bold yellow]🔌 RETENIDOS (revisar):[/bold yellow] {len(retenidos_revision)}",
                 title="📊 DIAGNÓSTICO DETALLADO",
                 style="magenta"
             )
