@@ -204,12 +204,13 @@ def main():
         categoria_estrategia = categorizar_estrategia(estrategia_raw)
         estrategia_count[categoria_estrategia] = estrategia_count.get(categoria_estrategia, 0) + 1
 
-        # Datos mercado
-        if datos_sku:
-            minimo = datos_sku.get("minimo", 0)
-            mediana = datos_sku.get("mediana_competitiva", 0)
-            fuentes = datos_sku.get("fuentes_validas", 0)
-            detalle = datos_sku.get("detalle", [])
+        # Datos mercado (vienen anidados en datos_sku["datos_mercado"])
+        datos_mercado = datos_sku.get("datos_mercado") if datos_sku else None
+        if datos_mercado:
+            minimo = datos_mercado.get("minimo", 0)
+            mediana = datos_mercado.get("mediana_competitiva", 0)
+            fuentes = datos_mercado.get("fuentes_validas", 0)
+            detalle = datos_mercado.get("detalle", [])
             farmacias_validas = [
                 d for d in detalle if "🟢" in d.get("estado", "")
             ]
