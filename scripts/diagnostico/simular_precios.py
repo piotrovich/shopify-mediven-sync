@@ -110,16 +110,19 @@ def categorizar_estrategia(estrategia_raw):
     e = estrategia_raw.lower()
     if "loss leader" in e:
         return "Loss Leader (Héroe)"
+    # Alto costo PRIMERO: sus etiquetas contienen palabras ("muralla" histórica,
+    # o "monopolio") que matchearían reglas genéricas de abajo si no se filtran
+    # antes. La etiqueta de "no competitivo" reemplazó a la vieja "muralla".
+    if "alto costo" in e and "mediana" in e:
+        return "Alto Costo (Mediana)"
+    if "alto costo" in e and ("no competitivo" in e or "muralla" in e):
+        return "Alto Costo (No Competitivo)"
+    if "alto costo" in e:
+        return "Alto Costo (Monopolio)"
     if "muralla" in e or "refuerzo" in e:
         return "Muralla de Rescate"
     if "francotirador" in e:
         return "Francotirador"
-    if "alto costo" in e and "mediana" in e:
-        return "Alto Costo (Mediana)"
-    if "alto costo" in e and "muralla" in e:
-        return "Alto Costo (Muralla)"
-    if "alto costo" in e:
-        return "Alto Costo (Monopolio)"
     if "monopolio" in e:
         return "Monopolio (Sin datos)"
     if "sin costo" in e:
