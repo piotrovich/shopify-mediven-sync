@@ -174,6 +174,14 @@ FACTOR_TECHO_VS_COSTO = 8.0
 
 MIN_FUENTES_VALIDAS = 2
 
+# v7.1: Filtro ANTI-PACK. Cuando las fuentes mezclan presentaciones distintas
+# del mismo producto (ej. unidad vs caja/pack de 6-12), los precios forman dos
+# grupos separados. Un precio > FACTOR_CLUSTER_PACK × el mínimo coherente es
+# casi seguro otra presentación (pack), no el producto individual. Solo se
+# aplica con >=3 fuentes y si quedan >=MIN_FUENTES coherentes (conservador:
+# no confunde ofertas con packs, no toca productos de fuentes homogéneas).
+FACTOR_CLUSTER_PACK = float(os.getenv("FACTOR_CLUSTER_PACK", "3.0"))
+
 # Si después de /search tenemos menos fuentes que esto, complementamos
 # con una llamada a /shopping (consume 1 crédito extra de Serper).
 UMBRAL_LLAMADA_SHOPPING = int(os.getenv("UMBRAL_LLAMADA_SHOPPING", "4"))
@@ -316,6 +324,32 @@ def reducir_precios_de_link(precios, costo_neto_mediven=None):
     if len(validos) == 2:
         return max(validos)
     return int(statistics.median(validos))
+
+
+# ============================================================
+#   FILTRO ANTI-PACK (cluster bajo coherente)
+# ============================================================
+def filtrar_cluster_bajo(precios):
+    """Descarta precios que parecen otra presentación (pack) del producto.
+
+    Cuando las fuentes mezclan unidad y caja/pack, los precios se separan en
+    grupos. Conserva el cluster coherente de menor precio (las unidades
+    individuales) y descarta los muy por encima (packs).
+
+    Devuelve (precios_conservados, set_descartados). Es conservador:
+      - Con <3 fuentes no actúa (no hay señal para distinguir presentaciones).
+      - Solo actúa si quedan >=MIN_FUENTES_VALIDAS coherentes Y hay algo que
+        descartar (evita romper productos de fuentes homogéneas y no confunde
+        ofertas con packs, porque el umbral es 3x, no 2x).
+    """
+    if len(precios) < 3:
+        return list(precios), set()
+    minimo = min(precios)
+    coherentes = [p for p in precios if p <= minimo * FACTOR_CLUSTER_PACK]
+    if len(coherentes) >= MIN_FUENTES_VALIDAS and len(coherentes) < len(precios):
+        descartados = {p for p in precios if p > minimo * FACTOR_CLUSTER_PACK}
+        return coherentes, descartados
+    return list(precios), set()
 
 
 # ============================================================
@@ -487,14 +521,20 @@ def buscar_precio_competencia(nombre_producto, laboratorio="", costo_neto_medive
     if not precios_encontrados:
         return None
 
-    # 4) Filtro de outliers
-    todos = [p["precio"] for p in precios_encontrados]
+    # 4a) Filtro anti-pack: descartar precios de otra presentación (packs)
+    todos_crudos = [p["precio"] for p in precios_encontrados]
+    _, descartados_pack = filtrar_cluster_bajo(todos_crudos)
+
+    # 4b) Filtro de outliers (IQR) sobre los precios ya sin packs
+    todos = [p for p in todos_crudos if p not in descartados_pack]
     validos_iqr = filtrar_outliers_iqr(todos)
     set_validos = list(validos_iqr)
 
     detalle = []
     for p in precios_encontrados:
-        if p["precio"] in set_validos:
+        if p["precio"] in descartados_pack:
+            detalle.append({**p, "estado": "🔴 Descartado (otra presentación/pack)"})
+        elif p["precio"] in set_validos:
             detalle.append({**p, "estado": "🟢 Válido"})
             set_validos.remove(p["precio"])
         else:
