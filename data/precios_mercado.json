@@ -196860,28 +196860,24 @@
   },
   "7804681740797": {
     "datos_mercado": {
+      "minimo": 1099090,
+      "mediana_competitiva": 1099090,
+      "fuentes_validas": 2,
       "detalle": [
         {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 457690,
-          "estado": "🔴 Descartado (outlier IQR)"
+          "farmacia": "Farmex (verificado manual)",
+          "precio": 1099090,
+          "estado": "🟢 Válido (override manual)"
         },
         {
-          "farmacia": "Farmalisto",
-          "precio": 1428000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 1939690,
-          "estado": "🟢 Válido"
+          "farmacia": "Farmex fraccionado x60",
+          "precio": 1099090,
+          "estado": "🟢 Válido (override manual)"
         }
-      ],
-      "minimo": 1428000,
-      "mediana_competitiva": 1683845,
-      "fuentes_validas": 2
+      ]
     },
-    "fecha": "2026-05-30"
+    "fecha": "2026-05-30",
+    "override_manual": true
   },
   "7804681740841": {
     "datos_mercado": {
