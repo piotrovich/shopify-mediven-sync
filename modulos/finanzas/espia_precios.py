@@ -100,7 +100,60 @@ FARMACIAS_CONOCIDAS = {
     "boticadr.cl": "Botica Dr.",
     "farmaciamejor.cl": "Farmacia Mejor",
     "farmacia2030.cl": "Farmacia 2030",
+    # === .com chilenos legítimos (v5) — no usan .cl pero son nacionales ===
+    "buhochile.com": "Buho Chile",
+    "med-chile.com": "Med Chile",
+    "autotest-chile.com": "Autotest Chile",
+    "mrgreencl.com": "Mr Green",
+    "market-care.com": "Market Care", "tienda.market-care.com": "Market Care",
 }
+
+# ============================================================
+#   FILTRO DE PAÍS (v5): solo mercado chileno
+# ============================================================
+# .com chilenos legítimos que NO usan .cl (whitelist)
+COM_CHILENOS_WHITELIST = {
+    "buhochile.com", "araucomed.com", "farmacia.araucomed.com",
+    "med-chile.com", "autotest-chile.com", "mrgreencl.com",
+    "market-care.com", "tienda.market-care.com",
+}
+
+# Plataformas que NO son comercio formal (Instagram, Facebook, etc.)
+REDES_Y_NO_COMERCIO = [
+    "instagram", "facebook", "tiktok", "threads", "youtube", "twitter",
+    "linkedin", "pinterest", "scribd", "ubereats", "rappi",
+]
+
+# TLD internacionales explícitos (Argentina, Colombia, México, etc.)
+RE_TLD_INTL = re.compile(
+    r'\.com\.(ar|co|mx|pe|br|uy|ve|ec|bo|py|gt|sv|do|pa|cr|ni|hn)\b'
+    r'|\.(ar|mx|pe|br|uy|ve|ec|bo|py|es|us|pt|co)$',
+    re.IGNORECASE
+)
+
+
+def fuente_es_chilena(nombre_o_dominio):
+    """
+    Decide si una fuente representa el mercado comercial chileno.
+
+    Acepta: dominios .cl, la whitelist de .com chilenos, y nombres
+    legibles ya mapeados (sin punto). Rechaza: TLD internacionales,
+    redes sociales y cualquier otro .com no listado (conservador).
+    """
+    s = str(nombre_o_dominio).lower().strip().replace("www.", "")
+    if not s:
+        return False
+    if any(rs in s for rs in REDES_Y_NO_COMERCIO):
+        return False
+    if RE_TLD_INTL.search(s):
+        return False
+    if s.endswith(".cl"):
+        return True
+    if s in COM_CHILENOS_WHITELIST:
+        return True
+    if "." not in s:  # nombre legible mapeado ("Cruz Verde", etc.)
+        return True
+    return False
 
 # ============================================================
 #   VALIDACIÓN DE PRECIOS
@@ -330,7 +383,13 @@ def precios_desde_shopping_items(items, costo_neto_mediven=None, dominios_vistos
         dominio = urlparse(link).netloc.replace('www.', '').lower() if link else source
 
         # Aplicar filtros de dominio
+        # Aplicar filtros: ignorados explícitos + solo mercado chileno.
+        # Para el país nos fiamos del DOMINIO (el source crudo de Serper
+        # puede ser un nombre neutro que oculta el país real).
         if any(ig in source or ig in dominio for ig in DOMINIOS_IGNORADOS):
+            continue
+        identificador_pais = dominio if dominio else source
+        if not fuente_es_chilena(identificador_pais):
             continue
         if dominio in dominios_vistos:
             continue
@@ -388,6 +447,8 @@ def buscar_precio_competencia(nombre_producto, laboratorio="", costo_neto_medive
         dominio = urlparse(link).netloc.replace('www.', '').lower()
 
         if any(ig in dominio for ig in DOMINIOS_IGNORADOS):
+            continue
+        if not fuente_es_chilena(dominio):
             continue
         if dominio in dominios_vistos:
             continue
