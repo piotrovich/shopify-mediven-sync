@@ -53,7 +53,10 @@ DIR_BACKUPS = os.path.join(BASE_DIR, "data", "backups")
 # ============================================================
 MIN_FUENTES_VALIDAS = 2
 RATIO_DISPERSION_MAX = 2.5   # con 2 fuentes, si max/min supera esto → Monopolio
-FACTOR_PISO_VS_COSTO = 1.10  # mediana debe ser >= costo_iva * esto
+# v7: piso de SANIDAD (coherente con espia_precios.py). Antes 1.10, lo que
+# re-introducía el sesgo de descartar precios bajo el costo de la farmacia.
+# Ahora solo descarta basura (mediana < 40% del costo c/IVA).
+FACTOR_PISO_SANIDAD = float(os.getenv("FACTOR_PISO_SANIDAD", "0.40"))
 
 # ============================================================
 #   FILTRO DE FUENTES CHILENAS
@@ -173,7 +176,7 @@ def recalibrar_estudio(detalle, costo_neto):
     minimo = min(validos)
     if costo_neto and costo_neto > 0:
         costo_iva = costo_neto * 1.19
-        if mediana < costo_iva * FACTOR_PISO_VS_COSTO:
+        if mediana < costo_iva * FACTOR_PISO_SANIDAD:
             return None
 
     # Reconstruir el detalle con estados nuevos
