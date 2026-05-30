@@ -159,9 +159,17 @@ def fuente_es_chilena(nombre_o_dominio):
 #   VALIDACIÓN DE PRECIOS
 # ============================================================
 PRECIO_ABS_MIN = 800
-PRECIO_ABS_MAX = 250_000
+PRECIO_ABS_MAX = 3_000_000   # v7: era 250.000 (rechazaba productos caros sin costo, ej. GLP-1)
 
-FACTOR_PISO_VS_COSTO = 1.10
+# v7: PISO DE SANIDAD (no de rentabilidad).
+# El espía debe capturar el precio de mercado REAL, sin sesgarlo por el costo
+# de la farmacia. Antes el piso era costo_iva × 1.10, lo que descartaba los
+# precios competitivos de las grandes cadenas (que compran más barato que
+# Mediven) y dejaba productos premium con medianas infladas o en Monopolio.
+# Ahora el piso solo descarta basura evidente (fracciones, errores): acepta
+# precios desde el 40% del costo c/IVA. La decisión de "no vender bajo mi
+# costo" es responsabilidad del MOTOR (precios.py), no del espía.
+FACTOR_PISO_SANIDAD = float(os.getenv("FACTOR_PISO_SANIDAD", "0.40"))
 FACTOR_TECHO_VS_COSTO = 8.0
 
 MIN_FUENTES_VALIDAS = 2
@@ -294,7 +302,7 @@ def extraer_precios_de_texto(texto):
 def validar_precio(precio, costo_neto_mediven=None):
     if costo_neto_mediven and costo_neto_mediven > 0:
         costo_iva = costo_neto_mediven * 1.19
-        piso = costo_iva * FACTOR_PISO_VS_COSTO
+        piso = max(PRECIO_ABS_MIN, costo_iva * FACTOR_PISO_SANIDAD)
         techo = costo_iva * FACTOR_TECHO_VS_COSTO
         return piso <= precio <= techo
     return PRECIO_ABS_MIN <= precio <= PRECIO_ABS_MAX
@@ -498,10 +506,13 @@ def buscar_precio_competencia(nombre_producto, laboratorio="", costo_neto_medive
     minimo = min(validos_iqr)
     mediana = int(statistics.median(validos_iqr))
 
-    # 5) Sanity check final
+    # 5) Sanity check final: descartar solo estudios basura (mediana absurdamente
+    #    baja respecto al costo). Usa el piso de sanidad, NO el de rentabilidad:
+    #    una mediana real bajo el costo es información válida (el motor decidirá
+    #    qué hacer), no un dato para tirar a Monopolio.
     if costo_neto_mediven and costo_neto_mediven > 0:
         costo_iva = costo_neto_mediven * 1.19
-        if mediana < costo_iva * FACTOR_PISO_VS_COSTO:
+        if mediana < costo_iva * FACTOR_PISO_SANIDAD:
             return None
 
     return {
