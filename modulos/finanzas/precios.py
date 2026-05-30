@@ -14,12 +14,14 @@ Implementa tres segmentos de productos con lógicas distintas:
 
   ALTO_COSTO (productos caros donde no podemos competir agresivamente):
       Precio = mediana exacta del mercado (multiplicador 1.00).
-      Factor piso: 1.22.
-      Estrategia: capturar la venta por conveniencia, no por precio.
+      Factor piso: 1.10 (margen mínimo 10% sobre costo+IVA).
+      Si el mercado vende bajo el costo, queda en piso rentable y se marca
+      "No Competitivo" (no se vende a pérdida; se acepta estar sobre el mercado).
 
 Defensa en profundidad contra datos corruptos:
-  - Si la mediana del mercado quedó bajo costo+IVA × 1.10, se ignoran los
-    datos y se cae a Monopolio.
+  - Si la mediana del mercado quedó bajo costo+IVA × 0.40 (piso de sanidad),
+    se considera basura (fracción/error) y se cae a Monopolio. Una mediana
+    real bajo el costo NO es corrupta: queda en piso rentable (No Competitivo).
   - Cota superior por MARKUP_MAX: ningún precio supera costo+IVA × 3.5.
 
 Todos los factores son configurables por variables de entorno sin tocar código.
@@ -55,7 +57,7 @@ AGRESIVIDAD_HEROE = float(os.getenv("AGRESIVIDAD_HEROE", "0.85"))
 # ============================================================
 #   ESTRATEGIA ALTO COSTO (no competir agresivamente)
 # ============================================================
-FACTOR_PISO_ALTO_COSTO = float(os.getenv("FACTOR_PISO_ALTO_COSTO", "1.22"))
+FACTOR_PISO_ALTO_COSTO = float(os.getenv("FACTOR_PISO_ALTO_COSTO", "1.10"))
 # Multiplicador 1.00 = mediana exacta. Subir a 1.01 si quieres dar 1% sobre, etc.
 AGRESIVIDAD_ALTO_COSTO = float(os.getenv("AGRESIVIDAD_ALTO_COSTO", "1.00"))
 
@@ -68,8 +70,12 @@ FACTOR_MONOPOLIO = float(os.getenv("FACTOR_MONOPOLIO", "1.50"))
 # Cota superior absoluta
 MARKUP_MAX = float(os.getenv("MARKUP_MAX", "3.5"))
 
-# Si mediana < costo+IVA × este factor, se rechaza como dato corrupto
-MEDIANA_MIN_VS_COSTO = float(os.getenv("MEDIANA_MIN_VS_COSTO", "1.10"))
+# Piso de SANIDAD: si mediana < costo+IVA × este factor se considera basura
+# (fracción/error) y se cae a Monopolio. Alineado con el espía v7: NO es un
+# piso de rentabilidad. Una mediana real bajo el costo es información válida
+# (el mercado vende barato), no un dato corrupto: el motor la deja en piso
+# rentable (No Competitivo), no en Monopolio.
+MEDIANA_MIN_VS_COSTO = float(os.getenv("MEDIANA_MIN_VS_COSTO", "0.40"))
 
 
 # ============================================================
@@ -168,7 +174,7 @@ def _calcular_alto_costo(costo_con_iva, mediana):
         return _aplicar_techo(_precio_monopolio(costo_con_iva), costo_con_iva), "Alto Costo (Mediana corrupta)"
 
     if mediana <= precio_piso:
-        return _aplicar_techo(precio_piso, costo_con_iva), "Alto Costo (Muralla)"
+        return _aplicar_techo(precio_piso, costo_con_iva), "Alto Costo (No Competitivo)"
 
     precio_estrategico = mediana * AGRESIVIDAD_ALTO_COSTO
     precio = max(precio_piso, precio_estrategico)
