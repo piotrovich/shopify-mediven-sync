@@ -309324,5 +309324,290 @@
       "fuentes_validas": 7
     },
     "fecha": "2026-05-30"
+  },
+  "1017993": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 19899,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 9500,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 15980,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 18500,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 15254,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9500,
+      "mediana_competitiva": 15980,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-01"
+  },
+  "102665": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmalisto",
+          "precio": 3990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "El Químico",
+          "precio": 2990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Kfarma.cl",
+          "precio": 2990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Novasalud.cl",
+          "precio": 4390,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 830,
+      "mediana_competitiva": 1410,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-01"
+  },
+  "3140186": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 1196,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 3590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3970,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3590,
+      "mediana_competitiva": 3970,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-01"
+  },
+  "552317": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2480,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 5179,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2480,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-01"
+  },
+  "MAV100297": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Redfarma",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2475,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 2590,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2475,
+      "mediana_competitiva": 3040,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-01"
+  },
+  "PT00181": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 7190,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 8799,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 2667,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Biosphare.cl",
+          "precio": 998,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 998,
+      "mediana_competitiva": 1832,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-01"
+  },
+  "PT00343": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 7179,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 2876,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2490,
+      "mediana_competitiva": 2990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-01"
+  },
+  "RET5020": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 20590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 19290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 15990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Kfarma.cl",
+          "precio": 14990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 14990,
+      "mediana_competitiva": 17990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-01"
+  },
+  "RET5092": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Arama.cl",
+          "precio": 1316,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3650,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1316,
+      "mediana_competitiva": 2483,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-01"
   }
 }
