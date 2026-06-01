@@ -309609,5 +309609,69 @@
       "fuentes_validas": 2
     },
     "fecha": "2026-06-01"
+  },
+  "2330016": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Belgochilena.cl",
+          "precio": 3290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 4000,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3290,
+      "mediana_competitiva": 3645,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-01"
+  },
+  "9700023": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 3799,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmam.cl",
+          "precio": 5190,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3290,
+      "mediana_competitiva": 4940,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-01"
+  },
+  "AAPACKD1": {
+    "datos_mercado": null,
+    "fecha": "2026-06-01"
   }
 }
