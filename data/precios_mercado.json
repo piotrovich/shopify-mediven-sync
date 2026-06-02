@@ -310599,5 +310599,65 @@
   "NF249": {
     "datos_mercado": null,
     "fecha": "2026-06-02"
+  },
+  "3720023": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 36984,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 23648,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 23648,
+      "mediana_competitiva": 30316,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-02"
+  },
+  "7800026006979": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 19850,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 25713,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "El Químico",
+          "precio": 20990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 15990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 6663,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 17900,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6663,
+      "mediana_competitiva": 16945,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-02"
   }
 }
