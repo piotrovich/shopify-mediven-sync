@@ -310530,5 +310530,74 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-02"
+  },
+  "32848201603338": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 32199,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 27414,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 27414,
+      "mediana_competitiva": 29806,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-02"
+  },
+  "553915": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4699,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2390,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4612,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 4390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 4390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 4440,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-02"
+  },
+  "NF249": {
+    "datos_mercado": null,
+    "fecha": "2026-06-02"
   }
 }
