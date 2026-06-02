@@ -310659,5 +310659,235 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-02"
+  },
+  "1220014": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 9531,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 9890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 3590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 4938,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 8190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3490,
+      "mediana_competitiva": 6564,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-02"
+  },
+  "251015": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 2565,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Laoferta.cl",
+          "precio": 2436,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2436,
+      "mediana_competitiva": 2500,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-02"
+  },
+  "40155": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2450,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 1890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Mayoristacontigo.cl",
+          "precio": 1890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 1890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Degallardo.cl",
+          "precio": 990,
+          "estado": "🔴 Descartado (outlier IQR)"
+        }
+      ],
+      "minimo": 1890,
+      "mediana_competitiva": 1890,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-02"
+  },
+  "40684": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Laoferta.cl",
+          "precio": 13608,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 1890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 1890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3090,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2690,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1890,
+      "mediana_competitiva": 2290,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-02"
+  },
+  "40688": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 8890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 6450,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Degallardo.cl",
+          "precio": 990,
+          "estado": "🔴 Descartado (outlier IQR)"
+        }
+      ],
+      "minimo": 5490,
+      "mediana_competitiva": 6450,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-02"
+  },
+  "50682": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cugat.cl",
+          "precio": 7490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todoaseopucon.cl",
+          "precio": 1400,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 5336,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5336,
+      "mediana_competitiva": 6413,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-02"
+  },
+  "ALC70500EL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1912,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 2478,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 3790,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1890,
+      "mediana_competitiva": 2984,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-02"
   }
 }
