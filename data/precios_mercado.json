@@ -312302,5 +312302,135 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-03"
+  },
+  "105199": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 17558,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 19690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9990,
+      "mediana_competitiva": 17558,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-03"
+  },
+  "600755": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 33999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 29683,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 65890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 27199,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 27199,
+      "mediana_competitiva": 31841,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-03"
+  },
+  "9185": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 19290,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 10870,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 15990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 3830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 13592,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 11382,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3830,
+      "mediana_competitiva": 10870,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-03"
+  },
+  "PT34015930": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Laprincipal.cl",
+          "precio": 2400,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 1200,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 2390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1200,
+      "mediana_competitiva": 2400,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-03"
   }
 }
