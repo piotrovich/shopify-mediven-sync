@@ -313432,5 +313432,35 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-04"
+  },
+  "7228459": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1098,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Marda.cl",
+          "precio": 3490,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Pichara.cl",
+          "precio": 1590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1098,
+      "mediana_competitiva": 1490,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-04"
   }
 }
