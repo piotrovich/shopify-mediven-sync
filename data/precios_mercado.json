@@ -314262,5 +314262,116 @@
       "fuentes_validas": 2
     },
     "fecha": "2026-06-05"
+  },
+  "4004070": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmalisto",
+          "precio": 9140,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 5100,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 10945,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 13592,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5100,
+      "mediana_competitiva": 10042,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-05"
+  },
+  "4052049": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Rgc.cl",
+          "precio": 16990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Eksadental.cl",
+          "precio": 16990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 15290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 15990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 15290,
+      "mediana_competitiva": 16490,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-05"
+  },
+  "4056123": {
+    "datos_mercado": null,
+    "fecha": "2026-06-05"
+  },
+  "42245": {
+    "datos_mercado": null,
+    "fecha": "2026-06-05"
+  },
+  "601071014": {
+    "datos_mercado": null,
+    "fecha": "2026-06-05"
+  },
+  "F27906": {
+    "datos_mercado": null,
+    "fecha": "2026-06-05"
+  },
+  "SO40052": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 26099,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 24352,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 6663,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 20990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 23502,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 20990,
+      "mediana_competitiva": 23927,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-05"
   }
 }
