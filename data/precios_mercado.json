@@ -314172,5 +314172,70 @@
       "fuentes_validas": 5
     },
     "fecha": "2026-06-04"
+  },
+  "T016365": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 60199,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 26311,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 17384,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 13200,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9990,
+      "mediana_competitiva": 15292,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-05"
+  },
+  "T018198": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 42074,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 41999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 44208,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 41999,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 41999,
+      "mediana_competitiva": 42036,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-05"
   }
 }
