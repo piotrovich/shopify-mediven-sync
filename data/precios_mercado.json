@@ -314237,5 +314237,30 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-05"
+  },
+  "6700160": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 4500,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 2498,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Productosdelujo.cl",
+          "precio": 1000,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1000,
+      "mediana_competitiva": 1749,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-05"
   }
 }
