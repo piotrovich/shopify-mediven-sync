@@ -314373,5 +314373,39 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-05"
+  },
+  "261657": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 26099,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 6663,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 20990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 23384,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 20990,
+      "mediana_competitiva": 23384,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-05"
+  },
+  "SO40216": {
+    "datos_mercado": null,
+    "fecha": "2026-06-05"
   }
 }
