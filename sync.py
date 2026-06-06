@@ -239,19 +239,10 @@ def main():
                 nombre_actual_shopify = str(shop_row.get("product_title", ""))
                 estado_actual_shopify = str(shop_row.get("status", "")).lower()
 
-                # 🛡️ PROTECCIÓN ANTI-SOBRESCRITURA INTELIGENTE
-                # Respeta ediciones humanas SALVO que la diferencia sea absurda (>50%),
-                # en cuyo caso casi siempre se trata de basura heredada que hay que corregir.
-                ultimo_precio_robot = memoria_precios.get(sku)
-                if ultimo_precio_robot is not None and abs(precio_actual - ultimo_precio_robot) > 1:
-                    delta_pct = abs(precio_actual - nuevo_precio) / max(nuevo_precio, 1)
-                    if delta_pct <= 0.50:
-                        # Edición humana razonable: respetar
-                        nuevo_precio = precio_actual
-                    else:
-                        # Diferencia absurda (>50%): casi seguro basura. Corregir.
-                        print(f"⚠️ SKU {sku}: precio Shopify ${precio_actual:,.0f} vs recalculado ${nuevo_precio:,.0f} "
-                              f"(delta {delta_pct*100:.0f}%) → corrigiendo")
+                # NOTA: La antigua "protección anti-sobrescritura del 50%" se eliminó.
+                # El precio manual ahora se protege de forma explícita y permanente con
+                # el tag PRECIO_FIJO (verificado al inicio del loop). Sin ese tag, el
+                # motor manda siempre: el precio recalculado se aplica directo.
                 
                 # Generamos el nombre limpio para comparar
                 from modulos.nucleo.sync_diagnostico import formatear_nombre_producto
