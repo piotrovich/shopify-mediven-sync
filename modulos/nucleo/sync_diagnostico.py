@@ -283,7 +283,11 @@ def get_mediven_inventory():
         "lisdexanfetamina",
         "zolpidem",
         "airwick",
-        "osteocondral"
+        "osteocondral",
+        "extosen",
+        "nasolver",
+        "ac forte adl",
+        "ac inf"
     ]
 
     items_limpios = []
