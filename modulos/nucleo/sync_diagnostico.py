@@ -383,6 +383,7 @@ def get_shopify_products():
             title
             bodyHtml
             status
+            tags
             media(first: 1) { edges { node { id } } }
             variants(first: 100) {
               edges {
@@ -426,6 +427,7 @@ def get_shopify_products():
             title = node.get("title", "")
             body_html = node.get("bodyHtml", "") or ""
             status = node.get("status", "ACTIVE").lower()
+            tags = node.get("tags", []) or []
             media_edges = node.get("media", {}).get("edges", [])
             has_image = len(media_edges) > 0
 
@@ -462,6 +464,7 @@ def get_shopify_products():
                     "bodyHtml": body_html,
                     "status": status_norm,
                     "has_image": has_image,
+                    "tags": tags,
                     "variants": rest_variants,
                 }
             )
@@ -488,6 +491,7 @@ def normalize_shopify_products(products):
         product_id = p.get("id")
         product_title = p.get("title", "")
         status = p.get("status", "active")
+        tags = p.get("tags", []) or []
         for v in p.get("variants", []):
             rows.append(
                 {
@@ -500,6 +504,7 @@ def normalize_shopify_products(products):
                     "price": float(v.get("price", 0) or 0),
                     "status": status,
                     "taxable": v.get("taxable", False),
+                    "tags": tags,
                 }
             )
     return rows

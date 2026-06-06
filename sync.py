@@ -181,6 +181,7 @@ def main():
         crear = []
         actualizar = []
         retenidos_revision = []
+        precio_fijo_skus = []
         # 🔌 Circuit breaker: umbrales de cambio extremo de precio (datos ruidosos /
         # desajustes de presentación Mediven vs Shopify). Configurables por entorno.
         CB_MAX_BAJADA = float(os.getenv("CB_MAX_BAJADA", "0.85"))   # no aplicar bajadas > 85%
@@ -203,6 +204,18 @@ def main():
             # Si el producto es excluido (clonazepam, vet), NO lo creamos ni actualizamos
             if sku in skus_excluidos:
                 continue
+
+            # 🔒 PRECIO FIJO: si el producto tiene el tag "PRECIO_FIJO" en Shopify,
+            # respetamos el precio puesto a mano y lo saltamos por completo: no se
+            # recalcula, no se compara, no se actualiza ni entra a la memoria del
+            # robot. El precio manual queda intacto en cada corrida.
+            _shop_row_fijo = shop_by_sku.get(sku)
+            if _shop_row_fijo is not None:
+                _tags_fijo = _shop_row_fijo.get("tags", []) or []
+                _tags_norm = [str(t).strip().upper() for t in _tags_fijo]
+                if "PRECIO_FIJO" in _tags_norm:
+                    precio_fijo_skus.append(sku)
+                    continue
 
             precio_med = float(row.get("Precio", 0) or 0)
 
@@ -333,7 +346,8 @@ def main():
                 f"[bold yellow]ACTUALIZAR:[/bold yellow] {len(actualizar)}\n"
                 f"[bold red]ARCHIVAR (Nuevos):[/bold red] {nuevos_por_archivar}\n"
                 f"[bold white]YA ARCHIVADOS:[/bold white] {ya_archivados}\n"
-                f"[bold yellow]🔌 RETENIDOS (revisar):[/bold yellow] {len(retenidos_revision)}",
+                f"[bold yellow]🔌 RETENIDOS (revisar):[/bold yellow] {len(retenidos_revision)}\n"
+                f"[bold cyan]🔒 PRECIO FIJO (saltados):[/bold cyan] {len(precio_fijo_skus)}",
                 title="📊 DIAGNÓSTICO DETALLADO",
                 style="magenta"
             )
