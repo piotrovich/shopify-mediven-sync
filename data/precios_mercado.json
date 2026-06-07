@@ -318121,5 +318121,179 @@
   "SO40216": {
     "datos_mercado": null,
     "fecha": "2026-06-05"
+  },
+  "0390023": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquihome.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Maxlimpiochile.cl",
+          "precio": 3090,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Supercosto.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidorabyf.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidormayorista.cl",
+          "precio": 2600,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 6348,
+          "estado": "🔴 Descartado (outlier IQR)"
+        }
+      ],
+      "minimo": 2600,
+      "mediana_competitiva": 2990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-07"
+  },
+  "0390061": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1841,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 1590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Full-ahorro.cl",
+          "precio": 3600,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1590,
+      "mediana_competitiva": 2115,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-07"
+  },
+  "101565008": {
+    "datos_mercado": null,
+    "fecha": "2026-06-07"
+  },
+  "120113020": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 3290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Liquihome.cl",
+          "precio": 3290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 7230,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Full-ahorro.cl",
+          "precio": 8000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 4890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 4057,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 13200,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 3290,
+      "mediana_competitiva": 4490,
+      "fuentes_validas": 7
+    },
+    "fecha": "2026-06-07"
+  },
+  "131122010": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 2420,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Full-ahorro.cl",
+          "precio": 3600,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidorasantiago.cl",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2420,
+      "mediana_competitiva": 2490,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-07"
+  },
+  "PTHOPE09": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciasvaldivia.cl",
+          "precio": 23990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 18900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 5530,
+          "estado": "🔴 Descartado (outlier IQR)"
+        }
+      ],
+      "minimo": 18900,
+      "mediana_competitiva": 21445,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-07"
   }
 }
