@@ -319353,5 +319353,165 @@
       "fuentes_validas": 2
     },
     "fecha": "2026-06-09"
+  },
+  "102518": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 14990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 14999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 14990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-09"
+  },
+  "54232": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 29899,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 20824,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 20824,
+      "mediana_competitiva": 25361,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-09"
+  },
+  "621809": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Etienne.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 3500,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 3145,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 3499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 2886,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2886,
+      "mediana_competitiva": 3490,
+      "fuentes_validas": 7
+    },
+    "fecha": "2026-06-09"
+  },
+  "BD9010": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 6500,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 7099,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Portalhealth.cl",
+          "precio": 8990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Medicaltec.cl",
+          "precio": 2100,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Orthosalud.cl",
+          "precio": 2500,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2100,
+      "mediana_competitiva": 2300,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-09"
+  },
+  "RK52": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 17299,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 24515,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ivmedical.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 17299,
+      "mediana_competitiva": 24515,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-09"
   }
 }
