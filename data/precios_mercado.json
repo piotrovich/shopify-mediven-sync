@@ -319513,5 +319513,45 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-09"
+  },
+  "3200024": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciasvaldivia.cl",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 2685,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Bellassurls.cl",
+          "precio": 2690,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 990,
+      "mediana_competitiva": 2240,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-09"
   }
 }
