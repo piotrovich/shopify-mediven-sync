@@ -319875,5 +319875,35 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-10"
+  },
+  "VICOW002": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Redfarma",
+          "precio": 2290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Rakkonatural.cl",
+          "precio": 1390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1390,
+      "mediana_competitiva": 1990,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-10"
   }
 }
