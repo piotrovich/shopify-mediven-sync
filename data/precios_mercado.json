@@ -319905,5 +319905,35 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-10"
+  },
+  "7803510002907": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 5980,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 3599,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 14299,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 5040,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3599,
+      "mediana_competitiva": 5040,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-10"
   }
 }
