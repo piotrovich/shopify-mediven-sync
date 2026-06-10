@@ -314678,7 +314678,7 @@
   },
   "154815": {
     "datos_mercado": null,
-    "fecha": "2026-06-03"
+    "fecha": "2026-06-10"
   },
   "2160271": {
     "datos_mercado": {
@@ -314727,7 +314727,7 @@
   },
   "2510105": {
     "datos_mercado": null,
-    "fecha": "2026-06-03"
+    "fecha": "2026-06-10"
   },
   "258900": {
     "datos_mercado": {
@@ -315585,12 +315585,28 @@
     "fecha": "2026-06-03"
   },
   "580159": {
-    "datos_mercado": null,
-    "fecha": "2026-06-03"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 9599,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9599,
+      "mediana_competitiva": 10294,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-10"
   },
   "584156": {
     "datos_mercado": null,
-    "fecha": "2026-06-03"
+    "fecha": "2026-06-10"
   },
   "6700406": {
     "datos_mercado": {
@@ -315989,19 +316005,51 @@
   },
   "MB726700": {
     "datos_mercado": null,
-    "fecha": "2026-06-03"
+    "fecha": "2026-06-10"
   },
   "MB726800": {
-    "datos_mercado": null,
-    "fecha": "2026-06-03"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 47998,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "El Químico",
+          "precio": 18990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 18990,
+      "mediana_competitiva": 33494,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-10"
   },
   "MB726900": {
     "datos_mercado": null,
-    "fecha": "2026-06-03"
+    "fecha": "2026-06-10"
   },
   "MB727400": {
-    "datos_mercado": null,
-    "fecha": "2026-06-03"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 14239,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 10390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 10390,
+      "mediana_competitiva": 12314,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-10"
   },
   "WCL01672": {
     "datos_mercado": {
@@ -319553,5 +319601,134 @@
       "fuentes_validas": 6
     },
     "fecha": "2026-06-09"
+  },
+  "40050161": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1260,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2199,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 1560,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1260,
+      "mediana_competitiva": 1560,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-10"
+  },
+  "40050768": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1260,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2199,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 1560,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1260,
+      "mediana_competitiva": 1560,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-10"
+  },
+  "4987067141104": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Fracción",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 15400,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Vantelin.cl",
+          "precio": 15390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 10990,
+      "mediana_competitiva": 15390,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-10"
+  },
+  "CODMC": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 15400,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 12990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 9109,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9109,
+      "mediana_competitiva": 12990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-10"
+  },
+  "FAJLC": {
+    "datos_mercado": null,
+    "fecha": "2026-06-10"
+  },
+  "HOKCALC": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4581,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciasantagemita.cl",
+          "precio": 4590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Andesgear.cl",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4581,
+      "mediana_competitiva": 4590,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-10"
   }
 }
