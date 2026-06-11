@@ -316913,7 +316913,7 @@
   },
   "BOI000002": {
     "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "fecha": "2026-06-11"
   },
   "EFEVVITC": {
     "datos_mercado": {
@@ -317047,7 +317047,7 @@
   },
   "K6296000": {
     "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "fecha": "2026-06-11"
   },
   "K6296100": {
     "datos_mercado": {
@@ -317096,7 +317096,7 @@
   },
   "NF072": {
     "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "fecha": "2026-06-11"
   },
   "PT345331": {
     "datos_mercado": {
@@ -317129,12 +317129,28 @@
     "fecha": "2026-06-04"
   },
   "PTAM00001": {
-    "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Onenutrition.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Mercadosilvestre.cl",
+          "precio": 23990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 23990,
+      "mediana_competitiva": 24490,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-11"
   },
   "PTBI00006": {
     "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "fecha": "2026-06-11"
   },
   "PTBI00007": {
     "datos_mercado": {
@@ -317378,19 +317394,19 @@
   },
   "23000009": {
     "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "fecha": "2026-06-11"
   },
   "23000010": {
     "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "fecha": "2026-06-11"
   },
   "23000011": {
     "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "fecha": "2026-06-11"
   },
   "23000014": {
     "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "fecha": "2026-06-11"
   },
   "23000028": {
     "datos_mercado": {
@@ -317493,8 +317509,24 @@
     "fecha": "2026-06-04"
   },
   "7804650881971": {
-    "datos_mercado": null,
-    "fecha": "2026-06-04"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Redfarma",
+          "precio": 1590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1590,
+      "mediana_competitiva": 1790,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-11"
   },
   "7804650884569": {
     "datos_mercado": {
@@ -319935,5 +319967,400 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-10"
+  },
+  "0812269": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cugat.cl",
+          "precio": 23490,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 20890,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Babyhogar.cl",
+          "precio": 19990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Lapanalera.cl",
+          "precio": 4100,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 24290,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4100,
+      "mediana_competitiva": 4145,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-11"
+  },
+  "0812275": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 6190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lapanalera.cl",
+          "precio": 33990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 7390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Aseopormayor.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 4990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-11"
+  },
+  "0812276": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lapanalera.cl",
+          "precio": 4550,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Comercialweichafe.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 9488,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 7390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 4990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-11"
+  },
+  "1451": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 19999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 13990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 19795,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Belgochilena.cl",
+          "precio": 16990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 13990,
+      "mediana_competitiva": 18392,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-11"
+  },
+  "5004077": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Fracción",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 13990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "El Químico",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 9221,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-11"
+  },
+  "7100036": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 23899,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cugat.cl",
+          "precio": 23490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 24290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 24299,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lapanalera.cl",
+          "precio": 31500,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 16499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 16449,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 16449,
+      "mediana_competitiva": 23899,
+      "fuentes_validas": 7
+    },
+    "fecha": "2026-06-11"
+  },
+  "80341297": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 12499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 11690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 47990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 11690,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-11"
+  },
+  "80759024": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 18700,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 31890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Babyhogar.cl",
+          "precio": 31000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 31890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 16990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 16990,
+      "mediana_competitiva": 31000,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-11"
+  },
+  "80794902": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 16490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Liquihome.cl",
+          "precio": 16990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 21999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 33950,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 16490,
+      "mediana_competitiva": 17990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-11"
+  },
+  "CPPBPAM290": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lapanalera.cl",
+          "precio": 4550,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 35990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Laoferta.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidorapepito.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4290,
+      "mediana_competitiva": 4490,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-11"
+  },
+  "CPPBPAM861": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 15190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 24290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 17290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 24299,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 16449,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 15190,
+      "mediana_competitiva": 17290,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-11"
   }
 }
