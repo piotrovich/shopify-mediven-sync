@@ -320362,5 +320362,30 @@
       "fuentes_validas": 5
     },
     "fecha": "2026-06-11"
+  },
+  "35784163049469": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 2590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2190,
+      "mediana_competitiva": 2590,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-11"
   }
 }
