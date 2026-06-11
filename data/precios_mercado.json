@@ -320387,5 +320387,134 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-11"
+  },
+  "2400538": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Market Care",
+          "precio": 5353,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Telepanal.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 4671,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-11"
+  },
+  "253966": {
+    "datos_mercado": null,
+    "fecha": "2026-06-11"
+  },
+  "PT00505": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1600,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 2990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 990,
+      "mediana_competitiva": 1600,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-11"
+  },
+  "SPT4197": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 25999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmam.cl",
+          "precio": 64590,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 25999,
+      "mediana_competitiva": 45294,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-11"
+  },
+  "SPT5045": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 20474,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 13000,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 13000,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-11"
+  },
+  "SPT5051": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 29899,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 16379,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 12184,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-11"
   }
 }
