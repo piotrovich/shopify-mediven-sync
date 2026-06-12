@@ -321095,5 +321095,130 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-11"
+  },
+  "0851": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 36500,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Berlinhappy.cl",
+          "precio": 20000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 11990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmavetdelsol.cl",
+          "precio": 23990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 15995,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-12"
+  },
+  "10144160": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Superzoo.cl",
+          "precio": 21990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petslife.cl",
+          "precio": 25650,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 7500,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7500,
+      "mediana_competitiva": 14745,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-12"
+  },
+  "11044159": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petslife.cl",
+          "precio": 25650,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Superzoo.cl",
+          "precio": 21990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 21990,
+      "mediana_competitiva": 23820,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-12"
+  },
+  "30144157": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 36500,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 24490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Espacioanimal.cl",
+          "precio": 13900,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 13900,
+      "mediana_competitiva": 24490,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-12"
+  },
+  "490": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 7490,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-12"
   }
 }
