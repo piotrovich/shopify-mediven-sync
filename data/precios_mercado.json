@@ -318135,19 +318135,19 @@
   },
   "4056123": {
     "datos_mercado": null,
-    "fecha": "2026-06-05"
+    "fecha": "2026-06-12"
   },
   "42245": {
     "datos_mercado": null,
-    "fecha": "2026-06-05"
+    "fecha": "2026-06-12"
   },
   "601071014": {
     "datos_mercado": null,
-    "fecha": "2026-06-05"
+    "fecha": "2026-06-12"
   },
   "F27906": {
     "datos_mercado": null,
-    "fecha": "2026-06-05"
+    "fecha": "2026-06-12"
   },
   "SO40052": {
     "datos_mercado": {
@@ -318215,8 +318215,24 @@
     "fecha": "2026-06-05"
   },
   "SO40216": {
-    "datos_mercado": null,
-    "fecha": "2026-06-05"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 47899,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 41940,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 41940,
+      "mediana_competitiva": 44919,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-12"
   },
   "0390023": {
     "datos_mercado": {
