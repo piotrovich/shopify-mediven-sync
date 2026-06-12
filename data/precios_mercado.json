@@ -321220,5 +321220,200 @@
       "fuentes_validas": 2
     },
     "fecha": "2026-06-12"
+  },
+  "AZB384": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 10399,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Allnutrition.cl",
+          "precio": 43311,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 10399,
+      "mediana_competitiva": 26855,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-12"
+  },
+  "CREALB570": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Aldeanativa.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Eattouch.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tienda.maifud.cl",
+          "precio": 23990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cascarafoods.cl",
+          "precio": 64830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 23990,
+      "mediana_competitiva": 24990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-12"
+  },
+  "CREAP570": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Aldeanativa.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Mixgreen.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Eattouch.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cascarafoods.cl",
+          "precio": 64830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 24990,
+      "mediana_competitiva": 24990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-12"
+  },
+  "PLACB300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 36650,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Aldeanativa.cl",
+          "precio": 43980,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 36650,
+      "mediana_competitiva": 40315,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-12"
+  },
+  "PLAVM300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Aldeanativa.cl",
+          "precio": 26990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 36650,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Eattouch.cl",
+          "precio": 26990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 15690,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 15690,
+      "mediana_competitiva": 26990,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-12"
+  },
+  "PLAVM900": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Aldeanativa.cl",
+          "precio": 53980,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 36650,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cascarafoods.cl",
+          "precio": 89970,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 34990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Eattouch.cl",
+          "precio": 26990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 26990,
+      "mediana_competitiva": 35820,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-12"
+  },
+  "YMRVB300": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Allnutrition.cl",
+          "precio": 23322,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 10399,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 10399,
+      "mediana_competitiva": 16860,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-12"
   }
 }
