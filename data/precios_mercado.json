@@ -322193,5 +322193,50 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-13"
+  },
+  "2010062": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "El Químico",
+          "precio": 2190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 1590,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1590,
+      "mediana_competitiva": 2190,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-13"
+  },
+  "2010096": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2142,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 2853,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2142,
+      "mediana_competitiva": 2497,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-13"
   }
 }
