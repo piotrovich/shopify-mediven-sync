@@ -322168,5 +322168,30 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-13"
+  },
+  "80887579": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 4790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2480,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2480,
+      "mediana_competitiva": 4790,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-13"
   }
 }
