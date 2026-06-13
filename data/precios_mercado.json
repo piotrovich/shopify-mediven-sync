@@ -322138,5 +322138,35 @@
       "fuentes_validas": 2
     },
     "fecha": "2026-06-12"
+  },
+  "80887580": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 1160,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2480,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 3000,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1160,
+      "mediana_competitiva": 2740,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-13"
   }
 }
