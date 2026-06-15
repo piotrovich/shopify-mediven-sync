@@ -322238,5 +322238,40 @@
       "fuentes_validas": 2
     },
     "fecha": "2026-06-13"
+  },
+  "3200001": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaszamarin.cl",
+          "precio": 990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciasvaldivia.cl",
+          "precio": 1290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 990,
+      "mediana_competitiva": 990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-15"
   }
 }
