@@ -322621,5 +322621,160 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-16"
+  },
+  "68043": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 39202,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 17199,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 21990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 17199,
+      "mediana_competitiva": 21990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-16"
+  },
+  "880": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmazon.cl",
+          "precio": 34500,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 47998,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 33599,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 22390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ophtha.cl",
+          "precio": 23500,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 27690,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 22390,
+      "mediana_competitiva": 30644,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-16"
+  },
+  "AAAIN314": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 17840,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Variedadesadonays.cl",
+          "precio": 18490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 12190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 17246,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 12190,
+      "mediana_competitiva": 17543,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-16"
+  },
+  "AAAIN324": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 17315,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 11990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 11990,
+      "mediana_competitiva": 14652,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-16"
+  },
+  "AATERDFL": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmati.cl",
+          "precio": 3390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 5610,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3590,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3490,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-16"
   }
 }
