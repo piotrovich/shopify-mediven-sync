@@ -322551,5 +322551,75 @@
   "CTRCYLEMU0310GP": {
     "datos_mercado": null,
     "fecha": "2026-06-16"
+  },
+  "799192073311": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Vitalsec.cl",
+          "precio": 69000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Nursingstore.cl",
+          "precio": 35990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 35990,
+      "mediana_competitiva": 52495,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-16"
+  },
+  "TEXFRA025": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Bambino.cl",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Babynissi.cl",
+          "precio": 14990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 14990,
+      "mediana_competitiva": 16490,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-16"
+  },
+  "TEXMUD003": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Monarch.cl",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 10490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6990,
+      "mediana_competitiva": 8490,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-16"
   }
 }
