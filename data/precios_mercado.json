@@ -323895,5 +323895,65 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-17"
+  },
+  "100177": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 7490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4800,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 12998,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4800,
+      "mediana_competitiva": 6240,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-17"
+  },
+  "1004181": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 18144,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 19550,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 12390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 22990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 12390,
+      "mediana_competitiva": 18847,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-17"
   }
 }
