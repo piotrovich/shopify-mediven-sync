@@ -317422,7 +317422,7 @@
   },
   "BOI000002": {
     "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "fecha": "2026-06-18"
   },
   "EFEVVITC": {
     "datos_mercado": {
@@ -317555,8 +317555,24 @@
     "fecha": "2026-06-04"
   },
   "K6296000": {
-    "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 7499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 7499,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7499,
+      "mediana_competitiva": 7499,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-18"
   },
   "K6296100": {
     "datos_mercado": {
@@ -317604,8 +317620,24 @@
     "fecha": "2026-06-04"
   },
   "NF072": {
-    "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Belgochilena.cl",
+          "precio": 6011,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6011,
+      "mediana_competitiva": 15500,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-18"
   },
   "PT345331": {
     "datos_mercado": {
@@ -317658,8 +317690,24 @@
     "fecha": "2026-06-11"
   },
   "PTBI00006": {
-    "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 29839,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 21990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 21990,
+      "mediana_competitiva": 25914,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-18"
   },
   "PTBI00007": {
     "datos_mercado": {
@@ -317903,19 +317951,19 @@
   },
   "23000009": {
     "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "fecha": "2026-06-18"
   },
   "23000010": {
     "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "fecha": "2026-06-18"
   },
   "23000011": {
     "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "fecha": "2026-06-18"
   },
   "23000014": {
     "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "fecha": "2026-06-18"
   },
   "23000028": {
     "datos_mercado": {
@@ -321008,8 +321056,24 @@
     "fecha": "2026-06-11"
   },
   "253966": {
-    "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 24469,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 34671,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 24469,
+      "mediana_competitiva": 29570,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-18"
   },
   "PT00505": {
     "datos_mercado": {
@@ -321362,12 +321426,49 @@
     "fecha": "2026-06-11"
   },
   "3720014": {
-    "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 11380,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 12499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ivmedical.cl",
+          "precio": 44990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 11380,
+      "mediana_competitiva": 11939,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-18"
   },
   "3720020": {
-    "datos_mercado": null,
-    "fecha": "2026-06-11"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 29799,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 30390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 29799,
+      "mediana_competitiva": 30094,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-18"
   },
   "407010001": {
     "datos_mercado": {
