@@ -324056,5 +324056,30 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-17"
+  },
+  "10030974": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4150,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Outletdeaseo.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1690,
+      "mediana_competitiva": 1990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-18"
   }
 }
