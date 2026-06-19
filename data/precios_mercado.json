@@ -324425,5 +324425,675 @@
   "AATEPAP2": {
     "datos_mercado": null,
     "fecha": "2026-06-19"
+  },
+  "0040019": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 1750,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2350,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Distribuidormayorista.cl",
+          "precio": 2160,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1590,
+      "mediana_competitiva": 1955,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-19"
+  },
+  "0040029": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 4250,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Laoferta.cl",
+          "precio": 2436,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3150,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 3390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2436,
+      "mediana_competitiva": 3390,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-19"
+  },
+  "0040106": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 3300,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1770,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1692,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cugat.cl",
+          "precio": 1240,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 2741,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2150,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1240,
+      "mediana_competitiva": 1960,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-19"
+  },
+  "0040170": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 3925,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 4250,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3150,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 3099,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3283,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3099,
+      "mediana_competitiva": 3604,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-19"
+  },
+  "0040198": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 4650,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 2350,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Clubsoftys.cl",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2350,
+      "mediana_competitiva": 4290,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-19"
+  },
+  "101019": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6990,
+      "mediana_competitiva": 7990,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-19"
+  },
+  "101177": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 4480,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 2290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2998,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2843,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2290,
+      "mediana_competitiva": 2920,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-19"
+  },
+  "101311": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 11999,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 4990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-19"
+  },
+  "101318": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaszamarin.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3890,
+      "mediana_competitiva": 5490,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-19"
+  },
+  "1320315": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Preunic",
+          "precio": 5499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4996,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 5199,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 5097,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-19"
+  },
+  "22550": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 1090,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 980,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Supertrebol.cl",
+          "precio": 849,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 1050,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 849,
+      "mediana_competitiva": 1015,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-19"
+  },
+  "24141": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Santaisabel.cl",
+          "precio": 1569,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buale.cl",
+          "precio": 2290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1569,
+      "mediana_competitiva": 1929,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-19"
+  },
+  "40674": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 2290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Laoferta.cl",
+          "precio": 20320,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cugat.cl",
+          "precio": 2790,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2290,
+      "mediana_competitiva": 2790,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-19"
+  },
+  "50501": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1700,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Laoferta.cl",
+          "precio": 14748,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Alvi.cl",
+          "precio": 1790,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1700,
+      "mediana_competitiva": 1745,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-19"
+  },
+  "93882": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 6220,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5999,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3890,
+      "mediana_competitiva": 5990,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-19"
+  },
+  "97466": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5399,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3940,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 4999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 8019,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 5390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3940,
+      "mediana_competitiva": 4290,
+      "fuentes_validas": 7
+    },
+    "fecha": "2026-06-19"
+  },
+  "97639": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 11990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 20025,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 15999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 12231,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 11990,
+      "mediana_competitiva": 14115,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-19"
+  },
+  "97962": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 8999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 9899,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 10850,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 9899,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-19"
+  },
+  "98349": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 15999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 11450,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 19980,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 15990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 15999,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 11450,
+      "mediana_competitiva": 15999,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-19"
+  },
+  "98523": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 15990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4995,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4995,
+      "mediana_competitiva": 9990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-19"
+  },
+  "98811": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petrizzio.cl",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 18990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 12947,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 14328,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 12947,
+      "mediana_competitiva": 16159,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-19"
   }
 }
