@@ -324401,5 +324401,25 @@
       "fuentes_validas": 5
     },
     "fecha": "2026-06-19"
+  },
+  "H5468700": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 24330,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 3649,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3649,
+      "mediana_competitiva": 13989,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-19"
   }
 }
