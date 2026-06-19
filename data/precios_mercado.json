@@ -318724,19 +318724,19 @@
   },
   "4056123": {
     "datos_mercado": null,
-    "fecha": "2026-06-12"
+    "fecha": "2026-06-19"
   },
   "42245": {
     "datos_mercado": null,
-    "fecha": "2026-06-12"
+    "fecha": "2026-06-19"
   },
   "601071014": {
     "datos_mercado": null,
-    "fecha": "2026-06-12"
+    "fecha": "2026-06-19"
   },
   "F27906": {
     "datos_mercado": null,
-    "fecha": "2026-06-12"
+    "fecha": "2026-06-19"
   },
   "SO40052": {
     "datos_mercado": {
@@ -322274,7 +322274,7 @@
   },
   "80369834": {
     "datos_mercado": null,
-    "fecha": "2026-06-12"
+    "fecha": "2026-06-19"
   },
   "80744635": {
     "datos_mercado": {
@@ -324366,5 +324366,40 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-18"
+  },
+  "T015784": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 30199,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 14267,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmatica.cl",
+          "precio": 19000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 24039,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 14267,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 14267,
+      "mediana_competitiva": 19000,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-19"
   }
 }
