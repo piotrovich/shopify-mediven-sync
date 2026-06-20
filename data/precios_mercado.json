@@ -325412,5 +325412,35 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-19"
+  },
+  "F24485": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 7536,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 20167,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 6890,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2490,
+      "mediana_competitiva": 4690,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-20"
   }
 }
