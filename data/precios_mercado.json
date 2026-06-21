@@ -319211,8 +319211,24 @@
     "fecha": "2026-06-07"
   },
   "101565008": {
-    "datos_mercado": null,
-    "fecha": "2026-06-14"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 1740,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 1533,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1533,
+      "mediana_competitiva": 1636,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-21"
   },
   "120113020": {
     "datos_mercado": {
