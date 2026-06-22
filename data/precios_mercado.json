@@ -326109,5 +326109,130 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-22"
+  },
+  "10000368": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 25190,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 21003,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 20599,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 21003,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 7940,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7940,
+      "mediana_competitiva": 20801,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-22"
+  },
+  "10000369": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 6073,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 21003,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 21999,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 21003,
+      "mediana_competitiva": 21501,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-22"
+  },
+  "13000183": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 13133,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 8490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 8490,
+      "mediana_competitiva": 10811,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-22"
+  },
+  "7804681740056": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4585,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 16530,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 12990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmacias Chile SPA",
+          "precio": 8091,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 2902,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 9790,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 11756,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 2902,
+      "mediana_competitiva": 4585,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-22"
   }
 }
