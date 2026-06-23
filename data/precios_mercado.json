@@ -27400,7 +27400,7 @@
   },
   "0900340": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "0900341": {
     "datos_mercado": {
@@ -27559,7 +27559,7 @@
   },
   "0900358": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "0900359": {
     "datos_mercado": {
@@ -314594,7 +314594,7 @@
   },
   "1004880": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "10108213": {
     "datos_mercado": {
@@ -315228,7 +315228,7 @@
   },
   "NF249": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "3720023": {
     "datos_mercado": {
@@ -319662,8 +319662,29 @@
     "fecha": "2026-06-16"
   },
   "268946": {
-    "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 18199,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Dermotienda.cl",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 17990,
+      "mediana_competitiva": 17990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-23"
   },
   "30033": {
     "datos_mercado": {
@@ -319891,8 +319912,24 @@
     "fecha": "2026-06-09"
   },
   "556609": {
-    "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 20790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 40398,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 20790,
+      "mediana_competitiva": 30594,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
   },
   "556617": {
     "datos_mercado": {
@@ -320021,11 +320058,11 @@
   },
   "AASOAS10": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "AASOAS12": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "AASOFO08": {
     "datos_mercado": {
@@ -320124,15 +320161,15 @@
   },
   "AASOLE10": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "AASONE10": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "AASONE16": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "AAURINAF": {
     "datos_mercado": {
@@ -320221,7 +320258,7 @@
   },
   "BDC04": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "BH037": {
     "datos_mercado": {
@@ -320445,7 +320482,7 @@
   },
   "TECELIACOCA06": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "TEHPYAUTOCN13": {
     "datos_mercado": {
@@ -323036,8 +323073,24 @@
     "fecha": "2026-06-16"
   },
   "CTRCYLEMU0310GP": {
-    "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 22990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 59998,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 22990,
+      "mediana_competitiva": 41494,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
   },
   "799192073311": {
     "datos_mercado": {
@@ -323304,8 +323357,29 @@
     "fecha": "2026-06-16"
   },
   "043671470002": {
-    "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 9592,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Eldolarbeautystore.cl",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 18887,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9592,
+      "mediana_competitiva": 9990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-23"
   },
   "043671470004": {
     "datos_mercado": {
@@ -323648,8 +323722,24 @@
     "fecha": "2026-06-16"
   },
   "4110032": {
-    "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "El Químico",
+          "precio": 890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Xn--decastaasyamores-dub.cl",
+          "precio": 1500,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 890,
+      "mediana_competitiva": 1195,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
   },
   "4110059": {
     "datos_mercado": {
@@ -323823,7 +323913,7 @@
   },
   "DPACBORP": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "M15779120426167": {
     "datos_mercado": {
@@ -323847,7 +323937,7 @@
   },
   "MUSAM035860": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-06-23"
   },
   "MUSCR525786": {
     "datos_mercado": {
@@ -326234,5 +326324,40 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-22"
+  },
+  "PT644156": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 9551,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 9599,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 8999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmatica.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 8999,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-23"
   }
 }
