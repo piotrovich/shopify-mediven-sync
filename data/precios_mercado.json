@@ -327274,5 +327274,235 @@
       "fuentes_validas": 5
     },
     "fecha": "2026-06-23"
+  },
+  "00102002396": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 32299,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 19990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 27590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 27936,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 19990,
+      "mediana_competitiva": 27763,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-23"
+  },
+  "00107000405": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 34090,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 21990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 31899,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 20000,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 20000,
+      "mediana_competitiva": 26944,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-23"
+  },
+  "1022245": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 20965,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Vetfarma.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petsrancagua.cl",
+          "precio": 19900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 19900,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 17990,
+      "mediana_competitiva": 19900,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-23"
+  },
+  "260133": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 33540,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 38590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Medicompara.cl",
+          "precio": 33540,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 38999,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 33540,
+      "mediana_competitiva": 36065,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-23"
+  },
+  "264086": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Redfarma",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 18499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 25190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 14790,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 14790,
+      "mediana_competitiva": 21744,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-23"
+  },
+  "264087": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Redfarma",
+          "precio": 29990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 16198,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 45199,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 16198,
+      "mediana_competitiva": 29990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-23"
+  },
+  "502068": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ohfarmaciaveterinaria.cl",
+          "precio": 21490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perrosygatos.cl",
+          "precio": 23990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Vidavetcare.cl",
+          "precio": 21990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 21490,
+      "mediana_competitiva": 21990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-23"
+  },
+  "930873": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 3104,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2490,
+      "mediana_competitiva": 3104,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-23"
   }
 }
