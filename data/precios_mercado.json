@@ -326685,5 +326685,594 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-23"
+  },
+  "PT047": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 2413,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5625,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2413,
+      "mediana_competitiva": 4019,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT1044": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 12490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 11557,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lobarnechea.yapp.cl",
+          "precio": 2419,
+          "estado": "🔴 Descartado (outlier IQR)"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 10990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT1145": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Araucomed",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 23912,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 29890,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 12980,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 34599,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 15400,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 14190,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT1248": {
+    "datos_mercado": null,
+    "fecha": "2026-06-23"
+  },
+  "PT1293": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 15480,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 6490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 26800,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 39990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 18990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Nibitha.cl",
+          "precio": 19999,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 20490,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 6490,
+      "mediana_competitiva": 15480,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT321": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 1920,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Belgochilena.cl",
+          "precio": 2300,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1920,
+      "mediana_competitiva": 2110,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT378": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Redfarma",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1919,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1919,
+      "mediana_competitiva": 2954,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT379": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 10990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 9990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3740,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT402": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4300,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 5980,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 6490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 5950,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Profar",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "El Químico",
+          "precio": 7990,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 5950,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5950,
+      "mediana_competitiva": 5980,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT500": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Profar",
+          "precio": 5090,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmazon.cl",
+          "precio": 8490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 5750,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 10990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 8190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "El Químico",
+          "precio": 3230,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3230,
+      "mediana_competitiva": 5750,
+      "fuentes_validas": 7
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT706": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Araucomed",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 6779,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 11999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 6874,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 16990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6779,
+      "mediana_competitiva": 6990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT707": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Profar",
+          "precio": 7490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 12388,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "El Químico",
+          "precio": 18990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 8740,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT708": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 6460,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 1496,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 5274,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 21990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "El Químico",
+          "precio": 2060,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 15364,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 6990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 1496,
+      "mediana_competitiva": 1778,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT729": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 14990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 14534,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 28800,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9990,
+      "mediana_competitiva": 14762,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT846": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 2013,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 8722,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 7290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7290,
+      "mediana_competitiva": 8006,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT847": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1200,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1080,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 890,
+      "mediana_competitiva": 1080,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT848": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 2160,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciatudecision.cl",
+          "precio": 1190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 1390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 2890,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1682,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 890,
+      "mediana_competitiva": 1290,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-23"
+  },
+  "PT858": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmalisto",
+          "precio": 5930,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 9950,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 8600,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 15990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5930,
+      "mediana_competitiva": 8600,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-06-23"
   }
 }
