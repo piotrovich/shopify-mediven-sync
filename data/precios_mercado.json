@@ -327580,5 +327580,70 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-24"
+  },
+  "0MDP0121": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4370,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 6658,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4370,
+      "mediana_competitiva": 6658,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-24"
+  },
+  "10022344": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Mauleconecta.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaszamarin.cl",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 1532,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruzdevida.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1532,
+      "mediana_competitiva": 2240,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-06-24"
   }
 }
