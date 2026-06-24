@@ -327550,5 +327550,35 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-24"
+  },
+  "7245300004": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 28325,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmacia.farmagente.cl",
+          "precio": 16920,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 19590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 13090,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 13090,
+      "mediana_competitiva": 18255,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-24"
   }
 }
