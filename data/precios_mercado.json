@@ -327645,5 +327645,35 @@
       "fuentes_validas": 6
     },
     "fecha": "2026-06-24"
+  },
+  "00103078600": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 21180,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 16198,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 12990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 12990,
+      "mediana_competitiva": 18689,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-24"
   }
 }
