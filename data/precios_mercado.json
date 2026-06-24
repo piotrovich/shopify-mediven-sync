@@ -315578,7 +315578,7 @@
   },
   "154815": {
     "datos_mercado": null,
-    "fecha": "2026-06-17"
+    "fecha": "2026-06-24"
   },
   "2160271": {
     "datos_mercado": {
@@ -315627,7 +315627,7 @@
   },
   "2510105": {
     "datos_mercado": null,
-    "fecha": "2026-06-17"
+    "fecha": "2026-06-24"
   },
   "258900": {
     "datos_mercado": {
@@ -316505,8 +316505,24 @@
     "fecha": "2026-06-10"
   },
   "584156": {
-    "datos_mercado": null,
-    "fecha": "2026-06-17"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 62798,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Dermotienda.cl",
+          "precio": 30990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 30990,
+      "mediana_competitiva": 46894,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-24"
   },
   "6700406": {
     "datos_mercado": {
@@ -316905,7 +316921,7 @@
   },
   "MB726700": {
     "datos_mercado": null,
-    "fecha": "2026-06-17"
+    "fecha": "2026-06-24"
   },
   "MB726800": {
     "datos_mercado": {
@@ -316929,7 +316945,7 @@
   },
   "MB726900": {
     "datos_mercado": null,
-    "fecha": "2026-06-17"
+    "fecha": "2026-06-24"
   },
   "MB727400": {
     "datos_mercado": {
@@ -320827,7 +320843,7 @@
   },
   "FAJLC": {
     "datos_mercado": null,
-    "fecha": "2026-06-17"
+    "fecha": "2026-06-24"
   },
   "HOKCALC": {
     "datos_mercado": {
@@ -327504,5 +327520,35 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-06-23"
+  },
+  "00103078605": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 45199,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 31140,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 16198,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 20697,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 16198,
+      "mediana_competitiva": 25918,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-24"
   }
 }
