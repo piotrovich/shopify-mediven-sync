@@ -327691,5 +327691,70 @@
       "fuentes_validas": 4
     },
     "fecha": "2026-06-24"
+  },
+  "378074": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2380,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 1134,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 3890,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 1134,
+      "mediana_competitiva": 2185,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-25"
+  },
+  "7800008010611": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Fracción",
+          "precio": 6490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 13323,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 7740,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-06-25"
   }
 }
