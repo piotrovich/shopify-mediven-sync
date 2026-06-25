@@ -318358,19 +318358,35 @@
   },
   "23000009": {
     "datos_mercado": null,
-    "fecha": "2026-06-18"
+    "fecha": "2026-06-25"
   },
   "23000010": {
     "datos_mercado": null,
-    "fecha": "2026-06-18"
+    "fecha": "2026-06-25"
   },
   "23000011": {
     "datos_mercado": null,
-    "fecha": "2026-06-18"
+    "fecha": "2026-06-25"
   },
   "23000014": {
-    "datos_mercado": null,
-    "fecha": "2026-06-18"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 5600,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 5045,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-25"
   },
   "23000028": {
     "datos_mercado": {
@@ -324597,7 +324613,7 @@
   },
   "2682": {
     "datos_mercado": null,
-    "fecha": "2026-06-18"
+    "fecha": "2026-06-25"
   },
   "4110015": {
     "datos_mercado": {
@@ -324646,7 +324662,7 @@
   },
   "4110057": {
     "datos_mercado": null,
-    "fecha": "2026-06-18"
+    "fecha": "2026-06-25"
   },
   "4110060": {
     "datos_mercado": {
