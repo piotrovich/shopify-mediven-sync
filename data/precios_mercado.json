@@ -84810,29 +84810,8 @@
     "fecha": "2026-06-27"
   },
   "2000110422004": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Knop",
-          "precio": 5890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciasvaldivia.cl",
-          "precio": 5490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 6416,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5490,
-      "mediana_competitiva": 5890,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-06-29"
   },
   "2000218": {
     "datos_mercado": {
