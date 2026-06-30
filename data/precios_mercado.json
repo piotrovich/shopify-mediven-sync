@@ -27406,8 +27406,24 @@
     "fecha": "2026-06-26"
   },
   "0900340": {
-    "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 8874,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Diprovet.cl",
+          "precio": 10000,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 8874,
+      "mediana_competitiva": 9437,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-30"
   },
   "0900341": {
     "datos_mercado": null,
@@ -27439,7 +27455,7 @@
   },
   "0900358": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "0900359": {
     "datos_mercado": null,
@@ -312093,7 +312109,7 @@
   },
   "1004880": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "10108213": {
     "datos_mercado": {
@@ -312726,8 +312742,29 @@
     "fecha": "2026-06-02"
   },
   "NF249": {
-    "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 24980,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 9917,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciamapuche.cl",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9917,
+      "mediana_competitiva": 17990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-30"
   },
   "3720023": {
     "datos_mercado": {
@@ -317589,11 +317626,11 @@
   },
   "AASOAS10": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "AASOAS12": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "AASOFO08": {
     "datos_mercado": {
@@ -317692,15 +317729,15 @@
   },
   "AASOLE10": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "AASONE10": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "AASONE16": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "AAURINAF": {
     "datos_mercado": {
@@ -317789,7 +317826,7 @@
   },
   "BDC04": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "BH037": {
     "datos_mercado": {
@@ -318012,8 +318049,29 @@
     "fecha": "2026-06-09"
   },
   "TECELIACOCA06": {
-    "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Rapidtest.cl",
+          "precio": 12950,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 13990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Autotest Chile",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 12950,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-30"
   },
   "TEHPYAUTOCN13": {
     "datos_mercado": {
@@ -321470,7 +321528,7 @@
   },
   "DPACBORP": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "M15779120426167": {
     "datos_mercado": {
@@ -321493,8 +321551,24 @@
     "fecha": "2026-06-16"
   },
   "MUSAM035860": {
-    "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 13990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Wua-wua.cl",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 10990,
+      "mediana_competitiva": 12490,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-30"
   },
   "MUSCR525786": {
     "datos_mercado": {
@@ -324387,7 +324461,7 @@
   },
   "PT1248": {
     "datos_mercado": null,
-    "fecha": "2026-06-23"
+    "fecha": "2026-06-30"
   },
   "PT1293": {
     "datos_mercado": {
