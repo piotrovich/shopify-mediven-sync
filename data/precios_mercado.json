@@ -285693,36 +285693,31 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Knop",
-          "precio": 33590,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Saludypiel.cl",
-          "precio": 32000,
+          "precio": 35000,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Knasta.cl",
-          "precio": 19980,
+          "farmacia": "Buho Chile",
+          "precio": 29907,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Salcobrand",
-          "precio": 20499,
+          "farmacia": "Cofar",
+          "precio": 29900,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Buscafarma.cl",
-          "precio": 23590,
+          "precio": 24990,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 19980,
-      "mediana_competitiva": 23590,
-      "fuentes_validas": 5
+      "minimo": 24990,
+      "mediana_competitiva": 29903,
+      "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-06-30"
   },
   "PTEQI02": {
     "datos_mercado": {
@@ -326048,5 +326043,75 @@
       "fuentes_validas": 2
     },
     "fecha": "2026-06-29"
+  },
+  "17164221548587": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 2380,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3299,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2380,
+      "mediana_competitiva": 2839,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-30"
+  },
+  "193084": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmam.cl",
+          "precio": 5890,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1483,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2945,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1483,
+      "mediana_competitiva": 2214,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-30"
+  },
+  "287972": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 18832,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 13646,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 9818,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-30"
   }
 }
