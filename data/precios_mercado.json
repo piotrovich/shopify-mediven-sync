@@ -17886,6 +17886,11 @@
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Jumbo",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Farmex",
           "precio": 2990,
           "estado": "🟢 Válido"
@@ -17897,10 +17902,10 @@
         }
       ],
       "minimo": 2742,
-      "mediana_competitiva": 2866,
-      "fuentes_validas": 2
+      "mediana_competitiva": 2990,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-06-30"
   },
   "0620276": {
     "datos_mercado": {
@@ -18752,7 +18757,17 @@
       "detalle": [
         {
           "farmacia": "Salcobrand",
-          "precio": 12299,
+          "precio": 9799,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 13290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 10110,
           "estado": "🟢 Válido"
         },
         {
@@ -18761,16 +18776,16 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Cruz Verde",
-          "precio": 13290,
+          "farmacia": "Preunic",
+          "precio": 11399,
           "estado": "🟢 Válido"
         }
       ],
       "minimo": 8390,
-      "mediana_competitiva": 12299,
-      "fuentes_validas": 3
+      "mediana_competitiva": 10110,
+      "fuentes_validas": 5
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-06-30"
   },
   "0620354": {
     "datos_mercado": {
@@ -90459,34 +90474,8 @@
     "fecha": "2026-06-27"
   },
   "2180014": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 12275,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Vicamat.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Diprolab.cl",
-          "precio": 8355,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Vicamat",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8355,
-      "mediana_competitiva": 9990,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-06-30"
   },
   "2180017": {
     "datos_mercado": {
@@ -90629,24 +90618,8 @@
     "fecha": "2026-06-27"
   },
   "2180026": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Variedadesadonays.cl",
-          "precio": 11800,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Vicamat",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 9990,
-      "mediana_competitiva": 10895,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-06-30"
   },
   "2180027": {
     "datos_mercado": null,
@@ -90701,8 +90674,8 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Variedadesadonays.cl",
-          "precio": 11990,
+          "farmacia": "Farmaciameki.cl",
+          "precio": 12653,
           "estado": "🟢 Válido"
         },
         {
@@ -90711,21 +90684,16 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Petbj.cl",
-          "precio": 11900,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Variedades Adonays",
-          "precio": 9290,
+          "farmacia": "Geerdink.cl",
+          "precio": 8240,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 9290,
-      "mediana_competitiva": 11945,
-      "fuentes_validas": 4
+      "minimo": 8240,
+      "mediana_competitiva": 12653,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-06-30"
   },
   "2180053": {
     "datos_mercado": null,
@@ -326111,6 +326079,76 @@
       "minimo": 5990,
       "mediana_competitiva": 9818,
       "fuentes_validas": 2
+    },
+    "fecha": "2026-06-30"
+  },
+  "2180011": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 4900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Osm.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 4900,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-06-30"
+  },
+  "2180034": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Osm.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 6490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 5740,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-06-30"
+  },
+  "2180060": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Araucomed",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 7318,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 15101,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7318,
+      "mediana_competitiva": 10990,
+      "fuentes_validas": 3
     },
     "fecha": "2026-06-30"
   }
