@@ -2921,13 +2921,13 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Ahumada",
-          "precio": 13599,
+          "farmacia": "Cruz Verde",
+          "precio": 13450,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Cruz Verde",
-          "precio": 13450,
+          "farmacia": "Salcobrand",
+          "precio": 13499,
           "estado": "🟢 Válido"
         },
         {
@@ -2936,31 +2936,31 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Tottus.cl",
-          "precio": 13190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 9415,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Unimarc.cl",
+          "precio": 11350,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Santaisabel.cl",
           "precio": 10590,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmacompara.cl",
-          "precio": 10490,
+          "farmacia": "Liquimax.cl",
+          "precio": 3250,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 10000,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 9415,
-      "mediana_competitiva": 13190,
-      "fuentes_validas": 7
+      "minimo": 10000,
+      "mediana_competitiva": 12270,
+      "fuentes_validas": 6
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "0040060": {
     "datos_mercado": {
@@ -244406,31 +244406,31 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Buhochile.com",
-          "precio": 11290,
+          "farmacia": "Buho Chile",
+          "precio": 11980,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Perfectbear.cl",
-          "precio": 13990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 10990,
-          "estado": "🟢 Válido"
+          "precio": 16990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
           "farmacia": "Tremus.cl",
-          "precio": 12790,
+          "precio": 13290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4500,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 10990,
-      "mediana_competitiva": 12040,
-      "fuentes_validas": 4
+      "minimo": 4500,
+      "mediana_competitiva": 11980,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "CUR0001": {
     "datos_mercado": {
@@ -264368,31 +264368,46 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Buhochile.com",
+          "farmacia": "Buho Chile",
           "precio": 2923,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Salcobrand",
-          "precio": 3699,
+          "precio": 1313,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3681,
+          "farmacia": "Profar",
+          "precio": 2691,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buhochile.Com",
-          "precio": 2923,
+          "farmacia": "Market Care",
+          "precio": 1858,
           "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 1690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 6990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 7990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 2923,
-      "mediana_competitiva": 3302,
-      "fuentes_validas": 4
+      "minimo": 1313,
+      "mediana_competitiva": 1858,
+      "fuentes_validas": 5
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "MAV101648": {
     "datos_mercado": {
@@ -304830,70 +304845,45 @@
       "detalle": [
         {
           "farmacia": "Felinus.cl",
-          "precio": 2490,
+          "precio": 2366,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Propetonline.cl",
+          "farmacia": "Tiendamascotamania.cl",
           "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tusmascotas.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Superzoo.cl",
-          "precio": 3590,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 2490,
-      "mediana_competitiva": 3290,
-      "fuentes_validas": 4
+      "minimo": 2366,
+      "mediana_competitiva": 2678,
+      "fuentes_validas": 2
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "USA723": {
     "datos_mercado": {
       "detalle": [
         {
           "farmacia": "Felinus.cl",
-          "precio": 2490,
+          "precio": 2366,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Propetonline.cl",
-          "precio": 6990,
-          "estado": "🔴 Descartado (outlier IQR)"
+          "farmacia": "Distribuidoralira.cl",
+          "precio": 2700,
+          "estado": "🟢 Válido"
         },
         {
           "farmacia": "Petcity.cl",
           "precio": 2500,
           "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Mundogato.cl",
-          "precio": 2890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Arenaparamascotas.cl",
-          "precio": 2590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Pettime.cl",
-          "precio": 2490,
-          "estado": "🟢 Válido"
         }
       ],
-      "minimo": 2490,
+      "minimo": 2366,
       "mediana_competitiva": 2500,
-      "fuentes_validas": 5
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "USD601": {
     "datos_mercado": {
@@ -305264,51 +305254,51 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Novapet.cl",
+          "farmacia": "Clubdeperrosygatos.cl",
           "precio": 6990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buhochile.com",
-          "precio": 6769,
+          "farmacia": "Buscafarma.cl",
+          "precio": 6000,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Befoods.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Petvet.cl",
-          "precio": 5470,
+          "farmacia": "Guaudor.cl",
+          "precio": 7990,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 4990,
-      "mediana_competitiva": 6119,
-      "fuentes_validas": 4
+      "minimo": 6000,
+      "mediana_competitiva": 6990,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "USD723": {
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Petvet.cl",
-          "precio": 5470,
+          "farmacia": "Tiendamascotamania.cl",
+          "precio": 6451,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Bodegadelamascota.cl",
-          "precio": 5900,
+          "farmacia": "Petvet.cl",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Superzoo.cl",
+          "precio": 3590,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 5470,
-      "mediana_competitiva": 5685,
-      "fuentes_validas": 2
+      "minimo": 3590,
+      "mediana_competitiva": 5490,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-30"
+    "fecha": "2026-07-01"
   },
   "USD901": {
     "datos_mercado": {
@@ -326343,6 +326333,226 @@
       "mediana_competitiva": 17639,
       "fuentes_validas": 5
     },
+    "fecha": "2026-07-01"
+  },
+  "USA615": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Felinus.cl",
+          "precio": 2271,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Guauquebarato.cl",
+          "precio": 6990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2955,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2271,
+      "mediana_competitiva": 2955,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "USA616": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Felinus.cl",
+          "precio": 5596,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2955,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2955,
+      "mediana_competitiva": 5490,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "USA677": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 2300,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2955,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Felinus.cl",
+          "precio": 2271,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2271,
+      "mediana_competitiva": 2300,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "USA679": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Tdmdigital.cl",
+          "precio": 3000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2955,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Felinus.cl",
+          "precio": 2271,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2613,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "USA680": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2955,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 2940,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Sodimac.cl",
+          "precio": 4590,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2940,
+      "mediana_competitiva": 2955,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "USA683": {
+    "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "USA694": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Superzoo.cl",
+          "precio": 3590,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2790,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "USA695": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Animalgluck.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Pethome.cl",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "USA752": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Petvet.cl",
+          "precio": 13490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Alomascotas.cl",
+          "precio": 2890,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2890,
+      "mediana_competitiva": 8190,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "USA861": {
+    "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "USA863": {
+    "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "USA864": {
+    "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "USA868": {
+    "datos_mercado": null,
     "fecha": "2026-07-01"
   }
 }
