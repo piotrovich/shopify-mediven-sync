@@ -54248,36 +54248,31 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 7452,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
+          "farmacia": "Buho Chile",
           "precio": 4690,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Salcobrand",
-          "precio": 4699,
+          "farmacia": "Gelatti.cl",
+          "precio": 25347,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 4490,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4699,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 4290,
+          "farmacia": "Preunic",
+          "precio": 3999,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 4290,
-      "mediana_competitiva": 4699,
-      "fuentes_validas": 5
+      "minimo": 3999,
+      "mediana_competitiva": 4490,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "11040": {
     "datos_mercado": {
@@ -139241,12 +139236,7 @@
       "detalle": [
         {
           "farmacia": "Gelatti.cl",
-          "precio": 4670,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 7358,
+          "precio": 3550,
           "estado": "🟢 Válido"
         },
         {
@@ -139258,18 +139248,13 @@
           "farmacia": "Lider",
           "precio": 3990,
           "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 4577,
-          "estado": "🟢 Válido"
         }
       ],
-      "minimo": 3990,
-      "mediana_competitiva": 4670,
-      "fuentes_validas": 5
+      "minimo": 3550,
+      "mediana_competitiva": 3990,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "3450004": {
     "datos_mercado": {
@@ -139448,18 +139433,13 @@
           "farmacia": "Lider",
           "precio": 3990,
           "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 6975,
-          "estado": "🟢 Válido"
         }
       ],
       "minimo": 3550,
-      "mediana_competitiva": 3990,
-      "fuentes_validas": 3
+      "mediana_competitiva": 3770,
+      "fuentes_validas": 2
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "3450089": {
     "datos_mercado": {
@@ -139505,9 +139485,9 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 7085,
-          "estado": "🟢 Válido"
+          "farmacia": "Unimarc.cl",
+          "precio": 15000,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
           "farmacia": "Gelatti.cl",
@@ -139515,41 +139495,21 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Salcobrand",
-          "precio": 5399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Unimarc.cl",
-          "precio": 15000,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 5999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 5490,
+          "farmacia": "Farmaciameki.cl",
+          "precio": 5372,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Lider",
           "precio": 4190,
           "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3970,
-          "estado": "🟢 Válido"
         }
       ],
-      "minimo": 3970,
-      "mediana_competitiva": 5399,
-      "fuentes_validas": 7
+      "minimo": 4190,
+      "mediana_competitiva": 4980,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-30"
+    "fecha": "2026-07-01"
   },
   "3450236": {
     "datos_mercado": {
@@ -139694,26 +139654,31 @@
           "estado": "🟢 Válido"
         },
         {
+          "farmacia": "Lider",
+          "precio": 3090,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Preunic",
           "precio": 3999,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 4990,
+          "farmacia": "Knasta.cl",
+          "precio": 4242,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Lider",
-          "precio": 3150,
+          "farmacia": "Tottus.cl",
+          "precio": 4490,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 3150,
-      "mediana_competitiva": 3744,
-      "fuentes_validas": 4
+      "minimo": 3090,
+      "mediana_competitiva": 3999,
+      "fuentes_validas": 5
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "34515": {
     "datos_mercado": {
@@ -165350,26 +165315,31 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 6495,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Lider",
           "precio": 7490,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Unimarc",
-          "precio": 5250,
+          "farmacia": "Knasta.cl",
+          "precio": 5942,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2850,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 5372,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 5250,
-      "mediana_competitiva": 6495,
-      "fuentes_validas": 3
+      "minimo": 2850,
+      "mediana_competitiva": 5657,
+      "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "52332": {
     "datos_mercado": {
@@ -166054,21 +166024,31 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4499,
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 3890,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Salcobrand",
-          "precio": 4499,
+          "precio": 22798,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 8130,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 4499,
-      "mediana_competitiva": 4499,
-      "fuentes_validas": 2
+      "minimo": 3290,
+      "mediana_competitiva": 3890,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "52861": {
     "datos_mercado": {
@@ -166124,8 +166104,8 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 5832,
+          "farmacia": "Jumbo",
+          "precio": 2960,
           "estado": "🟢 Válido"
         },
         {
@@ -166134,31 +166114,26 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Jumbo",
-          "precio": 3060,
-          "estado": "🟢 Válido"
+          "farmacia": "Unimarc.cl",
+          "precio": 10633,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
-          "farmacia": "Lider",
-          "precio": 3150,
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 2990,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Misterahorrito.cl",
           "precio": 2890,
           "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3499,
-          "estado": "🟢 Válido"
         }
       ],
       "minimo": 2890,
-      "mediana_competitiva": 3324,
-      "fuentes_validas": 6
+      "mediana_competitiva": 2975,
+      "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "52889": {
     "datos_mercado": {
@@ -166914,43 +166889,48 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 5385,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Gelatti.cl",
-          "precio": 3142,
+          "precio": 4980,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Knasta.cl",
-          "precio": 2690,
+          "farmacia": "Jumbo",
+          "precio": 3180,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Lider.Cl",
-          "precio": 2690,
+          "farmacia": "Santaisabel.cl",
+          "precio": 3090,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 2890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3099,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 2690,
-      "mediana_competitiva": 2916,
-      "fuentes_validas": 4
+      "minimo": 2890,
+      "mediana_competitiva": 3099,
+      "fuentes_validas": 5
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "53074": {
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 5340,
+          "farmacia": "Biofar.cl",
+          "precio": 4950,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Biofar.cl",
-          "precio": 4950,
+          "farmacia": "Buho Chile",
+          "precio": 3407,
           "estado": "🟢 Válido"
         },
         {
@@ -166959,16 +166939,16 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Sociofarma.cl",
-          "precio": 3701,
+          "farmacia": "Knasta.cl",
+          "precio": 2890,
           "estado": "🟢 Válido"
         }
       ],
       "minimo": 2690,
-      "mediana_competitiva": 4325,
+      "mediana_competitiva": 3148,
       "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "5310074": {
     "datos_mercado": {
@@ -242539,31 +242519,26 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 7175,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Unimarc.cl",
           "precio": 4990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buhochile.com",
-          "precio": 4500,
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3170,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmaciaroraima.cl",
-          "precio": 4000,
+          "farmacia": "Preunic",
+          "precio": 3999,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 4000,
-      "mediana_competitiva": 4745,
-      "fuentes_validas": 4
+      "minimo": 3170,
+      "mediana_competitiva": 3999,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-01"
   },
   "CPCOMAYK03": {
     "datos_mercado": {
@@ -326553,6 +326528,897 @@
   },
   "USA868": {
     "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "1022573": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 2094,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 5357,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2094,
+      "mediana_competitiva": 4490,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "110378": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 2470,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 3699,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3150,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2470,
+      "mediana_competitiva": 3320,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "110386": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 9833,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2950,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 4390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2950,
+      "mediana_competitiva": 3670,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "15000109": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 16633,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 2890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumeriamilagros.cl",
+          "precio": 4740,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 3740,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 4999,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2890,
+      "mediana_competitiva": 4365,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-07-01"
+  },
+  "15000222": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 14633,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 3136,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 5071,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 4999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 8690,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3136,
+      "mediana_competitiva": 5035,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "15000249": {
+    "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "266926": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 2951,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2951,
+      "mediana_competitiva": 4470,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "266927": {
+    "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "3450084": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 4830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4445,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 5290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 14500,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4445,
+      "mediana_competitiva": 4910,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450090": {
+    "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "3450091": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 3550,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3550,
+      "mediana_competitiva": 3770,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450093": {
+    "datos_mercado": null,
+    "fecha": "2026-07-01"
+  },
+  "3450127": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4090,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4090,
+      "mediana_competitiva": 4190,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450148": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 17450,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 4242,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4399,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 2470,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2470,
+      "mediana_competitiva": 4320,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450182": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 2190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumeriamilagros.cl",
+          "precio": 4740,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2190,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450192": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 7290,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3950,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 3320,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5999,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 3320,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450195": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 4830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3390,
+      "mediana_competitiva": 4790,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450198": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3170,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 4790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4790,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3170,
+      "mediana_competitiva": 4790,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450218": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 3136,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 16633,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 4999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 5399,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4319,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3136,
+      "mediana_competitiva": 4659,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450271": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 3136,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jacky.cl",
+          "precio": 7290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3136,
+      "mediana_competitiva": 4990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "3450290": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 7510,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 5750,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "52333": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 4991,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 4610,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4290,
+      "mediana_competitiva": 4800,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "52646": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 4830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 27143,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3170,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3170,
+      "mediana_competitiva": 4290,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "52647": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 2799,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 3136,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2799,
+      "mediana_competitiva": 3136,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "52824": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 3890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3290,
+      "mediana_competitiva": 4190,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-01"
+  },
+  "52892": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 8130,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 5331,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 7090,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 15798,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 7799,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5331,
+      "mediana_competitiva": 7799,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-01"
+  },
+  "52897": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Lider",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Mbmcomercial.cl",
+          "precio": 4866,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4190,
+      "mediana_competitiva": 4528,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "52915": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 3470,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 3400,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3400,
+      "mediana_competitiva": 3470,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "52918": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 4830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 3790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3115,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3115,
+      "mediana_competitiva": 4040,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "53000": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 5331,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 7150,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 7790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5331,
+      "mediana_competitiva": 6570,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-01"
+  },
+  "5305440303": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 3320,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 2850,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Kayma.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Knasta.cl",
+          "precio": 2250,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3099,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2250,
+      "mediana_competitiva": 2990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-01"
+  },
+  "53066": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4499,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 4244,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-01"
+  },
+  "53209": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 2368,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 7263,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 7690,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 6290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 7190,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 2368,
+      "mediana_competitiva": 6290,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-01"
+  },
+  "CPCCGEL102": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmetikclub.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 3470,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3150,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3150,
+      "mediana_competitiva": 3470,
+      "fuentes_validas": 3
+    },
     "fecha": "2026-07-01"
   }
 }
