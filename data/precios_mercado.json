@@ -328613,5 +328613,60 @@
   "BTA000014": {
     "datos_mercado": null,
     "fecha": "2026-07-02"
+  },
+  "2040081": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 110997,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 36399,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 23990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 19290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 19290,
+      "mediana_competitiva": 23990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-02"
+  },
+  "2429": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 21398,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 15990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 18530,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 15990,
+      "mediana_competitiva": 18530,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-02"
   }
 }
