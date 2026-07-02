@@ -44644,31 +44644,26 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Tottus.cl",
-          "precio": 3350,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 2090,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 2690,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Sociofarma.cl",
-          "precio": 1649,
+          "precio": 1589,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 1000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 1599,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 1649,
-      "mediana_competitiva": 2390,
-      "fuentes_validas": 4
+      "minimo": 1000,
+      "mediana_competitiva": 1589,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-02"
   },
   "101581": {
     "datos_mercado": {
@@ -87433,25 +87428,35 @@
       "detalle": [
         {
           "farmacia": "Salcobrand",
-          "precio": 21499,
+          "precio": 23199,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buhochile.com",
-          "precio": 20740,
+          "farmacia": "Ahumada",
+          "precio": 74997,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 15990,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Redfarma",
           "precio": 15990,
           "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 15450,
+          "estado": "🟢 Válido"
         }
       ],
-      "minimo": 15990,
-      "mediana_competitiva": 20740,
-      "fuentes_validas": 3
+      "minimo": 15450,
+      "mediana_competitiva": 15990,
+      "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-02"
   },
   "2040093": {
     "datos_mercado": {
@@ -117412,13 +117417,8 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Cruz Verde",
+          "farmacia": "Buscafarma.cl",
           "precio": 32490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 26190,
           "estado": "🟢 Válido"
         },
         {
@@ -117427,16 +117427,21 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Lider",
-          "precio": 27490,
+          "farmacia": "Redfarma",
+          "precio": 26190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 30299,
           "estado": "🟢 Válido"
         }
       ],
       "minimo": 26190,
-      "mediana_competitiva": 27490,
+      "mediana_competitiva": 28894,
       "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-02"
   },
   "265014": {
     "datos_mercado": {
@@ -328558,6 +328563,55 @@
       "mediana_competitiva": 7254,
       "fuentes_validas": 4
     },
+    "fecha": "2026-07-02"
+  },
+  "258593": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 6999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 15790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 16799,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 10925,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciasmeddica.cl",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 16599,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6999,
+      "mediana_competitiva": 10990,
+      "fuentes_validas": 7
+    },
+    "fecha": "2026-07-02"
+  },
+  "BTA000014": {
+    "datos_mercado": null,
     "fecha": "2026-07-02"
   }
 }
