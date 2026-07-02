@@ -328494,5 +328494,70 @@
   "700552": {
     "datos_mercado": null,
     "fecha": "2026-07-02"
+  },
+  "103952": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 21391,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaloop.cl",
+          "precio": 23990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmacompara.cl",
+          "precio": 19712,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 6496,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6496,
+      "mediana_competitiva": 8243,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "PTF0236PT": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 8518,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "MercadoFarma",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Profar",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 11799,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 7254,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
   }
 }
