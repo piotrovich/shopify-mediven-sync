@@ -160918,16 +160918,21 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Sociofarma.cl",
-          "precio": 4791,
+          "farmacia": "Preunic",
+          "precio": 2564,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Clandent.cl",
+          "precio": 2300,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 3500,
-      "mediana_competitiva": 4145,
-      "fuentes_validas": 2
+      "minimo": 2300,
+      "mediana_competitiva": 2564,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-02"
   },
   "4925": {
     "datos_mercado": {
@@ -230940,26 +230945,26 @@
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 4115,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Axam.cl",
           "precio": 3960,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 5674,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed.Com",
-          "precio": 3290,
+          "farmacia": "MercadoFarma",
+          "precio": 4990,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 3290,
-      "mediana_competitiva": 3960,
+      "minimo": 3960,
+      "mediana_competitiva": 4115,
       "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-02"
   },
   "ACGUVAZ3": {
     "datos_mercado": {
@@ -327556,6 +327561,938 @@
       "mediana_competitiva": 8550,
       "fuentes_validas": 5
     },
+    "fecha": "2026-07-02"
+  },
+  "028145": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Fracción",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ensus.cl",
+          "precio": 13990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7990,
+      "mediana_competitiva": 10990,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "0860007": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 5690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 4800,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 5390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4800,
+      "mediana_competitiva": 5540,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "0860020": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 4640,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 7699,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4640,
+      "mediana_competitiva": 6169,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "0861127": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 12790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 12490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortopedia.farmaciasanjuan.cl",
+          "precio": 10990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortopediaferreira.cl",
+          "precio": 19200,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 10990,
+      "mediana_competitiva": 12640,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "100222": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Psalud.cl",
+          "precio": 1800,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Puntomedic.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1800,
+      "mediana_competitiva": 3395,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "100411": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "El Químico",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lacasadelenfermo.cl",
+          "precio": 1800,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1800,
+      "mediana_competitiva": 1895,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "100424": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ivmedical.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tiendaelectromedicina.cl",
+          "precio": 2499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tubotiquin.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2499,
+      "mediana_competitiva": 3490,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "110066": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 33790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Indumedical.cl",
+          "precio": 22990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 22990,
+      "mediana_competitiva": 28390,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "2350028": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3848,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 3500,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3500,
+      "mediana_competitiva": 3674,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "2350569": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 11690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5990,
+      "mediana_competitiva": 8840,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700011": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 5840,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Bioheis.cl",
+          "precio": 2216,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 6799,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 9907,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 6590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2216,
+      "mediana_competitiva": 4665,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "700033": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Insumosnalimed.cl",
+          "precio": 7641,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortocare.cl",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5490,
+      "mediana_competitiva": 6565,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700043": {
+    "datos_mercado": null,
+    "fecha": "2026-07-02"
+  },
+  "700044": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ortopediaviva.cl",
+          "precio": 2150,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Bioheis.cl",
+          "precio": 2300,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 3190,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2150,
+      "mediana_competitiva": 2300,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-02"
+  },
+  "700046": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 17827,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Dipy.cl",
+          "precio": 21782,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 23225,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Mpmedical.cl",
+          "precio": 14900,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 14900,
+      "mediana_competitiva": 19804,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "700049": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Bioquimica.cl",
+          "precio": 7530,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Orthosalud.cl",
+          "precio": 11900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Medcare.cl",
+          "precio": 12990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Manimai.cl",
+          "precio": 14990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Biotechchile.cl",
+          "precio": 6600,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 8890,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6600,
+      "mediana_competitiva": 10395,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-07-02"
+  },
+  "700050": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Araucomed",
+          "precio": 8890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Dentalalameda.cl",
+          "precio": 8500,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Bienestarmayorista.cl",
+          "precio": 7890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Bioquimica.cl",
+          "precio": 8300,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Orthosalud.cl",
+          "precio": 11900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lukmed.cl",
+          "precio": 6471,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6471,
+      "mediana_competitiva": 8400,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-07-02"
+  },
+  "700052": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Bioquimica.cl",
+          "precio": 6900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Simmedical.cl",
+          "precio": 9689,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 5846,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 8890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Bienestarmayorista.cl",
+          "precio": 7890,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5846,
+      "mediana_competitiva": 7890,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-02"
+  },
+  "700060": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 30690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 12490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortopedia.farmaciasanjuan.cl",
+          "precio": 10490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 10490,
+      "mediana_competitiva": 12490,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-02"
+  },
+  "700062": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 24832,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Orthosalud.cl",
+          "precio": 9900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 12550,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Geerdink.cl",
+          "precio": 23261,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Deltamed.cl",
+          "precio": 19990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9900,
+      "mediana_competitiva": 19990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-02"
+  },
+  "700071": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Fracción",
+          "precio": 14490,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 4100,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 24262,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 3250,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortopedia.farmaciasanjuan.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 3250,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-02"
+  },
+  "700073": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Fracción",
+          "precio": 13390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 11713,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 5900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 13390,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5900,
+      "mediana_competitiva": 12551,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "700076": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 24190,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 10290,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Caterina.cl",
+          "precio": 5900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Vitalsec.cl",
+          "precio": 33000,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 5900,
+      "mediana_competitiva": 8095,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700081": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Bioquimica.cl",
+          "precio": 7714,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Orthosalud.cl",
+          "precio": 11900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 8890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 4795,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Puntomedic.cl",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Bienestarmayorista.cl",
+          "precio": 7890,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4795,
+      "mediana_competitiva": 8390,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-07-02"
+  },
+  "700084": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ortopedia.farmaciasanjuan.cl",
+          "precio": 7000,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 2950,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 2470,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700085": {
+    "datos_mercado": null,
+    "fecha": "2026-07-02"
+  },
+  "70009244277": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Textilsuper.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 27002,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 7699,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Vitalsec.cl",
+          "precio": 16990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 4990,
+      "mediana_competitiva": 6344,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700109": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Conveniomarco.mercadopublico.cl",
+          "precio": 7318,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 2590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Induslab.cl",
+          "precio": 9950,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        }
+      ],
+      "minimo": 2590,
+      "mediana_competitiva": 4954,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700130": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 1340,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1022,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 1991,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortopediaenlinea.cl",
+          "precio": 1245,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1022,
+      "mediana_competitiva": 1292,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "700132": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmalisto",
+          "precio": 1991,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Caranday.cl",
+          "precio": 4290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1991,
+      "mediana_competitiva": 3140,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700169": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Textilsuper.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Allstorechile.cl",
+          "precio": 9492,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 8190,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2990,
+      "mediana_competitiva": 5590,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700178": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Textilsuper.cl",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 9890,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3990,
+      "mediana_competitiva": 6940,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-02"
+  },
+  "700193": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Dentobal.cl",
+          "precio": 8820,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 12992,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Orthosalud.cl",
+          "precio": 11900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Afchilespa.cl",
+          "precio": 5690,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5690,
+      "mediana_competitiva": 10360,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "700434": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Maimar.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 2190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciasgeminis.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortopedia.farmaciasanjuan.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2190,
+      "mediana_competitiva": 4490,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-02"
+  },
+  "700531": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Vitalsec.cl",
+          "precio": 7890,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Inmedic.cl",
+          "precio": 1790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ortopediasuiza.cl",
+          "precio": 1950,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruzdevida.cl",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1790,
+      "mediana_competitiva": 1950,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-02"
+  },
+  "700552": {
+    "datos_mercado": null,
     "fecha": "2026-07-02"
   }
 }
