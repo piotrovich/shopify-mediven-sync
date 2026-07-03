@@ -131120,24 +131120,8 @@
     "fecha": "2026-06-29"
   },
   "3000000000656": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 1969,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Alershop",
-          "precio": 3900,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1969,
-      "mediana_competitiva": 2934,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-03"
   },
   "300010": {
     "datos_mercado": {
@@ -310764,31 +310748,21 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Afchilespa.cl",
-          "precio": 9940,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 10990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciasanjuan.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Buho Chile",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "El Químico",
           "precio": 8990,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 8990,
-      "mediana_competitiva": 9965,
-      "fuentes_validas": 4
+      "minimo": 7990,
+      "mediana_competitiva": 8490,
+      "fuentes_validas": 2
     },
-    "fecha": "2026-05-30"
+    "fecha": "2026-07-03"
   },
   "930507": {
     "datos_mercado": {
@@ -312829,31 +312803,31 @@
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Ahumada",
+          "precio": 36889,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "EcoFarmacias",
-          "precio": 12945,
+          "precio": 9990,
+          "estado": "🔴 Descartado (outlier IQR)"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 53499,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Farmex",
           "precio": 29990,
           "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "El Químico",
-          "precio": 19990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmalisto",
-          "precio": 36890,
-          "estado": "🟢 Válido"
         }
       ],
-      "minimo": 12945,
-      "mediana_competitiva": 24990,
-      "fuentes_validas": 4
+      "minimo": 29990,
+      "mediana_competitiva": 36889,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-06-01"
+    "fecha": "2026-07-03"
   },
   "W302078500": {
     "datos_mercado": {
