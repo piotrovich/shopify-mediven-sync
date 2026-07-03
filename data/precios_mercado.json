@@ -105298,17 +105298,17 @@
       "detalle": [
         {
           "farmacia": "Farmacialabotika.cl",
-          "precio": 2990,
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 3290,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Buscafarma.cl",
-          "precio": 3395,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 4490,
+          "precio": 2444,
           "estado": "🟢 Válido"
         },
         {
@@ -105317,21 +105317,21 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Redfarma",
-          "precio": 6900,
+          "farmacia": "Farmaciasole.cl",
+          "precio": 3990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Salcobrand",
-          "precio": 4399,
+          "farmacia": "Biofar.cl",
+          "precio": 2750,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 2990,
-      "mediana_competitiva": 3897,
+      "minimo": 2444,
+      "mediana_competitiva": 3290,
       "fuentes_validas": 6
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-03"
   },
   "256431": {
     "datos_mercado": {
@@ -329803,6 +329803,91 @@
       ],
       "minimo": 1390,
       "mediana_competitiva": 1640,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-03"
+  },
+  "2520007": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Profar",
+          "precio": 14990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 17699,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 17990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 14990,
+      "mediana_competitiva": 17699,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-03"
+  },
+  "3050003": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 4965,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 3650,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Bioprocim.cl",
+          "precio": 5794,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1990,
+      "mediana_competitiva": 4307,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-03"
+  },
+  "7800007119674": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2350,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ligafarmacia.cl",
+          "precio": 1680,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cofar",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1680,
+      "mediana_competitiva": 2370,
       "fuentes_validas": 4
     },
     "fecha": "2026-07-03"
