@@ -329767,5 +329767,70 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-07-02"
+  },
+  "4110056": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1652,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Sociofarma.cl",
+          "precio": 1142,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Easyfarma.cl",
+          "precio": 7042,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 1690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Test.nibitha.cl",
+          "precio": 1699,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1142,
+      "mediana_competitiva": 1671,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-03"
+  },
+  "4110129": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmex",
+          "precio": 1390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Biofar.cl",
+          "precio": 1800,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 1790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 1490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1390,
+      "mediana_competitiva": 1640,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-03"
   }
 }
