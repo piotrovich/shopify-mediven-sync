@@ -59,7 +59,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v7   # ⬆️ v6 → v7 (Node 24)
         with:
           commit_message: "🤖 BOT: Memoria actualizada (Textos + Imágenes + Precios)"
-          file_pattern: 'data/*.json shopify_full.json'
+          file_pattern: 'data/*.json'
 
       - name: Guardar Reporte Excel
         if: always()

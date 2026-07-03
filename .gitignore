@@ -35,6 +35,7 @@ sync.lock
 reportes/*.xlsx
 
 # Cache de inventarios (regenerables, pesados)
+shopify_full.json
 mediven_full.json
 
 # Simulaciones generadas
