@@ -28134,23 +28134,18 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Redfarma",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Cosmeticadavis.cl",
           "precio": 4990,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Fracción",
-          "precio": 3490,
+          "precio": 4390,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Clinicalpharma.cl",
-          "precio": 3990,
+          "farmacia": "Redfarma",
+          "precio": 3490,
           "estado": "🟢 Válido"
         },
         {
@@ -28159,16 +28154,26 @@
           "estado": "🟢 Válido"
         },
         {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Ofertasshark.cl",
           "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4166,
           "estado": "🟢 Válido"
         }
       ],
       "minimo": 3490,
-      "mediana_competitiva": 3740,
-      "fuentes_validas": 6
+      "mediana_competitiva": 4390,
+      "fuentes_validas": 7
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-04"
   },
   "0910463": {
     "datos_mercado": {
