@@ -293748,13 +293748,18 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buhochile.com",
-          "precio": 10910,
+          "farmacia": "Allnutrition.cl",
+          "precio": 21990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Allnutrition.cl",
-          "precio": 21990,
+          "farmacia": "Buho Chile",
+          "precio": 10419,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 8990,
           "estado": "🟢 Válido"
         },
         {
@@ -293763,26 +293768,26 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Salcobrand",
-          "precio": 10199,
+          "farmacia": "Farmacompara.cl",
+          "precio": 15743,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmaciamapuche.cl",
-          "precio": 14900,
+          "farmacia": "Ofertasshark.cl",
+          "precio": 15990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buscafarma.cl",
-          "precio": 11638,
+          "farmacia": "Lider",
+          "precio": 11910,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 10199,
-      "mediana_competitiva": 11990,
-      "fuentes_validas": 7
+      "minimo": 8990,
+      "mediana_competitiva": 13866,
+      "fuentes_validas": 8
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-04"
   },
   "RET5056": {
     "datos_mercado": {
