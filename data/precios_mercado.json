@@ -74501,13 +74501,13 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Buhochile.com",
-          "precio": 21193,
+          "farmacia": "Araucomed",
+          "precio": 14990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Araucomed",
-          "precio": 15990,
+          "farmacia": "Buho Chile",
+          "precio": 19442,
           "estado": "🟢 Válido"
         },
         {
@@ -74516,16 +74516,16 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Belgochilena.cl",
-          "precio": 18990,
+          "farmacia": "EcoFarmacias",
+          "precio": 15680,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 15990,
-      "mediana_competitiva": 17790,
+      "minimo": 14990,
+      "mediana_competitiva": 16135,
       "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-06"
   },
   "161158": {
     "datos_mercado": {
