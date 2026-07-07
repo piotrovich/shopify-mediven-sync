@@ -77658,12 +77658,7 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 7263,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
+          "farmacia": "Buscafarma.cl",
           "precio": 6499,
           "estado": "🟢 Válido"
         },
@@ -77675,9 +77670,9 @@
       ],
       "minimo": 6499,
       "mediana_competitiva": 6999,
-      "fuentes_validas": 4
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "173011": {
     "datos_mercado": {
@@ -105503,6 +105498,11 @@
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3290,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Redfarma",
           "precio": 3290,
           "estado": "🟢 Válido"
@@ -105513,21 +105513,26 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 5205,
+          "farmacia": "Buscafarma.cl",
+          "precio": 6807,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4399,
+          "farmacia": "Jacky.cl",
+          "precio": 2350,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 6807,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 2490,
-      "mediana_competitiva": 3844,
-      "fuentes_validas": 4
+      "minimo": 2350,
+      "mediana_competitiva": 3290,
+      "fuentes_validas": 6
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "256422": {
     "datos_mercado": {
@@ -180994,8 +180999,18 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Knasta.cl",
-          "precio": 23490,
+          "farmacia": "Etienne.cl",
+          "precio": 9990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 9793,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 8990,
           "estado": "🟢 Válido"
         },
         {
@@ -181004,21 +181019,16 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 11990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 10999,
+          "farmacia": "Knasta.cl",
+          "precio": 23490,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 9999,
-      "mediana_competitiva": 11494,
-      "fuentes_validas": 4
+      "minimo": 8990,
+      "mediana_competitiva": 9990,
+      "fuentes_validas": 5
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "620985": {
     "datos_mercado": {
