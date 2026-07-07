@@ -325542,7 +325542,7 @@
   },
   "043581520000": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-07-07"
   },
   "043641510000": {
     "datos_mercado": {
@@ -326240,7 +326240,7 @@
   },
   "MUSCRF28275": {
     "datos_mercado": null,
-    "fecha": "2026-06-16"
+    "fecha": "2026-07-07"
   },
   "MUSGEL28367": {
     "datos_mercado": {
@@ -335489,6 +335489,31 @@
       "minimo": 10872,
       "mediana_competitiva": 13790,
       "fuentes_validas": 6
+    },
+    "fecha": "2026-07-07"
+  },
+  "043671470003": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 11299,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 7999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cosmeticwholesale.cl",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7999,
+      "mediana_competitiva": 8990,
+      "fuentes_validas": 3
     },
     "fecha": "2026-07-07"
   }
