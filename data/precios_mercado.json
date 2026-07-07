@@ -335516,5 +335516,40 @@
       "fuentes_validas": 3
     },
     "fecha": "2026-07-07"
+  },
+  "W304514400": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Ahumada",
+          "precio": 1756,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3749,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 4499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3149,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1756,
+      "mediana_competitiva": 3749,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-07"
   }
 }
