@@ -27868,23 +27868,18 @@
       "detalle": [
         {
           "farmacia": "Cosmeticadavis.cl",
-          "precio": 8180,
+          "precio": 4190,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 10085,
+          "farmacia": "Tottus.cl",
+          "precio": 6090,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Unimarc.cl",
           "precio": 20833,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmam.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
           "farmacia": "Preunic",
@@ -27892,16 +27887,26 @@
           "estado": "🟢 Válido"
         },
         {
+          "farmacia": "Buho Chile",
+          "precio": 5550,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Ofertasshark.cl",
-          "precio": 8680,
+          "precio": 5390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 5295,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 6990,
-      "mediana_competitiva": 8430,
+      "minimo": 4190,
+      "mediana_competitiva": 5470,
       "fuentes_validas": 6
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "0910329": {
     "datos_mercado": {
@@ -28293,12 +28298,12 @@
       "detalle": [
         {
           "farmacia": "Cosmeticadavis.cl",
-          "precio": 3690,
+          "precio": 4190,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Redfarma",
-          "precio": 1990,
+          "farmacia": "Buscafarma.cl",
+          "precio": 4490,
           "estado": "🟢 Válido"
         },
         {
@@ -28307,31 +28312,31 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 6105,
+          "farmacia": "Salcobrand",
+          "precio": 1768,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 3290,
+          "farmacia": "Distribuidoracecilia.cl",
+          "precio": 1800,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3590,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Ofertasshark.cl",
-          "precio": 1790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 1863,
-          "estado": "🟢 Válido"
+          "precio": 5390,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 1790,
-      "mediana_competitiva": 2990,
-      "fuentes_validas": 7
+      "minimo": 1768,
+      "mediana_competitiva": 3290,
+      "fuentes_validas": 6
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "0910677": {
     "datos_mercado": {
@@ -28767,9 +28772,9 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Cosmeticadavis.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
+          "farmacia": "Unimarc.cl",
+          "precio": 20833,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
           "farmacia": "Lider",
@@ -28777,51 +28782,61 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Tottus Chile",
-          "precio": 5990,
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 2190,
           "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 7390,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Jumbo",
+          "precio": 21467,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 5950,
-      "mediana_competitiva": 5990,
-      "fuentes_validas": 3
+      "minimo": 2190,
+      "mediana_competitiva": 4070,
+      "fuentes_validas": 2
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "0910816": {
     "datos_mercado": {
       "detalle": [
         {
           "farmacia": "Cosmeticadavis.cl",
-          "precio": 8680,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 6999,
+          "precio": 6990,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Unimarc.cl",
-          "precio": 25849,
+          "precio": 25094,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Acuenta.cl",
+          "precio": 5990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 10652,
+          "farmacia": "Preunic",
+          "precio": 15553,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Jumbo",
-          "precio": 24302,
+          "farmacia": "Ofertasshark.cl",
+          "precio": 6999,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 6999,
-      "mediana_competitiva": 10652,
-      "fuentes_validas": 5
+      "minimo": 5990,
+      "mediana_competitiva": 6994,
+      "fuentes_validas": 4
     },
-    "fecha": "2026-05-30"
+    "fecha": "2026-07-07"
   },
   "0910820": {
     "datos_mercado": {
@@ -75037,17 +75052,17 @@
       "detalle": [
         {
           "farmacia": "Cosmeticadavis.cl",
-          "precio": 3690,
+          "precio": 4190,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 7485,
+          "farmacia": "Fracción",
+          "precio": 4990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Liquimax.cl",
-          "precio": 4238,
+          "farmacia": "Redfarma",
+          "precio": 1990,
           "estado": "🟢 Válido"
         },
         {
@@ -75056,56 +75071,66 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Tienda.market-care.com",
-          "precio": 4950,
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 3290,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Fracción",
+          "farmacia": "Clinicalpharma.cl",
           "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 3690,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 3490,
-      "mediana_competitiva": 4594,
-      "fuentes_validas": 6
+      "minimo": 1990,
+      "mediana_competitiva": 3690,
+      "fuentes_validas": 7
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "167146": {
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Salcobrand",
           "precio": 8749,
-          "estado": "🟢 Válido"
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 10652,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cosmeticadavis.cl",
+          "farmacia": "Buho Chile",
           "precio": 6990,
-          "estado": "🟢 Válido"
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
-          "farmacia": "Buhochile.com",
-          "precio": 5970,
+          "farmacia": "Liquimax.cl",
+          "precio": 2237,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Ofertasshark.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
+          "precio": 8680,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmatica.cl",
+          "precio": 7990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 5970,
-      "mediana_competitiva": 6990,
-      "fuentes_validas": 5
+      "minimo": 2237,
+      "mediana_competitiva": 3213,
+      "fuentes_validas": 2
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "1680001": {
     "datos_mercado": {
@@ -116626,31 +116651,46 @@
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 4190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 1950,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1582,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Profar",
+          "precio": 2990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 2590,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Fracción",
           "precio": 3190,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Cosmeticadavis.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 4860,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 2190,
+          "farmacia": "Buho Chile",
+          "precio": 2613,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 2190,
-      "mediana_competitiva": 4025,
-      "fuentes_validas": 4
+      "minimo": 1582,
+      "mediana_competitiva": 2613,
+      "fuentes_validas": 7
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "26315140255568": {
     "datos_mercado": {
@@ -122615,12 +122655,7 @@
       "detalle": [
         {
           "farmacia": "Cosmeticadavis.cl",
-          "precio": 2290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 5010,
+          "precio": 4190,
           "estado": "🟢 Válido"
         },
         {
@@ -122629,16 +122664,31 @@
           "estado": "🟢 Válido"
         },
         {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 4990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1582,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 2090,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Fracción",
           "precio": 3190,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 2250,
-      "mediana_competitiva": 2740,
-      "fuentes_validas": 4
+      "minimo": 1582,
+      "mediana_competitiva": 2250,
+      "fuentes_validas": 5
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "267579": {
     "datos_mercado": {
@@ -136740,35 +136790,30 @@
       "detalle": [
         {
           "farmacia": "Farmaciameki.cl",
-          "precio": 1568,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 3672,
+          "precio": 1184,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "MercadoFarma",
-          "precio": 1263,
+          "precio": 863,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Buscafarma.cl",
-          "precio": 2790,
+          "precio": 1152,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Salcobrand",
-          "precio": 650,
-          "estado": "🟢 Válido"
+          "farmacia": "Ibiocare.cl",
+          "precio": 4300,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 650,
-      "mediana_competitiva": 1568,
-      "fuentes_validas": 5
+      "minimo": 863,
+      "mediana_competitiva": 1152,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "3200004": {
     "datos_mercado": {
@@ -163826,13 +163871,13 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Fracción",
-          "precio": 3490,
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 3690,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 6975,
+          "farmacia": "Fracción",
+          "precio": 3490,
           "estado": "🟢 Válido"
         },
         {
@@ -163841,26 +163886,31 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Cosmeticadavis.cl",
+          "farmacia": "Ofertasshark.cl",
           "precio": 3690,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 3690,
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3880,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Lider",
           "precio": 5990,
           "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 6999,
+          "estado": "🟢 Válido"
         }
       ],
       "minimo": 3490,
-      "mediana_competitiva": 4044,
-      "fuentes_validas": 6
+      "mediana_competitiva": 3880,
+      "fuentes_validas": 7
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "5001899": {
     "datos_mercado": {
@@ -180634,13 +180684,8 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 9300,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Cosmeticadavis.cl",
-          "precio": 6490,
+          "precio": 6690,
           "estado": "🟢 Válido"
         },
         {
@@ -180649,8 +180694,18 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 5990,
+          "farmacia": "Jumbo",
+          "precio": 27136,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 2478,
           "estado": "🟢 Válido"
         },
         {
@@ -180659,11 +180714,11 @@
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 5950,
-      "mediana_competitiva": 6490,
+      "minimo": 2478,
+      "mediana_competitiva": 5950,
       "fuentes_validas": 5
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "620682": {
     "datos_mercado": {
@@ -180749,8 +180804,8 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 3990,
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 6990,
           "estado": "🟢 Válido"
         },
         {
@@ -180759,41 +180814,21 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Fracción",
-          "precio": 3490,
+          "farmacia": "Cruz Verde",
+          "precio": 4190,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Cosmeticadavis.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 6495,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tienda.market-care.com",
-          "precio": 5019,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 3009,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacia.farmagente.cl",
-          "precio": 3990,
+          "farmacia": "Salcobrand",
+          "precio": 6221,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 3009,
-      "mediana_competitiva": 3990,
-      "fuentes_validas": 8
+      "minimo": 3350,
+      "mediana_competitiva": 5205,
+      "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "620966": {
     "datos_mercado": {
@@ -180914,26 +180949,36 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 5280,
+          "farmacia": "Redfarma",
+          "precio": 1990,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Ofertasshark.cl",
-          "precio": 3690,
-          "estado": "🟢 Válido"
+          "precio": 6990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
           "farmacia": "Lider",
           "precio": 5990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 1582,
           "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 6999,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 2190,
-      "mediana_competitiva": 4485,
-      "fuentes_validas": 4
+      "minimo": 1582,
+      "mediana_competitiva": 1990,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "620981": {
     "datos_mercado": {
@@ -181029,31 +181074,36 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Todofarma.cl",
-          "precio": 6105,
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 1790,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Fracción",
-          "precio": 4390,
-          "estado": "🟢 Válido"
+          "farmacia": "Unimarc.cl",
+          "precio": 6250,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 6290,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
           "farmacia": "Farmaciameki.cl",
           "precio": 6964,
-          "estado": "🟢 Válido"
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
-          "farmacia": "Farmex",
-          "precio": 2990,
+          "farmacia": "Salcobrand",
+          "precio": 1768,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 2990,
-      "mediana_competitiva": 5247,
-      "fuentes_validas": 4
+      "minimo": 1768,
+      "mediana_competitiva": 1779,
+      "fuentes_validas": 2
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-07"
   },
   "621012": {
     "datos_mercado": {
@@ -320596,13 +320646,13 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Ahumada",
-          "precio": 9689,
-          "estado": "🔴 Descartado (otra presentación/pack)"
+          "farmacia": "Buscafarma.cl",
+          "precio": 2804,
+          "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Buscafarma.cl",
-          "precio": 1600,
+          "farmacia": "Buho Chile",
+          "precio": 2705,
           "estado": "🟢 Válido"
         },
         {
@@ -320612,10 +320662,10 @@
         }
       ],
       "minimo": 1230,
-      "mediana_competitiva": 1600,
-      "fuentes_validas": 3
+      "mediana_competitiva": 2754,
+      "fuentes_validas": 4
     },
-    "fecha": "2026-06-04"
+    "fecha": "2026-07-07"
   },
   "7804681040217": {
     "datos_mercado": {
@@ -335549,6 +335599,161 @@
       "minimo": 1756,
       "mediana_competitiva": 3749,
       "fuentes_validas": 5
+    },
+    "fecha": "2026-07-07"
+  },
+  "0910327": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 6490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 9699,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmacialabotika.cl",
+          "precio": 6140,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4490,
+      "mediana_competitiva": 6740,
+      "fuentes_validas": 6
+    },
+    "fecha": "2026-07-07"
+  },
+  "269277": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmam.cl",
+          "precio": 5990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 7190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 5571,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Maicao",
+          "precio": 4999,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4999,
+      "mediana_competitiva": 5990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-07"
+  },
+  "38000630": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 4999,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciaspehuen.cl",
+          "precio": 6990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tottus.cl",
+          "precio": 5450,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 3490,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3490,
+      "mediana_competitiva": 4990,
+      "fuentes_validas": 7
+    },
+    "fecha": "2026-07-07"
+  },
+  "621547": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 3690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Perfumerialamundial.cl",
+          "precio": 1490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Todofarma.cl",
+          "precio": 5280,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 2249,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1490,
+      "mediana_competitiva": 2119,
+      "fuentes_validas": 4
     },
     "fecha": "2026-07-07"
   }
