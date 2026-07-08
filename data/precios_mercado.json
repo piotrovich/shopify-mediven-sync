@@ -316494,8 +316494,29 @@
     "fecha": "2026-06-01"
   },
   "14110120060": {
-    "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmex",
+          "precio": 10490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 8990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 8990,
+      "mediana_competitiva": 8990,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-08"
   },
   "265079": {
     "datos_mercado": {
@@ -317755,7 +317776,7 @@
   },
   "154815": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "2160271": {
     "datos_mercado": {
@@ -319122,8 +319143,24 @@
     "fecha": "2026-07-03"
   },
   "MB726700": {
-    "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 15490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 94330,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 15490,
+      "mediana_competitiva": 54910,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-08"
   },
   "MB726800": {
     "datos_mercado": {
@@ -319147,7 +319184,7 @@
   },
   "MB726900": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "MB727400": {
     "datos_mercado": {
@@ -323088,7 +323125,7 @@
   },
   "FAJLC": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "HOKCALC": {
     "datos_mercado": {
@@ -331286,7 +331323,7 @@
   },
   "USA683": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "USA694": {
     "datos_mercado": {
@@ -331355,19 +331392,35 @@
   },
   "USA861": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "USA863": {
-    "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Berlinhappy.cl",
+          "precio": 2100,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Petbj.cl",
+          "precio": 2300,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 2100,
+      "mediana_competitiva": 2200,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-08"
   },
   "USA864": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "USA868": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "1022573": {
     "datos_mercado": {
@@ -331530,8 +331583,24 @@
     "fecha": "2026-07-01"
   },
   "15000249": {
-    "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 5331,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertitas.cl",
+          "precio": 9914,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5331,
+      "mediana_competitiva": 7622,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-08"
   },
   "266926": {
     "datos_mercado": {
@@ -331555,7 +331624,7 @@
   },
   "266927": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "3450084": {
     "datos_mercado": {
@@ -331594,7 +331663,7 @@
   },
   "3450090": {
     "datos_mercado": null,
-    "fecha": "2026-07-01"
+    "fecha": "2026-07-08"
   },
   "3450091": {
     "datos_mercado": {
