@@ -57468,31 +57468,31 @@
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Salcobrand",
+          "precio": 9199,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Ahumada",
-          "precio": 7989,
+          "precio": 8040,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 4193,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Redfarma",
           "precio": 6290,
           "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 9890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 6150,
-          "estado": "🟢 Válido"
         }
       ],
-      "minimo": 6150,
-      "mediana_competitiva": 7139,
+      "minimo": 4193,
+      "mediana_competitiva": 7165,
       "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-08"
   },
   "1179": {
     "datos_mercado": {
@@ -337167,6 +337167,81 @@
       "minimo": 5490,
       "mediana_competitiva": 5594,
       "fuentes_validas": 4
+    },
+    "fecha": "2026-07-08"
+  },
+  "PT00172": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3399,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 2490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 1590,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 1660,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ahumada",
+          "precio": 1025,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 1290,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 1025,
+      "mediana_competitiva": 1590,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-08"
+  },
+  "PT00314": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Buho Chile",
+          "precio": 2099,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 1190,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 985,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmalisto",
+          "precio": 1490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 850,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 850,
+      "mediana_competitiva": 1190,
+      "fuentes_validas": 5
     },
     "fecha": "2026-07-08"
   }
