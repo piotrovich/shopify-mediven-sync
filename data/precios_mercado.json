@@ -28197,53 +28197,58 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Fracción",
           "precio": 3490,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 12990,
-          "estado": "🔴 Descartado (outlier IQR)"
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 9650,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
-          "farmacia": "EcoFarmacias",
-          "precio": 3290,
+          "farmacia": "Ofertasshark.cl",
+          "precio": 12990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 2680,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 4900,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 4234,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 3290,
-      "mediana_competitiva": 3290,
-      "fuentes_validas": 3
+      "minimo": 2680,
+      "mediana_competitiva": 3862,
+      "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-08"
   },
   "0910585": {
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Buho Chile",
+          "precio": 3990,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Cosmeticadavis.cl",
-          "precio": 12990,
+          "precio": 7990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "EcoFarmacias",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3290,
+          "farmacia": "Preunic",
+          "precio": 7699,
           "estado": "🟢 Válido"
         },
         {
@@ -28252,16 +28257,21 @@
           "estado": "🟢 Válido"
         },
         {
+          "farmacia": "Cruz Verde",
+          "precio": 10990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
+        },
+        {
           "farmacia": "Market Care",
-          "precio": 7483,
+          "precio": 4042,
           "estado": "🟢 Válido"
         }
       ],
       "minimo": 3070,
-      "mediana_competitiva": 5386,
-      "fuentes_validas": 6
+      "mediana_competitiva": 4042,
+      "fuentes_validas": 5
     },
-    "fecha": "2026-05-30"
+    "fecha": "2026-07-08"
   },
   "0910623": {
     "datos_mercado": {
@@ -180680,40 +180690,35 @@
       "detalle": [
         {
           "farmacia": "Cosmeticadavis.cl",
-          "precio": 8490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Naturaloe.cl",
-          "precio": 8490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Unimarc.cl",
-          "precio": 28543,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 9490,
+          "precio": 8990,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Ofertasshark.cl",
-          "precio": 10390,
+          "precio": 8350,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Tottus.cl",
-          "precio": 9390,
+          "precio": 9890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 8790,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 6955,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 8490,
-      "mediana_competitiva": 9390,
+      "minimo": 6955,
+      "mediana_competitiva": 8790,
       "fuentes_validas": 5
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-08"
   },
   "620651": {
     "datos_mercado": {
@@ -337131,6 +337136,36 @@
       ],
       "minimo": 8990,
       "mediana_competitiva": 8990,
+      "fuentes_validas": 4
+    },
+    "fecha": "2026-07-08"
+  },
+  "621330": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Cosmeticadavis.cl",
+          "precio": 5490,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 5499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 5690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 6890,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 5490,
+      "mediana_competitiva": 5594,
       "fuentes_validas": 4
     },
     "fecha": "2026-07-08"
