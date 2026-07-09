@@ -136943,36 +136943,31 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Farmex",
-          "precio": 1990,
+          "farmacia": "EcoFarmacias",
+          "precio": 990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 2690,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Artipel.cl",
           "precio": 3190,
-          "estado": "🟢 Válido"
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
-          "farmacia": "Qfarma.cl",
-          "precio": 1881,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 1752,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knop",
-          "precio": 5890,
-          "estado": "🟢 Válido"
+          "farmacia": "Farmaciameki.cl",
+          "precio": 3300,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 1752,
-      "mediana_competitiva": 1990,
-      "fuentes_validas": 5
+      "minimo": 990,
+      "mediana_competitiva": 1840,
+      "fuentes_validas": 2
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-09"
   },
   "3200026": {
     "datos_mercado": {
@@ -322895,41 +322890,46 @@
     "datos_mercado": {
       "detalle": [
         {
+          "farmacia": "Buho Chile",
+          "precio": 1430,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "EcoFarmacias",
+          "precio": 990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 1274,
+          "estado": "🟢 Válido"
+        },
+        {
           "farmacia": "Cruz Verde",
           "precio": 1690,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmex",
-          "precio": 990,
+          "farmacia": "Clinicalpharma.cl",
+          "precio": 1290,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 1990,
+          "farmacia": "Ofertasshark.cl",
+          "precio": 1190,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmaciasvaldivia.cl",
-          "precio": 2490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 2685,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Bellassurls.cl",
-          "precio": 2690,
-          "estado": "🟢 Válido"
+          "farmacia": "Biofar.cl",
+          "precio": 2550,
+          "estado": "🔴 Descartado (outlier IQR)"
         }
       ],
       "minimo": 990,
-      "mediana_competitiva": 2240,
+      "mediana_competitiva": 1282,
       "fuentes_validas": 6
     },
-    "fecha": "2026-06-09"
+    "fecha": "2026-07-09"
   },
   "40050161": {
     "datos_mercado": {
@@ -338796,6 +338796,31 @@
       "minimo": 8800,
       "mediana_competitiva": 15387,
       "fuentes_validas": 5
+    },
+    "fecha": "2026-07-09"
+  },
+  "1201080689": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Fracción",
+          "precio": 25990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Redfarma",
+          "precio": 24690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 25699,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 24690,
+      "mediana_competitiva": 25699,
+      "fuentes_validas": 3
     },
     "fecha": "2026-07-09"
   }
