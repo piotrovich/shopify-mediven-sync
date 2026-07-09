@@ -320908,25 +320908,25 @@
       "detalle": [
         {
           "farmacia": "Buho Chile",
-          "precio": 4223,
+          "precio": 3450,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Buscafarma.cl",
-          "precio": 4090,
+          "precio": 5820,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Belgochilena.cl",
-          "precio": 5990,
+          "farmacia": "Ofertasshark.cl",
+          "precio": 5700,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 4090,
-      "mediana_competitiva": 4223,
+      "minimo": 3450,
+      "mediana_competitiva": 5700,
       "fuentes_validas": 3
     },
-    "fecha": "2026-06-04"
+    "fecha": "2026-07-09"
   },
   "MAV100930": {
     "datos_mercado": {
