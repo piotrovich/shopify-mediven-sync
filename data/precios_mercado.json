@@ -80331,31 +80331,36 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Tienda.market-care.com",
-          "precio": 3182,
+          "farmacia": "Fracción",
+          "precio": 1990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buho Chile",
+          "precio": 3580,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Sociofarma.cl",
-          "precio": 3439,
+          "precio": 1284,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Farmaciasvaldivia.cl",
-          "precio": 3490,
-          "estado": "🟢 Válido"
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 12100,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
-          "farmacia": "Ortopedia Suiza",
-          "precio": 3100,
-          "estado": "🟢 Válido"
+          "farmacia": "Farmaciameki.cl",
+          "precio": 4543,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 3100,
-      "mediana_competitiva": 3310,
-      "fuentes_validas": 4
+      "minimo": 1284,
+      "mediana_competitiva": 1990,
+      "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-09"
   },
   "1799": {
     "datos_mercado": {
@@ -247206,30 +247211,35 @@
       "detalle": [
         {
           "farmacia": "Laoferta.cl",
-          "precio": 3520,
+          "precio": 3306,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Comercialweichafe.cl",
+          "farmacia": "Lapanalera.cl",
+          "precio": 3499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Cruz Verde",
+          "precio": 7090,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Outletdeaseo.cl",
           "precio": 3990,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Super.eltit.cl",
-          "precio": 4920,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 4590,
-          "estado": "🟢 Válido"
+          "farmacia": "Unimarc.cl",
+          "precio": 10990,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         }
       ],
-      "minimo": 3520,
-      "mediana_competitiva": 4290,
+      "minimo": 3306,
+      "mediana_competitiva": 3744,
       "fuentes_validas": 4
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-09"
   },
   "CPPBBBS209": {
     "datos_mercado": {
