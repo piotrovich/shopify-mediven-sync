@@ -195007,48 +195007,73 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Salcobrand",
-          "precio": 22699,
-          "estado": "🟢 Válido"
-        },
-        {
           "farmacia": "Mitiendacotidian.cl",
           "precio": 27090,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Distribuidormayorista.cl",
-          "precio": 18530,
+          "farmacia": "Salcobrand",
+          "precio": 22699,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Cruz Verde",
           "precio": 22390,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 22499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Super.eltit.cl",
+          "precio": 16990,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Unimarc.cl",
           "precio": 22790,
           "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Araucomed",
+          "precio": 13990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 13990,
+          "estado": "🟢 Válido"
         }
       ],
-      "minimo": 18530,
-      "mediana_competitiva": 22699,
-      "fuentes_validas": 5
+      "minimo": 13990,
+      "mediana_competitiva": 22444,
+      "fuentes_validas": 8
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-09"
   },
   "77508": {
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Laoferta.cl",
-          "precio": 42756,
+          "farmacia": "Salcobrand",
+          "precio": 23399,
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Distribuidormayorista.cl",
-          "precio": 17751,
+          "farmacia": "Laoferta.cl",
+          "precio": 10689,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Liquimax.cl",
+          "precio": 14890,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Preunic",
+          "precio": 20999,
           "estado": "🟢 Válido"
         },
         {
@@ -195057,16 +195082,16 @@
           "estado": "🟢 Válido"
         },
         {
-          "farmacia": "Lider.Cl",
-          "precio": 18390,
+          "farmacia": "Super.eltit.cl",
+          "precio": 16990,
           "estado": "🟢 Válido"
         }
       ],
-      "minimo": 17751,
-      "mediana_competitiva": 20390,
-      "fuentes_validas": 4
+      "minimo": 10689,
+      "mediana_competitiva": 18994,
+      "fuentes_validas": 6
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-09"
   },
   "77586": {
     "datos_mercado": {
