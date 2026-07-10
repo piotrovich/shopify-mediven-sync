@@ -27129,8 +27129,24 @@
     "fecha": "2026-06-29"
   },
   "0900126": {
-    "datos_mercado": null,
-    "fecha": "2026-06-06"
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciaroraima.cl",
+          "precio": 18150,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 29180,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 18150,
+      "mediana_competitiva": 23665,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-10"
   },
   "0900129": {
     "datos_mercado": {
@@ -151519,24 +151535,8 @@
     "fecha": "2026-06-27"
   },
   "4041947": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmatica.cl",
-          "precio": 8000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 3950,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3950,
-      "mediana_competitiva": 5975,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
   },
   "40450": {
     "datos_mercado": {
@@ -232693,63 +232693,16 @@
     "fecha": "2026-07-05"
   },
   "AASOLE14": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 700,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Afchilespa.cl",
-          "precio": 1490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 750,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacia.farmagente.cl",
-          "precio": 595,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 595,
-      "mediana_competitiva": 725,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
   },
   "AASOLE16": {
     "datos_mercado": null,
     "fecha": "2026-07-05"
   },
   "AASONE08": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 350,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Mtaconcagua.cl",
-          "precio": 500,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Afchilespa.Cl",
-          "precio": 590,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 350,
-      "mediana_competitiva": 500,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
   },
   "AASONE12": {
     "datos_mercado": null,
@@ -321723,30 +321676,20 @@
       "detalle": [
         {
           "farmacia": "Rgc.cl",
-          "precio": 16990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Eksadental.cl",
-          "precio": 16990,
+          "precio": 14385,
           "estado": "🟢 Válido"
         },
         {
           "farmacia": "Farmalisto",
           "precio": 15290,
           "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Easyfarma.cl",
-          "precio": 15990,
-          "estado": "🟢 Válido"
         }
       ],
-      "minimo": 15290,
-      "mediana_competitiva": 16490,
-      "fuentes_validas": 4
+      "minimo": 14385,
+      "mediana_competitiva": 14837,
+      "fuentes_validas": 2
     },
-    "fecha": "2026-06-05"
+    "fecha": "2026-07-10"
   },
   "4056123": {
     "datos_mercado": null,
@@ -340264,6 +340207,154 @@
       "mediana_competitiva": 6990,
       "fuentes_validas": 3
     },
+    "fecha": "2026-07-10"
+  },
+  "14720110060": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Allnutrition.cl",
+          "precio": 24990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 26699,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Ofertasshark.cl",
+          "precio": 26699,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 14990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Tokoriko.cl",
+          "precio": 9500,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 9500,
+      "mediana_competitiva": 24990,
+      "fuentes_validas": 5
+    },
+    "fecha": "2026-07-10"
+  },
+  "4044134": {
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
+  },
+  "4055155": {
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
+  },
+  "53380": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 7990,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Fracción",
+          "precio": 3790,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3790,
+      "mediana_competitiva": 5890,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-10"
+  },
+  "53387": {
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
+  },
+  "53593": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 3720,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Buscafarma.cl",
+          "precio": 7499,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Salcobrand",
+          "precio": 3207,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 3207,
+      "mediana_competitiva": 3720,
+      "fuentes_validas": 3
+    },
+    "fecha": "2026-07-10"
+  },
+  "53654": {
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
+  },
+  "53670": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 4830,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Unimarc.cl",
+          "precio": 4990,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 4830,
+      "mediana_competitiva": 4910,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-10"
+  },
+  "53673": {
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
+  },
+  "53707": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Jumbo",
+          "precio": 7690,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Gelatti.cl",
+          "precio": 18353,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 7690,
+      "mediana_competitiva": 13021,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-10"
+  },
+  "AASOFS14": {
+    "datos_mercado": null,
+    "fecha": "2026-07-10"
+  },
+  "AASONE14": {
+    "datos_mercado": null,
     "fecha": "2026-07-10"
   }
 }
