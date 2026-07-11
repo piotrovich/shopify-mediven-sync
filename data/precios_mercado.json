@@ -27378,39 +27378,8 @@
     "fecha": "2026-06-29"
   },
   "0900200": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciaroraima.cl",
-          "precio": 1600,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmatica.cl",
-          "precio": 800,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Clinicalpharma.cl",
-          "precio": 790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 790,
-      "mediana_competitiva": 890,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-11"
   },
   "0900208": {
     "datos_mercado": {
@@ -27671,26 +27640,31 @@
     "datos_mercado": {
       "detalle": [
         {
-          "farmacia": "Tienda.market-care.com",
-          "precio": 17117,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 17275,
-          "estado": "🟢 Válido"
+          "farmacia": "Afchilespa.cl",
+          "precio": 36090,
+          "estado": "🔴 Descartado (otra presentación/pack)"
         },
         {
           "farmacia": "Tiendaonline.adsur.cl",
           "precio": 9953,
           "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Lider",
+          "precio": 12000,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Allstorechile.cl",
+          "precio": 11046,
+          "estado": "🟢 Válido"
         }
       ],
       "minimo": 9953,
-      "mediana_competitiva": 17117,
+      "mediana_competitiva": 11046,
       "fuentes_validas": 3
     },
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-11"
   },
   "0900260": {
     "datos_mercado": null,
@@ -340799,5 +340773,25 @@
   "AASONE14": {
     "datos_mercado": null,
     "fecha": "2026-07-10"
+  },
+  "AAJECIN3": {
+    "datos_mercado": {
+      "detalle": [
+        {
+          "farmacia": "Farmaciameki.cl",
+          "precio": 11463,
+          "estado": "🟢 Válido"
+        },
+        {
+          "farmacia": "Larense.cl",
+          "precio": 6850,
+          "estado": "🟢 Válido"
+        }
+      ],
+      "minimo": 6850,
+      "mediana_competitiva": 9156,
+      "fuentes_validas": 2
+    },
+    "fecha": "2026-07-11"
   }
 }
