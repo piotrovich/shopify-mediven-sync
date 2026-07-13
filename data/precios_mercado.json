@@ -2601,7 +2601,7 @@
   },
   "00301893": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0030245363": {
     "datos_mercado": {
@@ -3914,24 +3914,8 @@
     "fecha": "2026-06-26"
   },
   "00504664": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Osm.cl",
-          "precio": 3000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3000,
-      "mediana_competitiva": 5495,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "00505539": {
     "datos_mercado": {
@@ -4059,29 +4043,8 @@
     "fecha": "2026-06-26"
   },
   "0070012": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 4063,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 2390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ortopediaferreira.cl",
-          "precio": 1900,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1900,
-      "mediana_competitiva": 2390,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "0080004": {
     "datos_mercado": {
@@ -4235,7 +4198,7 @@
   },
   "0100217": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0100353": {
     "datos_mercado": {
@@ -8339,7 +8302,7 @@
   },
   "0202019": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0202401": {
     "datos_mercado": {
@@ -9728,7 +9691,7 @@
   },
   "0320410": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0320412": {
     "datos_mercado": {
@@ -10477,7 +10440,7 @@
   },
   "0360144": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0360151": {
     "datos_mercado": {
@@ -10726,7 +10689,7 @@
   },
   "03702983": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0370299": {
     "datos_mercado": {
@@ -10848,15 +10811,15 @@
   },
   "03704188": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "03704189": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "03704197": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0380297": {
     "datos_mercado": {
@@ -11720,7 +11683,7 @@
   },
   "0390045": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0390047": {
     "datos_mercado": {
@@ -21451,44 +21414,12 @@
     "fecha": "2026-06-26"
   },
   "0677144908778": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Umbrella7store.cl",
-          "precio": 22990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 16190,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 16190,
-      "mediana_competitiva": 19590,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "0677144908785": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Umbrella7store.cl",
-          "precio": 22990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 16190,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 16190,
-      "mediana_competitiva": 19590,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "0680090": {
     "datos_mercado": {
@@ -27050,24 +26981,8 @@
     "fecha": "2026-07-10"
   },
   "090006419606": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 8490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 3796,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3796,
-      "mediana_competitiva": 6143,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "0900065": {
     "datos_mercado": null,
@@ -27668,7 +27583,7 @@
   },
   "0900260": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0900263": {
     "datos_mercado": {
@@ -27802,7 +27717,7 @@
   },
   "0900336": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0900338": {
     "datos_mercado": null,
@@ -27918,7 +27833,7 @@
   },
   "0900361": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0900365": {
     "datos_mercado": {
@@ -29426,7 +29341,7 @@
   },
   "09505286": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "0960008": {
     "datos_mercado": {
@@ -38779,7 +38694,7 @@
   },
   "1004882": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1004883": {
     "datos_mercado": {
@@ -39703,7 +39618,7 @@
   },
   "100565": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "100566": {
     "datos_mercado": null,
@@ -40021,7 +39936,7 @@
   },
   "100619": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1006296": {
     "datos_mercado": {
@@ -40220,7 +40135,7 @@
   },
   "100666": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1006674": {
     "datos_mercado": {
@@ -43208,24 +43123,8 @@
     "fecha": "2026-06-26"
   },
   "101069": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaloop.cl",
-          "precio": 8790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 25192,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8790,
-      "mediana_competitiva": 16991,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "10106R": {
     "datos_mercado": {
@@ -44969,7 +44868,7 @@
   },
   "10145": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1014527": {
     "datos_mercado": {
@@ -46537,7 +46436,7 @@
   },
   "1019302": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1019456": {
     "datos_mercado": {
@@ -49054,7 +48953,7 @@
   },
   "103124": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "103312": {
     "datos_mercado": {
@@ -49288,7 +49187,7 @@
   },
   "103490": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "103520": {
     "datos_mercado": {
@@ -53070,7 +52969,7 @@
   },
   "105348": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "105382": {
     "datos_mercado": {
@@ -63822,24 +63721,8 @@
     "fecha": "2026-06-26"
   },
   "12609199": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Nutrikal.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 25815,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 24990,
-      "mediana_competitiva": 25402,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "12609215": {
     "datos_mercado": {
@@ -64371,24 +64254,8 @@
     "fecha": "2026-07-10"
   },
   "13000055": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Preunic",
-          "precio": 9239,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Jumbo",
-          "precio": 10490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 9239,
-      "mediana_competitiva": 9864,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "13000056": {
     "datos_mercado": {
@@ -64412,7 +64279,7 @@
   },
   "13000057": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "13000058": {
     "datos_mercado": {
@@ -64469,15 +64336,15 @@
   },
   "13000103": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "13000105": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "13000115": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "13000119": {
     "datos_mercado": {
@@ -64501,7 +64368,7 @@
   },
   "13000134": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "13000139": {
     "datos_mercado": {
@@ -64759,7 +64626,7 @@
   },
   "130300643": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "13037119": {
     "datos_mercado": {
@@ -64863,7 +64730,7 @@
   },
   "131002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "131003": {
     "datos_mercado": {
@@ -70097,7 +69964,7 @@
   },
   "1436": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1438": {
     "datos_mercado": {
@@ -70181,7 +70048,7 @@
   },
   "144301": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "14440100060": {
     "datos_mercado": {
@@ -70349,29 +70216,8 @@
     "fecha": "2026-06-26"
   },
   "14580140150": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaloop.cl",
-          "precio": 12990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 18299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 12669,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 12669,
-      "mediana_competitiva": 12990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "1460001": {
     "datos_mercado": {
@@ -73512,7 +73358,7 @@
   },
   "158038": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "158040": {
     "datos_mercado": {
@@ -73536,7 +73382,7 @@
   },
   "158043": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "158048": {
     "datos_mercado": {
@@ -76204,7 +76050,7 @@
   },
   "17000013": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "17000014": {
     "datos_mercado": null,
@@ -78366,7 +78212,7 @@
   },
   "17335091609615": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "173355": {
     "datos_mercado": {
@@ -79985,7 +79831,7 @@
   },
   "1775": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1778": {
     "datos_mercado": {
@@ -84162,7 +84008,7 @@
   },
   "1CICANEURIANT25": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1CICANEURSE30": {
     "datos_mercado": {
@@ -85206,7 +85052,7 @@
   },
   "1SRPXRAYCAPX4": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "1SUEROXDURMAN": {
     "datos_mercado": {
@@ -86360,7 +86206,7 @@
   },
   "2000110422004": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "2000218": {
     "datos_mercado": {
@@ -91327,7 +91173,7 @@
   },
   "2160261": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "2160289": {
     "datos_mercado": {
@@ -91901,7 +91747,7 @@
   },
   "2180003": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "2180004": {
     "datos_mercado": {
@@ -92309,7 +92155,7 @@
   },
   "2180053": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "2180054": {
     "datos_mercado": null,
@@ -94265,7 +94111,7 @@
   },
   "23000001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "23000002": {
     "datos_mercado": {
@@ -94289,7 +94135,7 @@
   },
   "23000003": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "23000005": {
     "datos_mercado": {
@@ -94378,7 +94224,7 @@
   },
   "23000013": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "23000015": {
     "datos_mercado": {
@@ -94477,27 +94323,11 @@
   },
   "23000019": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "23000020": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Preunic",
-          "precio": 5000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Jumbo",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5000,
-      "mediana_competitiva": 6495,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "23000021": {
     "datos_mercado": {
@@ -94670,24 +94500,8 @@
     "fecha": "2026-06-29"
   },
   "2310052": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Araucomed",
-          "precio": 41990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 47209,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 41990,
-      "mediana_competitiva": 44599,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "2310069": {
     "datos_mercado": {
@@ -95482,7 +95296,7 @@
   },
   "2350089": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "2350094": {
     "datos_mercado": {
@@ -95663,7 +95477,7 @@
   },
   "2350182": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "2350204": {
     "datos_mercado": null,
@@ -98534,7 +98348,7 @@
   },
   "250": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "250014": {
     "datos_mercado": {
@@ -104660,34 +104474,8 @@
     "fecha": "2026-06-27"
   },
   "255289": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 16590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmam.cl",
-          "precio": 18690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 14399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Novasalud.cl",
-          "precio": 19900,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 14399,
-      "mediana_competitiva": 17640,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "255290": {
     "datos_mercado": {
@@ -104821,7 +104609,7 @@
   },
   "255455": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "255458": {
     "datos_mercado": {
@@ -109950,7 +109738,7 @@
   },
   "258543": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "258544": {
     "datos_mercado": {
@@ -113548,7 +113336,7 @@
   },
   "260733": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "260734": {
     "datos_mercado": null,
@@ -117959,7 +117747,7 @@
   },
   "263585": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "263590": {
     "datos_mercado": {
@@ -119037,29 +118825,8 @@
     "fecha": "2026-05-27"
   },
   "264577": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 33980,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 19990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 21490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 19990,
-      "mediana_competitiva": 21490,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "264608": {
     "datos_mercado": {
@@ -131344,24 +131111,8 @@
     "fecha": "2026-06-29"
   },
   "296376": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 11299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 7799,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7799,
-      "mediana_competitiva": 9549,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "296379": {
     "datos_mercado": {
@@ -133563,7 +133314,7 @@
   },
   "30110000093": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "30110000094": {
     "datos_mercado": {
@@ -133612,7 +133363,7 @@
   },
   "30110000096": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "30110000097": {
     "datos_mercado": null,
@@ -133620,7 +133371,7 @@
   },
   "30110000098": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "30110000104": {
     "datos_mercado": {
@@ -133669,7 +133420,7 @@
   },
   "30110000112": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "30110000127": {
     "datos_mercado": {
@@ -138408,27 +138159,11 @@
   },
   "3240143": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "3240144": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Ivmedical.cl",
-          "precio": 26990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Orthosalud.cl",
-          "precio": 23900,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 23900,
-      "mediana_competitiva": 25445,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "3240173": {
     "datos_mercado": {
@@ -148745,7 +148480,7 @@
   },
   "4000271": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "40006624": {
     "datos_mercado": {
@@ -148769,7 +148504,7 @@
   },
   "40006906": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "40008142916177": {
     "datos_mercado": {
@@ -148928,11 +148663,11 @@
   },
   "40016508": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "40016667": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "40016670": {
     "datos_mercado": null,
@@ -148940,7 +148675,7 @@
   },
   "40016671": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "40022596": {
     "datos_mercado": {
@@ -150124,7 +149859,7 @@
   },
   "40035863": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "40035864": {
     "datos_mercado": {
@@ -150203,7 +149938,7 @@
   },
   "40035867": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "40036859": {
     "datos_mercado": {
@@ -151689,7 +151424,7 @@
   },
   "4035542": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "4039113": {
     "datos_mercado": {
@@ -152401,7 +152136,7 @@
   },
   "4060153": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "406020001": {
     "datos_mercado": {
@@ -157763,7 +157498,7 @@
   },
   "428681": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "428809": {
     "datos_mercado": {
@@ -164167,7 +163902,7 @@
   },
   "50000007": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "5000363": {
     "datos_mercado": {
@@ -165975,7 +165710,7 @@
   },
   "501009001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "5010178": {
     "datos_mercado": {
@@ -166534,11 +166269,11 @@
   },
   "501040002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "501051001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "501064001": {
     "datos_mercado": {
@@ -166627,7 +166362,7 @@
   },
   "501081004": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "501666": {
     "datos_mercado": {
@@ -167581,7 +167316,7 @@
   },
   "5143": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "517": {
     "datos_mercado": {
@@ -167880,7 +167615,7 @@
   },
   "5230001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "5230008": {
     "datos_mercado": {
@@ -168048,7 +167783,7 @@
   },
   "5230034": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "5230041": {
     "datos_mercado": {
@@ -173175,29 +172910,8 @@
     "fecha": "2026-06-27"
   },
   "556624": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 25199,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 57248,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 28990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 25199,
-      "mediana_competitiva": 28990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "556944": {
     "datos_mercado": {
@@ -173560,24 +173274,8 @@
     "fecha": "2026-06-27"
   },
   "559271": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Ahumada",
-          "precio": 9139,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 6550,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6550,
-      "mediana_competitiva": 7844,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "559275": {
     "datos_mercado": {
@@ -173676,19 +173374,19 @@
   },
   "56000010": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000011": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000012": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000015": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000017": {
     "datos_mercado": null,
@@ -173716,23 +173414,23 @@
   },
   "56000019": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000020": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000021": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000022": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000031": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000032": {
     "datos_mercado": {
@@ -173825,19 +173523,19 @@
   },
   "56000051": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000052": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000061": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "56000062": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "560338": {
     "datos_mercado": {
@@ -176624,7 +176322,7 @@
   },
   "60000000120599": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "60000000122043": {
     "datos_mercado": {
@@ -177148,7 +176846,7 @@
   },
   "60000000137970": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "60000000200793": {
     "datos_mercado": {
@@ -186031,7 +185729,7 @@
   },
   "6346061": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "63614": {
     "datos_mercado": {
@@ -186415,7 +186113,7 @@
   },
   "651937387": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "66125": {
     "datos_mercado": {
@@ -187984,7 +187682,7 @@
   },
   "67338": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "67397": {
     "datos_mercado": {
@@ -190908,7 +190606,7 @@
   },
   "704021": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "704026": {
     "datos_mercado": {
@@ -190932,11 +190630,11 @@
   },
   "704030": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "704031": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "704032": {
     "datos_mercado": {
@@ -190985,7 +190683,7 @@
   },
   "704289": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "706133": {
     "datos_mercado": {
@@ -191183,24 +190881,8 @@
     "fecha": "2026-06-27"
   },
   "71201": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 2490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Montblanc.cl",
-          "precio": 4500,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2490,
-      "mediana_competitiva": 3495,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "71202": {
     "datos_mercado": {
@@ -191534,7 +191216,7 @@
   },
   "7268000002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73002623": {
     "datos_mercado": {
@@ -191962,7 +191644,7 @@
   },
   "7328500000": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73300294": {
     "datos_mercado": {
@@ -192706,7 +192388,7 @@
   },
   "73340280": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73340392": {
     "datos_mercado": {
@@ -192755,7 +192437,7 @@
   },
   "73340406": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73340407": {
     "datos_mercado": {
@@ -192803,7 +192485,7 @@
   },
   "73340411": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73340457": {
     "datos_mercado": {
@@ -193181,19 +192863,19 @@
   },
   "73360802": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73360803": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73360804": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73360805": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "73360818": {
     "datos_mercado": {
@@ -195212,24 +194894,8 @@
     "fecha": "2026-06-29"
   },
   "7708183280969": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Market Care",
-          "precio": 13216,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 2269,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2269,
-      "mediana_competitiva": 7742,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "7708892197008": {
     "datos_mercado": {
@@ -196137,7 +195803,7 @@
   },
   "7791293037616": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "7800004000401": {
     "datos_mercado": {
@@ -197996,7 +197662,7 @@
   },
   "7800086797510": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "7800086800203": {
     "datos_mercado": {
@@ -198284,7 +197950,7 @@
   },
   "7803504002784": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "7803504002791": {
     "datos_mercado": {
@@ -198412,7 +198078,7 @@
   },
   "7803504004894": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "7804614931421": {
     "datos_mercado": {
@@ -198656,7 +198322,7 @@
   },
   "7804633500721": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "7804633500745": {
     "datos_mercado": {
@@ -203345,7 +203011,7 @@
   },
   "78411": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "78412": {
     "datos_mercado": {
@@ -219271,24 +218937,8 @@
     "fecha": "2026-06-29"
   },
   "9300000001047": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 15499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 5950,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5950,
-      "mediana_competitiva": 10724,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "9300001023": {
     "datos_mercado": {
@@ -229392,7 +229042,7 @@
   },
   "998824": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "99902": {
     "datos_mercado": {
@@ -230526,7 +230176,7 @@
   },
   "AA187100": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AA371700": {
     "datos_mercado": {
@@ -231602,7 +231252,7 @@
   },
   "AAAACA20": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AAAG1915": {
     "datos_mercado": {
@@ -231780,7 +231430,7 @@
   },
   "AAAP2300": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AAAPHI10": {
     "datos_mercado": {
@@ -231924,7 +231574,7 @@
   },
   "AABAQUES": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AABATAPA": {
     "datos_mercado": {
@@ -232382,24 +232032,8 @@
     "fecha": "2026-06-28"
   },
   "AAHBCM11": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Vicamat.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ensus.cl",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5990,
-      "mediana_competitiva": 7990,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "AAHBCM15": {
     "datos_mercado": null,
@@ -233310,15 +232944,15 @@
   },
   "AASOFS16": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AASOFS18": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AASOFS20": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AASOLE08": {
     "datos_mercado": null,
@@ -233837,11 +233471,11 @@
   },
   "AB041000": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AB041100": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "AB048100": {
     "datos_mercado": {
@@ -235502,7 +235136,7 @@
   },
   "ACGVITL1": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "ACGVITL2": {
     "datos_mercado": {
@@ -240469,7 +240103,7 @@
   },
   "BIOT010": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "BIOT034": {
     "datos_mercado": null,
@@ -241387,7 +241021,7 @@
   },
   "BR03482A": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "BSG103G": {
     "datos_mercado": {
@@ -242590,7 +242224,7 @@
   },
   "CABI100012": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "CADE110033": {
     "datos_mercado": {
@@ -242799,7 +242433,7 @@
   },
   "CBCR15": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "CC0160L": {
     "datos_mercado": {
@@ -243402,7 +243036,7 @@
   },
   "CH0000002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "CH0019": {
     "datos_mercado": {
@@ -245500,7 +245134,7 @@
   },
   "CL000532": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "CL000594": {
     "datos_mercado": {
@@ -248755,7 +248389,7 @@
   },
   "CPSHSED921": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "CPT4157": {
     "datos_mercado": {
@@ -248819,7 +248453,7 @@
   },
   "CPTAJOB201": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "CPTIEXL343": {
     "datos_mercado": {
@@ -248913,7 +248547,7 @@
   },
   "CPTIISS999": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "CPTIKOL223": {
     "datos_mercado": {
@@ -250367,7 +250001,7 @@
   },
   "F13893/19": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "F13903/19": {
     "datos_mercado": {
@@ -250391,7 +250025,7 @@
   },
   "F14439/19": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "F20510/18": {
     "datos_mercado": {
@@ -250505,7 +250139,7 @@
   },
   "F28334": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "F28836": {
     "datos_mercado": {
@@ -263211,7 +262845,7 @@
   },
   "HERBPT008": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "HERBPT009": {
     "datos_mercado": {
@@ -263240,7 +262874,7 @@
   },
   "HERBPT015": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "HERBTP023": {
     "datos_mercado": {
@@ -266237,7 +265871,7 @@
   },
   "K5477100": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "K5477900": {
     "datos_mercado": {
@@ -267756,7 +267390,7 @@
   },
   "LAP001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LAS00021": {
     "datos_mercado": {
@@ -267795,35 +267429,35 @@
   },
   "LCA004": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LCA005": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LCA006": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LCA007": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LCA008": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LCA009": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LCA010": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LCA012": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LCL0101": {
     "datos_mercado": {
@@ -268855,7 +268489,7 @@
   },
   "LPL0023": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LPL0024": {
     "datos_mercado": {
@@ -268899,7 +268533,7 @@
   },
   "LPL0041": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LPL0044": {
     "datos_mercado": null,
@@ -269167,7 +268801,7 @@
   },
   "LPL0063": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "LPL0065": {
     "datos_mercado": {
@@ -269551,7 +269185,7 @@
   },
   "MAV100663": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "MAV100771": {
     "datos_mercado": null,
@@ -270394,7 +270028,7 @@
   },
   "MB302500": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "MB352400": {
     "datos_mercado": {
@@ -270676,24 +270310,8 @@
     "fecha": "2026-06-28"
   },
   "MB453800": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 40999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cofar",
-          "precio": 32290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 32290,
-      "mediana_competitiva": 36644,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "MB459100": {
     "datos_mercado": {
@@ -271641,29 +271259,8 @@
     "fecha": "2026-06-28"
   },
   "MB659100": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 173330,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertitas.cl",
-          "precio": 49990,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 173333,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 173330,
-      "mediana_competitiva": 173331,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "MB662100": {
     "datos_mercado": {
@@ -272216,7 +271813,7 @@
   },
   "MB721300": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "MCN0069": {
     "datos_mercado": {
@@ -273340,7 +272937,7 @@
   },
   "MR40100": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "MR70270": {
     "datos_mercado": {
@@ -273958,7 +273555,7 @@
   },
   "MX05605A": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "MX05983A": {
     "datos_mercado": {
@@ -274247,7 +273844,7 @@
   },
   "MYPLIM096": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "MYPLIM100": {
     "datos_mercado": {
@@ -276101,7 +275698,7 @@
   },
   "PACR30": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "PB10331": {
     "datos_mercado": {
@@ -276939,24 +276536,8 @@
     "fecha": "2026-06-28"
   },
   "PIS0001": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 1417,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 1490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1417,
-      "mediana_competitiva": 1453,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "PK51S": {
     "datos_mercado": {
@@ -284239,11 +283820,11 @@
   },
   "PT28360": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "PT28370": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "PT29600": {
     "datos_mercado": {
@@ -284647,7 +284228,7 @@
   },
   "PT31220": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "PT31240": {
     "datos_mercado": {
@@ -291075,24 +290656,8 @@
     "fecha": "2026-06-28"
   },
   "PTDISG105": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 9890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3653,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3653,
-      "mediana_competitiva": 6771,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "PTDOLC101": {
     "datos_mercado": {
@@ -291634,24 +291199,8 @@
     "fecha": "2026-06-28"
   },
   "PTFLUN301": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 7164,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4990,
-      "mediana_competitiva": 6077,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "PTFLUN302": {
     "datos_mercado": {
@@ -297584,7 +297133,7 @@
   },
   "RMCLS204": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "RMDOX101": {
     "datos_mercado": {
@@ -297658,7 +297207,7 @@
   },
   "RMLAN30V": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "RMLOR56F": {
     "datos_mercado": {
@@ -297752,7 +297301,7 @@
   },
   "RMONIV84": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "RMWARCM5": {
     "datos_mercado": {
@@ -298660,7 +298209,7 @@
   },
   "SCF281/02": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "SCF291/00": {
     "datos_mercado": {
@@ -311955,7 +311504,7 @@
   },
   "VICVEGAC002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGAC003": {
     "datos_mercado": {
@@ -311979,7 +311528,7 @@
   },
   "VICVEGAM001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGAP002": {
     "datos_mercado": {
@@ -312003,23 +311552,23 @@
   },
   "VICVEGAR001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGCF001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGCF002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGCL001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGCO001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGEX001": {
     "datos_mercado": {
@@ -312063,7 +311612,7 @@
   },
   "VICVEGEX003": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGLC001": {
     "datos_mercado": {
@@ -312107,23 +311656,23 @@
   },
   "VICVEGLC003": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGLE001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGLE002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGLE003": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGLS001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGSF001": {
     "datos_mercado": {
@@ -312147,7 +311696,7 @@
   },
   "VICVEGSF002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGSF003": {
     "datos_mercado": {
@@ -312171,11 +311720,11 @@
   },
   "VICVEGSF004": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGSH001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGSH002": {
     "datos_mercado": {
@@ -312199,11 +311748,11 @@
   },
   "VICVEGSH003": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGTF001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VICVEGTF002": {
     "datos_mercado": {
@@ -312657,7 +312206,7 @@
   },
   "VN00824A": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "VT53390": {
     "datos_mercado": {
@@ -313456,7 +313005,7 @@
   },
   "WIN9025006": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "WW101": {
     "datos_mercado": {
@@ -313979,24 +313528,8 @@
     "fecha": "2026-06-29"
   },
   "XCL01553": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 18798,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaroraima.cl",
-          "precio": 12100,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 12100,
-      "mediana_competitiva": 15449,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "XCL01558": {
     "datos_mercado": {
@@ -314825,7 +314358,7 @@
   },
   "11202101": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "114140": {
     "datos_mercado": {
@@ -315767,29 +315300,8 @@
     "fecha": "2026-07-03"
   },
   "930507": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciasanjuan.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 6490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciamapuche.cl",
-          "precio": 8200,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6490,
-      "mediana_competitiva": 6990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "971806": {
     "datos_mercado": {
@@ -316428,7 +315940,7 @@
   },
   "10069042849": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "10069142850": {
     "datos_mercado": {
@@ -317087,7 +316599,7 @@
   },
   "36000037": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "36000054": {
     "datos_mercado": {
@@ -317706,7 +317218,7 @@
   },
   "2330016": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "9700023": {
     "datos_mercado": {
@@ -317799,7 +317311,7 @@
   },
   "376325": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "405380": {
     "datos_mercado": null,
@@ -322678,15 +322190,15 @@
   },
   "42245": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "601071014": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "F27906": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "SO40052": {
     "datos_mercado": {
@@ -326223,104 +325735,20 @@
     "fecha": "2026-07-12"
   },
   "80887580": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Perfumerialamundial.cl",
-          "precio": 3390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 1160,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 2480,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tottus.cl",
-          "precio": 3000,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1160,
-      "mediana_competitiva": 2740,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "80887579": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Lider",
-          "precio": 4790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 2480,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2480,
-      "mediana_competitiva": 4790,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "2010062": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "El Químico",
-          "precio": 2190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmalisto",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 1590,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1590,
-      "mediana_competitiva": 2190,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "2010096": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 2142,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 2853,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2142,
-      "mediana_competitiva": 2497,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-13"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "3200001": {
     "datos_mercado": {
@@ -329520,11 +328948,11 @@
   },
   "809001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "809002": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "809004": {
     "datos_mercado": {
@@ -331901,7 +331329,7 @@
   },
   "09505282": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "09505285": {
     "datos_mercado": null,
@@ -336358,7 +335786,7 @@
   },
   "501021001": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-13"
   },
   "544119": {
     "datos_mercado": {
