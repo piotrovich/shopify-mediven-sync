@@ -262621,34 +262621,8 @@
     "fecha": "2026-06-29"
   },
   "HELPT5253": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmex",
-          "precio": 1490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 1513,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 2490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Clinicalpharma.cl",
-          "precio": 2490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1490,
-      "mediana_competitiva": 2001,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "HEM7142": {
     "datos_mercado": {
