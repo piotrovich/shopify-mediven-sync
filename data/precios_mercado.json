@@ -100385,64 +100385,12 @@
     "fecha": "2026-07-06"
   },
   "251960": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 44899,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 47610,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaloop.cl",
-          "precio": 41590,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 41590,
-      "mediana_competitiva": 44899,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "251961": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 59292,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cofar",
-          "precio": 40809,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 44522,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaloop.cl",
-          "precio": 62790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Nibitha.cl",
-          "precio": 43999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 40809,
-      "mediana_competitiva": 44522,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "251962": {
     "datos_mercado": {
@@ -177253,39 +177201,8 @@
     "fecha": "2026-06-27"
   },
   "60008": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Novasalud.cl",
-          "precio": 22590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biosphare.cl",
-          "precio": 116000,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Profar",
-          "precio": 26389,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaroraima.cl",
-          "precio": 18150,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmalisto",
-          "precio": 29990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 18150,
-      "mediana_competitiva": 24489,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "6001": {
     "datos_mercado": {
@@ -178088,24 +178005,8 @@
     "fecha": "2026-06-27"
   },
   "60179": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Ligafarmacia.cl",
-          "precio": 16200,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 27790,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 16200,
-      "mediana_competitiva": 21995,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-06"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "60180": {
     "datos_mercado": {
@@ -192002,29 +191903,8 @@
     "fecha": "2026-06-27"
   },
   "73320384": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Proh.cl",
-          "precio": 7790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 8000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed.Com",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7790,
-      "mediana_competitiva": 8000,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "73320389": {
     "datos_mercado": {
@@ -340758,5 +340638,13 @@
       "fuentes_validas": 2
     },
     "fecha": "2026-07-11"
+  },
+  "11165100836544": {
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
+  },
+  "60000000139549": {
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   }
 }
