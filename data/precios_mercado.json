@@ -231481,54 +231481,12 @@
     "fecha": "2026-07-12"
   },
   "AACAMAY3": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Araucomed",
-          "precio": 490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 1784,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Bioheis.cl",
-          "precio": 700,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Afchilespa.Cl",
-          "precio": 790,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 490,
-      "mediana_competitiva": 745,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "AACATE02": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 24117,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Afchilespa.Cl",
-          "precio": 23290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 23290,
-      "mediana_competitiva": 23703,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "AACATE03": {
     "datos_mercado": {
@@ -231940,24 +231898,8 @@
     "fecha": "2026-06-28"
   },
   "AAHBCM23": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 4490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 1950,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1950,
-      "mediana_competitiva": 3220,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "AAJECIN5": {
     "datos_mercado": {
@@ -232704,29 +232646,8 @@
     "fecha": "2026-07-12"
   },
   "AASOAS18": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Simmedical.cl",
-          "precio": 440,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Geerdink.cl",
-          "precio": 490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Insumos Médicos Geerdink",
-          "precio": 350,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 350,
-      "mediana_competitiva": 440,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "AASOFO12": {
     "datos_mercado": {
@@ -322350,29 +322271,8 @@
     "fecha": "2026-07-07"
   },
   "PTHOPE09": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciasvaldivia.cl",
-          "precio": 23990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 18900,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaloop.cl",
-          "precio": 5530,
-          "estado": "🔴 Descartado (outlier IQR)"
-        }
-      ],
-      "minimo": 18900,
-      "mediana_competitiva": 21445,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-07"
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
   },
   "5004648": {
     "datos_mercado": {
@@ -340618,6 +340518,30 @@
     "fecha": "2026-07-13"
   },
   "60000000139549": {
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
+  },
+  "AABAJAES": {
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
+  },
+  "AACATE01": {
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
+  },
+  "AACATE07": {
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
+  },
+  "AACATE09": {
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
+  },
+  "AAHBCM10": {
+    "datos_mercado": null,
+    "fecha": "2026-07-13"
+  },
+  "AAHBCM20": {
     "datos_mercado": null,
     "fecha": "2026-07-13"
   }
