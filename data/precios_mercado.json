@@ -27809,7 +27809,7 @@
   },
   "0900358": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "0900359": {
     "datos_mercado": {
@@ -42523,29 +42523,8 @@
     "fecha": "2026-06-26"
   },
   "10100940": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 21165,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 16872,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Mercado Farma",
-          "precio": 9190,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 9190,
-      "mediana_competitiva": 16872,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "10100A": {
     "datos_mercado": {
@@ -92061,7 +92040,7 @@
   },
   "2180026": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "2180027": {
     "datos_mercado": {
@@ -123216,34 +123195,8 @@
     "fecha": "2026-06-27"
   },
   "267695": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 21490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Motherna.cl",
-          "precio": 13490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 17990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Luzgomed.Cl",
-          "precio": 20990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 13490,
-      "mediana_competitiva": 19490,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "267737": {
     "datos_mercado": {
@@ -153076,29 +153029,8 @@
     "fecha": "2026-06-27"
   },
   "4110007": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 942,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 2262,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 1290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 942,
-      "mediana_competitiva": 1290,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "4110008": {
     "datos_mercado": {
@@ -153915,7 +153847,7 @@
   },
   "4110050": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "4110052": {
     "datos_mercado": {
@@ -154366,29 +154298,8 @@
     "fecha": "2026-06-27"
   },
   "4110074": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmacialabotika.cl",
-          "precio": 1490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 1490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Mercado Farma",
-          "precio": 1490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1490,
-      "mediana_competitiva": 1490,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "4110076": {
     "datos_mercado": {
@@ -193172,34 +193083,8 @@
     "fecha": "2026-06-27"
   },
   "7350": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 5895,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 3547,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Wua-wua.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Inmediato.cl",
-          "precio": 5500,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3547,
-      "mediana_competitiva": 5245,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "736085416640": {
     "datos_mercado": {
@@ -239738,49 +239623,8 @@
     "fecha": "2026-06-29"
   },
   "BHA651": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 6030,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Girasol.cl",
-          "precio": 7900,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 3690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacialabotika.cl",
-          "precio": 4790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Unimarc.cl",
-          "precio": 3250,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 4020,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3250,
-      "mediana_competitiva": 4020,
-      "fuentes_validas": 7
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "BHA796": {
     "datos_mercado": {
@@ -267310,24 +267154,8 @@
     "fecha": "2026-06-28"
   },
   "LCS0101": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 3690,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3690,
-      "mediana_competitiva": 4340,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "LCS028": {
     "datos_mercado": {
@@ -317318,7 +317146,7 @@
   },
   "1004880": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "10108213": {
     "datos_mercado": {
@@ -322325,34 +322153,8 @@
     "fecha": "2026-07-09"
   },
   "10560": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 5590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Profar",
-          "precio": 4890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4890,
-      "mediana_competitiva": 5790,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-09"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "1070225": {
     "datos_mercado": {
@@ -322963,11 +322765,11 @@
   },
   "AASOAS10": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "AASOAS12": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "AASOFO08": {
     "datos_mercado": {
@@ -322999,15 +322801,15 @@
   },
   "AASOLE10": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "AASONE10": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "AASONE16": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "AAURINAF": {
     "datos_mercado": {
@@ -323081,7 +322883,7 @@
   },
   "BDC04": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "BH037": {
     "datos_mercado": {
@@ -325986,7 +325788,7 @@
   },
   "043581520000": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "043641510000": {
     "datos_mercado": {
@@ -326580,7 +326382,7 @@
   },
   "DPACBORP": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "M15779120426167": {
     "datos_mercado": {
@@ -326684,7 +326486,7 @@
   },
   "MUSCRF28275": {
     "datos_mercado": null,
-    "fecha": "2026-07-07"
+    "fecha": "2026-07-14"
   },
   "MUSGEL28367": {
     "datos_mercado": {
@@ -340544,5 +340346,57 @@
   "AAHBCM20": {
     "datos_mercado": null,
     "fecha": "2026-07-13"
+  },
+  "1016529": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "119003": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "119017": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "1758": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "22311": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "274788": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "61006": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "6288": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "7001": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "7013": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "AC0122": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "BHA067": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "CE2012": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   }
 }
