@@ -96592,7 +96592,7 @@
   },
   "2402141": {
     "datos_mercado": null,
-    "fecha": "2026-06-20"
+    "fecha": "2026-07-14"
   },
   "240528": {
     "datos_mercado": {
@@ -128150,34 +128150,8 @@
     "fecha": "2026-06-27"
   },
   "2800220": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Ahumada",
-          "precio": 3999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 6799,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 3317,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2990,
-      "mediana_competitiva": 3658,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "2800263": {
     "datos_mercado": {
@@ -128201,7 +128175,7 @@
   },
   "2800341": {
     "datos_mercado": null,
-    "fecha": "2026-06-13"
+    "fecha": "2026-07-14"
   },
   "28053": {
     "datos_mercado": {
@@ -340152,6 +340126,22 @@
     "fecha": "2026-07-14"
   },
   "FAJMC": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "2402128": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "34590000": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "34590006": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "34590013": {
     "datos_mercado": null,
     "fecha": "2026-07-14"
   }
