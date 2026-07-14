@@ -118018,39 +118018,8 @@
     "fecha": "2026-06-27"
   },
   "263966": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 8399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Super.eltit.cl",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 7790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 6290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Perfumerialamundial.cl",
-          "precio": 4336,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4336,
-      "mediana_competitiva": 6290,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "263970": {
     "datos_mercado": {
@@ -211912,34 +211881,8 @@
     "fecha": "2026-06-28"
   },
   "84545": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 11499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 11490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 7676,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7676,
-      "mediana_competitiva": 9740,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "845450602050": {
     "datos_mercado": {
@@ -339861,6 +339804,18 @@
     "fecha": "2026-07-14"
   },
   "2401932": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "34590001": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "34590002": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "76037077": {
     "datos_mercado": null,
     "fecha": "2026-07-14"
   }
