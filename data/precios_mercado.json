@@ -157296,44 +157296,8 @@
     "fecha": "2026-06-27"
   },
   "429184": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 9999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 1504,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 5499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacias Chile SPA",
-          "precio": 5391,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 18990,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 4330,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4330,
-      "mediana_competitiva": 5445,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "429224": {
     "datos_mercado": {
