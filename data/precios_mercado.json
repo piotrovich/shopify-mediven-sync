@@ -8370,34 +8370,8 @@
     "fecha": "2026-06-26"
   },
   "020410": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Araucomed",
-          "precio": 1790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lemongreen.cl",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Naturalbiopharma.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lemongreenchile",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1790,
-      "mediana_competitiva": 3740,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "0210093": {
     "datos_mercado": {
@@ -64663,29 +64637,8 @@
     "fecha": "2026-06-26"
   },
   "130402": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 5490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 8170,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.Com",
-          "precio": 4230,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4230,
-      "mediana_competitiva": 5490,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "131001": {
     "datos_mercado": {
@@ -142049,24 +142002,8 @@
     "fecha": "2026-05-27"
   },
   "34540022": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cinderella.cl",
-          "precio": 22000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 17424,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 17424,
-      "mediana_competitiva": 19712,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
   },
   "34585": {
     "datos_mercado": {
@@ -340203,6 +340140,18 @@
     "fecha": "2026-07-14"
   },
   "WT1952B2": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "4987067141005": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "67140909": {
+    "datos_mercado": null,
+    "fecha": "2026-07-14"
+  },
+  "FAJMC": {
     "datos_mercado": null,
     "fecha": "2026-07-14"
   }
