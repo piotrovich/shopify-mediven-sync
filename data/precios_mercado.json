@@ -92787,29 +92787,8 @@
     "fecha": "2026-06-29"
   },
   "22168": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 21930,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 26729,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.Com",
-          "precio": 21930,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 21930,
-      "mediana_competitiva": 21930,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-15"
   },
   "22170": {
     "datos_mercado": {
@@ -339789,6 +339768,14 @@
     "fecha": "2026-07-14"
   },
   "7220002": {
+    "datos_mercado": null,
+    "fecha": "2026-07-15"
+  },
+  "268226": {
+    "datos_mercado": null,
+    "fecha": "2026-07-15"
+  },
+  "411001344530": {
     "datos_mercado": null,
     "fecha": "2026-07-15"
   }
