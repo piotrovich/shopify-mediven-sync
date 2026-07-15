@@ -9569,39 +9569,8 @@
     "fecha": "2026-06-26"
   },
   "0320301": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 2590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 2590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Larense.cl",
-          "precio": 2450,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 4980,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "El Químico",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2450,
-      "mediana_competitiva": 2590,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-15"
   },
   "0320323": {
     "datos_mercado": {
@@ -339770,6 +339739,10 @@
     "fecha": "2026-07-15"
   },
   "NF265": {
+    "datos_mercado": null,
+    "fecha": "2026-07-15"
+  },
+  "C2230054": {
     "datos_mercado": null,
     "fecha": "2026-07-15"
   }
