@@ -317490,7 +317490,7 @@
   },
   "154815": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-15"
   },
   "2160271": {
     "datos_mercado": {
@@ -318898,7 +318898,7 @@
   },
   "MB726900": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-15"
   },
   "MB727400": {
     "datos_mercado": {
@@ -322694,7 +322694,7 @@
   },
   "FAJLC": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-15"
   },
   "HOKCALC": {
     "datos_mercado": {
@@ -324631,39 +324631,8 @@
     "fecha": "2026-07-13"
   },
   "3200001": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Easyfarma.cl",
-          "precio": 990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 1990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaszamarin.cl",
-          "precio": 990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciasvaldivia.cl",
-          "precio": 1290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 990,
-      "mediana_competitiva": 990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-15"
+    "datos_mercado": null,
+    "fecha": "2026-07-15"
   },
   "22160": {
     "datos_mercado": {
@@ -330787,7 +330756,7 @@
   },
   "USA683": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-15"
   },
   "USA694": {
     "datos_mercado": {
@@ -331088,7 +331057,7 @@
   },
   "266927": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-15"
   },
   "3450084": {
     "datos_mercado": {
@@ -331127,7 +331096,7 @@
   },
   "3450090": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-15"
   },
   "3450091": {
     "datos_mercado": {
@@ -336510,7 +336479,7 @@
   },
   "621461": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-15"
   },
   "621537": {
     "datos_mercado": {
