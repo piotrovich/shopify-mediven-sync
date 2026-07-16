@@ -324228,39 +324228,8 @@
     "fecha": "2026-07-12"
   },
   "26065": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 21990,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 7690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmalisto",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 4099,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 8999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4099,
-      "mediana_competitiva": 7340,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-12"
+    "datos_mercado": null,
+    "fecha": "2026-07-16"
   },
   "554055": {
     "datos_mercado": {
