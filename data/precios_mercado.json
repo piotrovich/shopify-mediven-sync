@@ -196356,24 +196356,8 @@
     "fecha": "2026-06-28"
   },
   "7800044001321": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 650,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 1085,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 650,
-      "mediana_competitiva": 867,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-16"
   },
   "7800044002168": {
     "datos_mercado": {
