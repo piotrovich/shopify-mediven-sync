@@ -82403,49 +82403,8 @@
     "fecha": "2026-06-26"
   },
   "19319140855445": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 11045,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 12750,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 11045,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 10950,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Nibitha.cl",
-          "precio": 7999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Flokychile.cl",
-          "precio": 46990,
-          "estado": "🔴 Descartado (outlier IQR)"
-        }
-      ],
-      "minimo": 7999,
-      "mediana_competitiva": 10997,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "19321141247882": {
     "datos_mercado": {
@@ -314277,34 +314236,8 @@
     "fecha": "2026-05-30"
   },
   "PTFISI": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 15950,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 14159,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmam.cl",
-          "precio": 20690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 18019,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 14159,
-      "mediana_competitiva": 16984,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "PV15647": {
     "datos_mercado": {
@@ -324505,24 +324438,8 @@
     "fecha": "2026-06-23"
   },
   "799192073311": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Vitalsec.cl",
-          "precio": 69000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Nursingstore.cl",
-          "precio": 35990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 35990,
-      "mediana_competitiva": 52495,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-16"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "TEXFRA025": {
     "datos_mercado": null,
