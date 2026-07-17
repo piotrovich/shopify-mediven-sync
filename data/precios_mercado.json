@@ -118415,34 +118415,8 @@
     "fecha": "2026-06-29"
   },
   "264513": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 6090,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 4400,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 6090,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3960,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3960,
-      "mediana_competitiva": 5245,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "264577": {
     "datos_mercado": null,
@@ -141750,29 +141724,8 @@
     "fecha": "2026-06-27"
   },
   "3460121": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 19990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 20099,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 20099,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 19990,
-      "mediana_competitiva": 20099,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "34676124658841": {
     "datos_mercado": {
@@ -338616,6 +338569,26 @@
     "fecha": "2026-07-15"
   },
   "19414113354295": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "10234732": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "212015": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "261775": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "3760269770010": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "7800086777611": {
     "datos_mercado": null,
     "fecha": "2026-07-17"
   }
