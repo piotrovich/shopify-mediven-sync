@@ -41254,39 +41254,8 @@
     "fecha": "2026-06-26"
   },
   "1008337": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 17729,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 18899,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 10890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 14990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 14915,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 10890,
-      "mediana_competitiva": 14990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "10083442923": {
     "datos_mercado": {
@@ -146664,34 +146633,8 @@
     "fecha": "2026-06-27"
   },
   "38867193817755": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 16038,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 14612,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Recovery-chile.cl",
-          "precio": 13990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 9990,
-      "mediana_competitiva": 14301,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "3888390050": {
     "datos_mercado": {
@@ -184992,34 +184935,8 @@
     "fecha": "2026-06-27"
   },
   "6369": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmalisto",
-          "precio": 13990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 15600,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 15147,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 13950,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 13950,
-      "mediana_competitiva": 14568,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "6374": {
     "datos_mercado": {
@@ -295430,34 +295347,8 @@
     "fecha": "2026-06-28"
   },
   "RECOVERYCORRECTORPOL": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 17300,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 14990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 14983,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 10493,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 10493,
-      "mediana_competitiva": 14986,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "REN60": {
     "datos_mercado": {
@@ -302585,29 +302476,8 @@
     "fecha": "2026-06-28"
   },
   "T011088": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 32600,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 37129,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 14915,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 14915,
-      "mediana_competitiva": 32600,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
   },
   "T011118": {
     "datos_mercado": {
@@ -338510,6 +338380,22 @@
     "fecha": "2026-07-17"
   },
   "7800086810707": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "6312": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "RK58": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "T016675": {
+    "datos_mercado": null,
+    "fecha": "2026-07-17"
+  },
+  "T041386": {
     "datos_mercado": null,
     "fecha": "2026-07-17"
   }
