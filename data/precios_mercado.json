@@ -179140,39 +179140,8 @@
     "fecha": "2026-07-06"
   },
   "61042098": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Lider",
-          "precio": 4390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Unimarc.cl",
-          "precio": 4390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Santaisabel.cl",
-          "precio": 6490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 4699,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 3805,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3805,
-      "mediana_competitiva": 4390,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-18"
   },
   "61043183": {
     "datos_mercado": {
