@@ -35588,29 +35588,8 @@
     "fecha": "2026-06-26"
   },
   "100188": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Petrizzio.cl",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 5999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5990,
-      "mediana_competitiva": 5990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
   },
   "100191": {
     "datos_mercado": {
@@ -64283,7 +64262,7 @@
   },
   "13000182": {
     "datos_mercado": null,
-    "fecha": "2026-07-10"
+    "fecha": "2026-07-20"
   },
   "13000187": {
     "datos_mercado": {
@@ -75758,11 +75737,11 @@
   },
   "17000013": {
     "datos_mercado": null,
-    "fecha": "2026-07-13"
+    "fecha": "2026-07-20"
   },
   "17000014": {
     "datos_mercado": null,
-    "fecha": "2026-07-10"
+    "fecha": "2026-07-20"
   },
   "17000019": {
     "datos_mercado": {
@@ -93702,24 +93681,8 @@
     "fecha": "2026-07-20"
   },
   "23000002": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 10390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 8599,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8599,
-      "mediana_competitiva": 9494,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
   },
   "23000003": {
     "datos_mercado": null,
@@ -222080,39 +222043,8 @@
     "fecha": "2026-06-28"
   },
   "97060": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 17029,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 19997,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 8310,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertitas.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6990,
-      "mediana_competitiva": 8310,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
   },
   "97061": {
     "datos_mercado": {
@@ -319358,34 +319290,8 @@
     "fecha": "2026-06-04"
   },
   "0110964": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Jumbo",
-          "precio": 3732,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 2799,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Supermercadolaherradura.cl",
-          "precio": 3750,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 4968,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2799,
-      "mediana_competitiva": 3741,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-04"
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
   },
   "0480484": {
     "datos_mercado": {
@@ -337093,6 +336999,46 @@
     "fecha": "2026-07-20"
   },
   "101320": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "13000011": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "17000015": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "23000024": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "23000025": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "23000027": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "56000003": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "8814H": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "9017": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "9040": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "PT50130": {
     "datos_mercado": null,
     "fecha": "2026-07-20"
   }
