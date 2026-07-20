@@ -324188,34 +324188,8 @@
     "fecha": "2026-07-16"
   },
   "SUP0000084": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Sanomarket.cl",
-          "precio": 10726,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaroraima.cl",
-          "precio": 18150,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Nutrapunto.cl",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 8590,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7990,
-      "mediana_competitiva": 9658,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-16"
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
   },
   "SUP0000162": {
     "datos_mercado": null,
