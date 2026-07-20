@@ -225629,39 +225629,8 @@
     "fecha": "2026-06-28"
   },
   "99202": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Petrizzio.cl",
-          "precio": 1190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 2299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 1990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 1999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 1999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1190,
-      "mediana_competitiva": 1999,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
   },
   "99205": {
     "datos_mercado": {
@@ -337173,6 +337142,26 @@
     "fecha": "2026-07-18"
   },
   "300329": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "101301": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "101302": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "101303": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "256770": {
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
+  },
+  "97038": {
     "datos_mercado": null,
     "fecha": "2026-07-20"
   }
