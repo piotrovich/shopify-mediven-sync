@@ -226788,49 +226788,8 @@
     "fecha": "2026-06-28"
   },
   "99559": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 7999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 8385,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Petrizzio.cl",
-          "precio": 6290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 6690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 6890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Maicao",
-          "precio": 8999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6290,
-      "mediana_competitiva": 7990,
-      "fuentes_validas": 7
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
   },
   "99560": {
     "datos_mercado": {
@@ -324450,44 +324409,8 @@
     "fecha": "2026-07-19"
   },
   "101318": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 5999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Petrizzio.cl",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 4690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 3890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaszamarin.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3890,
-      "mediana_competitiva": 5490,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-06-19"
+    "datos_mercado": null,
+    "fecha": "2026-07-20"
   },
   "1320315": {
     "datos_mercado": {
