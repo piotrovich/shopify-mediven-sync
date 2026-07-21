@@ -92998,44 +92998,8 @@
     "fecha": "2026-06-27"
   },
   "2231193": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Jacky.cl",
-          "precio": 490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lupimax.cl",
-          "precio": 600,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 843,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 1067,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Comercialibiza.cl",
-          "precio": 690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 480,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 480,
-      "mediana_competitiva": 645,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
   },
   "2231196": {
     "datos_mercado": {
@@ -336659,6 +336623,38 @@
     "fecha": "2026-07-21"
   },
   "101279": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "10031421": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "3460078": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "3460149": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "PTCIC0010015": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "PTCIC0020040": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "PTCIC0030100": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "PTCIC0040040": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "PTUVE0210028": {
     "datos_mercado": null,
     "fecha": "2026-07-21"
   }
