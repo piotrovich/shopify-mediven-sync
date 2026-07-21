@@ -82855,24 +82855,8 @@
     "fecha": "2026-06-26"
   },
   "197022": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Medicompara.cl",
-          "precio": 22288,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.Com",
-          "precio": 26925,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 22288,
-      "mediana_competitiva": 24606,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
   },
   "19818124718105": {
     "datos_mercado": {
@@ -315204,7 +315188,7 @@
   },
   "405380": {
     "datos_mercado": null,
-    "fecha": "2026-06-29"
+    "fecha": "2026-07-21"
   },
   "C950244": {
     "datos_mercado": {
@@ -336532,6 +336516,14 @@
     "fecha": "2026-07-21"
   },
   "52851": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "411682": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "510001": {
     "datos_mercado": null,
     "fecha": "2026-07-21"
   }
