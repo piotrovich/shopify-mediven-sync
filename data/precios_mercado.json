@@ -59156,34 +59156,8 @@
     "fecha": "2026-06-26"
   },
   "1201080779": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 17100,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 25399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Medicompara.cl",
-          "precio": 13990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.Com",
-          "precio": 12450,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 12450,
-      "mediana_competitiva": 15545,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
   },
   "1201080827": {
     "datos_mercado": {
@@ -261061,7 +261035,7 @@
   },
   "HERBPT004": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-21"
   },
   "HERBPT006": {
     "datos_mercado": {
@@ -323686,29 +323660,8 @@
     "fecha": "2026-06-23"
   },
   "4110059": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Easyfarma.cl",
-          "precio": 3978,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 1790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacialabotika.cl",
-          "precio": 1990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1790,
-      "mediana_competitiva": 1990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-16"
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
   },
   "690015055512": {
     "datos_mercado": null,
@@ -336575,6 +336528,10 @@
     "fecha": "2026-07-21"
   },
   "40039520": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "52851": {
     "datos_mercado": null,
     "fecha": "2026-07-21"
   }
