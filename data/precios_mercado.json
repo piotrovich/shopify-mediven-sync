@@ -105585,44 +105585,8 @@
     "fecha": "2026-06-27"
   },
   "256435": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Laoferta.cl",
-          "precio": 2343,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 4499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 9699,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 5290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 7851,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2343,
-      "mediana_competitiva": 4894,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
   },
   "256436": {
     "datos_mercado": {
@@ -149604,7 +149568,7 @@
   },
   "40050153": {
     "datos_mercado": null,
-    "fecha": "2026-05-27"
+    "fecha": "2026-07-21"
   },
   "40050160": {
     "datos_mercado": {
@@ -201915,84 +201879,12 @@
     "fecha": "2026-06-28"
   },
   "79089": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Lider",
-          "precio": 3690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Laoferta.cl",
-          "precio": 2343,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tienda.market-care.com",
-          "precio": 4324,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacialabotika.cl",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 4399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Supertrebol.cl",
-          "precio": 2590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3897,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2343,
-      "mediana_competitiva": 3690,
-      "fuentes_validas": 7
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
   },
   "79091": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 5145,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacialabotika.cl",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 4499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Laoferta.cl",
-          "precio": 2343,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2343,
-      "mediana_competitiva": 3290,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
   },
   "79235": {
     "datos_mercado": {
@@ -336655,6 +336547,34 @@
     "fecha": "2026-07-21"
   },
   "PTUVE0210028": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "2170004": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "256418": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "256428": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "40031412": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "40032014": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "40036861": {
+    "datos_mercado": null,
+    "fecha": "2026-07-21"
+  },
+  "40039520": {
     "datos_mercado": null,
     "fecha": "2026-07-21"
   }
