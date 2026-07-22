@@ -105752,54 +105752,8 @@
     "fecha": "2026-06-27"
   },
   "256442": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmacialabotika.cl",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Dev.redfarma.cl",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tienda.market-care.com",
-          "precio": 5733,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 4685,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacompara.cl",
-          "precio": 4199,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 4399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2990,
-      "mediana_competitiva": 4194,
-      "fuentes_validas": 8
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   },
   "256443": {
     "datos_mercado": {
@@ -336313,5 +336267,13 @@
   "510001": {
     "datos_mercado": null,
     "fecha": "2026-07-21"
+  },
+  "2170027": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "40058302": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   }
 }
