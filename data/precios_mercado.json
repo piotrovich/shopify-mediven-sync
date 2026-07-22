@@ -113256,44 +113256,8 @@
     "fecha": "2026-05-27"
   },
   "2610031": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmex",
-          "precio": 6590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Hofmannonline.cl",
-          "precio": 19580,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 6999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacia.farmagente.cl",
-          "precio": 6820,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 6590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6590,
-      "mediana_competitiva": 6820,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   },
   "2610032": {
     "datos_mercado": {
@@ -190184,29 +190148,8 @@
     "fecha": "2026-06-27"
   },
   "73123": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Unimarc.cl",
-          "precio": 2590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 2499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "La Oferta",
-          "precio": 2771,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2499,
-      "mediana_competitiva": 2590,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   },
   "73165320": {
     "datos_mercado": {
@@ -219735,49 +219678,8 @@
     "fecha": "2026-06-28"
   },
   "95350471": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Perfumerialamundial.cl",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 6490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 7290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Jumbo",
-          "precio": 6010,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 7399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 9869,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Farmaciaszamarin.cl",
-          "precio": 6490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5990,
-      "mediana_competitiva": 6490,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   },
   "95350475": {
     "datos_mercado": {
@@ -305990,39 +305892,8 @@
     "fecha": "2026-06-29"
   },
   "TEXBAB010": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Bambino.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Wua-wua.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 6099,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 6099,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Planetamamacoyhaique.cl",
-          "precio": 3190,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3190,
-      "mediana_competitiva": 4990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   },
   "TEXBAB027": {
     "datos_mercado": {
@@ -315024,24 +314895,8 @@
     "fecha": "2026-07-01"
   },
   "RET5092": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Arama.cl",
-          "precio": 1316,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 3650,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1316,
-      "mediana_competitiva": 2483,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-01"
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   },
   "2330016": {
     "datos_mercado": null,
@@ -322674,34 +322529,8 @@
     "fecha": "2026-07-11"
   },
   "TERGTR081": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 7290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 7480,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Easy.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7290,
-      "mediana_competitiva": 8735,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-11"
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   },
   "0851": {
     "datos_mercado": {
@@ -324050,29 +323879,8 @@
     "fecha": "2026-07-19"
   },
   "50501": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 1700,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Laoferta.cl",
-          "precio": 14748,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Alvi.cl",
-          "precio": 1790,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1700,
-      "mediana_competitiva": 1745,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-19"
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
   },
   "93882": {
     "datos_mercado": null,
@@ -336273,6 +336081,66 @@
     "fecha": "2026-07-22"
   },
   "40058302": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "0040093": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "0040133": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "0040199": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "17271": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "262795": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "40686": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "75255": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "75257": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "NLC025": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "TERGTR141": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "TEXBAB026": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "TEXFRA003": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "TEXFRA004": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "TEXMUS003": {
+    "datos_mercado": null,
+    "fecha": "2026-07-22"
+  },
+  "TEXTOA035": {
     "datos_mercado": null,
     "fecha": "2026-07-22"
   }
