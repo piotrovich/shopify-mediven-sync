@@ -147306,29 +147306,8 @@
     "fecha": "2026-06-27"
   },
   "3GROOMEN50024": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 13590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 15190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider.Cl",
-          "precio": 13790,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 13590,
-      "mediana_competitiva": 13790,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-23"
   },
   "4000079": {
     "datos_mercado": {
@@ -252160,34 +252139,8 @@
     "fecha": "2026-06-28"
   },
   "H5608400": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 2698,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cosmetic.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 2299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 1722,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1722,
-      "mediana_competitiva": 2498,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-23"
   },
   "H5609600": {
     "datos_mercado": {
@@ -319669,49 +319622,8 @@
     "fecha": "2026-06-09"
   },
   "250039": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 7199,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Optisalud.cl",
-          "precio": 7950,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmam.cl",
-          "precio": 6490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacompara.cl",
-          "precio": 4792,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 5592,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ryk.cl",
-          "precio": 6500,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4792,
-      "mediana_competitiva": 6500,
-      "fuentes_validas": 7
-    },
-    "fecha": "2026-06-09"
+    "datos_mercado": null,
+    "fecha": "2026-07-23"
   },
   "257780": {
     "datos_mercado": {
@@ -324190,39 +324102,8 @@
     "fecha": "2026-06-23"
   },
   "PT858": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmalisto",
-          "precio": 5930,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 9950,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 8600,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 15990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5930,
-      "mediana_competitiva": 8600,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-23"
+    "datos_mercado": null,
+    "fecha": "2026-07-23"
   },
   "00102002396": {
     "datos_mercado": null,
