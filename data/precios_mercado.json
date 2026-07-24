@@ -9012,34 +9012,8 @@
     "fecha": "2026-06-26"
   },
   "02603913": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Araucomed",
-          "precio": 1790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 4125,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 2226,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacia.farmagente.cl",
-          "precio": 2950,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1790,
-      "mediana_competitiva": 2588,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "0270063": {
     "datos_mercado": {
@@ -10677,7 +10651,7 @@
   },
   "03704182": {
     "datos_mercado": null,
-    "fecha": "2026-07-17"
+    "fecha": "2026-07-24"
   },
   "03704188": {
     "datos_mercado": null,
@@ -29145,7 +29119,7 @@
   },
   "09505284": {
     "datos_mercado": null,
-    "fecha": "2026-07-06"
+    "fecha": "2026-07-24"
   },
   "09505286": {
     "datos_mercado": null,
