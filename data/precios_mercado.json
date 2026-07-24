@@ -292956,34 +292956,8 @@
     "fecha": "2026-06-28"
   },
   "PV1910": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 15450,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaloop.cl",
-          "precio": 18690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 13677,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacias Ahumada",
-          "precio": 19699,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 13677,
-      "mediana_competitiva": 17070,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "PV2028": {
     "datos_mercado": null,
