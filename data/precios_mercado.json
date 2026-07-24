@@ -299944,34 +299944,8 @@
     "fecha": "2026-06-28"
   },
   "T003301": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 16790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 17424,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 12850,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 20990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 12850,
-      "mediana_competitiva": 17107,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "T00331K": {
     "datos_mercado": {
@@ -300812,29 +300786,8 @@
     "fecha": "2026-06-28"
   },
   "T011169": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 44529,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 33299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 33373,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 33299,
-      "mediana_competitiva": 33373,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "T011177": {
     "datos_mercado": {
@@ -301402,29 +301355,8 @@
     "fecha": "2026-06-28"
   },
   "T011673": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 20080,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cofar",
-          "precio": 20790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.Com",
-          "precio": 22471,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 20080,
-      "mediana_competitiva": 20790,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "T011681": {
     "datos_mercado": {
@@ -304267,34 +304199,8 @@
     "fecha": "2026-06-29"
   },
   "T041254": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 20990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 24199,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 19475,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 20990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 19475,
-      "mediana_competitiva": 20990,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "T041270": {
     "datos_mercado": {
