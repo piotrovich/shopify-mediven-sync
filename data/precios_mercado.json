@@ -99735,7 +99735,7 @@
   },
   "251960": {
     "datos_mercado": null,
-    "fecha": "2026-07-13"
+    "fecha": "2026-07-24"
   },
   "251961": {
     "datos_mercado": null,
@@ -259428,39 +259428,8 @@
     "fecha": "2026-06-28"
   },
   "H5799100": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Sallybeauty.cl",
-          "precio": 8290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 7790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 8799,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Dbs.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7790,
-      "mediana_competitiva": 8799,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "H5799300": {
     "datos_mercado": {
@@ -259528,44 +259497,8 @@
     "fecha": "2026-06-28"
   },
   "H5799500": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Sallybeauty.cl",
-          "precio": 8290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 8899,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Dbs.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 7790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 8954,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7790,
-      "mediana_competitiva": 8926,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "H5801400": {
     "datos_mercado": {
@@ -262134,34 +262067,8 @@
     "fecha": "2026-06-29"
   },
   "K0917006": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 5299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 5790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 9977,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 4999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4999,
-      "mediana_competitiva": 5544,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "K0917106": {
     "datos_mercado": {
@@ -262639,44 +262546,8 @@
     "fecha": "2026-06-28"
   },
   "K3734400": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Sallybeauty.cl",
-          "precio": 8290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 8799,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Maicao",
-          "precio": 8899,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 8954,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Dbs.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8290,
-      "mediana_competitiva": 8926,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "K4396800": {
     "datos_mercado": {
@@ -263528,29 +263399,8 @@
     "fecha": "2026-06-28"
   },
   "K5549800": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 8499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 8499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 8699,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8499,
-      "mediana_competitiva": 8499,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "K5549900": {
     "datos_mercado": {
@@ -317719,29 +317569,8 @@
     "fecha": "2026-07-04"
   },
   "K0917206": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 5499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 5790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sallybeauty.cl",
-          "precio": 5500,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5499,
-      "mediana_competitiva": 5500,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-04"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "K5479900": {
     "datos_mercado": null,
@@ -317777,29 +317606,8 @@
     "fecha": "2026-07-04"
   },
   "K6296300": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 2499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 7490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 7499,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        }
-      ],
-      "minimo": 2499,
-      "mediana_competitiva": 4994,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-04"
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
   },
   "NF072": {
     "datos_mercado": null,
@@ -334532,6 +334340,42 @@
     "fecha": "2026-07-24"
   },
   "0030245365": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "0671210": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "AA778200": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "G4462700": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "K0689700": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "K2856301": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "K5776300": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "K6003600": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "K6254300": {
+    "datos_mercado": null,
+    "fecha": "2026-07-24"
+  },
+  "K6296200": {
     "datos_mercado": null,
     "fecha": "2026-07-24"
   }
