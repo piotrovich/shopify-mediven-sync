@@ -11450,29 +11450,8 @@
     "fecha": "2026-07-26"
   },
   "112071": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 3782,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Felinus.cl",
-          "precio": 4788,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ohfarmaciaveterinaria.cl",
-          "precio": 990,
-          "estado": "🔴 Descartado (outlier IQR)"
-        }
-      ],
-      "minimo": 3782,
-      "mediana_competitiva": 4285,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "112072": {
     "datos_mercado": null,
@@ -34296,7 +34275,7 @@
   },
   "428681": {
     "datos_mercado": null,
-    "fecha": "2026-07-13"
+    "fecha": "2026-07-29"
   },
   "428809": {
     "datos_mercado": null,
@@ -71086,29 +71065,8 @@
     "fecha": "2026-07-29"
   },
   "USA621": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Felinus.cl",
-          "precio": 10441,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Braloy.cl",
-          "precio": 4000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Pettime.cl",
-          "precio": 12990,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        }
-      ],
-      "minimo": 4000,
-      "mediana_competitiva": 7220,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "USA651": {
     "datos_mercado": null,
@@ -83553,7 +83511,7 @@
   },
   "USA861": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-29"
   },
   "USA863": {
     "datos_mercado": {
@@ -83577,11 +83535,11 @@
   },
   "USA864": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-29"
   },
   "USA868": {
     "datos_mercado": null,
-    "fecha": "2026-07-08"
+    "fecha": "2026-07-29"
   },
   "1022573": {
     "datos_mercado": {
@@ -93261,6 +93219,22 @@
     "fecha": "2026-07-29"
   },
   "LPL0035": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "3020821": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "3158562": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "432106": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "6980070": {
     "datos_mercado": null,
     "fecha": "2026-07-29"
   }
