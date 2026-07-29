@@ -19730,34 +19730,8 @@
     "fecha": "2026-07-25"
   },
   "22132": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Clubsoftys.cl",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buale.cl",
-          "precio": 1790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Unimarc.cl",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1790,
-      "mediana_competitiva": 3140,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "22142": {
     "datos_mercado": null,
@@ -62584,44 +62558,8 @@
     "fecha": "2026-07-29"
   },
   "MCN0069": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 4387,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 9600,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Farmaciaroraima.cl",
-          "precio": 12100,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 2600,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2600,
-      "mediana_competitiva": 3688,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "MEL0001": {
     "datos_mercado": null,
@@ -93457,6 +93395,14 @@
     "fecha": "2026-07-29"
   },
   "08205429": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "268128": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "73125": {
     "datos_mercado": null,
     "fecha": "2026-07-29"
   }
