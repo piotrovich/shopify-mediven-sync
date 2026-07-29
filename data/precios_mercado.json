@@ -19076,39 +19076,8 @@
     "fecha": "2026-07-27"
   },
   "214010": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 1590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciasantagemita.cl",
-          "precio": 2990,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmauno.cl",
-          "precio": 3990,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 1102,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 990,
-      "mediana_competitiva": 1102,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "215007": {
     "datos_mercado": null,
@@ -61690,58 +61659,16 @@
     "fecha": "2026-07-28"
   },
   "LPL0050": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 6950,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 5220,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5220,
-      "mediana_competitiva": 5990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "LPL0051": {
     "datos_mercado": null,
     "fecha": "2026-07-28"
   },
   "LPL0052": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 5550,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Bathandbodyworks.cl",
-          "precio": 12990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5550,
-      "mediana_competitiva": 5990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "LPL0055": {
     "datos_mercado": null,
@@ -66581,39 +66508,8 @@
     "fecha": "2026-07-28"
   },
   "PTF0091PT": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmalisto",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 11600,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 17599,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 16590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 9841,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8990,
-      "mediana_competitiva": 11600,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "PTF0227PT": {
     "datos_mercado": null,
@@ -80810,74 +80706,12 @@
     "fecha": "2026-07-26"
   },
   "CREALB570": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Aldeanativa.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Eattouch.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tienda.maifud.cl",
-          "precio": 23990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cascarafoods.cl",
-          "precio": 64830,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertitas.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 23990,
-      "mediana_competitiva": 24990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-12"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "CREAP570": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Aldeanativa.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Mixgreen.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Eattouch.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cascarafoods.cl",
-          "precio": 64830,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertitas.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 24990,
-      "mediana_competitiva": 24990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-12"
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
   },
   "PLACB300": {
     "datos_mercado": {
@@ -93403,6 +93237,30 @@
     "fecha": "2026-07-29"
   },
   "73125": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "15600110060": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "15610110060": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "15620130060": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "226011": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "226012": {
+    "datos_mercado": null,
+    "fecha": "2026-07-29"
+  },
+  "LPL0035": {
     "datos_mercado": null,
     "fecha": "2026-07-29"
   }
