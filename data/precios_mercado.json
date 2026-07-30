@@ -7869,39 +7869,8 @@
     "fecha": "2026-07-26"
   },
   "1005250": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Araucomed",
-          "precio": 5490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 10098,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 5103,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 5920,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 10390,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5103,
-      "mediana_competitiva": 5920,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-30"
   },
   "100528": {
     "datos_mercado": null,
@@ -51680,34 +51649,8 @@
     "fecha": "2026-07-29"
   },
   "AA490700": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 9398,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 11759,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmati.cl",
-          "precio": 7890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 10195,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7890,
-      "mediana_competitiva": 9796,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-30"
   },
   "AA490800": {
     "datos_mercado": {
@@ -80659,7 +80602,7 @@
   },
   "4110059": {
     "datos_mercado": null,
-    "fecha": "2026-07-21"
+    "fecha": "2026-07-30"
   },
   "690015055512": {
     "datos_mercado": null,
