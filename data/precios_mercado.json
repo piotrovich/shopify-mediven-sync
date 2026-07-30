@@ -1229,29 +1229,8 @@
     "fecha": "2026-07-03"
   },
   "020106": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Lider",
-          "precio": 3730,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Belgochilena.cl",
-          "precio": 1490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciasbuenasalud.cl",
-          "precio": 4165,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1490,
-      "mediana_competitiva": 3730,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-07-30"
   },
   "020109MALO1": {
     "datos_mercado": null,
@@ -2939,29 +2918,8 @@
     "fecha": "2026-07-26"
   },
   "060104": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 2400,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 11990,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Farmaciasgeminis.cl",
-          "precio": 4390,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2400,
-      "mediana_competitiva": 3395,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-07-30"
   },
   "060106": {
     "datos_mercado": null,
@@ -4936,7 +4894,7 @@
   },
   "0900233": {
     "datos_mercado": null,
-    "fecha": "2026-07-14"
+    "fecha": "2026-07-30"
   },
   "0900250": {
     "datos_mercado": null,
@@ -29870,34 +29828,8 @@
     "fecha": "2026-07-28"
   },
   "3240173": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 11990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 9890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Simmedical.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 9890,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4990,
-      "mediana_competitiva": 9890,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-30"
   },
   "3242679": {
     "datos_mercado": null,
