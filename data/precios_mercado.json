@@ -7591,34 +7591,8 @@
     "fecha": "2026-07-26"
   },
   "1004868": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 15299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 11850,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 13396,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Easyfarma.cl",
-          "precio": 10990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 10990,
-      "mediana_competitiva": 12623,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "1004873": {
     "datos_mercado": null,
@@ -25752,34 +25726,8 @@
     "fecha": "2026-07-27"
   },
   "265401": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 54477,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 122230,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 60899,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 47910,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 47910,
-      "mediana_competitiva": 57688,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "265439": {
     "datos_mercado": null,
@@ -32497,24 +32445,8 @@
     "fecha": "2026-07-27"
   },
   "41076": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 37566,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 33290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 33290,
-      "mediana_competitiva": 35428,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "41077": {
     "datos_mercado": null,
@@ -47302,34 +47234,8 @@
     "fecha": "2026-07-28"
   },
   "8342011481": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 4172,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 10690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmalisto",
-          "precio": 5600,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3870,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3870,
-      "mediana_competitiva": 4886,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "8342011559": {
     "datos_mercado": null,
@@ -62896,34 +62802,8 @@
     "fecha": "2026-07-28"
   },
   "PT00253": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 3333,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 2290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 1399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "El Químico",
-          "precio": 2490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1399,
-      "mediana_competitiva": 2390,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "PT00259": {
     "datos_mercado": {
@@ -65105,29 +64985,8 @@
     "fecha": "2026-07-29"
   },
   "PTDOLC101": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 5919,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 5373,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3850,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3850,
-      "mediana_competitiva": 5373,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "PTDOLI102": {
     "datos_mercado": null,
@@ -65337,34 +65196,8 @@
     "fecha": "2026-07-28"
   },
   "PTMELO302": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 2599,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Farmalisto",
-          "precio": 1790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 975,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 800,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 800,
-      "mediana_competitiva": 975,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-30"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "PTMETA301": {
     "datos_mercado": {
@@ -70997,7 +70830,7 @@
   },
   "PTFISI": {
     "datos_mercado": null,
-    "fecha": "2026-07-17"
+    "fecha": "2026-07-31"
   },
   "PV15647": {
     "datos_mercado": {
