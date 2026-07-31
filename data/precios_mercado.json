@@ -62872,39 +62872,8 @@
     "fecha": "2026-07-28"
   },
   "PT00580": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 11026,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 17679,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 10390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmalisto",
-          "precio": 14530,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4990,
-      "mediana_competitiva": 10708,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "PT00582": {
     "datos_mercado": null,
@@ -70454,64 +70423,12 @@
     "fecha": "2026-07-29"
   },
   "971806": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 455700,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 539699,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 552990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 326990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmex",
-          "precio": 258990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 258990,
-      "mediana_competitiva": 455700,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "971807": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 635990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 608999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 456595,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 456595,
-      "mediana_competitiva": 608999,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-07-31"
   },
   "CPPBBBS407": {
     "datos_mercado": null,
