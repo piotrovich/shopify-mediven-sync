@@ -442,39 +442,8 @@
     "fecha": "2026-07-26"
   },
   "0040025": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Mitiendacotidian.cl",
-          "precio": 4790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Perfumerialamundial.cl",
-          "precio": 3330,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 5766,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buale.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tottus.cl",
-          "precio": 5090,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3330,
-      "mediana_competitiva": 4790,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-08-01"
   },
   "0040030": {
     "datos_mercado": null,
@@ -28255,29 +28224,8 @@
     "fecha": "2026-07-27"
   },
   "3002432": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 5051,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 18663,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 4169,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4169,
-      "mediana_competitiva": 4610,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-01"
   },
   "3002610": {
     "datos_mercado": null,
@@ -42028,44 +41976,8 @@
     "fecha": "2026-07-27"
   },
   "7100081": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Jumbo",
-          "precio": 2190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 4190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 2099,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tottus.cl",
-          "precio": 4890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 4550,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 3999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2099,
-      "mediana_competitiva": 4094,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-01"
   },
   "7110000": {
     "datos_mercado": null,
