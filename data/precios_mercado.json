@@ -13815,39 +13815,8 @@
     "fecha": "2026-06-26"
   },
   "173012": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 6999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 7277,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 6499,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 7490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4893,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4893,
-      "mediana_competitiva": 6999,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-08-06"
   },
   "173013": {
     "datos_mercado": null,
