@@ -9803,7 +9803,7 @@
   },
   "1201080843": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-07"
   },
   "1201080879": {
     "datos_mercado": null,
@@ -35782,29 +35782,8 @@
     "fecha": "2026-08-04"
   },
   "7800007803733": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 6190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 1663,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Farmacialabotika.cl",
-          "precio": 5290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5290,
-      "mediana_competitiva": 5740,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-07"
   },
   "7800008001329": {
     "datos_mercado": null,
