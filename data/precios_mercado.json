@@ -42859,34 +42859,8 @@
     "fecha": "2026-08-04"
   },
   "ACGNTN02": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Sodimac.cl",
-          "precio": 6190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 7277,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 5582,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Geerdink.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3990,
-      "mediana_competitiva": 5886,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-07"
   },
   "ACGNTN03": {
     "datos_mercado": {
