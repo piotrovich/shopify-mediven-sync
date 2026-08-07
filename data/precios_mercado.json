@@ -12486,34 +12486,8 @@
     "fecha": "2026-08-05"
   },
   "1600313": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 34212,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 29990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cofar",
-          "precio": 117190,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 70999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 29990,
-      "mediana_competitiva": 34212,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-08-07"
   },
   "1600319": {
     "datos_mercado": null,
@@ -36951,34 +36925,8 @@
     "fecha": "2026-08-04"
   },
   "78808": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 1570,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 1390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 1999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ligafarmacia.cl",
-          "precio": 1660,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1390,
-      "mediana_competitiva": 1615,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-07"
   },
   "7891010255725": {
     "datos_mercado": null,
@@ -37005,34 +36953,8 @@
     "fecha": "2026-08-04"
   },
   "79251": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 43999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 44299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 40107,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Profar",
-          "precio": 46790,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 40107,
-      "mediana_competitiva": 44149,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-07"
   },
   "79320": {
     "datos_mercado": null,
