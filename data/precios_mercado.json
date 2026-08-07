@@ -58003,34 +58003,8 @@
     "fecha": "2026-08-05"
   },
   "WCL01554": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cosmetic.cl",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3212,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 2890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciasantagemita.cl",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2890,
-      "mediana_competitiva": 2990,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-07"
   },
   "WCL01591": {
     "datos_mercado": null,
