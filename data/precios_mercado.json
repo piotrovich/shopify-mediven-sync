@@ -41730,34 +41730,8 @@
     "fecha": "2026-08-04"
   },
   "AAMASDES": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Axam.cl",
-          "precio": 1460,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Outletdeaseo.Cl",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1460,
-      "mediana_competitiva": 2990,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
   },
   "AAMNEBUA": {
     "datos_mercado": null,
@@ -54640,7 +54614,7 @@
   },
   "RMONIV84": {
     "datos_mercado": null,
-    "fecha": "2026-07-20"
+    "fecha": "2026-08-08"
   },
   "RMWARCM5": {
     "datos_mercado": null,
@@ -59795,24 +59769,8 @@
     "fecha": "2026-07-09"
   },
   "AARECOES": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Clinicalpharma.cl",
-          "precio": 1990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 6645,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1990,
-      "mediana_competitiva": 4317,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
   },
   "AASOAS10": {
     "datos_mercado": null,
@@ -68048,5 +68006,37 @@
   "32122140": {
     "datos_mercado": null,
     "fecha": "2026-08-07"
+  },
+  "0900168": {
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
+  },
+  "0900213": {
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
+  },
+  "ACGDOAT2": {
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
+  },
+  "ACGQLCR1": {
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
+  },
+  "ACGQLCR2": {
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
+  },
+  "ACGQLCR5": {
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
+  },
+  "ACGQLCR6": {
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
+  },
+  "REU0001": {
+    "datos_mercado": null,
+    "fecha": "2026-08-08"
   }
 }
