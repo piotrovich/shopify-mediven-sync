@@ -16200,7 +16200,7 @@
   },
   "2350011": {
     "datos_mercado": null,
-    "fecha": "2026-08-01"
+    "fecha": "2026-08-09"
   },
   "2350022": {
     "datos_mercado": null,
@@ -16212,7 +16212,7 @@
   },
   "2350030": {
     "datos_mercado": null,
-    "fecha": "2026-07-11"
+    "fecha": "2026-08-09"
   },
   "2350050": {
     "datos_mercado": null,
@@ -16269,7 +16269,7 @@
   },
   "2350089": {
     "datos_mercado": null,
-    "fecha": "2026-07-13"
+    "fecha": "2026-08-09"
   },
   "2350094": {
     "datos_mercado": null,
@@ -16281,7 +16281,7 @@
   },
   "2350114": {
     "datos_mercado": null,
-    "fecha": "2026-07-27"
+    "fecha": "2026-08-09"
   },
   "2350115": {
     "datos_mercado": null,
@@ -30151,24 +30151,8 @@
     "fecha": "2026-08-03"
   },
   "557350": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 10999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 10944,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 10944,
-      "mediana_competitiva": 10971,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   },
   "557352": {
     "datos_mercado": null,
@@ -30229,24 +30213,8 @@
     "fecha": "2026-08-05"
   },
   "559693": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Infanti.cl",
-          "precio": 16990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 17499,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 16990,
-      "mediana_competitiva": 17244,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   },
   "56000001": {
     "datos_mercado": null,
@@ -54048,7 +54016,7 @@
   },
   "SCF075/01": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-09"
   },
   "SCF075/02": {
     "datos_mercado": null,
@@ -54113,39 +54081,8 @@
     "fecha": "2026-08-05"
   },
   "SCF091/09": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 11999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Infanti.cl",
-          "precio": 12990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 12895,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tiendaquerubin.cl",
-          "precio": 10990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 5999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5999,
-      "mediana_competitiva": 11999,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   },
   "SCF091/18": {
     "datos_mercado": null,
@@ -54222,24 +54159,8 @@
     "fecha": "2026-08-05"
   },
   "SCF603/25": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Tiendaquerubin.cl",
-          "precio": 10490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacias Ahumada",
-          "precio": 12899,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 10490,
-      "mediana_competitiva": 11694,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   },
   "SCF618/10": {
     "datos_mercado": null,
@@ -54323,24 +54244,8 @@
     "fecha": "2026-08-05"
   },
   "SCY903/11": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 19990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Infanti.cl",
-          "precio": 16990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 16990,
-      "mediana_competitiva": 18490,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-05"
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   },
   "SCY903/21": {
     "datos_mercado": null,
@@ -54351,49 +54256,12 @@
     "fecha": "2026-08-05"
   },
   "SCY906/02": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 12999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 16640,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 12999,
-      "mediana_competitiva": 14819,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   },
   "SCY961/02": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Infanti.cl",
-          "precio": 11990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Jumbo",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacias Ahumada",
-          "precio": 8719,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8719,
-      "mediana_competitiva": 9990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   },
   "SCY962/02": {
     "datos_mercado": null,
@@ -64471,7 +64339,7 @@
   },
   "295966": {
     "datos_mercado": null,
-    "fecha": "2026-07-16"
+    "fecha": "2026-08-09"
   },
   "298052": {
     "datos_mercado": null,
@@ -64515,44 +64383,8 @@
     "fecha": "2026-08-08"
   },
   "SCF051/17": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 15990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tiendaquerubin.cl",
-          "precio": 16990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 13990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Infanti.cl",
-          "precio": 16990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Babybanana.cl",
-          "precio": 16990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 16990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 13990,
-      "mediana_competitiva": 16990,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-07-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   },
   "SCF099/22": {
     "datos_mercado": null,
@@ -66271,5 +66103,13 @@
   "1550003": {
     "datos_mercado": null,
     "fecha": "2026-08-08"
+  },
+  "158006": {
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
+  },
+  "PV0180": {
+    "datos_mercado": null,
+    "fecha": "2026-08-09"
   }
 }
