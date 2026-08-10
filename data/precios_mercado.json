@@ -1050,7 +1050,7 @@
   },
   "01938": {
     "datos_mercado": null,
-    "fecha": "2026-08-02"
+    "fecha": "2026-08-10"
   },
   "01939": {
     "datos_mercado": null,
@@ -7048,52 +7048,11 @@
   },
   "1016539": {
     "datos_mercado": null,
-    "fecha": "2026-08-02"
+    "fecha": "2026-08-10"
   },
   "1016542": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 3487,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Market Care",
-          "precio": 20201,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Farmaciasmeddica.cl",
-          "precio": 2490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 4670,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Pigeon.cl",
-          "precio": 36080,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 6950,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 5485,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2490,
-      "mediana_competitiva": 4670,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "1016554": {
     "datos_mercado": null,
@@ -35436,7 +35395,7 @@
   },
   "79235": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-10"
   },
   "79239": {
     "datos_mercado": null,
@@ -35528,7 +35487,7 @@
   },
   "80257": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-10"
   },
   "80265102": {
     "datos_mercado": null,
@@ -36509,24 +36468,8 @@
     "fecha": "2026-08-04"
   },
   "81423": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Pigeon.cl",
-          "precio": 6390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 1990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1990,
-      "mediana_competitiva": 4190,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "81424": {
     "datos_mercado": null,
@@ -41057,44 +41000,8 @@
     "fecha": "2026-08-04"
   },
   "AC0110": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 4082,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 3360,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 3690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Vicamat.cl",
-          "precio": 3790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 2576,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2576,
-      "mediana_competitiva": 3740,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "AC0111": {
     "datos_mercado": null,
@@ -61758,7 +61665,7 @@
   },
   "BTA000014": {
     "datos_mercado": null,
-    "fecha": "2026-07-16"
+    "fecha": "2026-08-10"
   },
   "2040081": {
     "datos_mercado": {
@@ -63498,7 +63405,7 @@
   },
   "1016529": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-10"
   },
   "119003": {
     "datos_mercado": null,
