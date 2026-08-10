@@ -22349,39 +22349,8 @@
     "fecha": "2026-08-10"
   },
   "293390": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Batistechile.cl",
-          "precio": 14990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 14990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 12495,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Beautycool.cl",
-          "precio": 14990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 29990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 12495,
-      "mediana_competitiva": 14990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "293392": {
     "datos_mercado": null,
@@ -25241,7 +25210,7 @@
   },
   "399608": {
     "datos_mercado": null,
-    "fecha": "2026-07-27"
+    "fecha": "2026-08-10"
   },
   "399609": {
     "datos_mercado": null,
@@ -25261,7 +25230,7 @@
   },
   "3GROOMEN50024": {
     "datos_mercado": null,
-    "fecha": "2026-07-23"
+    "fecha": "2026-08-10"
   },
   "4000079": {
     "datos_mercado": null,
@@ -28478,7 +28447,7 @@
   },
   "5010724529836": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "501076012": {
     "datos_mercado": null,
@@ -47173,7 +47142,7 @@
   },
   "JJ504": {
     "datos_mercado": null,
-    "fecha": "2026-06-15"
+    "fecha": "2026-08-10"
   },
   "JJ505": {
     "datos_mercado": null,
@@ -64874,5 +64843,13 @@
   "PV0180": {
     "datos_mercado": null,
     "fecha": "2026-08-09"
+  },
+  "JJ501": {
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
+  },
+  "JJ503": {
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   }
 }
