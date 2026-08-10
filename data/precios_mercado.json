@@ -40719,7 +40719,7 @@
   },
   "AASOAL06": {
     "datos_mercado": null,
-    "fecha": "2026-06-28"
+    "fecha": "2026-08-10"
   },
   "AASOAL08": {
     "datos_mercado": null,
@@ -40779,7 +40779,7 @@
   },
   "AASOFS18": {
     "datos_mercado": null,
-    "fecha": "2026-07-13"
+    "fecha": "2026-08-10"
   },
   "AASOFS20": {
     "datos_mercado": null,
@@ -41212,39 +41212,8 @@
     "fecha": "2026-08-07"
   },
   "ACGNTN03": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 7277,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sodimac.cl",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Geerdink.cl",
-          "precio": 10990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3980,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 5900,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3980,
-      "mediana_competitiva": 7277,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "ACGNTN04": {
     "datos_mercado": {
@@ -41282,34 +41251,8 @@
     "fecha": "2026-05-27"
   },
   "ACGNTN05": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Sodimac.cl",
-          "precio": 6190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 7277,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Geerdink.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 5582,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3990,
-      "mediana_competitiva": 5886,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "ACGQLCR3": {
     "datos_mercado": null,
@@ -41354,48 +41297,16 @@
     "fecha": "2026-08-04"
   },
   "ACGUNAR2": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Axam.cl",
-          "precio": 7650,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed.Com",
-          "precio": 4790,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4790,
-      "mediana_competitiva": 6220,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "ACGUNAR3": {
     "datos_mercado": null,
     "fecha": "2026-08-04"
   },
   "ACGUNAR4": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Sodimac.cl",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Distribuidora Himax",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6990,
-      "mediana_competitiva": 7990,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "ACGUNIT1": {
     "datos_mercado": null,
@@ -57662,11 +57573,11 @@
   },
   "AA371500": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "AA372200": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "B2866219": {
     "datos_mercado": {
@@ -57695,7 +57606,7 @@
   },
   "B3518700": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "BOI000002": {
     "datos_mercado": null,
@@ -57703,15 +57614,15 @@
   },
   "EFEVVITC": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "G4563500": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "H5606301": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "K0917206": {
     "datos_mercado": null,
@@ -57727,7 +57638,7 @@
   },
   "K6296100": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "K6296300": {
     "datos_mercado": null,
@@ -57739,7 +57650,7 @@
   },
   "PT345331": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "PTAM00001": {
     "datos_mercado": null,
@@ -57755,11 +57666,11 @@
   },
   "PTUP00016": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "PTUP00017": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "7228459": {
     "datos_mercado": {
@@ -57891,7 +57802,7 @@
   },
   "MAV100930": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "T001491": {
     "datos_mercado": null,
@@ -57899,31 +57810,31 @@
   },
   "T012815": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "T014494": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "T016780": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "T040517": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "T040800": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "T041203": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "T041416": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-10"
   },
   "T016365": {
     "datos_mercado": null,
