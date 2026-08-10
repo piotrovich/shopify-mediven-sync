@@ -26054,24 +26054,8 @@
     "fecha": "2026-08-05"
   },
   "4110023": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Market Care",
-          "precio": 1979,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Enrolando.cl",
-          "precio": 1190,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1190,
-      "mediana_competitiva": 1584,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-04"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "4110024": {
     "datos_mercado": null,
@@ -26374,29 +26358,8 @@
     "fecha": "2026-07-27"
   },
   "4110091": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciamapuche.cl",
-          "precio": 5180,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "El Químico",
-          "precio": 890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sin-envase.cl",
-          "precio": 2100,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 890,
-      "mediana_competitiva": 1495,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "4110093": {
     "datos_mercado": null,
@@ -27774,34 +27737,8 @@
     "fecha": "2026-07-29"
   },
   "48851": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Livfarma.cl",
-          "precio": 4240,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Wua-wua.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Inmediato.cl",
-          "precio": 5500,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 6250,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4240,
-      "mediana_competitiva": 5245,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "4900049": {
     "datos_mercado": null,
@@ -40070,29 +40007,8 @@
     "fecha": "2026-08-05"
   },
   "AAAG1915": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3527,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 2590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Comercializadoramya.cl",
-          "precio": 2574,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2574,
-      "mediana_competitiva": 2590,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "AAAG2110": {
     "datos_mercado": null,
@@ -40103,29 +40019,8 @@
     "fecha": "2026-08-04"
   },
   "AAAG2310": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Delcantomedical.cl",
-          "precio": 15528,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Osm.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4990,
-      "mediana_competitiva": 4990,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-06"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "AAAG2558": {
     "datos_mercado": null,
@@ -40277,29 +40172,8 @@
     "fecha": "2026-08-04"
   },
   "AAGALE10": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 8000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 6318,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6318,
-      "mediana_competitiva": 8000,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-07-05"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "AAGAS100": {
     "datos_mercado": null,
@@ -55515,7 +55389,7 @@
   },
   "VAY8561": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-10"
   },
   "VAY8578": {
     "datos_mercado": null,
@@ -57862,24 +57736,8 @@
     "fecha": "2026-06-08"
   },
   "0900261": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 4955,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sodimac.cl",
-          "precio": 6190,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4955,
-      "mediana_competitiva": 5572,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
   },
   "10560": {
     "datos_mercado": null,
@@ -63453,7 +63311,7 @@
   },
   "CE2012": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-10"
   },
   "2683": {
     "datos_mercado": null,
@@ -64756,6 +64614,10 @@
     "fecha": "2026-08-10"
   },
   "JJ503": {
+    "datos_mercado": null,
+    "fecha": "2026-08-10"
+  },
+  "VAY3384": {
     "datos_mercado": null,
     "fecha": "2026-08-10"
   }
