@@ -30503,54 +30503,12 @@
     "fecha": "2026-08-10"
   },
   "6013": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Preunic",
-          "precio": 7999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 5679,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 4409,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4409,
-      "mediana_competitiva": 5679,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "6014": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Preunic",
-          "precio": 7999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 8685,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 4409,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4409,
-      "mediana_competitiva": 7999,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "6015": {
     "datos_mercado": null,
@@ -37366,34 +37324,8 @@
     "fecha": "2026-08-11"
   },
   "90307": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Preunic",
-          "precio": 2999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciasgeminis.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 2600,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Super.eltit.cl",
-          "precio": 6980,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2600,
-      "mediana_competitiva": 3494,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "90328": {
     "datos_mercado": null,
@@ -37421,7 +37353,7 @@
   },
   "90475": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-11"
   },
   "9051": {
     "datos_mercado": null,
@@ -39316,34 +39248,8 @@
     "fecha": "2026-08-11"
   },
   "9999933092064": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 6812,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 7290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Clubrepostero.cl",
-          "precio": 3890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacias Ahumada",
-          "precio": 5999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3890,
-      "mediana_competitiva": 6405,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "A2681707": {
     "datos_mercado": null,
@@ -39733,7 +39639,7 @@
   },
   "AAALGOPT": {
     "datos_mercado": null,
-    "fecha": "2026-08-04"
+    "fecha": "2026-08-11"
   },
   "AAAN2025": {
     "datos_mercado": null,
@@ -39957,24 +39863,8 @@
     "fecha": "2026-08-07"
   },
   "AAJECR22": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 12725,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Afchilespa.cl",
-          "precio": 10490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 10490,
-      "mediana_competitiva": 11607,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-05"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "AAJECR23": {
     "datos_mercado": null,
@@ -49317,39 +49207,8 @@
     "fecha": "2026-08-11"
   },
   "PT00570": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 3700,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 10519,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 8890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3960,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 996,
-          "estado": "🔴 Descartado (outlier IQR)"
-        }
-      ],
-      "minimo": 3700,
-      "mediana_competitiva": 6425,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "PT00572": {
     "datos_mercado": null,
@@ -52509,7 +52368,7 @@
   },
   "SA40321": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-11"
   },
   "SCD837/12": {
     "datos_mercado": {
@@ -61999,7 +61858,7 @@
   },
   "AACATE07": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-11"
   },
   "AACATE09": {
     "datos_mercado": null,
@@ -62075,7 +61934,7 @@
   },
   "342A": {
     "datos_mercado": null,
-    "fecha": "2026-08-04"
+    "fecha": "2026-08-11"
   },
   "8886467039997": {
     "datos_mercado": null,
@@ -62087,7 +61946,7 @@
   },
   "8909106075894": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-11"
   },
   "8909106075900": {
     "datos_mercado": null,
@@ -63394,6 +63253,14 @@
     "fecha": "2026-08-11"
   },
   "267103": {
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
+  },
+  "19951170834428": {
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
+  },
+  "90310": {
     "datos_mercado": null,
     "fecha": "2026-08-11"
   }
