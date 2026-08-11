@@ -14372,7 +14372,7 @@
   },
   "20165132830164": {
     "datos_mercado": null,
-    "fecha": "2026-07-27"
+    "fecha": "2026-08-11"
   },
   "20194001": {
     "datos_mercado": null,
@@ -21991,7 +21991,7 @@
   },
   "27867135558358": {
     "datos_mercado": null,
-    "fecha": "2026-07-27"
+    "fecha": "2026-08-11"
   },
   "278739": {
     "datos_mercado": null,
@@ -25207,39 +25207,8 @@
     "fecha": "2026-08-10"
   },
   "40016": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buhochile.com",
-          "precio": 10143,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 12825,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 13899,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6990,
-      "mediana_competitiva": 10143,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "40016508": {
     "datos_mercado": null,
@@ -40244,7 +40213,7 @@
   },
   "AASOAS08": {
     "datos_mercado": null,
-    "fecha": "2026-06-28"
+    "fecha": "2026-08-11"
   },
   "AASOAS14": {
     "datos_mercado": null,
@@ -40381,24 +40350,8 @@
     "fecha": "2026-08-09"
   },
   "AAVEGA04": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 8490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 9890,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8490,
-      "mediana_competitiva": 9190,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "AAVEGAY1": {
     "datos_mercado": null,
@@ -48231,7 +48184,7 @@
   },
   "MM2010": {
     "datos_mercado": null,
-    "fecha": "2026-08-04"
+    "fecha": "2026-08-11"
   },
   "MM5010": {
     "datos_mercado": null,
@@ -53420,24 +53373,8 @@
     "fecha": "2026-08-05"
   },
   "SUP0000148": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 3399,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Agronewen.cl",
-          "precio": 6500,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3399,
-      "mediana_competitiva": 4949,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "SUP0000149": {
     "datos_mercado": null,
@@ -57410,29 +57347,8 @@
     "fecha": "2026-08-05"
   },
   "BH037": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3902,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 7290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Profar",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3902,
-      "mediana_competitiva": 7290,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-07-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "CL000897": {
     "datos_mercado": {
@@ -57943,29 +57859,8 @@
     "fecha": "2026-08-10"
   },
   "551103": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 15490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 7100,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6990,
-      "mediana_competitiva": 7100,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-07-11"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "57119": {
     "datos_mercado": null,
@@ -58328,44 +58223,8 @@
     "fecha": "2026-08-06"
   },
   "40562104205412": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Biosphare.cl",
-          "precio": 5390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 4875,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 1847,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Easyfarma.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruzdevida.cl",
-          "precio": 2990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciamapuche.cl",
-          "precio": 7690,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        }
-      ],
-      "minimo": 1847,
-      "mediana_competitiva": 4875,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-16"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "4110032": {
     "datos_mercado": null,
@@ -58485,39 +58344,8 @@
     "fecha": "2026-08-07"
   },
   "35783162949585": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmex",
-          "precio": 2590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 2590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Nutrapunto.cl",
-          "precio": 5990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 6390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 6390,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2590,
-      "mediana_competitiva": 5990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-17"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "CUI0000019": {
     "datos_mercado": null,
@@ -63663,6 +63491,10 @@
     "fecha": "2026-08-11"
   },
   "7809605500181": {
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
+  },
+  "LPLANCETS100": {
     "datos_mercado": null,
     "fecha": "2026-08-11"
   }
