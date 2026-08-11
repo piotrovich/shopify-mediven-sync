@@ -14055,34 +14055,8 @@
     "fecha": "2026-08-05"
   },
   "1SUERPVOPOMX4": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 2562,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Elbrindis.cl",
-          "precio": 24245,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 9890,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 2188,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2188,
-      "mediana_competitiva": 2375,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "1TEATACL400C1": {
     "datos_mercado": null,
@@ -14121,34 +14095,8 @@
     "fecha": "2026-08-09"
   },
   "1TNCHSHHBL1C1": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4900,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 6955,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 10390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 11999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4900,
-      "mediana_competitiva": 8672,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "1TNCSHCASP415": {
     "datos_mercado": null,
@@ -17686,7 +17634,7 @@
   },
   "2539531": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-11"
   },
   "253954": {
     "datos_mercado": null,
@@ -37872,34 +37820,8 @@
     "fecha": "2026-08-11"
   },
   "952301": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Araucomed",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 31783,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 29000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 18590,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 18590,
-      "mediana_competitiva": 26995,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
   },
   "95310": {
     "datos_mercado": null,
@@ -63111,6 +63033,10 @@
     "fecha": "2026-08-11"
   },
   "90310": {
+    "datos_mercado": null,
+    "fecha": "2026-08-11"
+  },
+  "1679992": {
     "datos_mercado": null,
     "fecha": "2026-08-11"
   }
