@@ -25861,54 +25861,8 @@
     "fecha": "2026-05-30"
   },
   "411004028208": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Profar",
-          "precio": 3690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Kfarma.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 2875,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Allnutrition.cl",
-          "precio": 5190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 3790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 2708,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 3690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2708,
-      "mediana_competitiva": 3740,
-      "fuentes_validas": 8
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   },
   "4110046": {
     "datos_mercado": null,
@@ -25995,39 +25949,8 @@
     "fecha": "2026-08-10"
   },
   "4110080": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 4390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 4368,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 18490,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 4250,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 9899,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4250,
-      "mediana_competitiva": 4379,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   },
   "4110082": {
     "datos_mercado": null,
@@ -26043,7 +25966,7 @@
   },
   "411009032827": {
     "datos_mercado": null,
-    "fecha": "2026-07-27"
+    "fecha": "2026-08-12"
   },
   "4110091": {
     "datos_mercado": null,
@@ -32056,59 +31979,12 @@
     "fecha": "2026-07-27"
   },
   "68040": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 44042,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 23352,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 23352,
-      "mediana_competitiva": 33697,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-06"
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   },
   "68041": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 49940,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 49084,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 41690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 36009,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 50099,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 36009,
-      "mediana_competitiva": 49084,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   },
   "68044": {
     "datos_mercado": null,
@@ -32656,54 +32532,8 @@
     "fecha": "2026-08-07"
   },
   "7220001": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 1890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 2400,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 7990,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Tottus.cl",
-          "precio": 1150,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Jumbo",
-          "precio": 3640,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 4790,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 3850,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Supertrebol.cl",
-          "precio": 4990,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        }
-      ],
-      "minimo": 1150,
-      "mediana_competitiva": 1890,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   },
   "7228457": {
     "datos_mercado": null,
@@ -42405,7 +42235,7 @@
   },
   "CI190075": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-12"
   },
   "CI190076": {
     "datos_mercado": null,
@@ -44739,29 +44569,8 @@
     "fecha": "2026-08-11"
   },
   "H5700400": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 6199,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 9261,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 6199,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6199,
-      "mediana_competitiva": 6199,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   },
   "H5700500": {
     "datos_mercado": null,
@@ -50762,7 +50571,7 @@
   },
   "PTF0091PT": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-12"
   },
   "PTF0227PT": {
     "datos_mercado": null,
@@ -62998,6 +62807,10 @@
     "fecha": "2026-08-12"
   },
   "PV17459": {
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
+  },
+  "44180": {
     "datos_mercado": null,
     "fecha": "2026-08-12"
   }
