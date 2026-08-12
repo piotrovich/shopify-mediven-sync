@@ -15946,24 +15946,8 @@
     "fecha": "2026-08-10"
   },
   "2337": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Araucomed",
-          "precio": 11990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 24099,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 11990,
-      "mediana_competitiva": 18044,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   },
   "2350011": {
     "datos_mercado": null,
@@ -51398,7 +51382,7 @@
   },
   "PV15841": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-12"
   },
   "PV15938": {
     "datos_mercado": {
@@ -51486,39 +51470,8 @@
     "fecha": "2026-05-27"
   },
   "PV16244": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 18450,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 13290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 17690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmam.cl",
-          "precio": 25390,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 24299,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 13290,
-      "mediana_competitiva": 18450,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   },
   "PV16257": {
     "datos_mercado": null,
@@ -61866,7 +61819,7 @@
   },
   "7800086777611": {
     "datos_mercado": null,
-    "fecha": "2026-07-24"
+    "fecha": "2026-08-12"
   },
   "7800086810707": {
     "datos_mercado": null,
@@ -61894,7 +61847,7 @@
   },
   "7800086806304": {
     "datos_mercado": null,
-    "fecha": "2026-07-18"
+    "fecha": "2026-08-12"
   },
   "300329": {
     "datos_mercado": null,
@@ -63039,5 +62992,13 @@
   "1679992": {
     "datos_mercado": null,
     "fecha": "2026-08-11"
+  },
+  "PV15546": {
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
+  },
+  "PV17459": {
+    "datos_mercado": null,
+    "fecha": "2026-08-12"
   }
 }
