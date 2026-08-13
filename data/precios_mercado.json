@@ -6093,7 +6093,7 @@
   },
   "1006": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-13"
   },
   "1006001": {
     "datos_mercado": null,
@@ -20993,44 +20993,8 @@
     "fecha": "2026-08-10"
   },
   "268092": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Fracción",
-          "precio": 12090,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 11899,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 9110,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 9110,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 9064,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tienda.market-care.com",
-          "precio": 11979,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 9064,
-      "mediana_competitiva": 10504,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
   },
   "268100": {
     "datos_mercado": null,
@@ -56402,7 +56366,7 @@
   },
   "250039": {
     "datos_mercado": null,
-    "fecha": "2026-07-23"
+    "fecha": "2026-08-13"
   },
   "257780": {
     "datos_mercado": null,
@@ -59042,59 +59006,12 @@
     "fecha": "2026-08-07"
   },
   "24081028": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Afchilespa.cl",
-          "precio": 8240,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "El Químico",
-          "precio": 8890,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8240,
-      "mediana_competitiva": 8565,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-01"
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
   },
   "24083225": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Lider",
-          "precio": 11230,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ortocare.cl",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Afchilespa.cl",
-          "precio": 7590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Geerdink.cl",
-          "precio": 44940,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        }
-      ],
-      "minimo": 7590,
-      "mediana_competitiva": 8490,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-07-01"
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
   },
   "264233": {
     "datos_mercado": null,
@@ -62788,6 +62705,14 @@
     "fecha": "2026-08-13"
   },
   "8342032738": {
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
+  },
+  "1201081152": {
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
+  },
+  "4060009": {
     "datos_mercado": null,
     "fecha": "2026-08-13"
   }
