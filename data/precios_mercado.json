@@ -1249,39 +1249,8 @@
     "fecha": "2026-08-02"
   },
   "0260284": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 23640,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmex",
-          "precio": 13490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 13490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 13423,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 14980,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 13423,
-      "mediana_competitiva": 13490,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
   },
   "0260285": {
     "datos_mercado": null,
@@ -53420,7 +53389,7 @@
   },
   "T041192": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-13"
   },
   "T041238": {
     "datos_mercado": null,
@@ -62813,5 +62782,13 @@
   "44180": {
     "datos_mercado": null,
     "fecha": "2026-08-12"
+  },
+  "6700270": {
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
+  },
+  "8342032738": {
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
   }
 }
