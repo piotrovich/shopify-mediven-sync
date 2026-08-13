@@ -12589,44 +12589,8 @@
     "fecha": "2026-08-09"
   },
   "17220143043610": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 7490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmex",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 5980,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 10490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 10490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 23880,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        }
-      ],
-      "minimo": 4990,
-      "mediana_competitiva": 7490,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
   },
   "17221143142524": {
     "datos_mercado": {
@@ -27278,7 +27242,7 @@
   },
   "4850": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-13"
   },
   "48851": {
     "datos_mercado": null,
@@ -34409,34 +34373,8 @@
     "fecha": "2026-08-11"
   },
   "7804656850193": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 4290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 3080,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3970,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Biofar.cl",
-          "precio": 5700,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3080,
-      "mediana_competitiva": 4130,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-13"
   },
   "7804656850216": {
     "datos_mercado": null,
@@ -38552,7 +38490,7 @@
   },
   "99559": {
     "datos_mercado": null,
-    "fecha": "2026-07-20"
+    "fecha": "2026-08-13"
   },
   "99560": {
     "datos_mercado": {
@@ -38666,7 +38604,7 @@
   },
   "99695": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-13"
   },
   "99696": {
     "datos_mercado": null,
@@ -61443,7 +61381,7 @@
   },
   "RK58": {
     "datos_mercado": null,
-    "fecha": "2026-07-17"
+    "fecha": "2026-08-13"
   },
   "T016675": {
     "datos_mercado": null,
