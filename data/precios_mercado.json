@@ -26203,44 +26203,8 @@
     "fecha": "2026-08-10"
   },
   "4222216": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmalisto",
-          "precio": 10980,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 13309,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 33955,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 10990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 18990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8990,
-      "mediana_competitiva": 10990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
   },
   "4222218": {
     "datos_mercado": null,
@@ -26381,7 +26345,7 @@
   },
   "427923": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-14"
   },
   "4282": {
     "datos_mercado": {
