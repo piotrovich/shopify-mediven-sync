@@ -21442,7 +21442,7 @@
   },
   "271177": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-14"
   },
   "271202": {
     "datos_mercado": null,
@@ -37753,39 +37753,8 @@
     "fecha": "2026-08-11"
   },
   "97063": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Petrizzio.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 5199,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Maicao",
-          "precio": 5599,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 5499,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4990,
-      "mediana_competitiva": 5199,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
   },
   "97064": {
     "datos_mercado": null,
@@ -40661,7 +40630,7 @@
   },
   "BCP120": {
     "datos_mercado": null,
-    "fecha": "2026-08-04"
+    "fecha": "2026-08-14"
   },
   "BD300": {
     "datos_mercado": null,
@@ -56687,39 +56656,8 @@
     "fecha": "2026-08-10"
   },
   "80794902": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Liquimax.cl",
-          "precio": 16490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Distribuidorapepito.cl",
-          "precio": 17990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Liquihome.cl",
-          "precio": 16990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 21999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Unimarc.cl",
-          "precio": 33950,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 16490,
-      "mediana_competitiva": 17990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-11"
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
   },
   "CPPBPAM290": {
     "datos_mercado": null,
@@ -62616,6 +62554,30 @@
     "fecha": "2026-08-13"
   },
   "251010": {
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
+  },
+  "1323C319": {
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
+  },
+  "1323C320": {
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
+  },
+  "1750041": {
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
+  },
+  "262447": {
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
+  },
+  "262889": {
+    "datos_mercado": null,
+    "fecha": "2026-08-14"
+  },
+  "262890": {
     "datos_mercado": null,
     "fecha": "2026-08-14"
   }
