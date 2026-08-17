@@ -50757,34 +50757,8 @@
     "fecha": "2026-08-12"
   },
   "PV17845": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 9880,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 21240,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 8432,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 20990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8432,
-      "mediana_competitiva": 15435,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
   },
   "PV17913": {
     "datos_mercado": null,
@@ -62359,6 +62333,94 @@
     "fecha": "2026-08-17"
   },
   "CPJABAL602": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "136000359": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16002567": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16002845": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16002894": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003136": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003138": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003386": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003426": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003430": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003431": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003432": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003434": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "16003436": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "256851": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "7804920003225": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "ACL008": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "ACL015": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "CPACDAZ000": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "CPACDAZ001": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "CPCCDAZ100": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "CPSHBAL559": {
+    "datos_mercado": null,
+    "fecha": "2026-08-17"
+  },
+  "CPSHDAZ000": {
     "datos_mercado": null,
     "fecha": "2026-08-17"
   }
