@@ -9203,44 +9203,8 @@
     "fecha": "2026-08-16"
   },
   "1201080708": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 3199,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Novasalud.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 2800,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 3990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 2975,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "El Químico",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2800,
-      "mediana_competitiva": 3344,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-30"
+    "datos_mercado": null,
+    "fecha": "2026-08-21"
   },
   "1201080720": {
     "datos_mercado": null,
@@ -11558,7 +11522,7 @@
   },
   "15349": {
     "datos_mercado": null,
-    "fecha": "2026-07-26"
+    "fecha": "2026-08-21"
   },
   "15366154531886": {
     "datos_mercado": null,
@@ -23474,29 +23438,8 @@
     "fecha": "2026-08-17"
   },
   "3500124": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Fracción",
-          "precio": 12990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 15199,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmacias Ahumada",
-          "precio": 12463,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 12463,
-      "mediana_competitiva": 12990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-21"
   },
   "3500128": {
     "datos_mercado": null,
@@ -25021,7 +24964,7 @@
   },
   "41099172202942": {
     "datos_mercado": null,
-    "fecha": "2026-08-05"
+    "fecha": "2026-08-21"
   },
   "4110000": {
     "datos_mercado": null,
@@ -41200,7 +41143,7 @@
   },
   "CHUPETESTWISTSHAKEMARMOL06M2UNSROSADOMORADO": {
     "datos_mercado": null,
-    "fecha": "2026-07-28"
+    "fecha": "2026-08-21"
   },
   "CI190039": {
     "datos_mercado": null,
@@ -46569,7 +46512,7 @@
   },
   "MT115": {
     "datos_mercado": null,
-    "fecha": "2026-08-04"
+    "fecha": "2026-08-21"
   },
   "MT119": {
     "datos_mercado": null,
@@ -47193,34 +47136,8 @@
     "fecha": "2026-08-11"
   },
   "PE101": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 11069,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Be-happy.cl",
-          "precio": 8990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Motherna.cl",
-          "precio": 13190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 12000,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 8990,
-      "mediana_competitiva": 11534,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-21"
   },
   "PHTARLF013": {
     "datos_mercado": null,
@@ -55127,29 +55044,8 @@
     "fecha": "2026-08-15"
   },
   "4110058": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "El Químico",
-          "precio": 890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Easyfarma.cl",
-          "precio": 1790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciamapuche.cl",
-          "precio": 800,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 800,
-      "mediana_competitiva": 890,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-21"
   },
   "4110092": {
     "datos_mercado": null,
@@ -56124,7 +56020,7 @@
   },
   "4110059": {
     "datos_mercado": null,
-    "fecha": "2026-08-14"
+    "fecha": "2026-08-21"
   },
   "690015055512": {
     "datos_mercado": null,
@@ -60240,7 +60136,7 @@
   },
   "73125": {
     "datos_mercado": null,
-    "fecha": "2026-08-05"
+    "fecha": "2026-08-21"
   },
   "15600110060": {
     "datos_mercado": null,
