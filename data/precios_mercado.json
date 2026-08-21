@@ -53750,39 +53750,8 @@
     "fecha": "2026-08-21"
   },
   "PV15647": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Buho Chile",
-          "precio": 2352,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 1290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 891,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmam.cl",
-          "precio": 1640,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaroraima.cl",
-          "precio": 1200,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 891,
-      "mediana_competitiva": 1290,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-07-07"
+    "datos_mercado": null,
+    "fecha": "2026-08-21"
   },
   "SCD657/11": {
     "datos_mercado": null,
