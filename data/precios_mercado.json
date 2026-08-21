@@ -15657,29 +15657,8 @@
     "fecha": "2026-08-17"
   },
   "235030": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 26004,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 3320,
-          "estado": "🔴 Descartado (outlier IQR)"
-        },
-        {
-          "farmacia": "Ligafarmacia.cl",
-          "precio": 27180,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 26004,
-      "mediana_competitiva": 26592,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-21"
   },
   "2350328": {
     "datos_mercado": null,
@@ -42433,29 +42412,8 @@
     "fecha": "2026-08-18"
   },
   "EXEPV231078": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 69599,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ligafarmacia.cl",
-          "precio": 50670,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 50670,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 50670,
-      "mediana_competitiva": 50670,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-21"
   },
   "EXTCHETS": {
     "datos_mercado": null,
