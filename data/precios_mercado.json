@@ -39224,29 +39224,8 @@
     "fecha": "2026-08-18"
   },
   "B1001G": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Caterina.cl",
-          "precio": 13000,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ortopediasanantonio.cl",
-          "precio": 10990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 11900,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 10990,
-      "mediana_competitiva": 11900,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-28"
+    "datos_mercado": null,
+    "fecha": "2026-08-24"
   },
   "B1001M": {
     "datos_mercado": null,
