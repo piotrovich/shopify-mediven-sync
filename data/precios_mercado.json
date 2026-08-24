@@ -1601,29 +1601,8 @@
     "fecha": "2026-08-23"
   },
   "0380332": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 35990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 37909,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 32190,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 32190,
-      "mediana_competitiva": 35990,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-24"
   },
   "0380336": {
     "datos_mercado": null,
