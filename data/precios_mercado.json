@@ -4147,54 +4147,8 @@
     "fecha": "2026-08-23"
   },
   "0910439": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Fracción",
-          "precio": 6490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 9724,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 3790,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 9165,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 10020,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Market Care",
-          "precio": 3591,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 10020,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 9374,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3591,
-      "mediana_competitiva": 9269,
-      "fuentes_validas": 8
-    },
-    "fecha": "2026-07-08"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "0910444": {
     "datos_mercado": null,
@@ -4202,7 +4156,7 @@
   },
   "0910457": {
     "datos_mercado": null,
-    "fecha": "2026-08-17"
+    "fecha": "2026-08-25"
   },
   "0910463": {
     "datos_mercado": null,
@@ -4222,7 +4176,7 @@
   },
   "0910623": {
     "datos_mercado": null,
-    "fecha": "2026-07-26"
+    "fecha": "2026-08-25"
   },
   "0910661": {
     "datos_mercado": null,
@@ -4258,7 +4212,7 @@
   },
   "0910746": {
     "datos_mercado": null,
-    "fecha": "2026-08-16"
+    "fecha": "2026-08-25"
   },
   "0910770": {
     "datos_mercado": null,
@@ -4274,7 +4228,7 @@
   },
   "0910807": {
     "datos_mercado": null,
-    "fecha": "2026-08-09"
+    "fecha": "2026-08-25"
   },
   "0910811": {
     "datos_mercado": null,
@@ -21127,34 +21081,8 @@
     "fecha": "2026-08-24"
   },
   "287327": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Clinicalpharma.cl",
-          "precio": 3500,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 3672,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 7470,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Perfumerialamundia.Cl",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3290,
-      "mediana_competitiva": 3586,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "287484": {
     "datos_mercado": null,
@@ -22374,34 +22302,8 @@
     "fecha": "2026-08-22"
   },
   "3200026": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Clinicalpharma.cl",
-          "precio": 990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 1290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 850,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmatica.cl",
-          "precio": 1000,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 850,
-      "mediana_competitiva": 995,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "32030075": {
     "datos_mercado": null,
@@ -29682,39 +29584,8 @@
     "fecha": "2026-08-24"
   },
   "620082": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Etienne.cl",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 1745,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 1970,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 3499,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1745,
-      "mediana_competitiva": 3490,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "620100": {
     "datos_mercado": null,
@@ -29778,7 +29649,7 @@
   },
   "620590": {
     "datos_mercado": null,
-    "fecha": "2026-08-14"
+    "fecha": "2026-08-25"
   },
   "620624": {
     "datos_mercado": null,
@@ -29964,7 +29835,7 @@
   },
   "621357": {
     "datos_mercado": null,
-    "fecha": "2026-08-07"
+    "fecha": "2026-08-25"
   },
   "621368": {
     "datos_mercado": null,
@@ -29987,44 +29858,8 @@
     "fecha": "2026-08-24"
   },
   "621398": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cosmeticadavis.cl",
-          "precio": 9990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 9999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Lider",
-          "precio": 10990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tottus.cl",
-          "precio": 5090,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmam.cl",
-          "precio": 7990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 5390,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5090,
-      "mediana_competitiva": 8990,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "62140": {
     "datos_mercado": null,
@@ -30036,7 +29871,7 @@
   },
   "621427": {
     "datos_mercado": null,
-    "fecha": "2026-08-14"
+    "fecha": "2026-08-25"
   },
   "621431": {
     "datos_mercado": null,
@@ -30079,24 +29914,8 @@
     "fecha": "2026-08-24"
   },
   "621497": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 10990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Maicao",
-          "precio": 10999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 10990,
-      "mediana_competitiva": 10994,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "621522": {
     "datos_mercado": null,
@@ -30120,7 +29939,7 @@
   },
   "621534": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-25"
   },
   "621538": {
     "datos_mercado": null,
@@ -30128,7 +29947,7 @@
   },
   "621562": {
     "datos_mercado": null,
-    "fecha": "2026-08-17"
+    "fecha": "2026-08-25"
   },
   "621564": {
     "datos_mercado": null,
@@ -30171,39 +29990,8 @@
     "fecha": "2026-08-24"
   },
   "621670": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 6190,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 7290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cosmeticadavis.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 6999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 10975,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 6190,
-      "mediana_competitiva": 6999,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "621674": {
     "datos_mercado": null,
@@ -30261,7 +30049,7 @@
   },
   "621699": {
     "datos_mercado": null,
-    "fecha": "2026-08-10"
+    "fecha": "2026-08-25"
   },
   "621705": {
     "datos_mercado": null,
@@ -30296,34 +30084,8 @@
     "fecha": "2026-08-24"
   },
   "621781": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cosmeticadavis.cl",
-          "precio": 15990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Preunic",
-          "precio": 15999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 15990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Knasta.cl",
-          "precio": 15990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 15990,
-      "mediana_competitiva": 15990,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "621784": {
     "datos_mercado": null,
@@ -30383,7 +30145,7 @@
   },
   "621829": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-25"
   },
   "621832": {
     "datos_mercado": null,
@@ -30442,39 +30204,8 @@
     "fecha": "2026-08-22"
   },
   "621882": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Etienne.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 4999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cosmeticadavis.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 4999,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4990,
-      "mediana_competitiva": 4990,
-      "fuentes_validas": 5
-    },
-    "fecha": "2026-07-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "621883": {
     "datos_mercado": null,
@@ -30482,7 +30213,7 @@
   },
   "621884": {
     "datos_mercado": null,
-    "fecha": "2026-08-15"
+    "fecha": "2026-08-25"
   },
   "6234": {
     "datos_mercado": null,
@@ -32549,7 +32280,7 @@
   },
   "7800045001658": {
     "datos_mercado": null,
-    "fecha": "2026-08-04"
+    "fecha": "2026-08-25"
   },
   "7800045001788": {
     "datos_mercado": null,
@@ -51531,7 +51262,7 @@
   },
   "TEOVUCN01": {
     "datos_mercado": null,
-    "fecha": "2026-07-29"
+    "fecha": "2026-08-25"
   },
   "TERCOM001": {
     "datos_mercado": null,
@@ -55159,7 +54890,7 @@
   },
   "799192073311": {
     "datos_mercado": null,
-    "fecha": "2026-07-17"
+    "fecha": "2026-08-25"
   },
   "TEXFRA025": {
     "datos_mercado": null,
@@ -55729,7 +55460,7 @@
   },
   "809001": {
     "datos_mercado": null,
-    "fecha": "2026-08-12"
+    "fecha": "2026-08-25"
   },
   "809002": {
     "datos_mercado": null,
@@ -57520,49 +57251,8 @@
     "fecha": "2026-08-20"
   },
   "38000630": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cosmeticadavis.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 4999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tottus.cl",
-          "precio": 5450,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Clinicalpharma.cl",
-          "precio": 4990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Redfarma",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertasshark.cl",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 3490,
-      "mediana_competitiva": 4990,
-      "fuentes_validas": 7
-    },
-    "fecha": "2026-07-07"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "621547": {
     "datos_mercado": null,
@@ -57618,7 +57308,7 @@
   },
   "621685": {
     "datos_mercado": null,
-    "fecha": "2026-08-07"
+    "fecha": "2026-08-25"
   },
   "88470": {
     "datos_mercado": null,
@@ -57818,7 +57508,7 @@
   },
   "620410": {
     "datos_mercado": null,
-    "fecha": "2026-08-07"
+    "fecha": "2026-08-25"
   },
   "621292": {
     "datos_mercado": null,
@@ -57838,7 +57528,7 @@
   },
   "621428": {
     "datos_mercado": null,
-    "fecha": "2026-08-07"
+    "fecha": "2026-08-25"
   },
   "621429": {
     "datos_mercado": null,
@@ -57849,39 +57539,8 @@
     "fecha": "2026-08-21"
   },
   "621441": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Etienne.cl",
-          "precio": 6990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 26663,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 7490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ofertitas.cl",
-          "precio": 7490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 5249,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 5249,
-      "mediana_competitiva": 7240,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-07-08"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "621476": {
     "datos_mercado": null,
@@ -57929,7 +57588,7 @@
   },
   "621852": {
     "datos_mercado": null,
-    "fecha": "2026-08-07"
+    "fecha": "2026-08-25"
   },
   "621856": {
     "datos_mercado": null,
@@ -60959,6 +60618,90 @@
     "fecha": "2026-08-25"
   },
   "435689": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "0910830": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "38000631": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "4000021": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621464": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621466": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621656": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621824": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621840": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621886": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621888": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621909": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621910": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621976": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621980": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621981": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "621982": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "622067": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "622109": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "805163": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "805308": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "TVFELFIVKR06": {
     "datos_mercado": null,
     "fecha": "2026-08-25"
   }
