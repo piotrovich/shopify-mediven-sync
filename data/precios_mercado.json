@@ -14157,7 +14157,7 @@
   },
   "2040088": {
     "datos_mercado": null,
-    "fecha": "2026-08-10"
+    "fecha": "2026-08-25"
   },
   "2040090": {
     "datos_mercado": null,
@@ -14177,7 +14177,7 @@
   },
   "2040094": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-25"
   },
   "2040096": {
     "datos_mercado": null,
@@ -14386,44 +14386,8 @@
     "fecha": "2026-08-24"
   },
   "21068": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Ahumada",
-          "precio": 92397,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 23690,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 43248,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 77633,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Fracción",
-          "precio": 21290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Sociofarma.cl",
-          "precio": 30174,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 21290,
-      "mediana_competitiva": 36711,
-      "fuentes_validas": 6
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "2110000": {
     "datos_mercado": null,
@@ -18384,29 +18348,8 @@
     "fecha": "2026-08-24"
   },
   "259881": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 26299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Araucomed",
-          "precio": 17990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 51483,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 17990,
-      "mediana_competitiva": 26299,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
   },
   "259894": {
     "datos_mercado": null,
@@ -18824,7 +18767,7 @@
   },
   "261453": {
     "datos_mercado": null,
-    "fecha": "2026-08-03"
+    "fecha": "2026-08-25"
   },
   "261454": {
     "datos_mercado": null,
@@ -20180,7 +20123,7 @@
   },
   "266925": {
     "datos_mercado": null,
-    "fecha": "2026-08-05"
+    "fecha": "2026-08-25"
   },
   "266951": {
     "datos_mercado": null,
@@ -61004,6 +60947,14 @@
     "fecha": "2026-08-24"
   },
   "PT00430": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "CADE110102": {
+    "datos_mercado": null,
+    "fecha": "2026-08-25"
+  },
+  "CARE120059": {
     "datos_mercado": null,
     "fecha": "2026-08-25"
   }
