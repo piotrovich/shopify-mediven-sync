@@ -8512,7 +8512,7 @@
   },
   "111125": {
     "datos_mercado": null,
-    "fecha": "2026-07-26"
+    "fecha": "2026-08-26"
   },
   "111128": {
     "datos_mercado": null,
@@ -11561,7 +11561,7 @@
   },
   "158022": {
     "datos_mercado": null,
-    "fecha": "2026-07-17"
+    "fecha": "2026-08-26"
   },
   "158023": {
     "datos_mercado": null,
@@ -11596,29 +11596,8 @@
     "fecha": "2026-08-25"
   },
   "158048": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Knop",
-          "precio": 4170,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "MercadoFarma",
-          "precio": 3290,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "EcoFarmacias",
-          "precio": 14990,
-          "estado": "🔴 Descartado (outlier IQR)"
-        }
-      ],
-      "minimo": 3290,
-      "mediana_competitiva": 3730,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
   },
   "158659": {
     "datos_mercado": null,
@@ -22444,7 +22423,7 @@
   },
   "3240144": {
     "datos_mercado": null,
-    "fecha": "2026-08-04"
+    "fecha": "2026-08-26"
   },
   "3240173": {
     "datos_mercado": null,
@@ -22771,7 +22750,7 @@
   },
   "33881125034176": {
     "datos_mercado": null,
-    "fecha": "2026-08-17"
+    "fecha": "2026-08-26"
   },
   "33882125410349": {
     "datos_mercado": null,
@@ -50574,7 +50553,7 @@
   },
   "T003190": {
     "datos_mercado": null,
-    "fecha": "2026-08-05"
+    "fecha": "2026-08-26"
   },
   "T003212": {
     "datos_mercado": null,
@@ -51156,7 +51135,7 @@
   },
   "T041192": {
     "datos_mercado": null,
-    "fecha": "2026-08-13"
+    "fecha": "2026-08-26"
   },
   "T041238": {
     "datos_mercado": null,
@@ -52220,7 +52199,7 @@
   },
   "XCL01553": {
     "datos_mercado": null,
-    "fecha": "2026-08-12"
+    "fecha": "2026-08-26"
   },
   "XCL01558": {
     "datos_mercado": null,
@@ -55808,62 +55787,15 @@
   },
   "297193": {
     "datos_mercado": null,
-    "fecha": "2026-08-05"
+    "fecha": "2026-08-26"
   },
   "457456": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Ahumada",
-          "precio": 7799,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciaspehuen.cl",
-          "precio": 12990,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Salcobrand",
-          "precio": 8999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmaciameki.cl",
-          "precio": 7128,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 7128,
-      "mediana_competitiva": 8399,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
   },
   "557626": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 8999,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ivmedical.cl",
-          "precio": 5663,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 4546,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 4546,
-      "mediana_competitiva": 5663,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
   },
   "58018": {
     "datos_mercado": null,
@@ -60671,6 +60603,34 @@
     "fecha": "2026-08-26"
   },
   "622026": {
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
+  },
+  "158069": {
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
+  },
+  "160069": {
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
+  },
+  "536898": {
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
+  },
+  "SPT4189": {
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
+  },
+  "SPT5118": {
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
+  },
+  "SPT5124": {
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
+  },
+  "XCL01570": {
     "datos_mercado": null,
     "fecha": "2026-08-26"
   }
