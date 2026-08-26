@@ -8479,34 +8479,8 @@
     "fecha": "2026-08-26"
   },
   "111093": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Redfarma",
-          "precio": 3490,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ahumada",
-          "precio": 4389,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 3470,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Farmalisto",
-          "precio": 2490,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 2490,
-      "mediana_competitiva": 3480,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-26"
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
   },
   "111094": {
     "datos_mercado": null,
@@ -54246,29 +54220,8 @@
     "fecha": "2026-08-22"
   },
   "RK52": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 17299,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 24515,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Ivmedical.cl",
-          "precio": 24990,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 17299,
-      "mediana_competitiva": 24515,
-      "fuentes_validas": 3
-    },
-    "fecha": "2026-06-09"
+    "datos_mercado": null,
+    "fecha": "2026-08-26"
   },
   "3200024": {
     "datos_mercado": null,
