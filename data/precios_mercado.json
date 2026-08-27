@@ -44081,34 +44081,8 @@
     "fecha": "2026-08-25"
   },
   "K5564500": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Cruz Verde",
-          "precio": 9890,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Todofarma.cl",
-          "precio": 13525,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buscafarma.cl",
-          "precio": 9699,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Cruz Verde Chile",
-          "precio": 9890,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 9699,
-      "mediana_competitiva": 9890,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-05-27"
+    "datos_mercado": null,
+    "fecha": "2026-08-27"
   },
   "K5564600": {
     "datos_mercado": null,
