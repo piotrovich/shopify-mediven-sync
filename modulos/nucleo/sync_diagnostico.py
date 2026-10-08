@@ -275,6 +275,7 @@ def get_mediven_inventory():
         "fentermina",
         "alprazolam",
         "lorazepam",
+        "diazepam",
         "abolengo",
         "aromatizante",
         "detergente",
