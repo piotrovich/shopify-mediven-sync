@@ -5199,39 +5199,8 @@
     "fecha": "2026-10-05"
   },
   "10030110": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Tiendaprosec.cl",
-          "precio": 1444,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Outletdeaseo.cl",
-          "precio": 1590,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Tottus.cl",
-          "precio": 8844,
-          "estado": "🔴 Descartado (otra presentación/pack)"
-        },
-        {
-          "farmacia": "Vapohouse.cl",
-          "precio": 3720,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Trimaico.cl",
-          "precio": 1250,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 1250,
-      "mediana_competitiva": 1517,
-      "fuentes_validas": 4
-    },
-    "fecha": "2026-06-29"
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
   },
   "10030448": {
     "datos_mercado": null,
@@ -8152,19 +8121,19 @@
   },
   "11201040": {
     "datos_mercado": null,
-    "fecha": "2026-09-20"
+    "fecha": "2026-10-09"
   },
   "11201041": {
     "datos_mercado": null,
-    "fecha": "2026-08-30"
+    "fecha": "2026-10-09"
   },
   "11201047": {
     "datos_mercado": null,
-    "fecha": "2026-09-15"
+    "fecha": "2026-10-09"
   },
   "11201048": {
     "datos_mercado": null,
-    "fecha": "2026-08-09"
+    "fecha": "2026-10-09"
   },
   "11201055": {
     "datos_mercado": null,
@@ -8172,7 +8141,7 @@
   },
   "11201066": {
     "datos_mercado": null,
-    "fecha": "2026-09-09"
+    "fecha": "2026-10-09"
   },
   "1120173": {
     "datos_mercado": null,
@@ -9740,7 +9709,7 @@
   },
   "13201005": {
     "datos_mercado": null,
-    "fecha": "2026-09-20"
+    "fecha": "2026-10-09"
   },
   "13201008": {
     "datos_mercado": null,
@@ -9748,7 +9717,7 @@
   },
   "13201009": {
     "datos_mercado": null,
-    "fecha": "2026-09-20"
+    "fecha": "2026-10-09"
   },
   "13201012": {
     "datos_mercado": null,
@@ -9760,11 +9729,11 @@
   },
   "13201014": {
     "datos_mercado": null,
-    "fecha": "2026-09-29"
+    "fecha": "2026-10-09"
   },
   "13201018": {
     "datos_mercado": null,
-    "fecha": "2026-09-13"
+    "fecha": "2026-10-09"
   },
   "13201029": {
     "datos_mercado": null,
@@ -9780,7 +9749,7 @@
   },
   "1320229": {
     "datos_mercado": null,
-    "fecha": "2026-08-30"
+    "fecha": "2026-10-09"
   },
   "1320231": {
     "datos_mercado": null,
@@ -17762,7 +17731,7 @@
   },
   "262659": {
     "datos_mercado": null,
-    "fecha": "2026-09-30"
+    "fecha": "2026-10-09"
   },
   "262677": {
     "datos_mercado": null,
@@ -20997,15 +20966,15 @@
   },
   "32092272": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32100783": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32100786": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32102976": {
     "datos_mercado": {
@@ -21034,7 +21003,7 @@
   },
   "32112098": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32112099": {
     "datos_mercado": null,
@@ -21042,39 +21011,39 @@
   },
   "321203484": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "321210484": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "321211484": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3216465131": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3230015": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3230016": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3230017": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3230019": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3233770001": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3233792": {
     "datos_mercado": null,
@@ -21086,19 +21055,19 @@
   },
   "3240131": {
     "datos_mercado": null,
-    "fecha": "2026-08-24"
+    "fecha": "2026-10-09"
   },
   "3240142": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3240143": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3240144": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3240173": {
     "datos_mercado": null,
@@ -21114,63 +21083,63 @@
   },
   "32480123246644": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32485123822964": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3262": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32676": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32677": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32678": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32681": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32684": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32693": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32697": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3270004": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3270008": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3270029": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32702130931631": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32703131245993": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3273575": {
     "datos_mercado": null,
@@ -21178,15 +21147,15 @@
   },
   "3274462": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3275": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3280007": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3280012": {
     "datos_mercado": null,
@@ -21194,11 +21163,11 @@
   },
   "3280038": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3280063": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3280068": {
     "datos_mercado": {
@@ -21242,143 +21211,143 @@
   },
   "3280071": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3280078": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3280081": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3280083": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32837114308886": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32850140430534": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32856152210939": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32858153603553": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32859153912361": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32874": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "32900014": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3290164": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33012": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33020154019682": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33025": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33038": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33052": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33053": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3306100021": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3306100022": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3306100023": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33219": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33293165641123": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33335012": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33338": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33339": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33340": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33341": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3340140": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33404": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3345007": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33679": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33681": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33723": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33856": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33861": {
     "datos_mercado": null,
@@ -21386,59 +21355,59 @@
   },
   "33872120445457": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33878122718751": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33881125034176": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33882125410349": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33884125920643": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33885130753146": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33887131435574": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3389": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3400076": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3400415": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34016": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34017": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34032": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34052": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34078": {
     "datos_mercado": null,
@@ -21446,11 +21415,11 @@
   },
   "340785": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "341001": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34122": {
     "datos_mercado": null,
@@ -21458,123 +21427,123 @@
   },
   "34137": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34138": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34152": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34198": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34201": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3421602": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34242": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34267124226961": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34268124321971": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34269124715945": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34270135732362": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34340038": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34340075": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34419164017536": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34420164149471": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34423165251446": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3445": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34466121421306": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "344A": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450001": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450004": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450012": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450014": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450015": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450042": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450088": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450089": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450092": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450167": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450236": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450287": {
     "datos_mercado": {
@@ -21603,51 +21572,51 @@
   },
   "3450288": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450289": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450291": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450293": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "34515": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34516": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34517": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34518": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34519": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34520": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34525": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34526": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34540001": {
     "datos_mercado": null,
@@ -21675,15 +21644,15 @@
   },
   "34540022": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34585": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3460121": {
     "datos_mercado": null,
-    "fecha": "2026-08-28"
+    "fecha": "2026-10-09"
   },
   "34676124658841": {
     "datos_mercado": null,
@@ -21691,115 +21660,115 @@
   },
   "34679141826498": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34680142105773": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34681142227364": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34682142358425": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34684143236681": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34692105531396": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34698173512424": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34699173708623": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "346A": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34738": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34893": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "350": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500005": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500031": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500035": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500063": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500067": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500070": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500073": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500082": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500099": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500102": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500108": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500109": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500110": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500120": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500122": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500123": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500124": {
     "datos_mercado": null,
@@ -21807,67 +21776,67 @@
   },
   "3500128": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500130": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500131": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500133": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500136": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500137": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500139": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500141": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500142": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500151": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500154": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500155": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500156": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500157": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500159": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500162": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500165": {
     "datos_mercado": null,
@@ -21875,31 +21844,31 @@
   },
   "3500175": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "350537": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35058": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35061105001024": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35080": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35086152708968": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35090163511166": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35091163941190": {
     "datos_mercado": null,
@@ -21907,51 +21876,51 @@
   },
   "35093165615831": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35140": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3548": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3554": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "355433498": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35777145537381": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35778150039912": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35781162705425": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35782162836547": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "35785164519498": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "358A": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "36000038": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "361191163": {
     "datos_mercado": {
@@ -22020,15 +21989,15 @@
   },
   "36273125635185": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "362A": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3630005": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3630006": {
     "datos_mercado": null,
@@ -49394,11 +49363,11 @@
   },
   "11202101": {
     "datos_mercado": null,
-    "fecha": "2026-08-04"
+    "fecha": "2026-10-09"
   },
   "114140": {
     "datos_mercado": null,
-    "fecha": "2026-09-01"
+    "fecha": "2026-10-09"
   },
   "1201080826": {
     "datos_mercado": null,
@@ -49829,7 +49798,7 @@
   },
   "36000054": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "4110043": {
     "datos_mercado": null,
@@ -51214,7 +51183,7 @@
   },
   "35784163049469": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "2400538": {
     "datos_mercado": null,
@@ -51559,7 +51528,7 @@
   },
   "3230018": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "621366": {
     "datos_mercado": null,
@@ -51611,7 +51580,7 @@
   },
   "043641510000": {
     "datos_mercado": null,
-    "fecha": "2026-09-24"
+    "fecha": "2026-10-09"
   },
   "043671470002": {
     "datos_mercado": null,
@@ -51668,15 +51637,15 @@
   },
   "32482123606718": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "33886131056404": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3500115": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "391006": {
     "datos_mercado": null,
@@ -51768,7 +51737,7 @@
   },
   "35783162949585": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "CUI0000019": {
     "datos_mercado": null,
@@ -52180,7 +52149,7 @@
   },
   "35076": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "697430340007": {
     "datos_mercado": null,
@@ -52723,55 +52692,55 @@
   },
   "3450084": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450090": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3450091": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450093": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450127": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450148": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450182": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450192": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450195": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450198": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450218": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450271": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450290": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "52333": {
     "datos_mercado": null,
@@ -53139,7 +53108,7 @@
   },
   "3400416": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "383427": {
     "datos_mercado": null,
@@ -54113,15 +54082,15 @@
   },
   "3401353725164": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3460080": {
     "datos_mercado": null,
-    "fecha": "2026-08-23"
+    "fecha": "2026-10-09"
   },
   "3460087": {
     "datos_mercado": null,
-    "fecha": "2026-08-23"
+    "fecha": "2026-10-09"
   },
   "3760269771482": {
     "datos_mercado": null,
@@ -54240,24 +54209,8 @@
     "fecha": "2026-09-26"
   },
   "PTRUB0190040": {
-    "datos_mercado": {
-      "detalle": [
-        {
-          "farmacia": "Salcobrand",
-          "precio": 75498,
-          "estado": "🟢 Válido"
-        },
-        {
-          "farmacia": "Buho Chile",
-          "precio": 75475,
-          "estado": "🟢 Válido"
-        }
-      ],
-      "minimo": 75475,
-      "mediana_competitiva": 75486,
-      "fuentes_validas": 2
-    },
-    "fecha": "2026-07-10"
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
   },
   "TS211": {
     "datos_mercado": null,
@@ -54409,7 +54362,7 @@
   },
   "342A": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "8886467039997": {
     "datos_mercado": null,
@@ -54453,15 +54406,15 @@
   },
   "34590000": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34590006": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34590013": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "0760081": {
     "datos_mercado": null,
@@ -54485,11 +54438,11 @@
   },
   "34590001": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "34590002": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "76037077": {
     "datos_mercado": null,
@@ -54557,7 +54510,7 @@
   },
   "212015": {
     "datos_mercado": null,
-    "fecha": "2026-09-25"
+    "fecha": "2026-10-09"
   },
   "261775": {
     "datos_mercado": null,
@@ -54689,7 +54642,7 @@
   },
   "3460149": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "PTCIC0010015": {
     "datos_mercado": null,
@@ -55293,7 +55246,7 @@
   },
   "3450179": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "3450215": {
     "datos_mercado": null,
@@ -55441,7 +55394,7 @@
   },
   "334": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3924": {
     "datos_mercado": null,
@@ -55649,7 +55602,7 @@
   },
   "32122140": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "0900168": {
     "datos_mercado": null,
@@ -55957,7 +55910,7 @@
   },
   "3240129": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "0900337": {
     "datos_mercado": null,
@@ -56393,7 +56346,7 @@
   },
   "3500088": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "40056282": {
     "datos_mercado": null,
@@ -56513,11 +56466,11 @@
   },
   "3594": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3600": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "4331": {
     "datos_mercado": null,
@@ -56749,23 +56702,23 @@
   },
   "3270006": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3270025": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3270027": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3270032": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "3270033": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "40673": {
     "datos_mercado": null,
@@ -57037,7 +56990,7 @@
   },
   "34340264": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "96798": {
     "datos_mercado": null,
@@ -57105,7 +57058,7 @@
   },
   "3400417": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "402503": {
     "datos_mercado": null,
@@ -57353,7 +57306,7 @@
   },
   "36000023": {
     "datos_mercado": null,
-    "fecha": "2026-10-01"
+    "fecha": "2026-10-09"
   },
   "4300082": {
     "datos_mercado": null,
@@ -58389,27 +58342,27 @@
   },
   "34448": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "34873": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "34874": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "34875": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "34986": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "34987": {
     "datos_mercado": null,
-    "fecha": "2026-10-02"
+    "fecha": "2026-10-09"
   },
   "7804616661234": {
     "datos_mercado": null,
@@ -58788,6 +58741,130 @@
     "fecha": "2026-10-09"
   },
   "98371": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "101828": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "101832": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "104079": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "112344": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434000515": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434000522": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434002687": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434003110": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434003691": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434004452": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434004728": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434005923": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434008399": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434008627": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434008917": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434009327": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434014116": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434014123": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "3661434018954": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "620074": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "620308": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "620393": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "7145229": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "7808530393462": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "7808534158456": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "9305000136157": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "9309000257263": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "9309000257324": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "936216000903": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "9362176000873": {
+    "datos_mercado": null,
+    "fecha": "2026-10-09"
+  },
+  "COMJFM03642": {
     "datos_mercado": null,
     "fecha": "2026-10-09"
   }
