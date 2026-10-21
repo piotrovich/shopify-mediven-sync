@@ -15,15 +15,24 @@ from google.genai.errors import APIError
 load_dotenv()
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-if not GEMINI_API_KEY:
-    print("❌ Falta GEMINI_API_KEY en el archivo .env")
-    exit(1)
 
-# Timeout explícito de 60s para no colgar el servidor si Google no responde.
-client = genai.Client(
-    api_key=GEMINI_API_KEY,
-    http_options=types.HttpOptions(timeout=60000)
-)
+# ⚠️ Antes, si faltaba la key, este módulo hacía exit(1) AL IMPORTARSE y mataba
+# toda la sincronización (sync.py lo importa al inicio). Ahora el cliente se crea
+# bajo demanda y, sin key, el motor de textos simplemente se salta.
+_client = None
+
+
+def _obtener_cliente():
+    global _client
+    if _client is None:
+        if not GEMINI_API_KEY:
+            return None
+        # Timeout explícito de 60s para no colgar el servidor si Google no responde.
+        _client = genai.Client(
+            api_key=GEMINI_API_KEY,
+            http_options=types.HttpOptions(timeout=60000)
+        )
+    return _client
 
 ARCHIVO_ENTRADA = "mediven_full.json"
 ARCHIVO_DICCIONARIO = "data/diccionario_ia.json"
@@ -87,6 +96,10 @@ def generar_explicacion_ia(datos_producto, reintentos_max=3):
     # Si en 2 intentos seguidos el 429 no trae patrón explícito de RPD,
     # asumimos que SÍ es diario y cortamos. Si solo hubo 1 → sigue probando.
     errores_429_ambiguos = 0
+
+    client = _obtener_cliente()
+    if client is None:
+        return None
 
     for intento in range(reintentos_max):
         try:
@@ -164,6 +177,10 @@ def main():
     print("==================================================\n")
 
     os.makedirs("data", exist_ok=True)
+
+    if not GEMINI_API_KEY:
+        print("⚠️ GEMINI_API_KEY no detectada. Saltando motor de textos IA (los productos nuevos quedarán sin descripción hasta configurar una key).")
+        return
 
     if not os.path.exists(ARCHIVO_ENTRADA):
         print(f"❌ No se encontró {ARCHIVO_ENTRADA}. Ejecuta sync.py primero.")
