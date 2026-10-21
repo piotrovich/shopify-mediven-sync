@@ -23,7 +23,7 @@ import subprocess
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
-from modulos.finanzas.espia_precios import buscar_precio_competencia
+from modulos.finanzas.espia_precios import buscar_precio_competencia, ServicioSerperNoDisponible
 
 from rich.console import Console
 from rich.panel import Panel
@@ -175,7 +175,14 @@ def ejecutar_repesca_diaria():
             costo_neto = 0.0
 
         console.print(f"   🕵️ {sku} · {nombre[:50]} [{laboratorio[:15]}]")
-        datos_mercado = buscar_precio_competencia(nombre, laboratorio, costo_neto_mediven=costo_neto)
+        try:
+            datos_mercado = buscar_precio_competencia(nombre, laboratorio, costo_neto_mediven=costo_neto)
+        except ServicioSerperNoDisponible as e:
+            # 🛑 Serper no está operativo: se corta la repesca SIN tocar los estudios
+            # existentes. Antes cada SKU se guardaba como "sin datos" y el motor de
+            # precios perdía la inteligencia de mercado acumulada.
+            console.print(f"[bold red]🛑 Serper no disponible ({e}). Repesca detenida; se conservan los estudios existentes.[/bold red]")
+            break
 
         if datos_mercado:
             min_fmt = f"${datos_mercado['minimo']:,}".replace(',', '.')

@@ -383,10 +383,22 @@ def filtrar_outliers_iqr(precios):
 # ============================================================
 #   LLAMADAS A SERPER
 # ============================================================
+class ServicioSerperNoDisponible(Exception):
+    """Serper rechazó la llamada (key inválida, sin créditos, bloqueado) o no responde.
+    Quien espía debe DETENERSE: no es que el producto no tenga precios, es que no
+    pudimos preguntar. Antes esto se confundía con "Monopolio" y borraba datos buenos."""
+
+
+# Códigos HTTP que indican un problema del servicio/cuenta, no del producto.
+_CODIGOS_SERVICIO_CAIDO = {401, 402, 403, 429}
+
+
 def _llamar_serper(endpoint, query):
     """
     Llama al endpoint de Serper indicado ('search' o 'shopping').
-    Devuelve el JSON de respuesta o None si falla.
+    Devuelve el JSON de respuesta o None si no hubo resultados.
+    Lanza ServicioSerperNoDisponible si la API rechaza la llamada por cuenta/cuota
+    o no hay conexión.
     """
     if not SERPER_API_KEY:
         return None
@@ -395,10 +407,15 @@ def _llamar_serper(endpoint, query):
     headers = {"X-API-KEY": SERPER_API_KEY, "Content-Type": "application/json"}
     try:
         resp = requests.post(url, headers=headers, data=payload, timeout=10)
-        if resp.status_code != 200:
-            return None
+    except requests.RequestException as e:
+        raise ServicioSerperNoDisponible(f"sin conexión con Serper: {e}") from e
+    if resp.status_code in _CODIGOS_SERVICIO_CAIDO:
+        raise ServicioSerperNoDisponible(f"Serper respondió HTTP {resp.status_code}: {resp.text[:120]}")
+    if resp.status_code != 200:
+        return None
+    try:
         return resp.json()
-    except Exception:
+    except ValueError:
         return None
 
 
