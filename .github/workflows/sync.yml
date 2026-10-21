@@ -32,8 +32,8 @@ jobs:
       - name: Instalar dependencias
         run: |
           python -m pip install --upgrade pip
-          # google-genai (IA), rich (logs), ShopifyAPI y Pillow (Imágenes)
-          pip install requests pandas openpyxl python-dotenv google-genai rich ShopifyAPI Pillow
+          # anthropic (Claude: imágenes), google-genai (textos IA), rich (logs), ShopifyAPI y Pillow (Imágenes)
+          pip install requests pandas openpyxl python-dotenv anthropic google-genai rich ShopifyAPI Pillow
 
       - name: Ejecutar Sincronización Completa (Sync + IA + Imágenes)
         env:
@@ -43,9 +43,15 @@ jobs:
           MEDIVEN_PASS: ${{ secrets.MEDIVEN_PASS }}
           SHOPIFY_LOCATION_ID: ${{ secrets.SHOPIFY_LOCATION_ID }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          # --- VARIABLES PARA EL MOTOR DE IMÁGENES Y PRECIOS ---
-          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
+          # --- MOTOR DE IMÁGENES (CLAUDE) ---
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # Modelo opcional (default claude-opus-5-5). Para abaratar: claude-sonnet-5-5 o claude-haiku-5-5
+          CLAUDE_MODEL_IMAGENES: ${{ vars.CLAUDE_MODEL_IMAGENES || 'claude-opus-5-5' }}
+          IMAGENES_LIMITE_NUEVOS: ${{ vars.IMAGENES_LIMITE_NUEVOS || '15' }}
+          IMAGENES_LIMITE_REPESCA: ${{ vars.IMAGENES_LIMITE_REPESCA || '5' }}
           SHOPIFY_DEFAULT_IMAGE_URL: ${{ secrets.SHOPIFY_DEFAULT_IMAGE_URL }}
+          # --- ESPÍA DE PRECIOS (SERPER) ---
+          SERPER_API_KEY: ${{ secrets.SERPER_API_KEY }}
           # ------------------------------------------------------
           SIMULATE: "false"
           DELETE_MISSING: "true"

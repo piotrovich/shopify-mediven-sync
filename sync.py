@@ -423,7 +423,7 @@ def main():
             console.print(f"[bold red]❌ Error en el módulo de IA: {e}[/bold red]")
 
         # ======================================================
-        # 8.1) MOTOR DE IMÁGENES (SERPER)
+        # 8.1) MOTOR DE IMÁGENES (CLAUDE + WEB SEARCH + VISIÓN)
         # ======================================================
         console.print(Rule("[bold magenta]📸 VERIFICANDO IMÁGENES Y REPESCA[/bold magenta]"))
         
@@ -433,8 +433,21 @@ def main():
         if skus_sin_foto:
             console.print(f"[bold yellow]⚠️ Alerta Visual: Se detectaron {len(skus_sin_foto)} productos ACTIVOS sin foto. Forzando búsqueda...[/bold yellow]")
 
+        # Contexto extra del mayorista (laboratorio y nombre original) para afinar la búsqueda
+        info_extra_imagenes = {
+            str(p.get("Codigo", "")).strip(): {
+                "laboratorio": str(p.get("Laboratorio", "") or ""),
+                "descripcion_original": str(p.get("Descripcion", "") or ""),
+            }
+            for p in mediven_data if p.get("Codigo")
+        }
+
         try:
-            sync_imagenes_auto.ejecutar_repesca_imagenes(df_shop, skus_forzados=skus_sin_foto)
+            sync_imagenes_auto.ejecutar_repesca_imagenes(
+                df_shop,
+                skus_forzados=skus_sin_foto,
+                info_extra=info_extra_imagenes,
+            )
         except Exception as e:
             console.print(f"[bold red]❌ Error en el módulo de Imágenes: {e}[/bold red]")
 
